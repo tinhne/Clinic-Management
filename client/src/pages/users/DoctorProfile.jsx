@@ -38,9 +38,6 @@ const DoctorProfile = () => {
         const formattedToday = today.toISOString().split("T")[0]; // 2024-10-25
         setFormattedToday(formattedToday);
 
-        console.log("Formatted Today:", formattedToday); // Added log
-        console.log("Schedule Data:", scheduleData); // Added log
-
         const futureSchedule = scheduleData.filter((day) => {
           const scheduleDate = new Date(day.date).toISOString().split("T")[0];
           return scheduleDate >= formattedToday;
@@ -54,7 +51,6 @@ const DoctorProfile = () => {
           (day) => day.date.split("T")[0] === formattedToday
         );
         if (currentDateInSchedule) {
-          console.log("Current date is in schedule:", formattedToday); // Added log
           setSelectedDate(currentDateInSchedule.date);
         } else {
           console.log("Current date is NOT in schedule"); // Added log
@@ -93,58 +89,37 @@ const DoctorProfile = () => {
   };
 
   useEffect(() => {
-    const now = new Date();
-    const nowDateStr = now.toISOString().split("T")[0]; // Get today's date in "YYYY-MM-DD" format
-    console.log("Current Date String", nowDateStr); // Log the current date in "YYYY-MM-DD" format
-
+    // Check if selectedDate and schedule are available
     if (selectedDate && schedule.length) {
       const selectedDaySchedule = schedule.find(
         (day) => day.date === selectedDate
       );
-      const isPastDate = new Date(selectedDate) < new Date();
+      console.log(selectedDaySchedule);
 
-      console.log("Selected Day Schedule:", selectedDaySchedule); // Added log
-      console.log("Is Past Date:", isPastDate); // Added log
-
+      // Ensure selectedDaySchedule is defined
       if (selectedDaySchedule) {
-        const currentTime = now.getHours() * 60 + now.getMinutes();
+        // Corrected variable name from selectedDateFomat to selectedDateFormat
 
-        const selectedDateFomat = selectedDate.split("T")[0];
-        console.log("Formatted Selected Date:", selectedDateFomat); // Added log
+        setMorningSlots(
+          selectedDaySchedule.available_slots.filter((slot) => {
+            const hour = parseInt(slot.split(":")[0]);
+            return hour < 12 && !bookedSlots.includes(slot);
+          })
+        );
 
-        if (selectedDateFomat === nowDateStr) {
-          // Check if selected date is today
-          setMorningSlots(
-            selectedDaySchedule.available_slots.filter(
-              (slot) => parseInt(slot.split(":")[0]) < 12
-            )
-          );
-          setAfternoonSlots(
-            selectedDaySchedule.available_slots.filter(
-              (slot) => parseInt(slot.split(":")[0]) >= 12
-            )
-          );
-        } else {
-          setMorningSlots(
-            selectedDaySchedule.available_slots.filter(
-              (slot) =>
-                parseInt(slot.split(":")[0]) < 12 &&
-                !bookedSlots.includes(slot) &&
-                !isPastDate
-            )
-          );
-          setAfternoonSlots(
-            selectedDaySchedule.available_slots.filter(
-              (slot) =>
-                parseInt(slot.split(":")[0]) >= 12 &&
-                !bookedSlots.includes(slot) &&
-                !isPastDate
-            )
-          );
-        }
+        setAfternoonSlots(
+          selectedDaySchedule.available_slots.filter((slot) => {
+            const hour = parseInt(slot.split(":")[0]);
+            return hour >= 12 && !bookedSlots.includes(slot);
+          })
+        );
       }
     }
   }, [selectedDate, schedule, bookedSlots]);
+
+  useEffect(() => {
+    console.log("Updated Morning Slots:", schedule);
+  }, [schedule]);
 
   const formatDate = (dateString) => {
     const options = { weekday: "short", day: "2-digit", month: "2-digit" };
@@ -175,11 +150,21 @@ const DoctorProfile = () => {
           </h2>
           <div className="doctor-details">
             <span className="doctor-title">Bác sĩ</span>
-            <span className="doctor-experience">10 năm kinh nghiệm</span>
+            <span className="doctor-experience">15 năm kinh nghiệm</span>
           </div>
           <div className="doctor-specialty">
             <span>Chuyên khoa: </span>
             <a href="#">{doctor.user.specialties}</a>
+          </div>
+          <div>
+            <h5>Thông tin bác sĩ</h5>
+            <p>
+              Khám và điều trị các bệnh lý về nội khoa, nhi khoa, tâm thần kinh.
+              Tư vấn về dinh dưỡng và phát triển thể chất cho trẻ em. Khám và tư
+              vấn về sức khỏe, phòng ngừa bệnh cho trẻ em và phụ nữ mang thai.
+              Tham gia các chương trình tình nguyện, hướng dẫn cách chăm sóc trẻ
+              sơ sinh, trẻ nhỏ.
+            </p>
           </div>
         </div>
       </div>
@@ -203,25 +188,29 @@ const DoctorProfile = () => {
                 .split("T")[0];
               return scheduleDate >= formattedToday;
             })
-            .sort((a, b) => new Date(a.date) - new Date(b.date)) // Sort dates from smallest to largest
+            .sort((a, b) => new Date(a.date) - new Date(b.date))
             .map((day, index) => {
               const isBooked = bookedDates.includes(day.date);
+              const totalSlots = day.available_slots.length;
+
               return (
                 <div
-                  className={`date-item ${isBooked ? "booked" : ""}`}
+                  className={`date-item ${isBooked ? "booked" : ""} ${
+                    selectedDate === day.date ? "selected-date" : ""
+                  }`}
                   key={index}
                   onClick={() => !isBooked && handleDateClick(day.date)}
                 >
                   <span>{formatDate(day.date)}</span>
-                  <span className="time-frame">
-                    {day.available_slots.length} khung giờ
-                  </span>
+                  <span className="time-frame">{totalSlots} khung giờ</span>
                 </div>
               );
             })}
         </div>
         <div className="time-slot-section">
-          <div className="time-slot-title">Buổi sáng</div>
+          <div className="time-slot-title">
+            🌅 Buổi sáng ({morningSlots.length} khung giờ)
+          </div>
           <div className="time-slot-list">
             {morningSlots.length > 0 ? (
               morningSlots.map((slot, index) => (
@@ -242,7 +231,10 @@ const DoctorProfile = () => {
               <p>Không có khung giờ nào vào buổi sáng.</p>
             )}
           </div>
-          <div className="time-slot-title">Buổi chiều</div>
+
+          <div className="time-slot-title">
+            🌇 Buổi chiều ({afternoonSlots.length} khung giờ)
+          </div>
           <div className="time-slot-list">
             {afternoonSlots.length > 0 ? (
               afternoonSlots.map((slot, index) => (
@@ -267,20 +259,13 @@ const DoctorProfile = () => {
       </div>
 
       <div className="doctor-info-section">
-        <h3 className="doctor-info-title">Thông tin bác sĩ</h3>
+        <h3 className="doctor-info-title">Thông tin phòng khám</h3>
         <ul className="doctor-info-list">
-          <li>
-            Khám và điều trị các bệnh lý về nội khoa, nhi khoa, tâm thần kinh.
-          </li>
-          <li>Tư vấn về dinh dưỡng và phát triển thể chất cho trẻ em.</li>
-          <li>
-            Khám và tư vấn về sức khỏe, phòng ngừa bệnh cho trẻ em và phụ nữ
-            mang thai.
-          </li>
-          <li>
-            Tham gia các chương trình tình nguyện, hướng dẫn cách chăm sóc trẻ
-            sơ sinh, trẻ nhỏ.
-          </li>
+          Phòng khám Pandora là địa chỉ chăm sóc sức khỏe uy tín, chuyên nghiệp.
+          Với đội ngũ bác sĩ giàu kinh nghiệm và trang thiết bị hiện đại, chúng
+          tôi cam kết mang đến cho khách hàng những dịch vụ y tế chất lượng cao.
+          Phòng khám chuyên về các lĩnh vực điều trị ngoài da và viêm da cơ địa,
+          đảm bảo đáp ứng mọi nhu cầu khám chữa bệnh của bạn.
         </ul>
       </div>
       <div className="booking-footer">

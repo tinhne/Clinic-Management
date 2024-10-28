@@ -12,13 +12,13 @@ router.post("/book-appointment", authenticate, appointmentController.BookingAppo
 router.put("/confirm/:id", authenticate, authorize(["admin"]), appointmentController.confirmAppointment);
 
 // Bệnh nhân hủy lịch hẹn
-router.delete("/cancel/:id", authenticate, authorize(["patient"]), appointmentController.cancelAppointment);
+router.delete("/cancel/:id", authenticate, appointmentController.cancelAppointment);
 
 // Lấy lịch hẹn cho bác sĩ
 router.get("/doctor/:doctorId", authenticate, authorize(["doctor"]), appointmentController.getDoctorAppointments);
 
 // Lấy lịch hẹn của bệnh nhân
-router.get("/patient", authenticate, authorize(["patient"]), appointmentController.getPatientAppointments);
+router.get("/patient/:patientId", authenticate, appointmentController.getPatientAppointments);
 
 router.get('/appointments/:doctorId', appointmentController.checkDoctorSchedule);
 module.exports = router;
