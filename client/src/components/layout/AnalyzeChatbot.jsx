@@ -216,7 +216,7 @@ function analyzeInput(input) {
       "   - Stress hoặc lo âu: Kiểu đau này có thể làm bệnh nhân cảm thấy áp lực và khó thở." +
       "Nếu bạn gặp triệu chứng đau ngực kéo dài, kèm theo khó thở, mệt mỏi, hoặc các triệu chứng khác nghiêm trọng hơn như đổ mồ hôi lạnh, chóng mặt, bạn nên tìm đến bác sĩ ngay lập tức để được khám và chẩn đoán chính xác. Một cuộc kiểm tra bệnh lý phù hợp sẽ giúp định nghĩa nguyên nhân và có biện pháp điều trị thích hợp cho bạn.)",
     "chóng mặt":
-      "(Dạ, chóng mặt là cảm giác mất cân bằng hoặc xoay chuyển có thể xảy ra trong nhiều tình huống khác nhau. Đây là một triệu chứng mà nhiều người gặp phải trong cuộc sống hàng ngày và có thể do nhiều nguyên nhân khác nhau, như:" +
+      "Dạ, chóng mặt là cảm giác mất cân bằng hoặc xoay chuyển có thể xảy ra trong nhiều tình huống khác nhau. Đây là một triệu chứng mà nhiều người gặp phải trong cuộc sống hàng ngày và có thể do nhiều nguyên nhân khác nhau, như:" +
       "1. Rối loạn tai trong: Tai trong giữ vai trò quan trọng trong việc duy trì cân bằng. Các vấn đề như viêm tai trong (labyrinthitis), bệnh Meniere hay chóng mặt tư thế kịch phát lành tính (BPPV) có thể gây ra triệu chứng chóng mặt." +
       "2. Huyết áp thấp: Huyết áp giảm đột ngột khi thay đổi tư thế, như đứng dậy nhanh chóng, có thể dẫn đến chóng mặt." +
       "3. Thiếu oxy: Khi cơ thể không nhận đủ oxy, ví dụ do ở trong môi trường ngột ngạt hoặc khi tập thể dục quá sức, bạn có thể cảm thấy chóng mặt." +
@@ -224,9 +224,9 @@ function analyzeInput(input) {
       "5. Căng thẳng và lo âu: Áp lực tâm lý có thể dẫn đến cảm giác chóng mặt hoặc mất cân bằng." +
       "6. Một số loại thuốc: Một số loại thuốc có thể có tác dụng phụ là chóng mặt hoặc buồn nôn." +
       "Nếu bạn cảm thấy chóng mặt kéo dài hoặc kèm theo các triệu chứng nghiêm trọng khác như đau ngực, khó thở, hoặc mờ mắt, bạn nên tìm gặp bác sĩ để được khám và chẩn đoán. Bác sĩ có thể yêu cầu các xét nghiệm hoặc kiểm tra để xác định nguyên nhân chính xác và đưa ra các giải pháp điều trị hợp lý." +
-      "Hãy chăm sóc sức khỏe của bạn và theo dõi các triệu chứng nhé!)",
+      "Hãy chăm sóc sức khỏe của bạn và theo dõi các triệu chứng nhé!",
     "khó thở":
-      "(Dạ, khó thở là một triệu chứng mà nhiều người có thể gặp phải, và nó có thể xuất phát từ nhiều nguyên nhân khác nhau. Đây là một tình trạng hết sức nghiêm trọng và cần được điều tra kỹ lưỡng. Dưới đây là một số nguyên nhân phổ biến gây ra khó thở:" +
+      "Dạ, khó thở là một triệu chứng mà nhiều người có thể gặp phải, và nó có thể xuất phát từ nhiều nguyên nhân khác nhau. Đây là một tình trạng hết sức nghiêm trọng và cần được điều tra kỹ lưỡng. Dưới đây là một số nguyên nhân phổ biến gây ra khó thở:" +
       "1. Bệnh về hệ hô hấp:" +
       "   - Hen suyễn: Làm hẹp đường hô hấp, gây khó thở, thở khò khè và ho." +
       "   - Viêm phổi: Có thể gây ra khó thở kèm theo sốt, ho và đau ngực." +
@@ -242,7 +242,7 @@ function analyzeInput(input) {
       "Nếu bạn hoặc ai đó cảm thấy khó thở bất ngờ và nghiêm trọng, kèm theo các triệu chứng như đau ngực, chóng mặt, hoặc mờ mắt, hãy tìm kiếm sự trợ giúp y tế ngay lập tức. Việc khám và chẩn đoán kịp thời là rất quan trọng để xác định nguyên nhân và có biện pháp điều trị phù hợp." +
       "Hãy chăm sóc sức khỏe của bạn và nếu có bất kỳ nghi ngờ nào về tình trạng sức khỏe, hãy đi khám bác sĩ ngay.)",
     "ngứa da":
-      "(Dạ, ngứa da là một triệu chứng rất phổ biến mà có thể gây khó chịu và ảnh hưởng đến chất lượng cuộc sống của người mắc phải. Ngứa da có thể xuất hiện do nhiều nguyên nhân khác nhau, bao gồm:" +
+      "Dạ, ngứa da là một triệu chứng rất phổ biến mà có thể gây khó chịu và ảnh hưởng đến chất lượng cuộc sống của người mắc phải. Ngứa da có thể xuất hiện do nhiều nguyên nhân khác nhau, bao gồm:" +
       "1.  Tình trạng da : Các bệnh về da như eczema (viêm da dị ứng), bệnh vẩy nến, viêm da tiếp xúc hoặc mề đay có thể gây ra ngứa." +
       "2.  Dị ứng : Một số người có thể bị ngứa do dị ứng với các chất như polen, bụi, thức ăn, hoặc phấn hoa. Dị ứng với thuốc cũng có thể là nguyên nhân." +
       "3.  Nhiễm trùng : Các tình trạng nhiễm trùng da do vi khuẩn, virus hoặc nấm, như nấm da hay herpes, có thể gây ngứa." +
@@ -250,9 +250,9 @@ function analyzeInput(input) {
       "5.  Mồ hôi và nóng : Mồ hôi quá nhiều hoặc khi trời nóng có thể kích thích da và gây ra cảm giác ngứa." +
       "6.  Sự thay đổi thời tiết : Thời tiết lạnh hoặc khô có thể làm khô da và dẫn đến ngứa." +
       "Khi gặp phải tình trạng ngứa da kéo dài hoặc kèm theo các triệu chứng khác như phát ban, sưng, đau hoặc cảm giác bất thường, bạn nên tìm kiếm sự tư vấn từ bác sĩ hoặc chuyên gia về da liễu để được hướng dẫn và điều trị kịp thời." +
-      "Hãy chăm sóc sức khỏe của bạn và theo dõi các triệu chứng của cơ thể!)",
+      "Hãy chăm sóc sức khỏe của bạn và theo dõi các triệu chứng của cơ thể!",
     "đau chân":
-      "(Dạ, đau chân là một triệu chứng phổ biến và có thể xảy ra vì nhiều lý do khác nhau. Dưới đây là một số nguyên nhân thường gặp gây đau chân:" +
+      "Dạ, đau chân là một triệu chứng phổ biến và có thể xảy ra vì nhiều lý do khác nhau. Dưới đây là một số nguyên nhân thường gặp gây đau chân:" +
       "1.  Chấn thương : Đau có thể do chấn thương cấp tính như trật khớp, gãy xương hay các vết thương khác trong khi chơi thể thao hoặc hoạt động mạnh." +
       "2.  Vấn đề về tuần hoàn : Thiếu máu do tắc nghẽn động mạch có thể dẫn đến đau chân, thường được gọi là đau chân cách hồi. Triệu chứng là cảm giác đau khi đi bộ hoặc hoạt động, nhưng giảm bớt khi nghỉ ngơi." +
       "3.  Bệnh lý cơ xương khớp : Các tình trạng như viêm khớp, thoát vị đĩa đệm, hoặc viêm gân có thể gây ra đau nhức và khó chịu ở chân." +
@@ -261,9 +261,9 @@ function analyzeInput(input) {
       "6.  Tình trạng mạch máu : Các vấn đề liên quan đến tĩnh mạch, như suy tĩnh mạch hay huyết khối tĩnh mạch sâu, cũng có thể gây đau chân." +
       "Nếu bạn gặp phải cơn đau chân kéo dài, dữ dội, hoặc kèm theo các triệu chứng khác như sưng, tê rần hoặc yếu cơ, nên tìm kiếm sự tư vấn từ bác sĩ hoặc chuyên gia y tế để có chẩn đoán chính xác và biện pháp điều trị hợp lý." +
       "Chú ý rằng các yếu tố như tuổi tác, tiền sử bệnh lý và tình hình sức khỏe hiện tại cũng rất quan trọng trong việc xác định nguyên nhân của cơn đau." +
-      "Hãy chú ý đến sức khỏe của bạn và nếu có bất cứ điều gì đáng ngờ, hãy đến gặp bác sĩ để được hướng dẫn kịp thời!)",
+      "Hãy chú ý đến sức khỏe của bạn và nếu có bất cứ điều gì đáng ngờ, hãy đến gặp bác sĩ để được hướng dẫn kịp thời!",
     "đau mắt":
-      "(Dạ, đau mắt có thể là một triệu chứng gây khó chịu và có thể xuất phát từ nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến gây ra tình trạng đau mắt:" +
+      "Dạ, đau mắt có thể là một triệu chứng gây khó chịu và có thể xuất phát từ nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến gây ra tình trạng đau mắt:" +
       "1.  Viêm kết mạc : Còn được gọi là viêm màng kết, viêm kết mạc có thể do nhiễm trùng, dị ứng hoặc kích ứng. Triệu chứng thường thấy bao gồm đỏ mắt, ngứa và có thể tiết dịch." +
       "2.  Khô mắt : Thiếu nước mắt có thể dẫn đến cảm giác khô rát, ngứa hoặc cảm giác như có cát trong mắt." +
       "3.  Đau mắt do chấn thương : Các chấn thương từ vật thể lạ hay tai nạn có thể gây ra đau nhức và cần được chẩn đoán kịp thời." +
@@ -272,9 +272,9 @@ function analyzeInput(input) {
       "6.  Bệnh lý liên quan đến mắt : Các bệnh lý khác như glaucoma (tăng nhãn áp) có thể tạo ra đau nhức, đi kèm với cảm giác buốt hoặc nhức đầu." +
       "7.  Ánh sáng mạnh : Tiếp xúc lâu với ánh sáng mạnh hoặc ánh nắng có thể làm mắt cảm thấy khó chịu hoặc đau." +
       "Nếu bạn gặp tình trạng đau mắt kéo dài hoặc dữ dội, kèm theo các triệu chứng như nhìn mờ, nhạy cảm với ánh sáng, sưng tấy hoặc tiết dịch ở mắt, bạn nên đến gặp bác sĩ hoặc chuyên gia về mắt để được chẩn đoán và điều trị kịp thời." +
-      "Hãy bảo vệ đôi mắt của bạn và theo dõi sức khỏe của mình!)",
+      "Hãy bảo vệ đôi mắt của bạn và theo dõi sức khỏe của mình!",
     "tiêu chảy":
-      "(Dạ, tiêu chảy là tình trạng đi tiêu nhiều lần trong ngày với phân lỏng, có thể kèm theo các triệu chứng khác như đau bụng, buồn nôn, hay sốt. Đây là một triệu chứng phổ biến và có thể xuất phát từ nhiều nguyên nhân khác nhau bao gồm:" +
+      "Dạ, tiêu chảy là tình trạng đi tiêu nhiều lần trong ngày với phân lỏng, có thể kèm theo các triệu chứng khác như đau bụng, buồn nôn, hay sốt. Đây là một triệu chứng phổ biến và có thể xuất phát từ nhiều nguyên nhân khác nhau bao gồm:" +
       "1.    Nhiễm trùng   : Tiêu chảy thường do vi khuẩn, virus hoặc ký sinh trùng gây ra. Các tác nhân gây bệnh phổ biến bao gồm rotavirus, norovirus, và vi khuẩn như Salmonella, E. coli hoặc Campylobacter." +
       "2.    Nguyên nhân gây kích ứng ruột   : Các chất gây kích ứng như thực phẩm, thuốc (chẳng hạn như kháng sinh) hoặc dị ứng thực phẩm có thể dẫn đến tiêu chảy." +
       "3.    Bệnh lý đường tiêu hóa mãn tính   : Một số bệnh như viêm ruột (Crohn's disease hoặc bệnh viêm đại tràng - ulcerative colitis) có thể gây ra tiêu chảy mãn tính." +
@@ -282,9 +282,9 @@ function analyzeInput(input) {
       "5.    Stress   : Căng thẳng tinh thần cũng có thể gây rối loạn chức năng tiêu hóa, dẫn đến tiêu chảy." +
       "   Triệu chứng đi kèm   : Ngoài tiêu chảy, bệnh nhân có thể có các triệu chứng như đau bụng, đầy hơi, buồn nôn, hoặc sốt. Trong một số trường hợp nghiêm trọng, tiêu chảy có thể đi kèm với mất nước, dẫn đến khô miệng, khát nước, chóng mặt hoặc yếu sức." +
       "   Điều trị   : Điều trị tiêu chảy phụ thuộc vào nguyên nhân. Điều quan trọng là giữ nước và điện giải bằng cách uống dung dịch điện giải phù hợp. Trong trường hợp tiêu chảy do nhiễm trùng, nó có thể tự khỏi mà không cần điều trị bằng thuốc kháng sinh. Tuy nhiên, nếu có triệu chứng kéo dài, sốt cao, hoặc mất nước nghiêm trọng, bạn nên đến gặp bác sĩ để được chẩn đoán và điều trị kịp thời." +
-      "Dạ, nếu bạn cần thêm thông tin chi tiết hơn về các nguyên nhân hay phương pháp điều trị cụ thể, vui lòng cho tôi biết!)",
+      "Dạ, nếu bạn cần thêm thông tin chi tiết hơn về các nguyên nhân hay phương pháp điều trị cụ thể, vui lòng cho tôi biết!",
     "táo bón":
-      "(Dạ, táo bón là một rối loạn tiêu hóa phổ biến, được định nghĩa là tình trạng đi đại tiện ít hơn bình thường (thường là dưới ba lần mỗi tuần) và có phân cứng, khô hoặc gây khó khăn khi đi tiêu. Đây là vấn đề có thể gây khó chịu và ảnh hưởng đến chất lượng cuộc sống. Dưới đây là một số nguyên nhân, triệu chứng và biện pháp khắc phục táo bón:" +
+      "Dạ, táo bón là một rối loạn tiêu hóa phổ biến, được định nghĩa là tình trạng đi đại tiện ít hơn bình thường (thường là dưới ba lần mỗi tuần) và có phân cứng, khô hoặc gây khó khăn khi đi tiêu. Đây là vấn đề có thể gây khó chịu và ảnh hưởng đến chất lượng cuộc sống. Dưới đây là một số nguyên nhân, triệu chứng và biện pháp khắc phục táo bón:" +
       "      Nguyên nhân gây táo bón\n" +
       "1.    Chế độ ăn uống   : Thiếu chất xơ trong chế độ ăn uống (từ trái cây, rau, ngũ cốc) có thể làm chậm quá trình tiêu hóa và đi tiêu.\n" +
       "2.    Thiếu nước   : Uống nước không đủ cũng dẫn đến việc cơ thể hấp thụ quá nhiều nước từ phân, làm chúng trở nên cứng và khó di chuyển.\n" +
@@ -305,7 +305,7 @@ function analyzeInput(input) {
       "5.    Tham khảo ý kiến bác sĩ   : Nếu tình trạng táo bón kéo dài hoặc nghiêm trọng, bạn nên đến gặp bác sĩ để được tư vấn và điều trị thích hợp." +
       "Nếu bạn có bất kỳ câu hỏi nào thêm hoặc cần thêm thông tin chi tiết, vui lòng cho tôi biết!)",
     "mất ngủ":
-      "(Dạ, mất ngủ là tình trạng khó khăn trong việc đi vào giấc ngủ hoặc duy trì giấc ngủ, dẫn đến cảm giác không được nghỉ ngơi đầy đủ khi thức dậy. Mất ngủ có thể ảnh hưởng đến sức khỏe thể chất và tinh thần của bạn, khiến bạn gặp khó khăn trong việc tập trung, làm việc và thực hiện các hoạt động hàng ngày.\n" +
+      "Dạ, mất ngủ là tình trạng khó khăn trong việc đi vào giấc ngủ hoặc duy trì giấc ngủ, dẫn đến cảm giác không được nghỉ ngơi đầy đủ khi thức dậy. Mất ngủ có thể ảnh hưởng đến sức khỏe thể chất và tinh thần của bạn, khiến bạn gặp khó khăn trong việc tập trung, làm việc và thực hiện các hoạt động hàng ngày.\n" +
       "      Nguyên nhân gây mất ngủ\n" +
       "1.    Căng thẳng và lo âu   : Cảm xúc tiêu cực, căng thẳng trong công việc hoặc cuộc sống hàng ngày có thể làm bạn khó ngủ.\n" +
       "2.    Thói quen sinh hoạt   : Uống caffeine hoặc rượu, thiếu hoạt động thể chất, và không có lịch trình giấc ngủ cố định có thể gây mất ngủ.\n" +
@@ -328,7 +328,7 @@ function analyzeInput(input) {
       "3.    Giảm căng thẳng trước khi ngủ   :\n" +
       "- Thực hiện các hoạt động thư giãn như đọc sách, nghe nhạc nhẹ, hoặc thực hành thiền.\n" +
       "4.    Tham khảo ý kiến bác sĩ   : Nếu tình trạng mất ngủ kéo dài và ảnh hưởng nghiêm trọng tới chất lượng cuộc sống, bạn nên thảo luận với bác sĩ để tìm hiểu nguyên nhân và được tư vấn điều trị.\n" +
-      "Nếu bạn cần thêm thông tin chi tiết hơn về một khía cạnh cụ thể nào đó liên quan đến mất ngủ, vui lòng cho tôi biết!)",
+      "Nếu bạn cần thêm thông tin chi tiết hơn về một khía cạnh cụ thể nào đó liên quan đến mất ngủ, vui lòng cho tôi biết!",
     "khó tiêu":
       "Dạ, khó tiêu là một triệu chứng thường gặp mà nhiều người có thể trải qua. Đây có thể là cảm giác không thoải mái hoặc đau ở vùng bụng trên, và có thể đi kèm với các triệu chứng như đầy bụng, ợ chua, buồn nôn hoặc chán ăn. Dưới đây là một số thông tin liên quan đến khó tiêu và cách xử lý tình trạng này:\n\n" +
       "Nguyên nhân gây ra khó tiêu:\n" +
@@ -631,14 +631,207 @@ function analyzeInput(input) {
       "Dạ, nếu bạn bị cao huyết áp, có một số dấu hiệu bạn có thể nhận biết: đau đầu, chóng mặt, ngực khó chịu, mệt mỏi, khó thở, và đôi khi chảy máu cam.\n\n",
     "dấu hiệu nhận biết của bệnh viêm gan":
       "Dạ, nếu bạn bị viêm gan, các dấu hiệu có thể bao gồm: mệt mỏi, vàng da, vàng mắt, đau vùng bụng trên bên phải, buồn nôn, và sụt cân.\n\n",
+    "viêm gan":
+      "Dạ, viêm gan là tình trạng viêm nhiễm ở gan, có thể do nhiều nguyên nhân khác nhau, trong đó các loại viêm gan virus là phổ biến nhất. Dưới đây là tổng quan về các loại viêm gan cũng như các thông tin liên quan:\n\n" +
+      "Các loại viêm gan:\n\n" +
+      "1. Viêm gan virus:\n" +
+      "   - Viêm gan virus A (HAV): Thường lây truyền qua thực phẩm hoặc nước bị ô nhiễm. Thường có triệu chứng nhẹ và thường tự khỏi.\n" +
+      "   - Viêm gan virus B (HBV): Lây truyền qua máu, quan hệ tình dục không an toàn hoặc từ mẹ sang con. Có thể trở thành mãn tính và dẫn đến xơ gan hoặc ung thư gan. Triệu chứng bao gồm mệt mỏi, sốt, vàng da, và có thể dẫn đến suy gan trong trường hợp nặng.\n" +
+      "   - Viêm gan virus C (HCV): Tương tự như HBV, thường lây qua đường máu. Nhiều người không có triệu chứng, nhưng có thể dẫn đến xơ gan và các biến chứng khác như ung thư gan.\n\n" +
+      "2. Viêm gan do nguyên nhân khác:\n" +
+      "   - Viêm gan do rượu: Lạm dụng rượu lâu dài có thể gây tổn thương gan và viêm gan mạn tính.\n" +
+      "   - Viêm gan tự miễn: Hệ miễn dịch tấn công các tế bào gan của cơ thể.\n" +
+      "   - Viêm gan do thuốc hoặc chất độc: Một số thuốc có thể gây tổn thương gan, cần theo dõi cẩn thận khi sử dụng.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Cơ năng: Mệt mỏi, chán ăn, đau hạ sườn phải, rối loạn tiêu hóa.\n" +
+      "- Thực thể: Vàng da, vàng mắt, sưng bụng do cổ trướng (trong trường hợp nặng).\n" +
+      "- Các triệu chứng khác: Xuất huyết dưới da, vàng da, giãn mao mạch.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "- Cận lâm sàng: Các xét nghiệm máu để kiểm tra men gan (AST và ALT), bilirubin, và xét nghiệm virus để xác định loại viêm gan. Xét nghiệm HBsAg và anti-HCV để xác định virus viêm gan B và C.\n\n" +
+      "Điều trị:\n\n" +
+      "- Viêm gan virus A: Thường tự khỏi mà không cần điều trị đặc biệt. Quan trọng là điều trị hỗ trợ.\n" +
+      "- Viêm gan virus B: Hơn 95% trường hợp sẽ hồi phục tự nhiên, nhưng nếu triệu chứng nặng có thể cần điều trị thuốc kháng virus.\n" +
+      "- Viêm gan virus C: Điều trị bằng thuốc kháng virus để loại bỏ virus khỏi cơ thể và phòng ngừa các biến chứng nặng. Cần đạt được 'đáp ứng vi rút bền vững (SVR)' sau khi điều trị.\n\n" +
+      "Lời khuyên:\n\n" +
+      "Để bảo vệ sức khỏe gan, hãy thực hiện xét nghiệm định kỳ, tuân thủ chế độ ăn uống khoa học, tránh lạm dụng rượu và tuân thủ điều trị theo hướng dẫn của bác sĩ. Nếu bạn nghi ngờ bị viêm gan hoặc có triệu chứng liên quan, hãy tìm kiếm sự tư vấn của bác sĩ chuyên khoa để có phương pháp điều trị thích hợp.\n\n" +
+      "Dạ, hy vọng thông tin này hữu ích cho bạn!",
+    "gan nhiễm mỡ":
+      "Dạ, gan nhiễm mỡ, còn gọi là bệnh gan mỡ không do rượu (NAFLD), là tình trạng tích tụ mỡ trong tế bào gan mà không phải do tiêu thụ rượu bia thái quá. Đây là một vấn đề sức khỏe phổ biến, có thể tiến triển thành các bệnh gan nghiêm trọng nếu không được phát hiện và điều trị kịp thời.\n\n" +
+      "Nguyên nhân:\n\n" +
+      "1. Thừa cân và béo phì: Cân nặng dư thừa là yếu tố nguy cơ hàng đầu cho gan nhiễm mỡ.\n" +
+      "2. Rối loạn chuyển hóa: Bao gồm đái tháo đường type 2, rối loạn lipid máu (mỡ trong máu cao).\n" +
+      "3. Chế độ ăn uống không hợp lý: Sử dụng nhiều thực phẩm béo, đường và chế phẩm tinh chế.\n" +
+      "4. Thiếu năng động thể chất: Ít hoạt động thể chất có thể làm tăng nguy cơ gan nhiễm mỡ.\n" +
+      "5. Một số thuốc: Như corticosteroids, có thể dẫn đến gan nhiễm mỡ.\n" +
+      "6. Các tình trạng y tế khác: Như suy thận, nhiễm HIV, hoặc tâm lý.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Nhiều người không có triệu chứng trong giai đoạn đầu. Khi tiến triển, có thể gặp các triệu chứng như:\n" +
+      "  - Mệt mỏi.\n" +
+      "  - Đau hoặc khó chịu ở vùng gan (hạ sườn phải).\n" +
+      "  - Tăng cholesterol và huyết áp cao.\n" +
+      "  - Các dấu hiệu của tổn thương gan nếu bệnh tiến triển thành viêm gan mỡ hoặc xơ gan.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "- Xét nghiệm máu: Kiểm tra men gan (ALT, AST), nồng độ lipid.\n" +
+      "- Siêu âm bụng: Để phát hiện tình trạng mỡ trong gan.\n" +
+      "- MRI hay CT scan: Nếu cần thiết để đánh giá độ nghiêm trọng.\n" +
+      "- Sinh thiết gan: Đôi khi cần thiết để xác định mức độ tổn thương và viêm.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Thay đổi lối sống:\n" +
+      "   - Giảm cân: Nhắm đến việc giảm khoảng 5-10% trọng lượng cơ thể.\n" +
+      "   - Chế độ ăn uống: Tăng cường trái cây, rau củ, và thực phẩm giàu chất xơ. Giảm thực phẩm giàu đường và chất béo bão hòa.\n" +
+      "   - Tăng cường hoạt động thể chất: Thực hiện ít nhất 150 phút hoạt động aerobic mỗi tuần.\n\n" +
+      "2. Theo dõi sức khỏe: Định kỳ kiểm tra sức khỏe gan và các chỉ số liên quan khác với sự giám sát của bác sĩ.\n\n" +
+      "3. Điều trị thuốc: Hiện tại không có thuốc đặc hiệu cho bệnh gan nhiễm mỡ, nhưng bác sĩ có thể chỉ định thuốc để điều trị các rối loạn liên quan như tiểu đường hoặc cholesterol cao.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "- Duy trì cân nặng khỏe mạnh.\n" +
+      "- Ăn uống lành mạnh.\n" +
+      "- Tập luyện thể dục thường xuyên.\n" +
+      "- Tránh lạm dụng rượu và thuốc lá.\n\n" +
+      "Dạ, nếu bạn có thêm câu hỏi nào hoặc cần tư vấn cụ thể hơn, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh hen suyễn":
       "Dạ, nếu bạn bị hen suyễn, có thể nhận biết qua các dấu hiệu như: khó thở, ho kéo dài, thở khò khè, và cảm giác bó ngực.\n\n",
+    "hen xuyễn":
+      "Dạ, hen xuyễn (hay còn gọi là hen phế quản) là một bệnh lý mãn tính của đường hô hấp, đặc trưng bởi sự viêm nhiễm và co thắt của các ống phế quản trong phổi, dẫn đến tình trạng khó thở, ho và thở khò khè. Đây là một trong những bệnh lý phổ biến nhất ảnh hưởng đến hệ hô hấp và có thể xảy ra ở mọi lứa tuổi, nhưng thường bắt đầu từ trẻ nhỏ.\n\n" +
+      "Nguyên nhân:\n\n" +
+      "Nguyên nhân gây bệnh hen xuyễn có thể được chia thành hai loại chính:\n\n" +
+      "1. Yếu tố dị ứng:\n" +
+      "   - Dị ứng với phấn hoa, bụi nhà, nấm mốc, lông thú vật.\n" +
+      "   - Thức ăn như hải sản, đậu phộng, sữa.\n" +
+      "2. Yếu tố không dị ứng:\n" +
+      "   - Khói thuốc, ô nhiễm không khí.\n" +
+      "   - Thời tiết lạnh hoặc ẩm ướt.\n" +
+      "   - Các bệnh nhiễm trùng đường hô hấp.\n" +
+      "   - Cảm xúc căng thẳng, lo âu.\n\n" +
+      "Triệu chứng:\n\n" +
+      "Các triệu chứng của hen xuyễn có thể khác nhau giữa các cá nhân, nhưng thường bao gồm:\n" +
+      "- Khó thở, thường tái phát, nhất là vào ban đêm hoặc khi gắng sức.\n" +
+      "- Ho, có thể bị ho vào ban đêm hoặc trong tình huống nhất định.\n" +
+      "- Thở khò khè (tiếng rít khi thở ra).\n" +
+      "- Nặng ngực.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "Để chẩn đoán hen xuyễn, bác sĩ có thể thực hiện:\n\n" +
+      "- Khám lâm sàng: Đánh giá triệu chứng và tiền sử bệnh.\n" +
+      "- Xét nghiệm phổi: Sử dụng test hô hấp để đo lưu lượng khí và khả năng thở phổi.\n" +
+      "- Xét nghiệm dị ứng: Xác định các dị nguyên có thể gây ra triệu chứng.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Thuốc điều trị:\n" +
+      "   - Thuốc giãn phế quản: Như salbutamol, thường được sử dụng trong các trường hợp cấp tính.\n" +
+      "   - Thuốc chống viêm: Corticosteroid đường hít để kiểm soát viêm.\n\n" +
+      "2. Kiểm soát môi trường:\n" +
+      "   - Tránh xa các tác nhân gây dị ứng và kích thích.\n" +
+      "   - Giữ không gian sinh hoạt sạch sẽ để giảm mức độ chất gây dị ứng.\n\n" +
+      "3. Quản lý triệu chứng:\n" +
+      "   - Sử dụng thiết bị hô hấp (như bình xịt khí dung) theo hướng dẫn của bác sĩ.\n" +
+      "   - Phác đồ điều trị cá nhân hóa phù hợp với tình trạng cụ thể của bệnh nhân.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "- Tránh tiếp xúc với các tác nhân dị ứng đã biết.\n" +
+      "- Thực hiện kiểm tra sức khỏe định kỳ.\n" +
+      "- Tập thể dục thường xuyên, nhưng nên kiểm tra tình trạng hô hấp trước khi bắt đầu.\n\n" +
+      "Dạ, nếu bạn có thêm câu hỏi nào hoặc cần thông tin cụ thể hơn về hen xuyễn, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh suy thận":
       "Dạ, nếu bạn bị suy thận, một số dấu hiệu thường gặp là: tiểu ít, phù nề tay chân, mệt mỏi, buồn nôn, và khó thở.\n\n",
+    "suy thận":
+      "Dạ, suy thận là một tình trạng bệnh lý xảy ra khi thận không còn khả năng thực hiện các chức năng quan trọng của mình, như loại bỏ chất thải và nước dư thừa khỏi cơ thể, điều hòa điện giải và duy trì huyết áp ổn định. Suy thận có thể xảy ra đột ngột (suy thận cấp tính) hoặc phát triển từ từ (suy thận mạn tính).\n\n" +
+      "Nguyên nhân:\n\n" +
+      "1. Suy thận cấp tính:\n" +
+      "   - Thiếu máu: Gây tổn thương đến thận do thiếu máu nuôi dưỡng.\n" +
+      "   - Nhiễm trùng: Như nhiễm trùng huyết có thể gây tổn thương thận.\n" +
+      "   - Tắc nghẽn: Do sỏi thận, u hoặc khối u gây tắc nghẽn đường niệu.\n" +
+      "   - Sử dụng một số thuốc: Như NSAIDs, kháng sinh aminoglycosides, thuốc lợi tiểu.\n\n" +
+      "2. Suy thận mạn tính:\n" +
+      "   - Bệnh tiểu đường: Là một trong những nguyên nhân chính gây suy thận mạn.\n" +
+      "   - Tăng huyết áp: Có thể gây tổn thương mạch máu ở thận.\n" +
+      "   - Bệnh thận mạn tính: Như viêm cầu thận hoặc bệnh thận đa nang.\n" +
+      "   - Suy thận do tuổi tác: Khi chức năng thận suy giảm dần theo thời gian.\n\n" +
+      "Triệu chứng:\n\n" +
+      "Suy thận cấp tính:\n" +
+      "- Giảm lượng nước tiểu (oliguria).\n" +
+      "- Sưng phù chân, tay, mặt do giữ nước.\n" +
+      "- Khó thở, nhức đầu, buồn nôn và nôn.\n" +
+      "- Tăng huyết áp, nhịp tim nhanh.\n\n" +
+      "Suy thận mạn tính:\n" +
+      "- Mệt mỏi, cảm giác yếu ớt.\n" +
+      "- Khó ngủ, ngứa ngáy, chuột rút cơ bắp.\n" +
+      "- Thay đổi trong thói quen đi tiểu (tăng/giảm lượng nước tiểu).\n" +
+      "- Nôn mửa, mất cảm giác ngon miệng và giảm cân.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "- Xét nghiệm máu: Đo nồng độ creatinin, ure máu và điện giải.\n" +
+      "- Xét nghiệm nước tiểu: Phân tích thành phần và chức năng thận.\n" +
+      "- Hình ảnh học: Siêu âm thận để xác định bất thường về hình dạng và cấu trúc.\n" +
+      "- Sinh thiết thận: Nếu cần thiết để xác định nguyên nhân suy thận.\n\n" +
+      "Điều trị:\n\n" +
+      "Suy thận cấp tính:\n" +
+      "- Điều chỉnh nước và điện giải.\n" +
+      "- Điều trị triệu chứng và nguyên nhân gốc.\n" +
+      "- Có thể cần lọc máu tạm thời.\n\n" +
+      "Suy thận mạn tính:\n" +
+      "- Kiểm soát bệnh nền (tiểu đường, tăng huyết áp).\n" +
+      "- Thay đổi lối sống: Chế độ ăn uống cân bằng, hạn chế muối, kali, phốt phát.\n" +
+      "- Thực hiện lọc máu hoặc ghép thận nếu suy thận tiến triển nặng.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "- Quản lý tốt bệnh tiểu đường và huyết áp.\n" +
+      "- Kiểm tra chức năng thận định kỳ, đặc biệt ở những người có nguy cơ cao.\n" +
+      "- Duy trì lối sống lành mạnh: chế độ ăn uống hợp lý và tập thể dục thường xuyên.\n\n" +
+      "Dạ, nếu bạn có thêm câu hỏi nào hoặc muốn tìm hiểu sâu hơn về suy thận, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh loãng xương":
       "Dạ, nếu bạn bị loãng xương, có thể nhận biết qua các triệu chứng như: đau xương, đau lưng, gãy xương dễ dàng, và giảm chiều cao.\n\n",
+    "Thông tin về loãng xương":
+      "Dạ, loãng xương (osteoporosis) là một bệnh lý xương mạn tính, đặc trưng bởi sự giảm mật độ khoáng xương, làm tăng nguy cơ gãy xương. Bệnh thường phổ biến hơn ở phụ nữ sau mãn kinh và người cao tuổi, nhưng cũng có thể xảy ra ở đàn ông và các nhóm tuổi trẻ hơn trong một số trường hợp nhất định.\n\n" +
+      "Nguyên nhân:\n\n" +
+      "- Yếu tố nội tiết: Mất cân bằng hormone, đặc biệt là estrogen ở phụ nữ sau mãn kinh, và testosterone ở nam giới.\n" +
+      "- Thiếu hụt dinh dưỡng: Thiếu vitamin D và canxi, hai yếu tố quan trọng cho sức khỏe xương.\n" +
+      "- Thói quen sống: Lối sống ít vận động, hút thuốc lá, và uống rượu bia quá mức.\n" +
+      "- Bệnh lý nền: Các bệnh lý như cường giáp, bệnh Crohn, hoặc các bệnh lý đường tiêu hóa có thể ảnh hưởng đến khả năng hấp thu dinh dưỡng và khoáng chất.\n" +
+      "- Thuốc: Sử dụng một số loại thuốc như corticosteroid trong thời gian dài có thể làm giảm mật độ xương.\n\n" +
+      "Triệu chứng:\n\n" +
+      "Loãng xương thường không có triệu chứng rõ ràng cho đến khi có gãy xương. Các triệu chứng có thể bao gồm:\n" +
+      "- Gãy xương dễ dàng hơn, thường xảy ra từ cú ngã nhẹ hoặc không có nguyên nhân.\n" +
+      "- Giảm chiều cao.\n" +
+      "- Đau lưng do gãy xương ở cột sống.\n" +
+      "- Hình dáng cơ thể thay đổi, như lưng cong hay gù.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "Chẩn đoán loãng xương thường được thực hiện thông qua:\n\n" +
+      "- Xét nghiệm mật độ xương: Thường là kỹ thuật DEXA (Dual-Energy X-ray Absorptiometry), giúp đo mật độ khoáng xương.\n" +
+      "- Xét nghiệm máu: Đánh giá các chỉ số như vitamin D, canxi và hormone tuyến giáp.\n\n" +
+      "Điều trị:\n\n" +
+      "- Điều chỉnh chế độ ăn uống: Bổ sung canxi và vitamin D qua thực phẩm hoặc bổ sung viên.\n" +
+      "- Tập thể dục: Các hoạt động giúp tăng cường sức mạnh cơ bắp và cải thiện mật độ xương, như đi bộ, tập tạ, yoga.\n" +
+      "- Thuốc: Sử dụng thuốc chống loãng xương như bisphosphonates, hormone estrogen, hoặc thuốc đồng vận hormon parathyroid (teriparatide).\n" +
+      "- Thay đổi lối sống: Ngừng hút thuốc, hạn chế rượu, và tham gia các hoạt động thể chất thường xuyên.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "- Chế độ ăn uống hợp lý: Đảm bảo cung cấp đủ canxi và vitamin D.\n" +
+      "- Vận động thường xuyên: Tập thể dục ít nhất 30 phút mỗi ngày.\n" +
+      "- Khám sức khỏe định kỳ: Đặc biệt là cho những người có nguy cơ cao.\n\n" +
+      "Dạ, nếu bạn cần thêm thông tin chi tiết hơn về loãng xương hoặc bất kỳ câu hỏi nào khác, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh viêm phổi":
       "Dạ, nếu bạn bị viêm phổi, các dấu hiệu bao gồm: ho có đờm, sốt cao, khó thở, và đau ngực khi hít thở.\n\n",
+    "viêm phổi":
+      "Dạ, viêm phổi là một tình trạng nhiễm trùng ở nhu mô phổi, có thể gây ra bởi nhiều tác nhân khác nhau, chủ yếu là vi khuẩn, virus, và một số loại nấm. Viêm phổi có thể xảy ra ở bất kỳ ai, nhưng thường gặp ở trẻ nhỏ, người cao tuổi, và những người có hệ miễn dịch yếu.\n\n" +
+      "Các loại viêm phổi:\n\n" +
+      "1. Viêm phổi mắc phải tại cộng đồng: Xảy ra ở người không nhập viện. Các tác nhân thường gặp bao gồm Streptococcus pneumoniae (phế cầu khuẩn) và virus cúm.\n" +
+      "2. Viêm phổi do bệnh viện: Xảy ra ở bệnh nhân đang điều trị trong bệnh viện, thường do những vi khuẩn kháng thuốc.\n" +
+      "3. Viêm phổi do hít phải: Xảy ra khi có sự xâm nhập của thức ăn, nước bọt, hoặc các vật liệu lạ vào phổi.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Sốt cao (39 - 40 độ C).\n" +
+      "- Đau ngực, thường rõ rệt hơn khi thở sâu hoặc ho.\n" +
+      "- Ho mới xuất hiện, sau đó ho có đờm đặc có thể có màu vàng, xanh hoặc màu gỉ sắt.\n" +
+      "- Khó thở, thở nhanh, tím môi và đầu chi trong trường hợp nặng.\n" +
+      "- Mệt mỏi, có thể có chán ăn.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "1. Lâm sàng: Các triệu chứng như ho, sốt, đau ngực, và khó thở có thể gợi ý đến viêm phổi. Khám phổi có thể thấy ran ẩm hoặc ran nổ.\n" +
+      "2. Cận lâm sàng:\n" +
+      "- Xét nghiệm máu: Tăng số lượng bạch cầu, tốc độ lắng máu tăng.\n" +
+      "- X-quang phổi: Thấy hình ảnh đám mờ hoặc tổn thương ở một bên hoặc cả hai bên phổi.\n" +
+      "- Cấy đờm: Để xác định nguyên nhân gây bệnh.\n\n" +
+      "Điều trị:\n\n" +
+      "- Kháng sinh: Tùy thuộc vào tác nhân gây bệnh (vi khuẩn, virus), bác sĩ sẽ lựa chọn kháng sinh phù hợp.\n" +
+      "- Điều trị triệu chứng: Giảm đau, hạ sốt, hồi phục chức năng hô hấp.\n" +
+      "- Hỗ trợ điều trị: Nghỉ ngơi, hút thuốc lá nếu có, giữ ấm và cung cấp dinh dưỡng hợp lý.\n\n" +
+      "Phòng bệnh:\n\n" +
+      "- Tiêm vaccine phòng cúm và phế cầu cho những người có nguy cơ.\n" +
+      "- Giữ vệ sinh cá nhân, rửa tay thường xuyên.\n" +
+      "- Tránh khói thuốc lá và môi trường ô nhiễm.\n\n" +
+      "Dạ, nếu bạn cần thêm thông tin chi tiết hơn hoặc có câu hỏi cụ thể về viêm phổi, hãy cho tôi biết nhé!",
     "dấu hiệu nhận biết của bệnh ung thư phổi":
       "Dạ, nếu bạn bị ung thư phổi, có thể gặp các dấu hiệu như: ho kéo dài, khó thở, đau ngực, giảm cân, và ho ra máu.\n\n",
     "dấu hiệu nhận biết của bệnh trầm cảm":
@@ -655,16 +848,76 @@ function analyzeInput(input) {
       "Dạ, nếu bạn bị bệnh tim mạch, các dấu hiệu bao gồm: đau ngực, khó thở, mệt mỏi, đánh trống ngực, và phù tay chân.\n\n",
     "dấu hiệu nhận biết của bệnh lo âu":
       "Dạ, nếu bạn bị lo âu, có thể gặp các dấu hiệu như: căng thẳng, bồn chồn, hồi hộp, và khó ngủ.\n\n",
-    "dấu hiệu nhận biết của bệnh viêm xoang":
+    "viêm xoang":
       "Dạ, nếu bạn bị viêm xoang, các dấu hiệu bao gồm: nghẹt mũi, đau nhức vùng mặt, đau đầu, và chảy dịch mũi.\n\n",
     "dấu hiệu nhận biết của bệnh sỏi thận":
       "Dạ, nếu bạn bị sỏi thận, các dấu hiệu có thể là: đau quặn lưng hoặc bụng dưới, buồn nôn, tiểu đau, và tiểu ra máu.\n\n",
+    "sỏi thận":
+      "Dạ, sỏi thận là tình trạng bệnh lý phổ biến, xảy ra khi có sự hình thành các tinh thể rắn trong thận. Những tinh thể này có thể tạo thành sỏi có kích thước khác nhau và gây ra sự đau đớn và nhiều vấn đề sức khỏe khác. Dưới đây là các thông tin chi tiết về sỏi thận:\n\n" +
+      "Nguyên nhân gây sỏi thận:\n\n" +
+      "1. Nồng độ khoáng chất cao: Nếu cơ thể có nồng độ cao của các khoáng chất như canxi, oxalat, uric acid trong nước tiểu, chúng có thể kết tụ lại và tạo thành sỏi.\n" +
+      "2. Thiếu nước: Không uống đủ nước gây cô đặc hóa nước tiểu, làm tăng nguy cơ hình thành sỏi.\n" +
+      "3. Chế độ ăn uống: Một chế độ ăn giàu protein, muối và đường có thể làm gia tăng nguy cơ tạo sỏi.\n" +
+      "4. Bệnh lý: Một số bệnh lý như đái tháo đường, bệnh gout hoặc các rối loạn chuyển hóa có thể cản trở khả năng kiểm soát khoáng chất của cơ thể, dẫn đến hình thành sỏi.\n" +
+      "5. Di truyền: Gia đình có tiền sử sỏi thận có thể làm tăng nguy cơ mắc bệnh này.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Đau lưng hoặc đau bụng dưới: Đau có thể lan ra các vùng khác như đùi, bụng dưới và phản ánh cơn đau quặn thận.\n" +
+      "- Tiểu đau, tiểu buốt: Cảm giác đau rát khi đi tiểu, có thể đi tiểu thường xuyên hơn.\n" +
+      "- Chảy máu trong nước tiểu: Nước tiểu có thể có màu hồng, đỏ hoặc nâu do có máu.\n" +
+      "- Nôn mửa: Cảm giác buồn nôn hoặc nôn do đau đớn.\n" +
+      "- Sốt và ớn lạnh: Nếu có nhiễm trùng đi kèm.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "1. Khám lâm sàng: Bác sĩ sẽ khám sức khỏe và hỏi về triệu chứng.\n" +
+      "2. Cận lâm sàng:\n" +
+      "   - Xét nghiệm nước tiểu: Để kiểm tra có tinh thể sỏi và các dấu hiệu nhiễm trùng.\n" +
+      "   - Siêu âm: Để xác định sự hiện diện của sỏi thận và kích thước của chúng.\n" +
+      "   - Chụp X-quang hoặc CT scan: Để có hình ảnh rõ ràng hơn về các sỏi thận và vị trí của chúng.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Điều trị nội khoa:\n" +
+      "   - Thay đổi chế độ ăn uống: Giảm muối, tăng cường nước, và có thể điều chỉnh protein theo ý kiến bác sĩ.\n" +
+      "   - Uống đủ nước: Để giúp làm loãng nước tiểu và ngăn ngừa hình thành sỏi.\n" +
+      "   - Thuốc giảm đau: Dùng để giảm cơn đau do sỏi gây ra.\n" +
+      "2. Điều trị ngoại khoa:\n" +
+      "   - Nội soi: Can thiệp để lấy sỏi mà không cần mở. Đây là phương pháp thường được áp dụng.\n" +
+      "   - Phẫu thuật mở: Dành cho những trường hợp nặng hoặc khi phương pháp nội soi không hiệu quả.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "1. Uống đủ nước: Cần uống từ 2-3 lít nước mỗi ngày để duy trì lượng nước tiểu thích hợp.\n" +
+      "2. Theo dõi chế độ ăn: Cân nhắc giảm lượng thực phẩm chứa oxalat (như các loại hạt, sô cô la) nếu bạn có tiền sử sỏi thận.\n\n" +
+      "Nếu bạn có bất kỳ câu hỏi nào khác hoặc cần thêm thông tin về sỏi thận, hãy cho tôi biết nhé!",
     "dấu hiệu nhận biết của bệnh suy giáp":
       "Dạ, nếu bạn bị suy giáp, có thể nhận biết qua: mệt mỏi, tăng cân, da khô, rụng tóc, và cảm thấy lạnh.\n\n",
     "dấu hiệu nhận biết của bệnh viêm amidan":
       "Dạ, nếu bạn bị viêm amidan, các dấu hiệu có thể bao gồm: đau họng, sốt, hạch cổ sưng to, và khó nuốt.\n\n",
     "dấu hiệu nhận biết của bệnh viêm tai giữa":
       "Dạ, nếu bạn bị viêm tai giữa, các dấu hiệu gồm: đau tai, sốt, giảm thính lực, và chảy mủ tai.\n\n",
+    "viêm tai giữa":
+      "Dạ, viêm tai giữa là một tình trạng viêm nhiễm xảy ra tại vùng tai giữa, không chỉ ảnh hưởng đến trẻ em mà còn có thể xảy ra ở người lớn. Đây là một trong những bệnh lý phổ biến ở tai và có thể gây ra đau đớn cũng như ảnh hưởng đến thính lực nếu không được điều trị kịp thời. Dưới đây là những thông tin chi tiết về viêm tai giữa:\n\n" +
+      "Nguyên nhân:\n\n" +
+      "1. Nhiễm trùng vi khuẩn hoặc virus: Đây là nguyên nhân chủ yếu gây viêm tai giữa. Các loại virus gây cảm cúm, sổ mũi có thể khiến dịch trong tai giữa bị tích tụ và gây viêm.\n" +
+      "2. Bệnh lý về mũi họng: Viêm họng, viêm mũi dị ứng, hoặc các bệnh về xoang có thể làm tắc ngẽn ống Eustachian, dẫn đến viêm tai giữa.\n" +
+      "3. Tình trạng dị ứng: Một số người bị dị ứng có thể dễ bị viêm tai giữa do tình trạng viêm niêm mạc.\n" +
+      "4. Yếu tố môi trường: Khói thuốc lá và môi trường ô nhiễm có thể làm tăng nguy cơ mắc viêm tai giữa.\n\n" +
+      "Triệu chứng:\n\n" +
+      "1. Đau tai: Đây là triệu chứng chính mà bệnh nhân thường cảm nhận. Đau có thể dữ dội, đặc biệt là khi nằm.\n" +
+      "2. Sốt: Trẻ em có thể bị sốt cao khi mắc viêm tai giữa.\n" +
+      "3. Chảy dịch: Dịch có thể từ tai chảy ra, đôi khi có máu.\n" +
+      "4. Khó nghe: Sự tích tụ dịch trong tai giữa có thể làm giảm thính lực.\n" +
+      "5. Ngứa hoặc cảm giác đầy tai: Bệnh nhân có thể cảm thấy ngứa hoặc như có áp lực trong tai.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "1. Khám lâm sàng: Bác sĩ sẽ sử dụng một ống soi tai để kiểm tra tình trạng của tai giữa và màng nhĩ.\n" +
+      "2. Cận lâm sàng: Trong một số trường hợp, có thể cần thực hiện xét nghiệm nước mũi để xác định loại vi khuẩn hoặc virus gây bệnh.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Nội khoa:\n" +
+      "   - Thuốc giảm đau: Dùng cho việc kiểm soát cơn đau.\n" +
+      "   - Kháng sinh: Nếu viêm tai giữa do vi khuẩn, bác sĩ sẽ chỉ định kháng sinh.\n" +
+      "   - Thuốc chống viêm: Giúp giảm sưng và viêm ở vùng tai.\n" +
+      "2. Theo dõi: Trong trường hợp viêm tai giữa không biến chứng, bác sĩ có thể đề nghị theo dõi trong vài ngày trước khi bắt đầu điều trị bằng kháng sinh, vì nhiều trường hợp sẽ hồi phục tự nhiên.\n" +
+      "3. Phẫu thuật: Trong trường hợp viêm tai giữa mạn tính hoặc có biến chứng, can thiệp phẫu thuật có thể cần thiết. Phẫu thuật có thể bao gồm việc đặt ống thông tai để thông thoáng và thoát dịch.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "1. Tăng cường sức đề kháng: Duy trì sức khỏe bằng chế độ ăn uống đầy đủ dinh dưỡng.\n" +
+      "2. Vệ sinh cá nhân tốt: Rửa tay thường xuyên để ngăn ngừa nhiễm trùng.\n" +
+      "3. Tránh tiếp xúc với khói thuốc lá: Giảm thiểu nguy cơ mắc bệnh cho trẻ em.\n\n" +
+      "Viêm tai giữa nếu không được phát hiện và điều trị kịp thời có thể dẫn đến các biến chứng nghiêm trọng như tắc nghẽn đường nghe, mất thính lực tạm thời hoặc vĩnh viễn. Nếu bạn hoặc người thân có triệu chứng viêm tai giữa, hãy tìm kiếm sự chăm sóc y tế ngay lập tức. Nếu bạn cần thêm thông tin, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh mất ngủ":
       "Dạ, nếu bạn bị mất ngủ, có thể nhận biết qua: khó ngủ, tỉnh giấc giữa đêm, không cảm thấy nghỉ ngơi đủ, và mệt mỏi vào ban ngày.\n\n",
     "dấu hiệu nhận biết của bệnh suy nhược cơ thể":
@@ -699,6 +952,32 @@ function analyzeInput(input) {
       "Dạ, nếu bạn bị đau vai gáy, có thể nhận thấy qua các dấu hiệu: đau nhức vùng vai và cổ, khó cử động, và cảm giác cứng khớp.\n\n",
     "dấu hiệu nhận biết của bệnh béo phì":
       "Dạ, nếu bạn bị béo phì, có thể nhận biết qua các dấu hiệu như: cân nặng vượt chuẩn, khó vận động, đau khớp, và thở gấp.\n\n",
+    "béo phì":
+      "Dạ, béo phì là một tình trạng y tế mà trong đó cơ thể tích trữ quá nhiều mỡ, dẫn đến những hậu quả tiêu cực cho sức khỏe. Béo phì thường được đánh giá thông qua chỉ số khối cơ thể (BMI), với BMI từ 30 trở lên được coi là béo phì. Dưới đây là một số thông tin chi tiết về béo phì:\n\n" +
+      "Nguyên nhân:\n\n" +
+      "1. Di truyền: Một số người có thể bị béo phì do yếu tố di truyền, ảnh hưởng đến cách mà cơ thể xử lý mỡ.\n" +
+      "2. Chế độ ăn uống không lành mạnh: Thói quen tiêu thụ nhiều thực phẩm giàu calo, đường, và chất béo bão hòa có thể góp phần dẫn đến béo phì.\n" +
+      "3. Thiếu hoạt động thể chất: Lối sống ít vận động làm giảm khả năng tiêu thụ calo, từ đó dễ dẫn đến tăng cân.\n" +
+      "4. Yếu tố tâm lý: Căng thẳng, trầm cảm, hoặc một số rối loạn tâm lý khác có thể thúc đẩy việc ăn uống không kiểm soát.\n" +
+      "5. Bệnh lý nền: Một số bệnh như bệnh Cushing, hội chứng buồng trứng đa nang (PCOS), hay các rối loạn tuyến giáp có thể ảnh hưởng đến trọng lượng cơ thể.\n\n" +
+      "Hậu quả:\n\n" +
+      "1. Bệnh tim mạch: Béo phì làm tăng nguy cơ mắc các bệnh về tim mạch, đột quỵ, và tăng huyết áp.\n" +
+      "2. Bệnh tiểu đường: Béo phì có thể dẫn đến kháng insulin và tiểu đường loại 2.\n" +
+      "3. Bệnh khớp: Tăng trọng lượng cơ thể gây ra áp lực lên các khớp, dẫn đến viêm khớp và đau khớp.\n" +
+      "4. Rối loạn giấc ngủ: Người béo phì có nguy cơ cao mắc hội chứng ngưng thở khi ngủ.\n" +
+      "5. Vấn đề tâm lý: Béo phì có thể dẫn đến tự ti, trầm cảm và lo âu.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "Chẩn đoán béo phì chủ yếu được thực hiện qua việc tính toán chỉ số BMI bằng công thức:\n" +
+      "[ \text{BMI} = \frac{\text{Cân nặng (kg)}}{(\text{Chiều cao (m)})^2} ]\n" +
+      "Ngoài chỉ số BMI, bác sĩ có thể xem xét các yếu tố khác như số đo vòng eo và các xét nghiệm máu để đánh giá tình trạng sức khỏe tổng thể.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Thay đổi lối sống: Tăng cường hoạt động thể chất và điều chỉnh chế độ ăn uống lành mạnh là cần thiết.\n" +
+      "2. Tư vấn dinh dưỡng: Tham khảo ý kiến chuyên gia dinh dưỡng để xây dựng một kế hoạch ăn uống hợp lý, giảm calo và cung cấp đầy đủ dưỡng chất.\n" +
+      "3. Sử dụng thuốc: Trong một số trường hợp, bác sĩ có thể chỉ định thuốc hỗ trợ giảm cân.\n" +
+      "4. Phẫu thuật: Ở những người béo phì nặng mà không thể giảm cân bằng phương pháp khác, phẫu thuật giảm cân (như phẫu thuật cắt dạ dày) có thể là một lựa chọn.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "Duy trì chế độ ăn uống cân đối, tập luyện thể dục thường xuyên, kiểm soát căng thẳng và hình thành thói quen sinh hoạt lành mạnh có thể giúp phòng ngừa béo phì.\n\n" +
+      "Nếu bạn có thêm câu hỏi nào khác về vấn đề này hoặc cần tư vấn cụ thể hơn, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh mất trí nhớ":
       "Dạ, nếu bạn bị mất trí nhớ, các dấu hiệu bao gồm: khó nhớ sự kiện, hay quên tên, khó tập trung, và mất phương hướng.\n\n",
     "dấu hiệu nhận biết của bệnh chóng mặt":
@@ -723,8 +1002,28 @@ function analyzeInput(input) {
       "Dạ, nếu bạn bị nhiễm trùng máu, các dấu hiệu có thể là: sốt cao, nhịp tim nhanh, khó thở, và mệt mỏi.\n\n",
     "dấu hiệu nhận biết của bệnh xơ vữa động mạch":
       "Dạ, nếu bạn bị xơ vữa động mạch, có thể gặp các dấu hiệu như: đau ngực, khó thở, nhịp tim không đều, và chóng mặt.\n\n",
-    "dấu hiệu nhận biết của bệnh viêm phế quản mãn tính":
-      "Dạ, nếu bạn bị viêm phế quản mãn tính, các triệu chứng bao gồm: ho kéo dài, có đờm, khó thở, và tức ngực.\n\n",
+    "dấu hiệu nhận biết bệnh viêm phế quản mãn tính":
+      "Dạ, bệnh viêm phế quản mãn tính là một tình trạng viêm nhiễm kéo dài ở phế quản, thường liên quan đến việc tiếp xúc lâu dài với các yếu tố kích thích như khói thuốc lá, ô nhiễm không khí, hay bụi bẩn. Dưới đây là một số dấu hiệu nhận biết bệnh viêm phế quản mãn tính:\n\n" +
+      "1. Ho mãn tính: Một trong những triệu chứng chính của viêm phế quản mãn tính là ho kéo dài, thường xuyên và có thể kéo dài ít nhất ba tháng trong một năm, trong ba năm liên tiếp.\n\n" +
+      "2. Đờm: Nhiều bệnh nhân có xu hướng có đờm, thường là đờm màu trắng hoặc màu vàng, có thể xuất hiện mỗi khi ho.\n\n" +
+      "3. Khó thở: Cảm giác khó thở hoặc tắc nghẹn, đặc biệt là trong các hoạt động thể chất, có thể xuất hiện do phế quản bị hẹp và viêm.\n\n" +
+      "4. Khò khè: Nhiều người mắc viêm phế quản mãn tính có thể cảm thấy tiếng thở khò khè, là âm thanh phát ra khi không khí đi qua các ống phế quản hẹp.\n\n" +
+      "5. Cảm giác nặng nề ở ngực: Một số bệnh nhân có thể cảm nhận được áp lực hoặc cảm giác nặng nề ở vùng ngực.\n\n" +
+      "6. Mệt mỏi: Cảm giác mệt mỏi và khó chịu cũng có thể là dấu hiệu của tình trạng viêm phế quản mãn tính.\n\n" +
+      "7. Tăng cường triệu chứng khi có yếu tố kích thích: Các triệu chứng có thể nặng hơn khi tiếp xúc với khói thuốc, ô nhiễm, hoặc trong thời tiết lạnh và ẩm.\n\n" +
+      "Nếu bạn hoặc người thân có những triệu chứng này, tốt nhất là nên tham khảo ý kiến của bác sĩ để có chẩn đoán chính xác và điều trị kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "Dấu hiệu nhận biết bệnh viêm phế quản mãn tính":
+      "Dạ, bệnh viêm phế quản mãn tính là một tình trạng viêm nhiễm kéo dài ở phế quản, thường liên quan đến việc tiếp xúc lâu dài với các yếu tố kích thích như khói thuốc lá, ô nhiễm không khí, hay bụi bẩn. Dưới đây là một số dấu hiệu nhận biết bệnh viêm phế quản mãn tính:\n\n" +
+      "1. Ho mãn tính: Một trong những triệu chứng chính của viêm phế quản mãn tính là ho kéo dài, thường xuyên và có thể kéo dài ít nhất ba tháng trong một năm, trong ba năm liên tiếp.\n\n" +
+      "2. Đờm: Nhiều bệnh nhân có xu hướng có đờm, thường là đờm màu trắng hoặc màu vàng, có thể xuất hiện mỗi khi ho.\n\n" +
+      "3. Khó thở: Cảm giác khó thở hoặc tắc nghẹn, đặc biệt là trong các hoạt động thể chất, có thể xuất hiện do phế quản bị hẹp và viêm.\n\n" +
+      "4. Khò khè: Nhiều người mắc viêm phế quản mãn tính có thể cảm thấy tiếng thở khò khè, là âm thanh phát ra khi không khí đi qua các ống phế quản hẹp.\n\n" +
+      "5. Cảm giác nặng nề ở ngực: Một số bệnh nhân có thể cảm nhận được áp lực hoặc cảm giác nặng nề ở vùng ngực.\n\n" +
+      "6. Mệt mỏi: Cảm giác mệt mỏi và khó chịu cũng có thể là dấu hiệu của tình trạng viêm phế quản mãn tính.\n\n" +
+      "7. Tăng cường triệu chứng khi có yếu tố kích thích: Các triệu chứng có thể nặng hơn khi tiếp xúc với khói thuốc, ô nhiễm, hoặc trong thời tiết lạnh và ẩm.\n\n" +
+      "Nếu bạn hoặc người thân có những triệu chứng này, tốt nhất là nên tham khảo ý kiến của bác sĩ để có chẩn đoán chính xác và điều trị kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
     "dấu hiệu viêm loét dạ dày":
       "Dạ, viêm loét dạ dày là tình trạng viêm nhiễm và tổn thương xảy ra ở niêm mạc dạ dày, dẫn đến sự hình thành những ổ loét. Một số dấu hiệu và triệu chứng phổ biến của viêm loét dạ dày bao gồm:" +
       "1. Đau bụng vùng thượng vị: Cảm giác đau có thể xuất hiện trong các chu kỳ, thường đau khoảng 1-3 giờ sau khi ăn hoặc khi đói. Đau cũng có thể giảm đi khi ăn hoặc uống thuốc kháng acid." +
@@ -823,6 +1122,114 @@ function analyzeInput(input) {
       "   - Đến bác sĩ thường xuyên để kiểm tra và điều chỉnh phương pháp điều trị nếu cần thiết.\n\n" +
       "Nếu bạn có những triệu chứng hoặc lo ngại về tình trạng sức khỏe của mình, tốt nhất hãy thảo luận với bác sĩ để nhận được sự tư vấn và hỗ trợ kịp thời.\n\n" +
       "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    zona:
+      "Dạ, bệnh zona, hay còn gọi là bệnh zona thần kinh (herpes zoster), là một bệnh truyền nhiễm do virus varicella-zoster gây ra, cùng loại với virus gây bệnh thủy đậu. Dưới đây là một số thông tin quan trọng về bệnh zona:\n\n" +
+      "Nguyên nhân:\n\n" +
+      "Bệnh zona xảy ra khi virus varicella-zoster, sau khi gây ra bệnh thủy đậu ở một người, nằm trong trạng thái tiềm ẩn trong các tế bào thần kinh. Khi hệ miễn dịch yếu đi, virus này có thể tái hoạt động và gây ra bệnh zona.\n\n" +
+      "Triệu chứng:\n\n" +
+      "1. Đau và cảm giác ngứa: Triệu chứng đầu tiên thường là cảm giác đau hoặc ngứa râm ran ở vùng da trước khi phát ban xuất hiện.\n\n" +
+      "2. Phát ban: Sau một vài ngày, phát ban đỏ sẽ xuất hiện, thường ở một bên cơ thể hoặc mặt. Phát ban này có thể chuyển thành mụn nước chứa dịch.\n\n" +
+      "3. Mụn nước: Các mụn nước này thường có thể bể ra và tạo thành vết loét, sau đó sẽ đóng mài.\n\n" +
+      "4. Triệu chứng toàn thân: Một số người có thể trải qua triệu chứng như sốt, mệt mỏi và đau đầu.\n\n" +
+      "Phương pháp điều trị:\n\n" +
+      "Không giống như bệnh thủy đậu, bệnh zona có thể được điều trị để giảm triệu chứng và thời gian bệnh. Điều trị có thể bao gồm:\n\n" +
+      "- Kháng virus: Thuốc như acyclovir, valacyclovir hoặc famciclovir có thể giúp đẩy nhanh quá trình hồi phục, nhất là khi bắt đầu điều trị sớm.\n\n" +
+      "- Giảm đau: Các loại thuốc giảm đau, thuốc chống viêm không steroid (NSAIDs) và có thể có phương pháp điều trị đau thần kinh.\n\n" +
+      "- Chăm sóc da: Giữ cho vùng da sạch sẽ và khô ráo, tránh cào xước để ngăn ngừa nhiễm trùng thứ cấp.\n\n" +
+      "Biến chứng:\n\n" +
+      "- Đau thần kinh sau zona: Nhiều bệnh nhân có thể gặp phải đau kéo dài sau khi phục hồi khỏi bệnh, gọi là đau thần kinh sau zona.\n\n" +
+      "- Nhiễm trùng: Có thể xảy ra nếu da bị tổn thương.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "- Vaccine: Hiện tại có vaccine phòng ngừa zona, được khuyến nghị cho những người từ 50 tuổi trở lên để giảm nguy cơ mắc bệnh và biến chứng.\n\n" +
+      "Nếu bạn có triệu chứng hoặc nghi ngờ mắc bệnh zona, hãy tham khảo ý kiến bác sĩ hoặc chuyên gia y tế để được tư vấn và điều trị kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "viêm da":
+      "Dạ, viêm da là tình trạng viêm nhiễm ở da, có thể do nhiều nguyên nhân khác nhau, bao gồm dị ứng, nhiễm trùng, hoặc tiếp xúc với các chất kích thích. Dưới đây là một số thông tin chi tiết về viêm da:\n\n" +
+      "Các loại viêm da phổ biến:\n\n" +
+      "1. Viêm da tiếp xúc: Xảy ra khi da tiếp xúc với chất gây kích ứng hoặc dị ứng. Triệu chứng bao gồm đỏ, ngứa, và có thể xảy ra mụn nước.\n\n" +
+      "2. Viêm da cơ địa (Eczema): Là một tình trạng mãn tính, thường xuất hiện với triệu chứng khô, ngứa và viêm da. Thường gặp ở trẻ em nhưng cũng có thể xảy ra ở người lớn.\n\n" +
+      "3. Viêm da tiết bã (Seborrheic dermatitis): Thường xuất hiện trên vùng da có nhiều tuyến bã nhờn, như da đầu. Triệu chứng bao gồm vảy gàu, đỏ và ngứa.\n\n" +
+      "4. Viêm da nấm: Do nấm gây ra, thường gây ngứa, đỏ, và có thể xuất hiện vảy.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Ngứa: Là một triệu chứng rất phổ biến.\n\n" +
+      "- Đỏ: Vùng da bị viêm thường có màu đỏ, sưng tấy.\n\n" +
+      "- Vảy hoặc mụn nước: Tùy thuộc vào loại viêm da, da có thể hình thành vảy hoặc mụn nước.\n\n" +
+      "- Khô hoặc lột da: Da có thể khô và lột ra, đặc biệt trong các trường hợp như viêm da tiết bã và viêm da cơ địa.\n\n" +
+      "Nguyên nhân:\n\n" +
+      "- Dị ứng (chẳng hạn như phấn hoa, bụi, hoặc thực phẩm).\n\n" +
+      "- Nhiễm trùng (virus, vi khuẩn, hoặc nấm).\n\n" +
+      "- Yếu tố môi trường (thay đổi thời tiết, hóa chất).\n\n" +
+      "- Di truyền (ở những người có tiền sử gia đình về bệnh da liễu).\n\n" +
+      "Điều trị:\n\n" +
+      "- Sử dụng thuốc: Có thể bao gồm kem kháng viêm, kem dưỡng ẩm, hoặc thuốc kháng histamin.\n\n" +
+      "- Tránh tác nhân kích thích: Xác định và tránh những chất gây kích thích cho da.\n\n" +
+      "- Chăm sóc da: Đảm bảo giữ cho vùng da bị ảnh hưởng sạch sẽ và ẩm mượt.\n\n" +
+      "Lời khuyên:\n\n" +
+      "Nếu bạn gặp phải triệu chứng viêm da kéo dài hoặc nghiêm trọng, hãy tìm kiếm sự tư vấn từ bác sĩ hoặc chuyên gia da liễu để được chẩn đoán và điều trị thích hợp.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "cao huyết áp":
+      "Dạ, cao huyết áp, hay còn gọi là tăng huyết áp, là một tình trạng y tế phổ biến, trong đó huyết áp trong các động mạch cao hơn mức bình thường. Dưới đây là một số thông tin chi tiết về cao huyết áp:\n\n" +
+      "Định nghĩa:\n\n" +
+      "- Tăng huyết áp được xác định khi huyết áp tâm thu (số trên) lớn hơn 140 mmHg và/hoặc huyết áp tâm trương (số dưới) lớn hơn hoặc bằng 90 mmHg theo tiêu chuẩn của Tổ chức Y tế Thế giới (WHO).\n\n" +
+      "Nguyên nhân:\n\n" +
+      "1. Tăng huyết áp nguyên phát: Không có nguyên nhân cụ thể, thường phát triển dần theo thời gian.\n\n" +
+      "2. Tăng huyết áp thứ phát: Do một số tình trạng bệnh lý khác như:\n" +
+      "   - Bệnh thận mạn\n" +
+      "   - Béo phì\n" +
+      "   - Hội chứng Cushing\n" +
+      "   - Hẹp động mạch thận, và một số nguyên nhân khác.\n\n" +
+      "Biến chứng:\n\n" +
+      "Cao huyết áp có thể dẫn đến nhiều biến chứng nghiêm trọng, bao gồm:\n" +
+      "- Tim mạch: Suy tim, bệnh mạch vành.\n" +
+      "- Hệ thần kinh: Đột quỵ, sa sút trí nhớ.\n" +
+      "- Thận: Bệnh thận mãn tính.\n" +
+      "- Mắt: Bệnh võng mạc.\n\n" +
+      "Triệu chứng:\n\n" +
+      "Nhiều người bị cao huyết áp không có triệu chứng rõ ràng. Một số triệu chứng có thể bao gồm:\n" +
+      "- Đau đầu\n" +
+      "- Chóng mặt\n" +
+      "- Chảy máu mũi\n" +
+      "- Khó thở.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Chế độ ăn uống và lối sống:\n" +
+      "   - Giảm cân nếu thừa cân.\n" +
+      "   - Hạn chế muối (natri) trong chế độ ăn.\n" +
+      "   - Tăng cường hoạt động thể chất.\n" +
+      "   - Giảm cơn căng thẳng và bỏ thuốc lá.\n\n" +
+      "2. Thuốc điều trị:\n" +
+      "   - Các loại thuốc hạ huyết áp, bao gồm thuốc lợi tiểu, thuốc chặn beta, thuốc ức chế ACE, và các thuốc khác theo chỉ định của bác sĩ.\n\n" +
+      "Lời khuyên:\n\n" +
+      "Nếu bạn có triệu chứng hoặc có nguy cơ cao mắc cao huyết áp, hãy tìm kiếm sự tư vấn từ bác sĩ để được kiểm tra và chẩn đoán kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này hữu ích cho bạn!",
+    "viêm khớp":
+      "Dạ, viêm khớp là một tình trạng viêm nhiễm ở khớp, có thể dẫn đến đau, sưng, cứng khớp cũng như giảm khả năng vận động. Có nhiều loại viêm khớp khác nhau, phổ biến nhất là viêm khớp dạng thấp và viêm khớp thoái hóa. Dưới đây là các thông tin chi tiết về viêm khớp:\n\n" +
+      "Các loại viêm khớp phổ biến:\n\n" +
+      "1. Viêm khớp dạng thấp (Rheumatoid arthritis):\n" +
+      "   - Là một bệnh lý tự miễn, nơi hệ miễn dịch của cơ thể tấn công các mô khớp. Triệu chứng bao gồm đau, sưng, và cứng khớp, đặc biệt là vào buổi sáng.\n\n" +
+      "2. Viêm khớp thoái hóa (Osteoarthritis):\n" +
+      "   - Là tình trạng thoái hóa khớp do tuổi tác, chấn thương, hay sử dụng quá mức. Triệu chứng bao gồm đau khớp, cứng khớp, và có thể có tiếng lạo xạo khi di chuyển.\n\n" +
+      "3. Gout:\n" +
+      "   - Là một loại viêm khớp xảy ra do sự tích tụ của axit uric trong máu, dẫn đến các cơn đau đột ngột và dữ dội, thường ở khớp ngón chân cái.\n\n" +
+      "4. Viêm khớp nhiễm trùng (Infectious arthritis):\n" +
+      "   - Do vi khuẩn hoặc virus gây ra, có thể dẫn đến tình trạng sưng đỏ và đau nhất quán ở khớp.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Đau nhức: Thường xuyên hoặc theo cơn, có thể kéo dài.\n" +
+      "- Sưng: Vùng khớp bị ảnh hưởng thường sưng lên.\n" +
+      "- Cứng khớp: Đặc biệt là sau khi nghỉ ngơi hoặc vào buổi sáng.\n" +
+      "- Hạn chế vận động: Khó khăn trong việc di chuyển hoặc sử dụng khớp.\n\n" +
+      "Nguyên nhân:\n\n" +
+      "- Di truyền: Có tiền sử gia đình về các bệnh liên quan đến viêm khớp.\n" +
+      "- Chấn thương: Chấn thương khớp có thể tăng nguy cơ mắc bệnh.\n" +
+      "- Cân nặng: Thừa cân có thể tạo thêm áp lực lên các khớp.\n" +
+      "- Nhiễm trùng: Một số bệnh nhiễm trùng có thể dẫn đến tình trạng viêm khớp.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Thuốc giảm đau: Như paracetamol, NSAIDs (thuốc chống viêm không steroid).\n" +
+      "2. Thuốc chống viêm: Có thể bao gồm corticosteroids hoặc thuốc điều chỉnh miễn dịch.\n" +
+      "3. Vật lý trị liệu: Để cải thiện tính linh hoạt và sức mạnh khớp.\n" +
+      "4. Phẫu thuật: Trong trường hợp nặng, có thể cần phẫu thuật để sửa chữa hoặc thay thế khớp.\n\n" +
+      "Lời khuyên:\n\n" +
+      "Nếu bạn gặp phải triệu chứng viêm khớp, hãy tìm kiếm sự tư vấn từ bác sĩ chuyên khoa để được chẩn đoán và điều trị đúng cách.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ giúp ích cho bạn trong việc hiểu biết về viêm khớp!",
   };
 
   for (const key in responses) {
