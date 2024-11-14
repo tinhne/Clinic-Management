@@ -587,7 +587,242 @@ function analyzeInput(input) {
       "Dạ, tạm biệt bạn! Nếu bạn có bất kỳ câu hỏi nào khác trong tương lai hoặc cần sự trợ giúp, hãy quay lại nhé. Chúc bạn một ngày tốt lành!",
     "tạm biệt":
       "Dạ, tạm biệt bạn! Nếu bạn có bất kỳ câu hỏi nào khác trong tương lai hoặc cần sự trợ giúp, hãy quay lại nhé. Chúc bạn một ngày tốt lành!",
-    "bạn có thể làm gì": "",
+    "Tiểu đường":
+      "Dạ, nếu bạn bị tiểu đường, hãy chú ý:" +
+      "Chế độ ăn uống: Ăn nhiều rau, trái cây tươi, ngũ cốc; hạn chế đường; chia nhỏ bữa ăn." +
+      "Tập thể dục: Vận động ít nhất 150 phút mỗi tuần, tránh ngồi lâu." +
+      "Theo dõi đường huyết: Kiểm tra và ghi chép kết quả thường xuyên." +
+      "Uống đủ nước: Đảm bảo uống nhiều nước hàng ngày." +
+      "Tuân thủ điều trị: Dùng thuốc theo chỉ định và khám định kỳ." +
+      "Giảm căng thẳng: Thực hiện thiền, yoga, và các hoạt động giải trí." +
+      "Khám định kỳ: Kiểm tra mắt, chân và các cơ quan khác để phát hiện sớm biến chứng.",
+    "tiểu đường":
+      "Dạ, nếu bạn bị tiểu đường, hãy chú ý:" +
+      "Chế độ ăn uống: Ăn nhiều rau, trái cây tươi, ngũ cốc; hạn chế đường; chia nhỏ bữa ăn." +
+      "Tập thể dục: Vận động ít nhất 150 phút mỗi tuần, tránh ngồi lâu." +
+      "Theo dõi đường huyết: Kiểm tra và ghi chép kết quả thường xuyên." +
+      "Uống đủ nước: Đảm bảo uống nhiều nước hàng ngày." +
+      "Tuân thủ điều trị: Dùng thuốc theo chỉ định và khám định kỳ." +
+      "Giảm căng thẳng: Thực hiện thiền, yoga, và các hoạt động giải trí." +
+      "Khám định kỳ: Kiểm tra mắt, chân và các cơ quan khác để phát hiện sớm biến chứng.",
+    "Dấu hiệu nhận biết về tiểu đường":
+      "Dạ, dấu hiệu nhận biết tiểu đường có thể khác nhau tùy thuộc vào từng người, nhưng có một số triệu chứng phổ biến mà bạn có thể chú ý như sau:" +
+      "1. Khát nước nhiều: Cảm giác khát nước thường xuyên không thể giảm đi, ngay cả khi bạn đã uống nước." +
+      "2. Tiểu nhiều: Thường xuyên đi tiểu, đặc biệt là vào ban đêm." +
+      "3. Đói bụng: Cảm thấy đói dù đã ăn đủ bữa." +
+      "4. Giảm cân: Giảm cân không rõ lý do mặc dù có cảm giác đói nhiều." +
+      "5. Mệt mỏi: Cảm thấy kiệt sức và không có năng lượng." +
+      "6. Thị lực mờ: Gặp khó khăn trong việc nhìn rõ, có thể thấy mờ hoặc bị nhòe." +
+      "7. Lâu lành vết thương: Các vết thương và nhiễm trùng lâu lành hơn bình thường." +
+      "8. Tê hoặc ngứa: Có thể cảm thấy tê bì hoặc ngứa râm ran ở tay hoặc chân." +
+      "Nếu bạn hoặc người thân của bạn gặp phải một hoặc nhiều triệu chứng như trên, hãy tham khảo ý kiến bác sĩ để được kiểm tra và chẩn đoán chính xác về tình trạng sức khỏe của mình. Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "dấu hiệu nhận biết về tiểu đường":
+      "Dạ, dấu hiệu nhận biết tiểu đường có thể khác nhau tùy thuộc vào từng người, nhưng có một số triệu chứng phổ biến mà bạn có thể chú ý như sau:" +
+      "1. Khát nước nhiều: Cảm giác khát nước thường xuyên không thể giảm đi, ngay cả khi bạn đã uống nước." +
+      "2. Tiểu nhiều: Thường xuyên đi tiểu, đặc biệt là vào ban đêm." +
+      "3. Đói bụng: Cảm thấy đói dù đã ăn đủ bữa." +
+      "4. Giảm cân: Giảm cân không rõ lý do mặc dù có cảm giác đói nhiều." +
+      "5. Mệt mỏi: Cảm thấy kiệt sức và không có năng lượng." +
+      "6. Thị lực mờ: Gặp khó khăn trong việc nhìn rõ, có thể thấy mờ hoặc bị nhòe." +
+      "7. Lâu lành vết thương: Các vết thương và nhiễm trùng lâu lành hơn bình thường." +
+      "8. Tê hoặc ngứa: Có thể cảm thấy tê bì hoặc ngứa râm ran ở tay hoặc chân." +
+      "Nếu bạn hoặc người thân của bạn gặp phải một hoặc nhiều triệu chứng như trên, hãy tham khảo ý kiến bác sĩ để được kiểm tra và chẩn đoán chính xác về tình trạng sức khỏe của mình. Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "dấu hiệu nhận biết của bệnh cao huyết áp":
+      "Dạ, nếu bạn bị cao huyết áp, có một số dấu hiệu bạn có thể nhận biết: đau đầu, chóng mặt, ngực khó chịu, mệt mỏi, khó thở, và đôi khi chảy máu cam.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm gan":
+      "Dạ, nếu bạn bị viêm gan, các dấu hiệu có thể bao gồm: mệt mỏi, vàng da, vàng mắt, đau vùng bụng trên bên phải, buồn nôn, và sụt cân.\n\n",
+    "dấu hiệu nhận biết của bệnh hen suyễn":
+      "Dạ, nếu bạn bị hen suyễn, có thể nhận biết qua các dấu hiệu như: khó thở, ho kéo dài, thở khò khè, và cảm giác bó ngực.\n\n",
+    "dấu hiệu nhận biết của bệnh suy thận":
+      "Dạ, nếu bạn bị suy thận, một số dấu hiệu thường gặp là: tiểu ít, phù nề tay chân, mệt mỏi, buồn nôn, và khó thở.\n\n",
+    "dấu hiệu nhận biết của bệnh loãng xương":
+      "Dạ, nếu bạn bị loãng xương, có thể nhận biết qua các triệu chứng như: đau xương, đau lưng, gãy xương dễ dàng, và giảm chiều cao.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm phổi":
+      "Dạ, nếu bạn bị viêm phổi, các dấu hiệu bao gồm: ho có đờm, sốt cao, khó thở, và đau ngực khi hít thở.\n\n",
+    "dấu hiệu nhận biết của bệnh ung thư phổi":
+      "Dạ, nếu bạn bị ung thư phổi, có thể gặp các dấu hiệu như: ho kéo dài, khó thở, đau ngực, giảm cân, và ho ra máu.\n\n",
+    "dấu hiệu nhận biết của bệnh trầm cảm":
+      "Dạ, nếu bạn bị trầm cảm, có thể nhận biết qua: cảm giác buồn bã kéo dài, mất hứng thú với hoạt động thường ngày, mệt mỏi, và khó ngủ.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm loét dạ dày":
+      "Dạ, nếu bạn bị viêm loét dạ dày, có thể có các dấu hiệu như: đau bụng, buồn nôn, khó tiêu, ợ nóng, và sụt cân.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm đại tràng":
+      "Dạ, nếu bạn bị viêm đại tràng, có thể nhận biết qua các dấu hiệu: đau bụng dưới, tiêu chảy, phân có chất nhầy, và mất cảm giác thèm ăn.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm khớp":
+      "Dạ, nếu bạn bị viêm khớp, các dấu hiệu có thể bao gồm: sưng khớp, đau nhức, cứng khớp vào buổi sáng, và giảm khả năng vận động.\n\n",
+    "dấu hiệu nhận biết của bệnh thiếu máu":
+      "Dạ, nếu bạn bị thiếu máu, có thể nhận biết qua các dấu hiệu: mệt mỏi, da xanh xao, nhức đầu, chóng mặt, và cảm giác lạnh tay chân.\n\n",
+    "dấu hiệu nhận biết của bệnh bệnh tim mạch":
+      "Dạ, nếu bạn bị bệnh tim mạch, các dấu hiệu bao gồm: đau ngực, khó thở, mệt mỏi, đánh trống ngực, và phù tay chân.\n\n",
+    "dấu hiệu nhận biết của bệnh lo âu":
+      "Dạ, nếu bạn bị lo âu, có thể gặp các dấu hiệu như: căng thẳng, bồn chồn, hồi hộp, và khó ngủ.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm xoang":
+      "Dạ, nếu bạn bị viêm xoang, các dấu hiệu bao gồm: nghẹt mũi, đau nhức vùng mặt, đau đầu, và chảy dịch mũi.\n\n",
+    "dấu hiệu nhận biết của bệnh sỏi thận":
+      "Dạ, nếu bạn bị sỏi thận, các dấu hiệu có thể là: đau quặn lưng hoặc bụng dưới, buồn nôn, tiểu đau, và tiểu ra máu.\n\n",
+    "dấu hiệu nhận biết của bệnh suy giáp":
+      "Dạ, nếu bạn bị suy giáp, có thể nhận biết qua: mệt mỏi, tăng cân, da khô, rụng tóc, và cảm thấy lạnh.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm amidan":
+      "Dạ, nếu bạn bị viêm amidan, các dấu hiệu có thể bao gồm: đau họng, sốt, hạch cổ sưng to, và khó nuốt.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm tai giữa":
+      "Dạ, nếu bạn bị viêm tai giữa, các dấu hiệu gồm: đau tai, sốt, giảm thính lực, và chảy mủ tai.\n\n",
+    "dấu hiệu nhận biết của bệnh mất ngủ":
+      "Dạ, nếu bạn bị mất ngủ, có thể nhận biết qua: khó ngủ, tỉnh giấc giữa đêm, không cảm thấy nghỉ ngơi đủ, và mệt mỏi vào ban ngày.\n\n",
+    "dấu hiệu nhận biết của bệnh suy nhược cơ thể":
+      "Dạ, nếu bạn bị suy nhược cơ thể, các dấu hiệu bao gồm: mệt mỏi, giảm cân, không thèm ăn, và dễ bị ốm.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm nhiễm đường tiết niệu":
+      "Dạ, nếu bạn bị viêm đường tiết niệu, có thể có các dấu hiệu như: đau khi tiểu, tiểu nhiều lần, tiểu ra máu, và đau bụng dưới.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm họng":
+      "Dạ, nếu bạn bị viêm họng, các triệu chứng bao gồm: đau rát họng, khó nuốt, ho khan, và sốt nhẹ.\n\n",
+    "dấu hiệu nhận biết của bệnh rối loạn tiêu hóa":
+      "Dạ, nếu bạn bị rối loạn tiêu hóa, có thể gặp các dấu hiệu như: đầy hơi, khó tiêu, buồn nôn, và đau bụng.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm da":
+      "Dạ, nếu bạn bị viêm da, có thể nhận biết qua: ngứa, mẩn đỏ, da khô, và phát ban.\n\n",
+    "dấu hiệu nhận biết của bệnh đau dạ dày":
+      "Dạ, nếu bạn bị đau dạ dày, có thể có các triệu chứng như: đau vùng thượng vị, buồn nôn, ợ hơi, và khó tiêu.\n\n",
+    "dấu hiệu nhận biết của bệnh dị ứng":
+      "Dạ, nếu bạn bị dị ứng, các dấu hiệu có thể bao gồm: hắt hơi, ngứa mắt, phát ban, và khó thở.\n\n",
+    "dấu hiệu nhận biết của bệnh huyết áp thấp":
+      "Dạ, nếu bạn bị huyết áp thấp, có thể nhận thấy qua các dấu hiệu: chóng mặt, mệt mỏi, đau đầu, và ngất xỉu.\n\n",
+    "dấu hiệu nhận biết của bệnh đau cơ":
+      "Dạ, nếu bạn bị đau cơ, các triệu chứng bao gồm: đau nhức cơ, mệt mỏi cơ, và giảm khả năng vận động.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm ruột":
+      "Dạ, nếu bạn bị viêm ruột, có thể nhận biết qua các dấu hiệu: đau bụng dưới, tiêu chảy, buồn nôn, và sốt.\n\n",
+    "dấu hiệu nhận biết của bệnh đau đầu":
+      "Dạ, nếu bạn bị đau đầu, có thể gặp các dấu hiệu như: đau vùng trán, buồn nôn, nhạy cảm với ánh sáng, và khó tập trung.\n\n",
+    "dấu hiệu nhận biết của bệnh sởi":
+      "Dạ, nếu bạn bị sởi, các dấu hiệu thường gặp là: sốt cao, phát ban đỏ, ho, và chảy nước mũi.\n\n",
+    "dấu hiệu nhận biết của bệnh quai bị":
+      "Dạ, nếu bạn bị quai bị, các dấu hiệu bao gồm: sưng đau tuyến mang tai, sốt, đau đầu, và mệt mỏi.\n\n",
+    "dấu hiệu nhận biết của bệnh thủy đậu":
+      "Dạ, nếu bạn bị thủy đậu, các dấu hiệu có thể là: sốt, phát ban dạng mụn nước, ngứa, và mệt mỏi.\n\n",
+    "dấu hiệu nhận biết của bệnh đau vai gáy":
+      "Dạ, nếu bạn bị đau vai gáy, có thể nhận thấy qua các dấu hiệu: đau nhức vùng vai và cổ, khó cử động, và cảm giác cứng khớp.\n\n",
+    "dấu hiệu nhận biết của bệnh béo phì":
+      "Dạ, nếu bạn bị béo phì, có thể nhận biết qua các dấu hiệu như: cân nặng vượt chuẩn, khó vận động, đau khớp, và thở gấp.\n\n",
+    "dấu hiệu nhận biết của bệnh mất trí nhớ":
+      "Dạ, nếu bạn bị mất trí nhớ, các dấu hiệu bao gồm: khó nhớ sự kiện, hay quên tên, khó tập trung, và mất phương hướng.\n\n",
+    "dấu hiệu nhận biết của bệnh chóng mặt":
+      "Dạ, nếu bạn bị chóng mặt, các triệu chứng có thể là: mất thăng bằng, buồn nôn, cảm giác quay cuồng, và mờ mắt.\n\n",
+    "dấu hiệu nhận biết của bệnh nhiễm trùng":
+      "Dạ, nếu bạn bị nhiễm trùng, các dấu hiệu thường là: sốt, sưng đau, đỏ da, và mệt mỏi.\n\n",
+    "dấu hiệu nhận biết của bệnh đau mắt đỏ":
+      "Dạ, nếu bạn bị đau mắt đỏ, các dấu hiệu có thể là: mắt đỏ, ngứa, chảy nước mắt, sưng mi mắt, và cảm giác cộm trong mắt.\n\n",
+    "dấu hiệu nhận biết của bệnh suy tim":
+      "Dạ, nếu bạn bị suy tim, có thể gặp các triệu chứng như: khó thở khi nằm, mệt mỏi, sưng phù chân và mắt cá, và nhịp tim không đều.\n\n",
+    "dấu hiệu nhận biết của bệnh đau nửa đầu":
+      "Dạ, nếu bạn bị đau nửa đầu, các triệu chứng có thể là: đau đầu dữ dội một bên, nhạy cảm với ánh sáng và âm thanh, buồn nôn, và nhìn mờ.\n\n",
+    "dấu hiệu nhận biết của bệnh thoái hóa khớp":
+      "Dạ, nếu bạn bị thoái hóa khớp, các dấu hiệu bao gồm: đau khớp, cứng khớp vào buổi sáng, mất linh hoạt, và sưng khớp.\n\n",
+    "dấu hiệu nhận biết của bệnh gút":
+      "Dạ, nếu bạn bị gút, các dấu hiệu thường là: đau dữ dội ở khớp ngón chân cái, sưng và đỏ khớp, cảm giác nóng ở khớp, và đau khớp ban đêm.\n\n",
+    "dấu hiệu nhận biết của bệnh u xơ tử cung":
+      "Dạ, nếu bạn bị u xơ tử cung, các triệu chứng có thể bao gồm: kinh nguyệt ra nhiều, đau bụng dưới, đau lưng, và tiểu khó.\n\n",
+    "dấu hiệu nhận biết của bệnh tiểu đêm":
+      "Dạ, nếu bạn bị tiểu đêm, các triệu chứng bao gồm: tiểu nhiều lần vào ban đêm, cảm giác tiểu gấp, và gián đoạn giấc ngủ.\n\n",
+    "dấu hiệu nhận biết của bệnh nhiễm trùng máu":
+      "Dạ, nếu bạn bị nhiễm trùng máu, các dấu hiệu có thể là: sốt cao, nhịp tim nhanh, khó thở, và mệt mỏi.\n\n",
+    "dấu hiệu nhận biết của bệnh xơ vữa động mạch":
+      "Dạ, nếu bạn bị xơ vữa động mạch, có thể gặp các dấu hiệu như: đau ngực, khó thở, nhịp tim không đều, và chóng mặt.\n\n",
+    "dấu hiệu nhận biết của bệnh viêm phế quản mãn tính":
+      "Dạ, nếu bạn bị viêm phế quản mãn tính, các triệu chứng bao gồm: ho kéo dài, có đờm, khó thở, và tức ngực.\n\n",
+    "dấu hiệu viêm loét dạ dày":
+      "Dạ, viêm loét dạ dày là tình trạng viêm nhiễm và tổn thương xảy ra ở niêm mạc dạ dày, dẫn đến sự hình thành những ổ loét. Một số dấu hiệu và triệu chứng phổ biến của viêm loét dạ dày bao gồm:" +
+      "1. Đau bụng vùng thượng vị: Cảm giác đau có thể xuất hiện trong các chu kỳ, thường đau khoảng 1-3 giờ sau khi ăn hoặc khi đói. Đau cũng có thể giảm đi khi ăn hoặc uống thuốc kháng acid." +
+      "2. Buồn nôn và nôn: Nhiều bệnh nhân cảm thấy buồn nôn hoặc có thể nôn, đôi khi có thể kèm theo thức ăn cũ." +
+      "3. Chán ăn: Mất cảm giác thèm ăn, thậm chí có thể dẫn đến giảm cân." +
+      "4. Cảm giác nóng rát: Cảm giác nóng rát hoặc ợ chua tại vùng bụng." +
+      "5. Ợ hơi, ợ chua: Cảm giác đầy bụng và ợ hơi sau khi ăn." +
+      "6. Tình trạng xuất huyết tiêu hóa: Các triệu chứng như nôn ra máu hoặc có máu trong phân (phân đen hoặc đỏ) là dấu hiệu nghiêm trọng và cần được xử trí nhanh chóng." +
+      "7. Cảm giác mệt mỏi: Mệt mỏi từ việc không ăn uống đầy đủ do đau dạ dày thường." +
+      "8. Các biến chứng có thể xảy ra: Nếu không được điều trị, viêm loét dạ dày có thể dẫn đến các vấn đề như thủng dạ dày, xuất huyết dạ dày, hay hẹp môn vị gây ra các triệu chứng nghiêm trọng hơn." +
+      "Nếu bạn có dấu hiệu nào trong số này, hãy tham khảo ý kiến bác sĩ để được kiểm tra và chẩn đoán chính xác. Điều trị kịp thời rất quan trọng để giảm thiểu nguy cơ biến chứng. Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "viêm loét dạ dày":
+      "Dạ, viêm loét dạ dày là tình trạng viêm nhiễm và tổn thương xảy ra ở niêm mạc dạ dày, dẫn đến sự hình thành những ổ loét. Một số dấu hiệu và triệu chứng phổ biến của viêm loét dạ dày bao gồm:" +
+      "1. Đau bụng vùng thượng vị: Cảm giác đau có thể xuất hiện trong các chu kỳ, thường đau khoảng 1-3 giờ sau khi ăn hoặc khi đói. Đau cũng có thể giảm đi khi ăn hoặc uống thuốc kháng acid." +
+      "2. Buồn nôn và nôn: Nhiều bệnh nhân cảm thấy buồn nôn hoặc có thể nôn, đôi khi có thể kèm theo thức ăn cũ." +
+      "3. Chán ăn: Mất cảm giác thèm ăn, thậm chí có thể dẫn đến giảm cân." +
+      "4. Cảm giác nóng rát: Cảm giác nóng rát hoặc ợ chua tại vùng bụng." +
+      "5. Ợ hơi, ợ chua: Cảm giác đầy bụng và ợ hơi sau khi ăn." +
+      "6. Tình trạng xuất huyết tiêu hóa: Các triệu chứng như nôn ra máu hoặc có máu trong phân (phân đen hoặc đỏ) là dấu hiệu nghiêm trọng và cần được xử trí nhanh chóng." +
+      "7. Cảm giác mệt mỏi: Mệt mỏi từ việc không ăn uống đầy đủ do đau dạ dày thường." +
+      "8. Các biến chứng có thể xảy ra: Nếu không được điều trị, viêm loét dạ dày có thể dẫn đến các vấn đề như thủng dạ dày, xuất huyết dạ dày, hay hẹp môn vị gây ra các triệu chứng nghiêm trọng hơn." +
+      "Nếu bạn có dấu hiệu nào trong số này, hãy tham khảo ý kiến bác sĩ để được kiểm tra và chẩn đoán chính xác. Điều trị kịp thời rất quan trọng để giảm thiểu nguy cơ biến chứng. Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "Dấu hiệu nhận biết của bệnh viêm loét dạ dày":
+      "Dạ, để giảm viêm loét dạ dày, bạn có thể thực hiện các biện pháp sau đây:\n\n" +
+      "1. Thay đổi chế độ ăn uống:\n" +
+      "   - Hạn chế thực phẩm kích thích: Tránh thức ăn cay, mặn, chua, đồ uống có caffeine, rượu, và thuốc lá, vì chúng có thể làm tăng tình trạng viêm loét.\n" +
+      "   - Ăn thức ăn dễ tiêu: Lựa chọn các thức ăn nhẹ, không làm kích thích dạ dày như cơm, cháo, súp, và các loại rau xanh nấu chín.\n" +
+      "   - Không ăn quá no hoặc để dạ dày rỗng: Nên chia thành nhiều bữa nhỏ trong ngày để dạ dày không bị quá tải.\n\n" +
+      "2. Sử dụng thuốc theo hướng dẫn của bác sĩ:\n" +
+      "   - Thuốc ức chế bơm proton (PPI): Những loại thuốc này giúp giảm sản xuất acid dạ dày, giúp làm giảm đau và thúc đẩy quá trình lành vết loét.\n" +
+      "   - Antacids: Các loại thuốc trung hòa acid có thể giúp giảm cơn đau tức thời.\n" +
+      "   - Kháng sinh: Nếu có sự hiện diện của Helicobacter pylori, bác sĩ có thể kê đơn kháng sinh để tiêu diệt vi khuẩn gây loét.\n\n" +
+      "3. Giảm stress:\n" +
+      "   - Tìm các phương pháp giảm stress như thiền, yoga, hoặc tập thể dục nhẹ nhàng, vì stress có thể làm tình trạng loét trở nên nghiêm trọng hơn.\n\n" +
+      "4. Thực hiện việc theo dõi và tái khám định kỳ:\n" +
+      "   - Điều quan trọng là bạn nên theo dõi tình trạng sức khỏe của mình và đi khám bác sĩ định kỳ để điều chỉnh phương pháp điều trị nếu cần.\n\n" +
+      "5. Thực hiện các biện pháp bảo vệ niêm mạc dạ dày:\n" +
+      "   - Cân nhắc việc sử dụng chất bổ sung như probiotics hoặc các sản phẩm hỗ trợ tiêu hóa nói chung, nếu bác sĩ khuyên bạn nên sử dụng.\n\n" +
+      "Nếu tình trạng viêm loét không được cải thiện hoặc có triệu chứng nghiêm trọng như đau dữ dội, nôn ra máu hay phân đen, bạn cần liên hệ ngay với bác sĩ để được xử trí kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "giảm viêm loét dạ dày":
+      "Dạ, để giảm viêm loét dạ dày, bạn có thể thực hiện các biện pháp sau đây:\n\n" +
+      "1. Thay đổi chế độ ăn uống:\n" +
+      "   - Hạn chế thực phẩm kích thích: Tránh thức ăn cay, mặn, chua, đồ uống có caffeine, rượu, và thuốc lá, vì chúng có thể làm tăng tình trạng viêm loét.\n" +
+      "   - Ăn thức ăn dễ tiêu: Lựa chọn các thức ăn nhẹ, không làm kích thích dạ dày như cơm, cháo, súp, và các loại rau xanh nấu chín.\n" +
+      "   - Không ăn quá no hoặc để dạ dày rỗng: Nên chia thành nhiều bữa nhỏ trong ngày để dạ dày không bị quá tải.\n\n" +
+      "2. Sử dụng thuốc theo hướng dẫn của bác sĩ:\n" +
+      "   - Thuốc ức chế bơm proton (PPI): Những loại thuốc này giúp giảm sản xuất acid dạ dày, giúp làm giảm đau và thúc đẩy quá trình lành vết loét.\n" +
+      "   - Antacids: Các loại thuốc trung hòa acid có thể giúp giảm cơn đau tức thời.\n" +
+      "   - Kháng sinh: Nếu có sự hiện diện của Helicobacter pylori, bác sĩ có thể kê đơn kháng sinh để tiêu diệt vi khuẩn gây loét.\n\n" +
+      "3. Giảm stress:\n" +
+      "   - Tìm các phương pháp giảm stress như thiền, yoga, hoặc tập thể dục nhẹ nhàng, vì stress có thể làm tình trạng loét trở nên nghiêm trọng hơn.\n\n" +
+      "4. Thực hiện việc theo dõi và tái khám định kỳ:\n" +
+      "   - Điều quan trọng là bạn nên theo dõi tình trạng sức khỏe của mình và đi khám bác sĩ định kỳ để điều chỉnh phương pháp điều trị nếu cần.\n\n" +
+      "5. Thực hiện các biện pháp bảo vệ niêm mạc dạ dày:\n" +
+      "   - Cân nhắc việc sử dụng chất bổ sung như probiotics hoặc các sản phẩm hỗ trợ tiêu hóa nói chung, nếu bác sĩ khuyên bạn nên sử dụng.\n\n" +
+      "Nếu tình trạng viêm loét không được cải thiện hoặc có triệu chứng nghiêm trọng như đau dữ dội, nôn ra máu hay phân đen, bạn cần liên hệ ngay với bác sĩ để được xử trí kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "Dấu hiệu nhận biết và cách kiểm soát bệnh tiểu đường":
+      "Dạ, để giảm tiểu đường và kiểm soát mức đường huyết, bạn có thể thực hiện một số biện pháp sau đây:\n\n" +
+      "1. Chế độ ăn uống lành mạnh:\n" +
+      "   - Hạn chế đường và tinh bột: Giảm tiêu thụ đường và các loại thực phẩm chứa tinh bột tinh chế như bánh mì trắng, gạo trắng, và đồ ngọt.\n" +
+      "   - Tăng cường thực phẩm giàu chất xơ: Ăn nhiều rau xanh, quả tươi và ngũ cốc nguyên hạt, vì chúng có thể giúp làm chậm quá trình tiêu hóa và hấp thụ đường.\n" +
+      "   - Đảm bảo chế độ ăn cân bằng: Bao gồm protein, chất béo lành mạnh và carbohydrate để duy trì mức năng lượng ổn định.\n\n" +
+      "2. Hoạt động thể chất:\n" +
+      "   - Tập thể dục thường xuyên, ít nhất 150 phút mỗi tuần. Các hoạt động như đi bộ, bơi lội, hoặc tập thể dục nhịp điệu rất hữu ích trong việc kiểm soát đường huyết.\n\n" +
+      "3. Theo dõi cân nặng:\n" +
+      "   - Giảm cân có thể giúp cải thiện độ nhạy insulin. Ngay cả một sự giảm cân nhẹ từ 5-10% trọng lượng cơ thể cũng có thể làm giảm nguy cơ phát triển bệnh tiểu đường.\n\n" +
+      "4. Kiểm soát căng thẳng:\n" +
+      "   - Căng thẳng có thể làm tăng lượng đường trong máu. Thực hành các kỹ thuật giảm căng thẳng như thiền, yoga, hoặc các bài tập hô hấp có thể hữu ích.\n\n" +
+      "5. Sử dụng thuốc theo chỉ định của bác sĩ:\n" +
+      "   - Nếu bạn đã được chẩn đoán có bệnh tiểu đường, việc sử dụng thuốc hoặc insulin theo hướng dẫn của bác sĩ là rất quan trọng để kiểm soát mức đường huyết.\n\n" +
+      "6. Kiểm tra thường xuyên:\n" +
+      "   - Theo dõi thường xuyên mức đường huyết của bạn để biết rõ tình hình sức khỏe và điều chỉnh chế độ ăn uống cũng như lối sống nếu cần thiết.\n\n" +
+      "7. Thực hiện thăm khám định kỳ:\n" +
+      "   - Đến bác sĩ thường xuyên để kiểm tra và điều chỉnh phương pháp điều trị nếu cần thiết.\n\n" +
+      "Nếu bạn có những triệu chứng hoặc lo ngại về tình trạng sức khỏe của mình, tốt nhất hãy thảo luận với bác sĩ để nhận được sự tư vấn và hỗ trợ kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "dấu hiệu nhận biết và cách kiểm soát bệnh tiểu đường":
+      "Dạ, để giảm tiểu đường và kiểm soát mức đường huyết, bạn có thể thực hiện một số biện pháp sau đây:\n\n" +
+      "1. Chế độ ăn uống lành mạnh:\n" +
+      "   - Hạn chế đường và tinh bột: Giảm tiêu thụ đường và các loại thực phẩm chứa tinh bột tinh chế như bánh mì trắng, gạo trắng, và đồ ngọt.\n" +
+      "   - Tăng cường thực phẩm giàu chất xơ: Ăn nhiều rau xanh, quả tươi và ngũ cốc nguyên hạt, vì chúng có thể giúp làm chậm quá trình tiêu hóa và hấp thụ đường.\n" +
+      "   - Đảm bảo chế độ ăn cân bằng: Bao gồm protein, chất béo lành mạnh và carbohydrate để duy trì mức năng lượng ổn định.\n\n" +
+      "2. Hoạt động thể chất:\n" +
+      "   - Tập thể dục thường xuyên, ít nhất 150 phút mỗi tuần. Các hoạt động như đi bộ, bơi lội, hoặc tập thể dục nhịp điệu rất hữu ích trong việc kiểm soát đường huyết.\n\n" +
+      "3. Theo dõi cân nặng:\n" +
+      "   - Giảm cân có thể giúp cải thiện độ nhạy insulin. Ngay cả một sự giảm cân nhẹ từ 5-10% trọng lượng cơ thể cũng có thể làm giảm nguy cơ phát triển bệnh tiểu đường.\n\n" +
+      "4. Kiểm soát căng thẳng:\n" +
+      "   - Căng thẳng có thể làm tăng lượng đường trong máu. Thực hành các kỹ thuật giảm căng thẳng như thiền, yoga, hoặc các bài tập hô hấp có thể hữu ích.\n\n" +
+      "5. Sử dụng thuốc theo chỉ định của bác sĩ:\n" +
+      "   - Nếu bạn đã được chẩn đoán có bệnh tiểu đường, việc sử dụng thuốc hoặc insulin theo hướng dẫn của bác sĩ là rất quan trọng để kiểm soát mức đường huyết.\n\n" +
+      "6. Kiểm tra thường xuyên:\n" +
+      "   - Theo dõi thường xuyên mức đường huyết của bạn để biết rõ tình hình sức khỏe và điều chỉnh chế độ ăn uống cũng như lối sống nếu cần thiết.\n\n" +
+      "7. Thực hiện thăm khám định kỳ:\n" +
+      "   - Đến bác sĩ thường xuyên để kiểm tra và điều chỉnh phương pháp điều trị nếu cần thiết.\n\n" +
+      "Nếu bạn có những triệu chứng hoặc lo ngại về tình trạng sức khỏe của mình, tốt nhất hãy thảo luận với bác sĩ để nhận được sự tư vấn và hỗ trợ kịp thời.\n\n" +
+      "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
   };
 
   for (const key in responses) {
