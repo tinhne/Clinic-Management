@@ -198,23 +198,23 @@ function analyzeInput(input) {
     "bác sĩ":
       "Mời bạn chọn bác sĩ hoặc đặt lịch khám nhanh để được hỗ trợ trực tiếp từ bác sĩ",
     "đau lưng":
-      "(Dạ, đau lưng là một triệu chứng khá phổ biến và có thể do nhiều nguyên nhân khác nhau. Một số nguyên nhân thường gặp có thể bao gồm:" +
+      "Dạ, đau lưng là một triệu chứng khá phổ biến và có thể do nhiều nguyên nhân khác nhau. Một số nguyên nhân thường gặp có thể bao gồm:" +
       "1. Căng cơ hoặc chấn thương: Do vận động quá sức hoặc thực hiện các động tác sai tư thế." +
       "2. Thay đổi cấu trúc cột sống: Như thoát vị đĩa đệm, thoái hóa hoặc sai lệch đốt sống." +
       "3. Bệnh lý về nội tạng: Đôi khi, đau lưng có thể liên quan đến các bệnh như bệnh thận hoặc bệnh phụ khoa ở nữ giới." +
       "4. Tư thế: Ngồi hoặc đứng không đúng tư thế trong thời gian dài có thể gây ra đau lưng." +
       "5. Stress và căng thẳng: Tình trạng thần kinh căng thẳng cũng có thể góp phần vào cảm giác đau lưng." +
       "Nếu cơn đau kéo dài, ngày càng nghiêm trọng hoặc đi kèm với triệu chứng khác như khó thở, tê cứng tay chân, bạn nên tìm gặp bác sĩ để khám và chẩn đoán rõ hơn. Bác sĩ có thể yêu cầu các xét nghiệm hoặc chẩn đoán hình ảnh để xác định nguyên nhân chính xác và đưa ra phương pháp điều trị phù hợp." +
-      "Ngoài ra, việc nghỉ ngơi hợp lý, tập thể dục đều đặn và giữ tư thế đúng cũng giúp giảm bớt triệu chứng đau lưng. Dạ, bạn nhớ chú ý chăm sóc bản thân và theo dõi tình trạng sức khỏe nhé!)",
+      "Ngoài ra, việc nghỉ ngơi hợp lý, tập thể dục đều đặn và giữ tư thế đúng cũng giúp giảm bớt triệu chứng đau lưng. Dạ, bạn nhớ chú ý chăm sóc bản thân và theo dõi tình trạng sức khỏe nhé!",
     "đau ngực":
-      "(Dạ, đau ngực là một triệu chứng cần được chú ý vì nó có thể liên quan đến nhiều vấn đề sức khỏe khác nhau, từ những điều không nghiêm trọng đến những bệnh lý nghiêm trọng như bệnh tim. Để hiểu rõ hơn về đau ngực, chúng ta có thể phân loại và xem xét một số nguyên nhân như sau:" +
+      "Dạ, đau ngực là một triệu chứng cần được chú ý vì nó có thể liên quan đến nhiều vấn đề sức khỏe khác nhau, từ những điều không nghiêm trọng đến những bệnh lý nghiêm trọng như bệnh tim. Để hiểu rõ hơn về đau ngực, chúng ta có thể phân loại và xem xét một số nguyên nhân như sau:" +
       "1. Cơn đau thắt ngực: Thường do bệnh tim thiếu máu cục bộ mạn tính. Cơn đau này có thể xảy ra sau khi gắng sức hoặc khi có căng thẳng cảm xúc. Đau thường cảm nhận ở vùng sau xương ức, có thể lan ra cổ, vai, tay, và lưng. Khó thở, mệt mỏi, và các triệu chứng như buồn nôn hoặc vã mồ hôi có thể đi kèm. Thời gian cơn đau thường kéo dài từ vài phút đến 30 phút." +
       "2. Các nguyên nhân khác:" +
       "   - Bệnh lý phổi: Như viêm phổi hoặc thuyên tắc phổi có thể gây đau ngực." +
       "   - Vấn đề tiêu hóa: Như trào ngược dạ dày thực quản (GERD) có thể gây cảm giác đau và nóng rát trong ngực." +
       "   - Căng cơ hoặc chấn thương: Có thể gây đau ngực do chấn thương vùng ngực hoặc căng cơ do hoạt động." +
       "   - Stress hoặc lo âu: Kiểu đau này có thể làm bệnh nhân cảm thấy áp lực và khó thở." +
-      "Nếu bạn gặp triệu chứng đau ngực kéo dài, kèm theo khó thở, mệt mỏi, hoặc các triệu chứng khác nghiêm trọng hơn như đổ mồ hôi lạnh, chóng mặt, bạn nên tìm đến bác sĩ ngay lập tức để được khám và chẩn đoán chính xác. Một cuộc kiểm tra bệnh lý phù hợp sẽ giúp định nghĩa nguyên nhân và có biện pháp điều trị thích hợp cho bạn.)",
+      "Nếu bạn gặp triệu chứng đau ngực kéo dài, kèm theo khó thở, mệt mỏi, hoặc các triệu chứng khác nghiêm trọng hơn như đổ mồ hôi lạnh, chóng mặt, bạn nên tìm đến bác sĩ ngay lập tức để được khám và chẩn đoán chính xác. Một cuộc kiểm tra bệnh lý phù hợp sẽ giúp định nghĩa nguyên nhân và có biện pháp điều trị thích hợp cho bạn.",
     "chóng mặt":
       "Dạ, chóng mặt là cảm giác mất cân bằng hoặc xoay chuyển có thể xảy ra trong nhiều tình huống khác nhau. Đây là một triệu chứng mà nhiều người gặp phải trong cuộc sống hàng ngày và có thể do nhiều nguyên nhân khác nhau, như:" +
       "1. Rối loạn tai trong: Tai trong giữ vai trò quan trọng trong việc duy trì cân bằng. Các vấn đề như viêm tai trong (labyrinthitis), bệnh Meniere hay chóng mặt tư thế kịch phát lành tính (BPPV) có thể gây ra triệu chứng chóng mặt." +
@@ -918,12 +918,74 @@ function analyzeInput(input) {
       "2. Vệ sinh cá nhân tốt: Rửa tay thường xuyên để ngăn ngừa nhiễm trùng.\n" +
       "3. Tránh tiếp xúc với khói thuốc lá: Giảm thiểu nguy cơ mắc bệnh cho trẻ em.\n\n" +
       "Viêm tai giữa nếu không được phát hiện và điều trị kịp thời có thể dẫn đến các biến chứng nghiêm trọng như tắc nghẽn đường nghe, mất thính lực tạm thời hoặc vĩnh viễn. Nếu bạn hoặc người thân có triệu chứng viêm tai giữa, hãy tìm kiếm sự chăm sóc y tế ngay lập tức. Nếu bạn cần thêm thông tin, hãy cho tôi biết!",
-    "dấu hiệu nhận biết của bệnh mất ngủ":
+    "bệnh mất ngủ":
       "Dạ, nếu bạn bị mất ngủ, có thể nhận biết qua: khó ngủ, tỉnh giấc giữa đêm, không cảm thấy nghỉ ngơi đủ, và mệt mỏi vào ban ngày.\n\n",
+    "suy nhược cơ thể":
+      "Dạ, suy nhược cơ thể là một tình trạng bệnh lý mà cơ thể không còn đủ sức khỏe và năng lượng để hoạt động bình thường. Tình trạng này không chỉ liên quan đến thể chất mà còn có thể ảnh hưởng đến tâm lý, cảm xúc và khả năng làm việc hàng ngày của người bệnh. Dưới đây là các thông tin chi tiết về suy nhược cơ thể:\n\n" +
+      "Nguyên nhân:\n\n" +
+      "1. Thiếu dinh dưỡng: Không cung cấp đủ calo và các dưỡng chất cần thiết cho cơ thể có thể dẫn đến suy nhược.\n" +
+      "2. Bệnh lý nền: Các bệnh lý mãn tính như bệnh tiểu đường, bệnh tim mạch, bệnh lý hô hấp hoặc bệnh lý thận có thể gây ra hiện tượng suy nhược.\n" +
+      "3. Stress tâm lý: Căng thẳng, lo âu và trầm cảm là những yếu tố tâm lý có thể làm giảm năng lượng và sức khỏe tổng thể.\n" +
+      "4. Sự suy giảm hormone: Sự thay đổi các hormone trong cơ thể, đặc biệt là trong thời gian mãn kinh, có thể góp phần vào tình trạng suy nhược.\n" +
+      "5. Mất nước: Thiếu nước có thể gây ra tình trạng mệt mỏi và suy yếu.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Mệt mỏi kéo dài: Là triệu chứng phổ biến, cảm giác không thể hồi phục dù đã nghỉ ngơi.\n" +
+      "- Giảm cân không rõ nguyên nhân: Điều này có thể xảy ra do mất tập trung vào việc ăn uống hoặc sự thèm ăn giảm.\n" +
+      "- Chán ăn: Không cảm thấy muốn ăn cũng là một dấu hiệu của suy nhược.\n" +
+      "- Khó khăn trong việc tập trung: Trạng thái tinh thần không minh mẫn, khó khăn trong việc ra quyết định hoặc tập trung vào công việc.\n" +
+      "- Rối loạn giấc ngủ: Ngủ không sâu hoặc mất ngủ có thể diễn ra trong tình trạng này.\n" +
+      "- Cảm giác yếu đuối: Cảm giác cơ thể không đủ sức lực để thực hiện các hoạt động hàng ngày.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "- Khám lâm sàng: Bác sĩ sẽ hỏi về các triệu chứng, tiền sử bệnh và thói quen sinh hoạt của bạn.\n" +
+      "- Xét nghiệm máu: Để kiểm tra các chỉ số như nồng độ hemoglobin, vitamin, hormone và các tình trạng bệnh lý khác.\n" +
+      "- Đánh giá tâm lý: Có thể cần kiểm tra để đánh giá mức độ stress hoặc các vấn đề tâm lý khác.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Thay đổi chế độ ăn uống:\n" +
+      "   - Bổ sung dinh dưỡng đầy đủ: Đảm bảo chế độ ăn có đủ các nhóm thực phẩm cần thiết như protein, vitamin và khoáng chất.\n" +
+      "   - Uống đủ nước: Đảm bảo cơ thể được cung cấp đủ nước hàng ngày.\n\n" +
+      "2. Tập luyện thể chất:\n" +
+      "   - Điều chỉnh lối sống bằng cách tập thể dục nhẹ nhàng sẽ giúp cải thiện sức khỏe tổng quát.\n" +
+      "   - Hạn chế căng thẳng: Cử chỉ yoga hoặc thiền có thể giúp thư giãn tinh thần.\n\n" +
+      "3. Điều trị bệnh lý nền:\n" +
+      "   - Nếu có các vấn đề sức khỏe khác, bác sĩ có thể chỉ định điều trị phù hợp để cải thiện tình trạng suy nhược.\n\n" +
+      "4. Tư vấn tâm lý:\n" +
+      "   - Nếu suy nhược liên quan đến stress, lo âu hoặc trầm cảm, tư vấn tâm lý hoặc liệu pháp tâm lý có thể cần thiết.\n\n" +
+      "Nếu bạn hoặc người thân gặp phải triệu chứng suy nhược, hãy tìm kiếm sự tư vấn y tế để được kiểm tra và điều trị kịp thời. Nếu bạn cần thêm thông tin hoặc có câu hỏi khác, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh suy nhược cơ thể":
       "Dạ, nếu bạn bị suy nhược cơ thể, các dấu hiệu bao gồm: mệt mỏi, giảm cân, không thèm ăn, và dễ bị ốm.\n\n",
     "dấu hiệu nhận biết của bệnh viêm nhiễm đường tiết niệu":
       "Dạ, nếu bạn bị viêm đường tiết niệu, có thể có các dấu hiệu như: đau khi tiểu, tiểu nhiều lần, tiểu ra máu, và đau bụng dưới.\n\n",
+    "viêm đường tiết niệu":
+      "Dạ, viêm đường tiết niệu (VDTNI) là một nhiễm trùng khá phổ biến, ảnh hưởng đến một phần hoặc toàn bộ đường tiết niệu, bao gồm thận, niệu quản, bàng quang và niệu đạo. Dưới đây là thông tin chi tiết về tình trạng này:\n\n" +
+      "Nguyên nhân:\n\n" +
+      "- Vi khuẩn: Nguyên nhân hàng đầu của VDTNI thường là do vi khuẩn, cụ thể là E. coli, chiếm gần 80-90% các ca nhiễm. Ngoài ra, các vi khuẩn khác như Klebsiella, Proteus và Enterobacter cũng có thể gây bệnh.\n" +
+      "- Nấm: Trong một số trường hợp, nhiễm nấm, nhất là Candida, cũng có thể là nguyên nhân gây VDTNI.\n" +
+      "- Virus và ký sinh trùng: Mặc dù ít phổ biến hơn, nhưng cũng có thể xảy ra.\n" +
+      "- Yếu tố khác: Sự tắc nghẽn đường tiết niệu, sỏi thận, hoặc các dị tật bẩm sinh cũng có thể tăng nguy cơ nhiễm bệnh.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Tiểu đau, tiểu buốt: Cảm giác đau hoặc khó chịu khi tiểu tiện.\n" +
+      "- Tiểu nhiều lần: Nhu cầu tiểu tiện thường xuyên nhưng chỉ tiểu ít mỗi lần.\n" +
+      "- Nước tiểu có mùi hôi: Thường có sự thay đổi mùi do nhiễm trùng.\n" +
+      "- Đau vùng bụng dưới hoặc lưng: Cảm giác đau hoặc khó chịu trong vùng bụng dưới và thắt lưng.\n" +
+      "- Sốt: Có thể xuất hiện sốt hoặc những cơn ớn lạnh trong các trường hợp nghiêm trọng.\n" +
+      "- Mệt mỏi cơ thể: Cảm thấy mệt mỏi và không thoải mái.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "- Khám lâm sàng: Bác sĩ sẽ thu thập thông tin về triệu chứng và tiền sử bệnh.\n" +
+      "- Xét nghiệm nước tiểu: Xét nghiệm nước tiểu sẽ giúp phát hiện sự hiện diện của vi khuẩn, bạch cầu và hồng cầu.\n" +
+      "- Nuôi cấy nước tiểu: Để xác định loại vi khuẩn gây bệnh và kiểm tra độ nhạy cảm với kháng sinh.\n" +
+      "- Hình ảnh học: Siêu âm có thể được chỉ định để kiểm tra các vấn đề khác như sỏi hoặc u trong đường tiết niệu.\n\n" +
+      "Điều trị:\n\n" +
+      "- Kháng sinh: Điều trị chính cho VDTNI là dùng kháng sinh. Thời gian điều trị thường kéo dài từ 3 đến 7 ngày tùy vào mức độ nghiêm trọng.\n" +
+      "- Điều trị triệu chứng: Sử dụng thuốc giảm đau và thuốc chống viêm để giảm đau và khó chịu.\n" +
+      "- Uống nhiều nước: Tăng lượng nước uống để giúp đẩy lùi các vi khuẩn ra khỏi đường tiết niệu.\n\n" +
+      "Phòng ngừa:\n\n" +
+      "- Uống nhiều nước: Để đảm bảo nước tiểu không quá đặc và giúp đào thải vi khuẩn.\n" +
+      "- Vệ sinh cá nhân: Vệ sinh sạch sẽ vùng sinh dục, đặc biệt là sau khi quan hệ tình dục.\n" +
+      "- Tránh giữ tiểu lâu: Cố gắng đi tiểu thường xuyên và không để nước tiểu tích tụ lâu ngày.\n\n" +
+      "Biến chứng:\n\n" +
+      "- Viêm thận: Có thể dẫn đến suy thận nếu không được điều trị.\n" +
+      "- Nhiễm trùng huyết: Một tình trạng nguy hiểm đến tính mạng.\n\n" +
+      "Nếu bạn hoặc người thân có triệu chứng của viêm đường tiết niệu, hãy liên hệ với bác sĩ để được chẩn đoán và điều trị kịp thời. Nếu bạn cần thêm thông tin, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh viêm họng":
       "Dạ, nếu bạn bị viêm họng, các triệu chứng bao gồm: đau rát họng, khó nuốt, ho khan, và sốt nhẹ.\n\n",
     "dấu hiệu nhận biết của bệnh rối loạn tiêu hóa":
@@ -978,14 +1040,57 @@ function analyzeInput(input) {
       "Phòng ngừa:\n\n" +
       "Duy trì chế độ ăn uống cân đối, tập luyện thể dục thường xuyên, kiểm soát căng thẳng và hình thành thói quen sinh hoạt lành mạnh có thể giúp phòng ngừa béo phì.\n\n" +
       "Nếu bạn có thêm câu hỏi nào khác về vấn đề này hoặc cần tư vấn cụ thể hơn, hãy cho tôi biết!",
+    "phòng ngừa ung thư":
+      "Ngăn ngừa bệnh ung thư là một quá trình bao gồm nhiều yếu tố khác nhau. Dưới đây là một số cách để giảm nguy cơ mắc phải bệnh ung thư:\n\n" +
+      "1. Chế độ ăn uống lành mạnh:\n\n" +
+      "- Ăn nhiều trái cây và rau xanh: Các thực phẩm này chứa nhiều vitamin, khoáng chất và chất xơ, có khả năng chống oxy hóa giúp phòng ngừa ung thư.\n" +
+      "- Giảm tiêu thụ thực phẩm chế biến sẵn: Hạn chế các loại thực phẩm có nhiều đường, chất béo bão hòa và natri có thể làm tăng nguy cơ ung thư.\n" +
+      "- Hạn chế thịt đỏ và thịt chế biến sẵn: Một số nghiên cứu cho thấy việc tiêu thụ nhiều thịt đỏ và thịt chế biến sẵn có liên quan đến ung thư ruột kết.\n\n" +
+      "2. Tập thể dục thường xuyên:\n\n" +
+      "- Tập thể dục ít nhất 150 phút mỗi tuần: Các hoạt động thể chất có thể giúp duy trì cân nặng khỏe mạnh, giảm nguy cơ mắc ung thư.\n\n" +
+      "3. Kiểm soát trọng lượng cơ thể:\n\n" +
+      "- Giữ cân nặng trong mức hợp lý: Béo phì và thừa cân có thể làm tăng nguy cơ ung thư, như ung thư vú, ung thư đại trực tràng và ung thư tử cung.\n\n" +
+      "4. Hạn chế tiêu thụ rượu:\n\n" +
+      "- Giới hạn uống rượu: Tiêu thụ rượu có thể làm tăng nguy cơ mắc nhiều loại ung thư, đặc biệt là ung thư vú và ung thư gan.\n\n" +
+      "5. Tránh thuốc lá:\n\n" +
+      "- Không hút thuốc và tránh thuốc lá thụ động: Hút thuốc lá là nguyên nhân chính gây ra nhiều loại ung thư, bao gồm ung thư phổi, ung thư miệng và ung thư thực quản.\n\n" +
+      "6. Bảo vệ khỏi ánh nắng mặt trời:\n\n" +
+      "- Sử dụng kem chống nắng: Bảo vệ da khỏi tia UV có thể giúp giảm nguy cơ ung thư da.\n" +
+      "- Tránh tắm nắng và sử dụng giường tắm nắng: Hạn chế thời gian tiếp xúc với ánh nắng mạnh, đặc biệt vào giữa trưa.\n\n" +
+      "7. Thực hiện các xét nghiệm tầm soát định kỳ:\n\n" +
+      "- Tham gia các chương trình tầm soát ung thư: Khi phát hiện sớm những dấu hiệu bất thường, việc điều trị và quản lý bệnh có thể hiệu quả hơn.\n\n" +
+      "8. Tiêm vắc xin:\n\n" +
+      "- Tiêm vắc xin phòng ngừa một số loại ung thư: Ví dụ, vắc xin HPV có thể giúp ngăn ngừa ung thư cổ tử cung và vắc xin viêm gan B giúp ngăn ngừa ung thư gan.\n\n" +
+      "9. Tránh các yếu tố nguy cơ môi trường:\n\n" +
+      "- Giảm tiếp xúc với hóa chất độc hại: Hạn chế tiếp xúc với các hóa chất độc hại tại nơi làm việc và trong đời sống hàng ngày.\n\n" +
+      "Việc kết hợp nhiều phương pháp phòng ngừa sẽ mang lại hiệu quả cao trong việc giảm nguy cơ mắc ung thư. Nếu bạn có bất kỳ câu hỏi nào khác hoặc cần thêm thông tin, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh mất trí nhớ":
       "Dạ, nếu bạn bị mất trí nhớ, các dấu hiệu bao gồm: khó nhớ sự kiện, hay quên tên, khó tập trung, và mất phương hướng.\n\n",
     "dấu hiệu nhận biết của bệnh chóng mặt":
       "Dạ, nếu bạn bị chóng mặt, các triệu chứng có thể là: mất thăng bằng, buồn nôn, cảm giác quay cuồng, và mờ mắt.\n\n",
     "dấu hiệu nhận biết của bệnh nhiễm trùng":
       "Dạ, nếu bạn bị nhiễm trùng, các dấu hiệu thường là: sốt, sưng đau, đỏ da, và mệt mỏi.\n\n",
+    "lây viêm gan B":
+      "Viêm gan B (VGVR B) là một bệnh lý do virus viêm gan B (HBV) gây ra, và nó có khả năng lây lan rất cao. Dưới đây là các thông tin cơ bản về con đường lây truyền và biện pháp phòng ngừa:\n\n" +
+      "1. Con đường lây truyền:\n\n" +
+      "- Quan hệ tình dục không an toàn: Virus có thể lây truyền qua tiếp xúc với dịch cơ thể của người nhiễm bệnh, đặc biệt là qua đường tình dục không an toàn.\n" +
+      "- Truyền máu: Virus có thể lây qua việc truyền máu hoặc tiếp xúc với các chế phẩm máu bị nhiễm HBV.\n" +
+      "- Từ mẹ sang con: Phụ nữ mang thai bị nhiễm virus có thể truyền virus cho con khi sinh.\n" +
+      "- Dụng cụ nhiễm bệnh: Sử dụng chung các dụng cụ xuyên chích như kim tiêm, dụng cụ xăm mình bị nhiễm virus.\n\n" +
+      "2. Biện pháp phòng ngừa:\n\n" +
+      "- Tiêm vắc xin: Vắc xin viêm gan B là biện pháp hiệu quả nhất để ngăn ngừa lây nhiễm.\n" +
+      "- Thực hiện an toàn tình dục: Sử dụng bao cao su và hạn chế quan hệ tình dục không an toàn.\n" +
+      "- Tránh chia sẻ dụng cụ: Không sử dụng chung kim tiêm, dao cạo hoặc các dụng cụ có thể tiếp xúc với máu.\n" +
+      "- Thực hiện xét nghiệm định kỳ: Đặc biệt là đối với những người có nguy cơ cao, để phát hiện sớm tình trạng nhiễm HBV và thực hiện điều trị nếu cần thiết.\n\n" +
+      "Lưu ý: Viêm gan B là một vấn đề sức khỏe nghiêm trọng nhưng có thể phòng ngừa được thông qua các biện pháp trên. Nếu bạn có thêm câu hỏi hoặc cần thông tin chi tiết hơn, hãy cho tôi biết!",
     "dấu hiệu nhận biết của bệnh đau mắt đỏ":
       "Dạ, nếu bạn bị đau mắt đỏ, các dấu hiệu có thể là: mắt đỏ, ngứa, chảy nước mắt, sưng mi mắt, và cảm giác cộm trong mắt.\n\n",
+    "đau mắt đỏ":
+      "Dạ, đau mắt đỏ, hay còn gọi là bệnh viêm kết mạc, là tình trạng phổ biến khi màng kết mạc - lớp màng mỏng bảo vệ mắt - bị viêm nhiễm. Dưới đây là những dấu hiệu và triệu chứng thường gặp của đau mắt đỏ:\n\n" +
+      "Dấu hiệu đau mắt đỏ:\n1.    Mắt đỏ   : Màu trắng của mắt sẽ trở nên đỏ do sự giãn nở của mạch máu ở kết mạc.\n2.    Ngứa và rát   : Cảm giác ngứa hay rát có thể xảy ra, làm cho người bệnh có xu hướng dụi mắt.\n3.    Chảy nước mắt   : Có thể bị chảy nước mắt nhiều hoặc ít, nhưng thường là tình trạng tăng tiết nước mắt.\n4.    Chảy dịch   : Có thể thấy dịch nhầy hoặc dịch mủ từ mắt, tùy thuộc vào nguyên nhân gây viêm.\n5.    Nhạy cảm với ánh sáng   : Một số người có thể cảm thấy khó chịu với ánh sáng, gọi là nhạy cảm ánh sáng.\n6.    Mùi hôi   : Có thể có mùi hôi từ dịch chảy ra từ mắt.\n7.    Sưng mí mắt   : Mi mắt có thể sưng húp, gây khó khăn trong việc mở mắt.\n8.    Rối loạn thị lực   : Trong trường hợp viêm nặng, có thể thấy mờ hoặc giảm thị lực tạm thời.\n\n" +
+      "Nguyên nhân:\n-    Nhiễm trùng   : Viêm do virus (như virus cúm) hoặc vi khuẩn (như vi khuẩn tụ cầu vàng).\n-    Dị ứng   : Dị ứng với phấn hoa, bụi, lông thú cưng hoặc hóa chất có thể gây viêm kết mạc dị ứng.\n-    Kích thích   : Do tiếp xúc với các chất kích thích như khói thuốc, bụi bẩn, hoặc hóa chất.\n\n" +
+      "Khi nào cần đi khám bác sĩ?\n- Triệu chứng kéo dài hơn 3 ngày.\n- Có dấu hiệu đau nhức mắt nặng, đặc biệt là khi nhìn vào ánh sáng.\n- Có vấn đề nghiêm trọng về thị lực.\n- Mí mắt sưng húp nhiều hoặc có mủ chảy ra.\n- Trước đó đã có chấn thương mắt.\n\n" +
+      "Để điều trị đau mắt đỏ, bạn cần xác định nguyên nhân gây ra tình trạng này. Nếu do nhiễm khuẩn, có thể cần thuốc kháng sinh, trong khi trường hợp dị ứng có thể muốn dùng thuốc kháng histamin. Nếu bạn gặp dấu hiệu đau mắt đỏ, hãy đến bác sĩ để được tư vấn và điều trị kịp thời.",
     "dấu hiệu nhận biết của bệnh suy tim":
       "Dạ, nếu bạn bị suy tim, có thể gặp các triệu chứng như: khó thở khi nằm, mệt mỏi, sưng phù chân và mắt cá, và nhịp tim không đều.\n\n",
     "dấu hiệu nhận biết của bệnh đau nửa đầu":
@@ -1230,6 +1335,186 @@ function analyzeInput(input) {
       "Lời khuyên:\n\n" +
       "Nếu bạn gặp phải triệu chứng viêm khớp, hãy tìm kiếm sự tư vấn từ bác sĩ chuyên khoa để được chẩn đoán và điều trị đúng cách.\n\n" +
       "Dạ, hy vọng thông tin này sẽ giúp ích cho bạn trong việc hiểu biết về viêm khớp!",
+    "tiểu đường loại 1":
+      "Dạ, bệnh tiểu đường type 1, hay còn gọi là tiểu đường phụ thuộc insulin, là một rối loạn chuyển hóa mạn tính do cơ thể không sản xuất đủ insulin. Thường gặp ở trẻ em và thanh thiếu niên, nhưng có thể xảy ra ở mọi độ tuổi.\n\n" +
+      "Nguyên nhân: Bệnh có thể do di truyền, tự miễn dịch khi hệ miễn dịch tấn công các tế bào sản xuất insulin trong tuyến tụy, hoặc các yếu tố môi trường như virus.\n\n" +
+      "Triệu chứng: Bao gồm khát nước nhiều, tiểu nhiều, mệt mỏi, giảm cân không rõ nguyên nhân, đói thường xuyên, nhìn mờ, và có thể nhiễm keton với triệu chứng như buồn nôn, nôn, và đau bụng.\n\n" +
+      "Chẩn đoán: Dựa vào xét nghiệm glucose huyết tương, HbA1c, và kiểm tra kháng thể.\n\n" +
+      "Điều trị: Bao gồm tiêm insulin hàng ngày, duy trì chế độ ăn uống và luyện tập hợp lý, theo dõi đường huyết thường xuyên, và hiểu rõ về bệnh để quản lý tốt.\n\n" +
+      "Phòng ngừa: Hiện chưa có cách phòng ngừa, nhưng hiểu rõ triệu chứng và điều trị kịp thời có thể giúp sống khỏe mạnh.\n\n" +
+      "Nếu bạn có thêm câu hỏi hoặc cần thông tin chi tiết hơn, hãy cho tôi biết!",
+    "tiểu đường loại 2":
+      "Dạ, bệnh tiểu đường type 2, hay còn gọi là tiểu đường không phụ thuộc insulin, là tình trạng rối loạn mạn tính do kháng insulin và giảm tiết insulin từ tuyến tụy. Bệnh phổ biến ở người lớn tuổi, nhưng cũng xuất hiện ở trẻ em và thanh thiếu niên.\n\n" +
+      "Nguyên nhân: Bao gồm yếu tố di truyền, thừa cân hoặc béo phì, lối sống ít vận động, chế độ ăn uống không lành mạnh, và nguy cơ tăng theo tuổi tác.\n\n" +
+      "Triệu chứng: Khát nước nhiều, tiểu nhiều, mệt mỏi, đói nhiều, nhìn mờ, da khô và ngứa, vết thương lâu lành.\n\n" +
+      "Chẩn đoán: Dựa vào xét nghiệm glucose huyết tương, HbA1c, và glucose ngẫu nhiên để đo nồng độ đường trong máu.\n\n" +
+      "Điều trị: Thay đổi lối sống như chế độ ăn lành mạnh, tập thể dục thường xuyên, dùng thuốc hoặc insulin khi cần, và theo dõi đường huyết định kỳ.\n\n" +
+      "Phòng ngừa: Duy trì lối sống lành mạnh, ăn uống cân bằng, tập thể dục thường xuyên, và kiểm tra sức khỏe định kỳ để phát hiện sớm nguy cơ mắc bệnh.\n\n" +
+      "Nếu bạn cần thêm thông tin hoặc tư vấn, hãy cho tôi biết nhé!",
+    "tim mạch vành":
+      "Dạ, bệnh tim mạch vành, hay còn gọi là bệnh động mạch vành (CAD - Coronary Artery Disease), là một tình trạng nghiêm trọng xảy ra khi các động mạch cung cấp máu cho tim bị thu hẹp hoặc tắc nghẽn do xơ vữa động mạch.\n\n" +
+      "Nguyên nhân: Gồm tăng huyết áp, hút thuốc lá, đái tháo đường, thừa cân béo phì, lối sống ít vận động, và yếu tố di truyền.\n\n" +
+      "Triệu chứng: Đau thắt ngực, khó thở, mệt mỏi, tim đập nhanh hoặc không đều. Triệu chứng có thể không rõ ràng ở giai đoạn đầu.\n\n" +
+      "Chẩn đoán: Bao gồm điện tâm đồ (ECG), siêu âm tim, chụp X-quang hoặc CT động mạch vành, và xét nghiệm máu để đánh giá nguy cơ.\n\n" +
+      "Điều trị: Thay đổi lối sống, dùng thuốc hạ huyết áp, kiểm soát cholesterol, và trong trường hợp nặng có thể cần đặt stent hoặc phẫu thuật bắc cầu động mạch vành.\n\n" +
+      "Phòng ngừa: Thực hiện chế độ ăn uống lành mạnh, tập thể dục đều đặn, kiểm soát cân nặng và huyết áp, tránh hút thuốc lá và quản lý căng thẳng.\n\n" +
+      "Bệnh tim mạch vành có thể phòng ngừa và kiểm soát hiệu quả qua thay đổi lối sống và điều trị kịp thời. Nếu bạn cần thêm thông tin hoặc tư vấn, đừng ngần ngại hỏi nhé!",
+    "tim bẩm sinh":
+      "Dạ, bệnh tim bẩm sinh là một dị tật xảy ra ở tim trong giai đoạn phát triển thai nhi. Đây là một bệnh lý nghiêm trọng nhưng có thể điều trị để cải thiện chất lượng cuộc sống.\n\n" +
+      "Nguyên nhân: Có thể do yếu tố di truyền, môi trường, hoặc tình trạng sức khỏe của mẹ như tiểu đường, cao huyết áp, nhiễm trùng khi mang thai, hoặc việc tiếp xúc với rượu và thuốc lá.\n\n" +
+      "Phân loại: \n1.  Bệnh tím (Cyanotic heart defects) : Gây tím tái do máu thiếu oxy (ví dụ: tứ chứng Fallot).\n2.  Bệnh không tím (Acyanotic heart defects) : Không gây tím tái nhưng ảnh hưởng cấu trúc tim (ví dụ: thông liên thất, thông liên nhĩ).\n\n" +
+      "Triệu chứng: Gồm da tím tái, khó thở, mệt mỏi, phù nề, và hồi hộp.\n\n" +
+      "Chẩn đoán: Thông qua khám lâm sàng, siêu âm tim, X-quang ngực, và điện tâm đồ (ECG).\n\n" +
+      "Điều trị: \n- Theo dõi: Áp dụng cho trường hợp nhẹ.\n- Thay đổi lối sống: Kết hợp chế độ ăn uống và tập luyện.\n- Thuốc: Kiểm soát triệu chứng và hỗ trợ tim.\n- Phẫu thuật: Sửa chữa dị tật trong trường hợp nghiêm trọng.\n\n" +
+      "Phòng ngừa: Đảm bảo sức khỏe trước và trong thai kỳ, tiêm phòng bệnh rubella, và kiểm soát các bệnh lý mãn tính như tiểu đường.\n\n" +
+      "Nếu bạn cần thêm thông tin hoặc hỗ trợ, hãy cho tôi biết nhé!",
+    "hen phế quản":
+      "Dạ, bệnh hen phế quản, hay hen suyễn, là tình trạng mãn tính của đường hô hấp, trong đó đường thở bị viêm và hẹp lại, làm cản trở sự lưu thông của không khí.\n\n" +
+      "Nguyên nhân: Thường do nhạy cảm miễn dịch với các tác nhân kích thích như dị ứng phấn hoa, bụi, vật nuôi, ô nhiễm không khí, khói thuốc lá, thời tiết, hoặc nhiễm trùng đường hô hấp.\n\n" +
+      "Triệu chứng:\n-  Khó thở : Cảm giác không đủ không khí.\n-  Ho : Đặc biệt là ho khan, thường gặp vào ban đêm hoặc khi hoạt động.\n-  Khò khè : Thở ra âm thanh như tiếng rít.\n-  Đau ngực : Cảm giác nặng nề ở ngực.\n\n" +
+      "Chẩn đoán: Thông qua tiền sử bệnh, khám lâm sàng, đo chức năng phổi (spirometry), và xét nghiệm dị ứng để tìm các yếu tố kích thích.\n\n" +
+      "Điều trị:\n-  Thuốc điều trị cơn cấp : Thuốc giãn phế quản nhanh để giảm triệu chứng tức thời.\n-  Thuốc kiểm soát lâu dài : Corticosteroid hít giúp giảm viêm đường hô hấp.\n-  Tránh các tác nhân kích thích : Bụi, phấn hoa, khói thuốc, và ô nhiễm.\n\n" +
+      "Phòng ngừa:\n- Giữ không khí trong nhà sạch sẽ.\n- Tránh tiếp xúc với tác nhân dị ứng.\n- Tập thể dục điều độ và tập thở.\n- Tiêm vắc-xin cúm hằng năm nếu cần.\n\n" +
+      "Bệnh hen phế quản có thể kiểm soát nếu được chẩn đoán và điều trị kịp thời. Nếu bạn cần thêm thông tin hoặc có thắc mắc, hãy cho tôi biết nhé!",
+    "trầm cảm":
+      "Dạ, bệnh trầm cảm là một rối loạn tâm lý gây ra cảm giác buồn bã sâu sắc, mất hứng thú, và ảnh hưởng lớn đến cuộc sống. Đây là một bệnh lý nghiêm trọng, có thể ảnh hưởng cả về thể chất và tinh thần.\n\n" +
+      "Nguyên nhân: Các nguyên nhân bao gồm yếu tố sinh học (hoá học não, di truyền), tâm lý (áp lực, stress), môi trường (khủng hoảng cá nhân, mất mát), và yếu tố phát triển (tuổi thơ khó khăn).\n\n" +
+      "Triệu chứng:\n-  Buồn bã kéo dài : Cảm giác chán nản, tuyệt vọng.\n-  Mất hứng thú : Không còn quan tâm đến những hoạt động từng yêu thích.\n-  Rối loạn giấc ngủ : Khó ngủ hoặc ngủ quá nhiều.\n-  Thay đổi cân nặng : Tăng hoặc giảm không lý do.\n-  Khó tập trung : Cảm thấy mệt mỏi và khó đưa ra quyết định.\n-  Suy nghĩ tiêu cực : Ý nghĩ tự làm hại bản thân hoặc tự sát.\n\n" +
+      "Chẩn đoán: Thực hiện qua tư vấn tâm lý, tiêu chuẩn DSM-5, và đánh giá từ bác sĩ chuyên khoa.\n\n" +
+      "Điều trị:\n-  Tâm lý trị liệu : Tư vấn tâm lý, liệu pháp nhận thức hành vi (CBT) để đối phó cảm xúc.\n-  Thuốc : Antidepressants giúp cân bằng hoá học não.\n-  Thay đổi lối sống : Tập thể dục, ăn uống lành mạnh, duy trì các hoạt động xã hội.\n\n" +
+      "Phòng ngừa:\n- Duy trì lối sống lành mạnh, kết nối với bạn bè và gia đình.\n- Quan tâm đến sức khỏe tâm thần và tìm kiếm sự hỗ trợ khi cần.\n\n" +
+      "Bệnh trầm cảm có thể nghiêm trọng, vì vậy phát hiện sớm và điều trị kịp thời là cần thiết. Nếu bạn hoặc người thân có triệu chứng trầm cảm, hãy tìm sự hỗ trợ từ các chuyên gia y tế. Nếu cần thêm thông tin, vui lòng cho tôi biết nhé!",
+    "rối loạn ám ảnh cưỡng chế":
+      "Dạ, rối loạn ám ảnh cưỡng chế (OCD) là một rối loạn tâm thần đặc trưng bởi các ý nghĩ ám ảnh không mong muốn và các hành động cưỡng chế để giảm lo âu. Đây là một tình trạng phức tạp và có thể ảnh hưởng lớn đến cuộc sống hàng ngày.\n\n" +
+      "Nguyên nhân:\n-  Di truyền : OCD có thể có tính di truyền trong gia đình.\n-  Hóa học não : Mất cân bằng các chất dẫn truyền thần kinh như serotonin có liên quan đến OCD.\n-  Yếu tố môi trường : Trải nghiệm căng thẳng như chấn thương, áp lực cuộc sống có thể làm nặng thêm triệu chứng.\n-  Tâm lý : Xu hướng nghĩ về sự kiểm soát, hoàn hảo có thể liên quan đến sự phát triển OCD.\n\n" +
+      "Triệu chứng:\n-  Ám ảnh : Ý nghĩ, hình ảnh, hoặc cảm giác liên tục không mong muốn (như lo lắng về sự sạch sẽ, sợ hãi về hậu quả nếu không thực hiện hành động nhất định).\n-  Cưỡng chế : Các hành động hoặc nghi thức lặp đi lặp lại mà người bệnh cảm thấy phải làm để giảm lo âu (ví dụ rửa tay liên tục, kiểm tra nhiều lần, sắp xếp đồ vật).\n\n" +
+      "Chẩn đoán: OCD thường được chẩn đoán qua lịch sử bệnh, các triệu chứng đặc trưng, và tiêu chuẩn DSM-5.\n\n" +
+      "Điều trị:\n-  Tâm lý trị liệu : Liệu pháp hành vi nhận thức (CBT) đã chứng minh hiệu quả.\n-  Thuốc : Các thuốc chống trầm cảm (SSRIs) thường được kê để giảm triệu chứng.\n-  Giáo dục và hỗ trợ : Hiểu rõ về rối loạn giúp bệnh nhân và gia đình hỗ trợ tốt hơn.\n\n" +
+      "Phòng ngừa:\n- Quản lý căng thẳng, tạo môi trường hỗ trợ và tìm kiếm hỗ trợ y tế sớm có thể giảm thiểu nguy cơ tiến triển triệu chứng.\n\n" +
+      "Nếu cần thêm thông tin về OCD, tư vấn điều trị hoặc các thủ tục liên quan, vui lòng cho tôi biết nhé!",
+    "viêm da cơ địa":
+      "Dạ, viêm da cơ địa (hay còn gọi là chàm) là tình trạng viêm da mãn tính và tái phát, gây khó chịu và làm giảm khả năng bảo vệ của da.\n\n" +
+      "Nguyên nhân:\n- Di truyền: Viêm da cơ địa thường có yếu tố di truyền từ gia đình.\n-  Môi trường : Các yếu tố như bụi, phấn hoa, chất gây dị ứng và thay đổi thời tiết có thể kích thích tình trạng viêm.\n-  Hệ miễn dịch : Phản ứng quá mức của hệ miễn dịch với các yếu tố bên ngoài dẫn đến viêm và ngứa.\n-  Yếu tố tâm lý : Căng thẳng và lo âu có thể làm tình trạng tồi tệ hơn.\n\n" +
+      "Triệu chứng:\n-  Ngứa : Cảm giác ngứa rát, nhất là vào ban đêm.\n-  Da khô : Da trở nên khô, nứt nẻ và dễ kích thích.\n-  Mẩn đỏ : Vùng da viêm thường sưng và có màu đỏ.\n-  Tổn thương da : Xuất hiện các vết chàm nhỏ, chảy dịch hoặc đóng vảy.\n-  Biến đổi màu da : Da có thể trở nên sậm hoặc sáng màu hơn.\n\n" +
+      "Chẩn đoán: Thường dựa vào tiền sử bệnh, triệu chứng và khám lâm sàng.\n\n" +
+      "Điều trị:\n-  Kem dưỡng ẩm : Giữ cho da ẩm để ngăn ngừa khô và kích thích.\n-  Thuốc tại chỗ : Corticosteroid và thuốc chống viêm để giảm viêm và ngứa.\n-  Thuốc chống dị ứng : Giúp giảm ngứa và khó chịu.\n-  Điều trị toàn thân : Trong trường hợp nặng, có thể dùng thuốc uống hoặc liệu pháp ánh sáng.\n\n" +
+      "Phòng ngừa:\n-  Tránh yếu tố kích thích : Nhận diện và tránh các tác nhân gây kích thích.\n-  Giữ ẩm cho da : Dùng kem dưỡng ẩm thường xuyên.\n-  Quản lý stress : Áp dụng yoga, thiền hoặc các hoạt động giảm căng thẳng.\n\n" +
+      "Viêm da cơ địa là bệnh mãn tính và cần quản lý lâu dài. Nếu bạn có câu hỏi hoặc cần thêm hỗ trợ, hãy cho tôi biết nhé!",
+    "viêm khớp dạng thấp":
+      "Dạ, bệnh viêm khớp dạng thấp (Rheumatoid Arthritis - RA) là một bệnh tự miễn mãn tính, gây viêm đau và tổn thương khớp. Bệnh có thể trở nên nghiêm trọng nếu không được điều trị kịp thời.\n\n" +
+      "Nguyên nhân:\n-   Di truyền  : Tiền sử gia đình mắc bệnh có thể tăng nguy cơ.\n-   Hệ miễn dịch  : Hệ miễn dịch tấn công nhầm các mô khớp.\n-   Yếu tố môi trường  : Nhiễm trùng, thuốc lá, và ô nhiễm có thể góp phần vào bệnh.\n\n" +
+      "Triệu chứng:\n-   Đau và sưng khớp  : Thường ở các khớp nhỏ như ngón tay, cổ tay.\n-   Cứng khớp  : Đặc biệt vào buổi sáng hoặc sau thời gian không vận động.\n-   Mệt mỏi, sốt nhẹ, giảm cân không rõ lý do  .\n\n" +
+      "Chẩn đoán: Dựa vào khám lâm sàng, xét nghiệm máu (RF, anti-CCP) và hình ảnh học như X-quang hoặc MRI.\n\n" +
+      "Điều trị:\n-   NSAIDs  : Giảm đau và viêm.\n-   Corticoid  : Giảm viêm nhanh chóng.\n-   DMARDs  : Như methotrexate, làm chậm tiến triển của bệnh.\n-   Điều trị sinh học  : Được sử dụng cho trường hợp nặng.\n\n" +
+      "Phòng ngừa và quản lý:\n-   Thay đổi lối sống  : Duy trì thể chất đều đặn, ăn uống lành mạnh và giữ cân nặng hợp lý.\n-   Quản lý stress  : Áp dụng yoga, thiền.\n-   Khám định kỳ  : Để theo dõi sức khỏe và tiến triển của bệnh.\n\n" +
+      "Viêm khớp dạng thấp là bệnh mạn tính, vì vậy hãy thăm khám bác sĩ để có kế hoạch điều trị và quản lý lâu dài. Nếu cần thêm hỗ trợ, hãy cho tôi biết nhé!",
+    "viêm tụy cấp":
+      "Dạ, bệnh viêm tụy cấp (Acute Pancreatitis) là tình trạng viêm đột ngột của tụy, có thể gây ra biến chứng nghiêm trọng nếu không được chẩn đoán và điều trị kịp thời.\n\n" +
+      "Nguyên nhân:\n1.    Sỏi mật   : Nguyên nhân phổ biến nhất, gây ứ đọng dịch tụy và viêm.\n2.    Rượu   : Uống rượu quá mức có thể gây viêm tụy cấp.\n3.    Chấn thương   : Vết thương bụng có thể làm tổn thương tụy.\n4.    Một số thuốc   : Thiazide, NSAIDs có thể gây viêm tụy.\n5.    Nhiễm trùng   : Nhiễm virus như viêm gan có thể ảnh hưởng đến tụy.\n6.    Bệnh lý khác   : Bệnh tiểu đường, rối loạn di truyền, tăng lipid máu.\n\n" +
+      "Triệu chứng:\n-    Đau bụng   : Đau đột ngột, dữ dội, thường ở vùng bụng trên, có thể lan ra phía sau.\n-    Buồn nôn và nôn   .\n-    Sốt   : Nhiệt độ cơ thể có thể tăng.\n-    Nhịp tim nhanh và huyết áp thấp   : Dấu hiệu của tình trạng sốc.\n-    Vàng da   : Nếu viêm tụy ảnh hưởng đến ống mật.\n\n" +
+      "Chẩn đoán: Dựa vào lịch sử y tế, khám thực thể, xét nghiệm máu (amylase, lipase), và hình ảnh học (siêu âm, CT scan).\n\n" +
+      "Điều trị:\n-    Hỗ trợ điều trị   : Nhập viện, nghỉ ngơi, truyền dịch tĩnh mạch.\n-    Kiêng ăn   : Để tụy nghỉ ngơi.\n-    Thuốc giảm đau   : Để kiểm soát đau.\n-    Điều trị nguyên nhân   : Phẫu thuật nếu do sỏi mật.\n-    Kháng sinh   : Nếu có nhiễm trùng.\n\n" +
+      "Phòng ngừa:\n-    Hạn chế uống rượu   : Uống vừa phải hoặc tránh hoàn toàn.\n-    Chế độ ăn lành mạnh   : Tránh thức ăn nhiều chất béo và đường.\n-    Quản lý bệnh lý liên quan   : Kiểm soát tiểu đường, rối loạn lipid.\n\n" +
+      "Viêm tụy cấp cần được chẩn đoán và điều trị kịp thời để tránh biến chứng nguy hiểm. Nếu có triệu chứng liên quan, hãy tham khảo ý kiến bác sĩ ngay lập tức. Nếu cần thêm thông tin, vui lòng cho tôi biết!",
+    "viêm da dị ứng":
+      "Dạ, viêm da dị ứng (Atopic Dermatitis) là một tình trạng viêm da mạn tính, phổ biến ở trẻ em nhưng cũng có thể xảy ra ở bất kỳ lứa tuổi nào. Đây là một phần của bệnh lý dị ứng, liên quan đến dị ứng thức ăn, hen suyễn và viêm mũi dị ứng.\n\n" +
+      "Nguyên nhân và yếu tố nguy cơ:\n1.    Gen di truyền   : Thường xuất hiện trong các gia đình có tiền sử dị ứng.\n2.    Yếu tố môi trường   : Các tác nhân như bụi bẩn, mạt nhà, phấn hoa hay hóa chất có thể kích thích.\n3.    Thời tiết   : Thời tiết lạnh, khô hanh có thể làm trầm trọng thêm tình trạng da.\n4.    Thực phẩm   : Một số người có thể nhạy cảm với thực phẩm như sữa, trứng, hay hạt đậu.\n5.    Căng thẳng   : Căng thẳng tâm lý có thể làm tăng triệu chứng.\n\n" +
+      "Triệu chứng:\n-    Ngứa   : Là triệu chứng chủ yếu, có thể rất dữ dội và ảnh hưởng đến giấc ngủ.\n-    Da khô   : Da dễ bị khô, có thể nứt nẻ.\n-    Nốt đỏ   : Vùng da bị viêm có thể đỏ và phù.\n-    Da dày   : Vùng da bị ngứa có thể trở nên dày hơn nếu cào gãi.\n-    Mụn nước   : Có thể có mụn nước tiết dịch hoặc vảy.\n\n" +
+      "Chẩn đoán: Dựa trên lịch sử bệnh, khám lâm sàng và có thể cần xét nghiệm dị ứng để tìm tác nhân gây ra.\n\n" +
+      "Điều trị:\n-    Kem dưỡng ẩm   : Giữ ẩm cho da và giảm khô.\n-    Corticoid tại chỗ   : Giảm viêm và ngứa.\n-    Thuốc kháng histamin   : Giảm ngứa và giúp cải thiện giấc ngủ.\n-    Liệu pháp ánh sáng   : Đối với các trường hợp nặng.\n-    Tránh yếu tố kích thích   : Nhận diện và loại bỏ các tác nhân gây ra triệu chứng.\n\n" +
+      "Phòng ngừa:\n- Giữ ẩm cho da thường xuyên.\n- Tắm với nước ấm và không quá lâu, sau đó thoa kem dưỡng ẩm ngay lập tức.\n- Tránh các sản phẩm có chứa hương liệu, phẩm màu hay hóa chất độc hại.\n- Sử dụng xà bông dịu nhẹ và không gây kích ứng.\n\n" +
+      "Viêm da dị ứng có thể ảnh hưởng đến chất lượng cuộc sống. Nếu bạn hoặc người thân gặp triệu chứng này, hãy tham khảo ý kiến bác sĩ để điều trị kịp thời và hiệu quả. Nếu cần thêm thông tin, vui lòng cho tôi biết!",
+    "viêm khớp do gout":
+      "Dạ, viêm khớp do gout (Gouty Arthritis) là một loại viêm khớp viêm nhiễm, gây đau và sưng ở các khớp do sự tích tụ của tinh thể urat. Tình trạng này xảy ra khi nồng độ axit uric trong máu tăng cao, dẫn đến sự hình thành các tinh thể urat.\n\n" +
+      "Nguyên nhân:\n1.    Tăng axit uric   : Do cơ thể sản xuất quá nhiều axit uric hoặc thận không loại bỏ đủ axit uric.\n2.    Yếu tố môi trường và lối sống   : Chế độ ăn uống giàu purine, uống rượu, béo phì và ít vận động.\n3.    Yếu tố di truyền   : Nếu có người trong gia đình mắc bệnh gout, nguy cơ mắc bệnh cao hơn.\n4.    Các tình trạng sức khỏe khác   : Như bệnh thận mãn tính, huyết áp cao, tiểu đường.\n\n" +
+      "Triệu chứng:\n-    Cơn đau khớp   : Đau đột ngột, dữ dội, kéo dài từ vài giờ đến vài ngày, thường xảy ra vào ban đêm.\n-    Sưng và đỏ tại khớp   : Khớp bị sưng, đỏ và nóng.\n-    Hạn chế vận động   : Khó khăn trong di chuyển khớp.\n-    Nốt tophi   : Xuất hiện ở các khớp như ngón tay, khuỷu tay, vành tai trong trường hợp mãn tính.\n\n" +
+      "Chẩn đoán:\n- Dựa trên lịch sử bệnh, xét nghiệm máu đo nồng độ axit uric, xét nghiệm dịch khớp và hình ảnh học (X-quang, siêu âm).\n\n" +
+      "Điều trị:\n-    Thuốc   : NSAIDs (ibuprofen), colchicine, corticosteroid và thuốc hạ axit uric (allopurinol, febuxostat).\n-    Thay đổi lối sống   : Điều chỉnh chế độ ăn, uống đủ nước, duy trì cân nặng lành mạnh và tập thể dục đều đặn.\n\n" +
+      "Phòng ngừa:\n- Tuân thủ chế độ ăn uống hợp lý, theo dõi nồng độ axit uric định kỳ và sử dụng thuốc theo chỉ định bác sĩ.\n\n" +
+      "Viêm khớp do gout có thể ảnh hưởng lớn đến chất lượng cuộc sống, nếu bạn gặp triệu chứng này hoặc nghi ngờ mắc bệnh, hãy tham khảo bác sĩ để được điều trị kịp thời!",
+    "viêm thận":
+      "Dạ, viêm thận (Nephritis) là tình trạng viêm nhiễm xảy ra trong thận, có thể ảnh hưởng đến chức năng của thận và gây ra nhiều triệu chứng khác nhau.\n\n" +
+      "Nguyên nhân:\n1.    Nhiễm trùng   : Do vi khuẩn hoặc virus, đặc biệt là viêm cầu thận sau nhiễm liên cầu khuẩn (thường xảy ra sau viêm họng).\n2.    Bệnh tự miễn   : Hệ miễn dịch tấn công các tế bào của cơ thể, như trong bệnh lupus ban đỏ hoặc viêm thận IgA.\n3.    Rối loạn chuyển hóa   : Tiểu đường và tăng huyết áp có thể dẫn đến viêm thận.\n4.    Ảnh hưởng từ thuốc   : Một số loại thuốc (như kháng sinh hoặc thuốc chống viêm) có thể gây tổn thương thận.\n\n" +
+      "Triệu chứng:\n-    Đau lưng hoặc đau vùng thận   : Có thể xảy ra ở mỗi bên thận.\n-    Sưng   : Do giữ nước, gây sưng chi hoặc mặt.\n-    Nước tiểu bất thường   : Bao gồm nước tiểu có máu (huyết niệu), đục, hoặc có bọt (do protein trong nước tiểu).\n-    Tiểu buốt, tiểu rắt   : Cảm giác gấp gáp khi tiểu.\n-    Mệt mỏi và yếu đuối   : Do thiếu máu.\n-    Tăng huyết áp   : Do rối loạn trong kiểm soát nước và muối.\n\n" +
+      "Chẩn đoán:\n- Khám lâm sàng, xét nghiệm nước tiểu, xét nghiệm máu (creatinine, ure), hình ảnh học (siêu âm thận hoặc X-quang).\n\n" +
+      "Điều trị:\n-    Kháng sinh   : Nếu viêm thận do nhiễm trùng.\n-    Thuốc kháng viêm   : Như corticosteroid để giảm viêm.\n-    Điều chỉnh chế độ ăn uống   : Giảm muối và protein nếu cần.\n-    Điều trị các bệnh lý nền   : Như tiểu đường và huyết áp cao.\n-    Điều trị triệu chứng   : Giảm đau và kiểm soát huyết áp.\n\n" +
+      "Phòng ngừa:\n- Uống đủ nước, kiểm soát huyết áp và lượng đường trong máu, hạn chế sử dụng thuốc NSAID khi không cần thiết.\n\n" +
+      "Viêm thận cần được chẩn đoán và điều trị kịp thời để tránh biến chứng nghiêm trọng. Nếu bạn có triệu chứng hoặc nghi ngờ mắc bệnh, hãy tham khảo bác sĩ để được điều trị sớm.",
+    "suy tim":
+      "Dạ, suy tim là một tình trạng bệnh lý nghiêm trọng, xảy ra khi tim không đủ khả năng bơm máu để cung cấp oxy và dưỡng chất cần thiết cho cơ thể. Bệnh này có thể phát sinh từ nhiều nguyên nhân khác nhau và có thể gây ra nhiều biến chứng nguy hiểm nếu không được điều trị kịp thời.\n\n" +
+      "Các loại suy tim:\n1.    Suy tim trái   : Xảy ra khi tâm thất trái không thể bơm máu hiệu quả, dẫn đến tích tụ dịch trong phổi và gây khó thở.\n2.    Suy tim phải   : Do tâm thất phải không hoạt động tốt, thường gây phù nề ở chân và bụng.\n3.    Suy tim toàn bộ   : Khi cả hai phía (trái và phải) của tim đều không hoạt động đúng cách.\n\n" +
+      "Nguyên nhân:\n-    Bệnh động mạch vành   : Là nguyên nhân phổ biến nhất, mà mạch máu cung cấp máu cho tim bị hẹp hoặc chặn lại.\n-    Tăng huyết áp   : Duy trì áp lực cao trong động mạch cũng gây ra căng thẳng cho tim.\n-    Bệnh van tim   : Các vấn đề với van tim có thể làm tim không hoạt động hiệu quả.\n-    Bệnh tim bẩm sinh   : Các khuyết tật xuất hiện từ khi sinh.\n-    Bệnh cơ tim   : Gồm bệnh cơ tim giãn, viêm cơ tim do nhiễm virus.\n\n" +
+      "Triệu chứng:\n-    Khó thở   : Đặc biệt khi hoạt động hoặc khi nằm.\n-    Mệt mỏi   : Cảm giác thiếu năng lượng và khó khăn trong các hoạt động hàng ngày.\n-    Phù nề   : Nghẽn dịch thường ở chân, mắt cá chân và bụng.\n-    Ho khan hoặc kèm theo đờm   : Thường là dấu hiệu của tình trạng tích tụ dịch ở phổi.\n-    Nhịp tim nhanh hoặc bất thường   : Tim có thể đập nhanh hơn bình thường.\n\n" +
+      "Chẩn đoán:\nChẩn đoán suy tim thường bao gồm:\n- Khám lâm sàng: Đánh giá triệu chứng và tiền sử bệnh.\n- Xét nghiệm: Xét nghiệm máu, siêu âm tim, điện tâm đồ và chụp X-quang ngực.\n- Thăm dò chức năng tim: Để đánh giá khả năng bơm máu của tim.\n\n" +
+      "Điều trị:\nĐiều trị suy tim có thể bao gồm:\n-    Thay đổi lối sống   : Chế độ ăn uống lành mạnh, giảm muối, tập thể dục nhẹ và bỏ thuốc lá.\n-    Thuốc   : Sử dụng các loại thuốc như thuốc lợi tiểu, thuốc ức chế men chuyển Angiotensin (ACE), thuốc chẹn beta, và thuốc giãn mạch.\n-    Can thiệp phẫu thuật   : Trong một số trường hợp nặng, có thể cần phẫu thuật để sửa chữa các van tim hoặc đặt thiết bị hỗ trợ tim.\n\n" +
+      "Phòng ngừa:\nĐể giảm nguy cơ mắc suy tim, người bệnh cần:\n- Kiểm soát huyết áp và cholesterol.\n- Duy trì trọng lượng cơ thể hợp lý.\n- Thực hiện các cuộc kiểm tra sức khỏe định kỳ.\n- Tránh xa thuốc lá và hạn chế tiêu thụ rượu.\n\n" +
+      "Suy tim là một tình trạng cần được theo dõi và điều trị cẩn thận. Nếu bạn có các triệu chứng nghi ngờ, hãy tham khảo ý kiến bác sĩ để được chẩn đoán và điều trị kịp thời.",
+    "viêm bàng quang":
+      "Dạ, viêm bàng quang, còn gọi là viêm bàng quang cấp tính, là một tình trạng viêm nhiễm xảy ra trong bàng quang, thường gây ra bởi các loại vi khuẩn. Đây là một dạng nhiễm trùng đường tiết niệu phổ biến, đặc biệt ở phụ nữ. Dưới đây là một số thông tin chi tiết về viêm bàng quang:\n\n" +
+      "Nguyên nhân:\n-    Vi khuẩn   : Thường do vi khuẩn như Escherichia coli (E. coli) từ đường ruột xuất hiện trong đường tiết niệu.\n-    Nhiễm trùng   : Có thể xảy ra sau khi quan hệ tình dục, sử dụng các thiết bị y tế trong bàng quang hoặc do các bệnh lý nền như tiểu đường.\n-    Các yếu tố nguy cơ   :\n  - Đi tiểu không thường xuyên.\n  - Sự thay đổi nội tiết, như trong thời kỳ mãn kinh.\n  - Sử dụng các sản phẩm vệ sinh phụ nữ có hóa chất mạnh.\n\n" +
+      "Triệu chứng:\nCác triệu chứng phổ biến của viêm bàng quang bao gồm:\n-    Tiểu buốt, tiểu rắt   : Cảm giác đau và khó chịu khi đi tiểu, thường có cảm giác muốn đi tiểu nhiều lần.\n-    Đau bụng dưới   : Cảm giác đau nhẹ hoặc áp lực ở vùng bụng dưới.\n-    Nước tiểu có mùi hôi   : Mùi bất thường hoặc có thể có màu đục.\n-    Đôi khi sốt nhẹ   : Tuy không phổ biến, nhưng có thể xảy ra.\n\n" +
+      "Chẩn đoán:\n-    Khám lâm sàng   : Bác sĩ có thể hỏi về triệu chứng và tiền sử bệnh để xác định kỹ lưỡng tình trạng.\n-    Xét nghiệm nước tiểu   : Phân tích mẫu nước tiểu để xác định sự hiện diện của vi khuẩn, tế bào bạch cầu và hồng cầu.\n-    Siêu âm hoặc nội soi   : Có thể cần thiết trong trường hợp khó chẩn đoán hoặc theo dõi diễn tiến.\n\n" +
+      "Điều trị:\nĐiều trị viêm bàng quang thường bao gồm:\n-    Kháng sinh   : Để tiêu diệt vi khuẩn gây nhiễm trùng, thường được bác sĩ chỉ định dựa trên kết quả xét nghiệm.\n-    Thuốc giảm đau   : Để giảm triệu chứng đau và khó chịu trong quá trình điều trị.\n-    Thay đổi lối sống   : Uống đủ nước, vệ sinh vùng kín sạch sẽ và tránh các yếu tố gây kích ứng như xà phòng hay sản phẩm hóa học mạnh.\n\n" +
+      "Phòng ngừa:\n-    Uống đủ nước    để giúp rửa trôi vi khuẩn trong đường tiết niệu.\n-    Tiêu hóa hợp lý   : Hạn chế sử dụng thực phẩm có khả năng gây kích ứng cho bàng quang, như caffein, rượu, và thực phẩm cay.\n-    Thực hiện vệ sinh cá nhân đúng cách    trước và sau khi quan hệ tình dục.\n\n" +
+      "Viêm bàng quang có thể gây ra nhiều khó chịu, nhưng nếu được phát hiện và điều trị kịp thời, bệnh có thể hồi phục nhanh chóng. Nếu bạn có triệu chứng nghi ngờ viêm bàng quang, hãy tham khảo ý kiến bác sĩ để có được sự tư vấn và điều trị thích hợp.",
+    "viêm gan A":
+      "Dạ, viêm gan A là một bệnh viêm nhiễm gan cấp tính do virus viêm gan A (HAV) gây ra. Bệnh thường lây lan qua đường tiêu hóa, đặc biệt là do ăn uống phải thực phẩm hoặc nước bị nhiễm virus. Dưới đây là một số thông tin chi tiết về viêm gan A:\n\n" +
+      "Nguyên nhân:\n-    Virus viêm gan A (HAV)    là tác nhân duy nhất gây ra bệnh. Virus này thường được tìm thấy trong phân của người nhiễm bệnh và có thể lây lan qua tiếp xúc gần gũi hoặc qua việc tiêu thụ thực phẩm và nước bị ô nhiễm.\n\n" +
+      "Triệu chứng:\nThời gian ủ bệnh của viêm gan A thường từ 15 đến 50 ngày, và triệu chứng có thể bao gồm:\n-    Mệt mỏi   \n-    Chán ăn   \n-    Đau bụng    (thường ở vùng hạ sườn phải)\n-    Buồn nôn và nôn   \n-    Sốt nhẹ   \n-    Vàng da và vàng mắt   \n-    Nước tiểu sậm màu   \n-    Phân nhạt màu   \n\n" +
+      "Chẩn đoán:\nChẩn đoán viêm gan A thường dựa trên triệu chứng lâm sàng và các xét nghiệm như:\n-    Xét nghiệm máu tìm HAV IgM   , là chỉ báo cho việc nhiễm virus cấp tính.\n-    Xét nghiệm chức năng gan    (ALT, AST, bilirubin) có thể cho thấy tổn thương gan.\n\n" +
+      "Điều trị:\nKhông có điều trị đặc hiệu cho viêm gan A. Hầu hết người bệnh sẽ hồi phục hoàn toàn mà không cần can thiệp y tế. Tuy nhiên, có một số biện pháp hỗ trợ có thể được thực hiện:\n-    Nghỉ ngơi   \n-    Uống đủ nước    để ngăn ngừa mất nước\n-    Hạn chế các loại thực phẩm có chứa nhiều chất béo và đồ uống có cồn   \n\n" +
+      "Phòng ngừa:\n-    Tiêm vacxin viêm gan A   : Đây là biện pháp hiệu quả nhất để phòng ngừa bệnh.\n-    Thực hành vệ sinh thực phẩm   : Nấu chín thực phẩm, uống nước sạch và rửa tay thường xuyên.\n-    Tránh tiếp xúc với nguồn lây nhiễm   .\n\n" +
+      "Viêm gan A là một bệnh có thể tự khỏi, nhưng phương pháp phòng ngừa, đặc biệt là qua tiêm vắc xin, là rất quan trọng để giảm nguy cơ mắc bệnh này. Nếu bạn nghi ngờ mình có các triệu chứng của bệnh, hãy đến cơ sở y tế để được kiểm tra và điều trị kịp thời.",
+    "viêm amidan":
+      "Dạ, viêm amidan hay viêm amidan cấp tính là tình trạng viêm nhiễm của amidan, một cấu trúc lympho ở cổ giúp cơ thể chống lại nhiễm trùng. Viêm amidan có thể xảy ra ở mọi lứa tuổi, nhưng thường gặp hơn ở trẻ em và thanh niên. Dưới đây là thông tin chi tiết về viêm amidan:\n\n" +
+      "Nguyên nhân:\n1.    Nhiễm virus   : Các virus như virus cúm, virus cảm lạnh, hoặc virus Epstein-Barr có thể gây ra viêm amidan.\n2.    Nhiễm vi khuẩn   : Vi khuẩn như    Streptococcus nhóm A   , thường gây ra viêm họng, cũng là nguyên nhân phổ biến gây viêm amidan.\n\n" +
+      "Triệu chứng:\nCác triệu chứng của viêm amidan có thể bao gồm:\n-    Đau họng   : Thường đau và khó nuốt.\n-    Ngứa họng   : Cảm giác khó chịu ở họng và amidan.\n-    Vướng mắc trong họng   : Cảm giác giống như có vật cản trong họng.\n-    Ho khan   : Thường xuyên ho do đau họng.\n-    Hơi thở hôi   : Do viêm và sự tồn tại của mủ.\n-    Sốt   : Có thể sốt nhẹ hoặc sốt cao tùy thuộc vào nguyên nhân.\n\n" +
+      "Chẩn đoán:\n1.    Khám lâm sàng   : Bác sĩ sẽ kiểm tra họng và amidan, thấy amidan sưng đỏ, có thể có mủ hoặc bã đậu.\n2.    Xét nghiệm nhanh   : Có thể xét nghiệm nhanh để xác định có sự hiện diện của vi khuẩn Streptococcus hay không.\n3.    Cận lâm sàng   : Nếu có nghi ngờ về bệnh lý khác, có thể cần làm thêm các xét nghiệm máu hoặc sinh thiết.\n\n" +
+      "Điều trị:\n1.    Điều trị bảo tồn   :\n   -    Thuốc   : Sử dụng kháng sinh nếu có nguyên nhân vi khuẩn; thuốc giảm đau, thuốc chống viêm để giảm các triệu chứng.\n   -    Tại chỗ   : Súc họng bằng dung dịch sát khuẩn, dùng thuốc giảm đau họng.\n2.    Điều trị phẫu thuật   :\n   - Phẫu thuật cắt amidan có thể được chỉ định trong trường hợp viêm amidan tái phát nhiều lần (hơn 5 lần/năm) hoặc gây khó thở.\n\n" +
+      "Biến chứng:\nViêm amidan nếu không được điều trị có thể xảy ra các biến chứng như:\n-    Viêm xoang   .\n-    Viêm tai giữa   .\n-    Viêm khí phế quản   .\n-    Nhiễm khuẩn huyết   , viêm nội tâm mạc.\n\n" +
+      "Phòng ngừa:\n-    Giữ vệ sinh cá nhân   : Rửa tay thường xuyên, tránh tiếp xúc gần với người bệnh.\n-    Nâng cao sức đề kháng    qua chế độ ăn uống hợp lý và tập thể dục đều đặn.\n\n" +
+      "Viêm amidan có thể gây ra nhiều khó chịu, nhưng nếu được phát hiện và điều trị kịp thời, người bệnh có thể hồi phục nhanh chóng và không gặp biến chứng nghiêm trọng. Nếu bạn có triệu chứng nghi ngờ viêm amidan, hãy đến bác sĩ để được tư vấn và điều trị kịp thời.",
+    "viêm họng":
+      "Dạ, viêm họng là một tình trạng viêm nhiễm của niêm mạc họng, thường xảy ra do nhiều nguyên nhân khác nhau, chủ yếu là do virus hoặc vi khuẩn. Dưới đây là một số thông tin chi tiết về bệnh viêm họng:\n\n" +
+      "Nguyên nhân:\n1.    Nhiễm virus   : Đây là nguyên nhân phổ biến nhất gây viêm họng, như virus cúm, virus cảm lạnh, hoặc virus Epstein-Barr.\n2.    Nhiễm vi khuẩn   : Vi khuẩn như    Streptococcus nhóm A    có thể gây viêm họng và có thể làm bệnh trở nên nghiêm trọng hơn.\n3.    Tác nhân kích thích   : Khói thuốc, ô nhiễm không khí, hoặc nước uống nóng có thể gây viêm họng.\n4.    Dị ứng   : Dị ứng với bụi, phấn hoa, hoặc hóa chất cũng có thể gây viêm.\n\n" +
+      "Triệu chứng:\nCác triệu chứng của viêm họng có thể bao gồm:\n-    Đau họng   : Cảm giác đau, rát hoặc vướng trong họng.\n-    Khó nuốt   : Đau mỗi khi nuốt nước bọt hoặc thức ăn.\n-    Ho   : Thường là ho khan nhưng có thể trở thành ho có đờm.\n-    Sốt nhẹ   : Một số trường hợp có thể sốt cao.\n-    Hơi thở hôi   : Do viêm và tích tụ chất nhầy trong họng.\n-    Ngứa cổ   : Cảm giác ngứa hoặc khô rát ở cổ họng.\n-    Sưng hạch bạch huyết   : Hạch bạch huyết ở cổ có thể sưng và đau.\n\n" +
+      "Chẩn đoán:\nĐể chẩn đoán viêm họng, bác sĩ có thể thực hiện:\n-    Khám lâm sàng   : Kiểm tra họng và các triệu chứng thực thể.\n-    Xét nghiệm nhanh   : Đối với nghi ngờ nhiễm vi khuẩn, có thể được chỉ định xét nghiệm để xác định tác nhân gây bệnh, đặc biệt là Streptococcus.\n\n" +
+      "Điều trị:\n1.    Điều trị triệu chứng   : Sử dụng thuốc giảm đau, thuốc hạ sốt như paracetamol hoặc ibuprofen giúp giảm triệu chứng.\n2.    Kháng sinh   : Khi nguyên nhân là do vi khuẩn, thuốc kháng sinh có thể được chỉ định.\n3.    Thực hiện biện pháp tự chăm sóc   : Nghỉ ngơi, giữ ấm cổ, uống đủ nước và ăn thực phẩm mềm để dễ nuốt.\n\n" +
+      "Biến chứng:\nNếu không được điều trị, viêm họng có thể dẫn đến các biến chứng như:\n-    Viêm amidan   .\n-    Viêm xoang   .\n-    Viêm tai giữa   .\n-    Nhiễm trùng huyết    trong trường hợp nặng.\n\n" +
+      "Phòng ngừa:\n-    Rửa tay thường xuyên    để giảm nguy cơ nhiễm trùng.\n-    Tránh tiếp xúc với người bệnh   .\n-    Giữ nhà cửa sạch sẽ và thoáng khí   .\n-    Tăng cường hệ miễn dịch    bằng chế độ ăn uống hợp lý.\n\n" +
+      "Viêm họng thường là một bệnh có thể tự khỏi, nhưng nếu triệu chứng kéo dài hoặc trở nên nghiêm trọng, bạn nên đến gặp bác sĩ để được chẩn đoán và điều trị kịp thời.",
+    "thủy đậu":
+      "Dạ, bệnh thủy đậu (Varicella) là một bệnh truyền nhiễm do virus    Varicella-Zoster    gây ra, đặc trưng bởi các nốt phỏng nước trên da, sốt và triệu chứng nhiễm trùng hô hấp. Dưới đây là thông tin chi tiết về bệnh thủy đậu:\n\n" +
+      "Nguyên nhân:\nBệnh thủy đậu do virus    Varicella-Zoster   , thuộc họ Herpesviridae. Virus này rất dễ lây lan, chủ yếu qua đường hô hấp khi hắt hơi, ho, hoặc tiếp xúc trực tiếp với dịch từ các nốt phỏng.\n\n" +
+      "Triệu chứng:\n-    Giai đoạn khởi phát   : Có thể có sốt nhẹ, mệt mỏi, và cảm giác khó chịu.\n-    Phát ban   : Xuất hiện sau 1-2 ngày từ khi sốt. Ban đầu là những nốt đỏ nhỏ, sau đó chuyển thành mụn nước, và cuối cùng là vết loét h crusty. Những mụn nước này có thể xuất hiện ở khắp nơi trên cơ thể, bao gồm mặt, đầu, và cả trong miệng.\n-    Ngứa   : Nốt phỏng thường gây ngứa dai dẳng.\n\n" +
+      "Chẩn đoán:\n-    Lâm sàng   : Chẩn đoán thường dựa vào triệu chứng lâm sàng điển hình và sự xuất hiện của phát ban.\n-    Cận lâm sàng   : Trong một số trường hợp, có thể cần xét nghiệm máu để xác định hiện diện của kháng thể Varicella-Zoster hay virus.\n\n" +
+      "Điều trị:\n-    Điều trị triệu chứng   : Sử dụng thuốc hạ sốt như paracetamol để giảm sốt và đau. Tránh dùng aspirin vì có thể gây hội chứng Reye ở trẻ em.\n-    Giảm ngứa   : Sử dụng thuốc chống dị ứng hay các loại kem giảm ngứa.\n-    Chăm sóc vết thương   : Giữ cho các nốt phỏng sạch sẽ và tránh gãi để ngăn ngừa nhiễm trùng.\n\n" +
+      "Biến chứng:\nMặc dù bệnh thủy đậu thường nhẹ nhàng, nhưng có thể gây ra một số biến chứng như:\n-    Nhiễm trùng thứ cấp do vi khuẩn    ở các nốt phỏng.\n-    Viêm phổi    do virus, nguy hiểm hơn ở người lớn và người có hệ miễn dịch yếu.\n-    Viêm não   , một biến chứng hiếm gặp.\n\n" +
+      "Phòng ngừa:\n-    Tiêm vắc xin   : Vắc xin thủy đậu là phương pháp hiệu quả nhất để ngăn ngừa bệnh. Vắc xin này thường được tiêm cho trẻ em từ 12 tháng đến 15 tháng tuổi và 4 đến 6 tuổi.\n-    Hạn chế tiếp xúc   : Tránh để trẻ em tiếp xúc với người nhiễm virus trong thời gian bùng phát dịch.\n\n" +
+      "Bệnh thủy đậu là một bệnh phổ biến ở trẻ em nhưng có thể xảy ra ở người lớn. Nếu bạn hoặc người thân có triệu chứng nghi ngờ bệnh thủy đậu, hãy liên hệ với bác sĩ để được tư vấn và điều trị kịp thời.",
+    "mỏi mắt":
+      "Dạ, mỏi mắt là một triệu chứng phổ biến và thường gặp trong cuộc sống hàng ngày, đặc biệt là ở những người phải làm việc với máy tính hoặc các thiết bị điện tử trong thời gian dài. Dưới đây là một số thông tin chi tiết về nguyên nhân, triệu chứng, chẩn đoán và cách điều trị mỏi mắt:\n\n" +
+      "Nguyên nhân:\n1.    Sử dụng thiết bị điện tử   : Nhìn chằm chằm vào màn hình máy tính, điện thoại, hoặc máy tính bảng trong thời gian dài mà không nghỉ ngơi có thể gây căng thẳng cho mắt.\n2.    Thiếu ánh sáng   : Làm việc trong môi trường thiếu sáng hoặc quá sáng cũng có thể làm cho mắt trở nên mệt mỏi.\n3.    Cận thị, viễn thị hoặc loạn thị   : Các vấn đề về thị lực không được điều chỉnh có thể dẫn đến mỏi mắt.\n4.    Khô mắt   : Do thiếu nước mắt hoặc sử dụng kính áp tròng trong thời gian dài có thể gây khó chịu và mỏi mắt.\n5.    Căng thẳng   : Căng thẳng tâm lý cũng có thể gây ra căng thẳng cho mắt.\n\n" +
+      "Triệu chứng:\n-    Cảm giác nặng nề   , khó chịu hoặc mệt mỏi ở mắt.\n-    Đỏ mắt   , khô hoặc chảy nước mắt.\n-    Nhìn thấy mờ    hoặc cảm giác nhòe khi tập trung.\n-    Đau đầu    hoặc đau vùng quanh mắt.\n-    Giảm khả năng tập trung    vào các đối tượng gần.\n\n" +
+      "Chẩn đoán:\nĐể chẩn đoán mỏi mắt, bác sĩ có thể:\n-    Khám mắt toàn diện   , bao gồm việc kiểm tra thị lực và sự điều tiết của mắt.\n-    Hỏi về lịch sử sử dụng thiết bị điện tử    và các triệu chứng khác liên quan.\n\n" +
+      "Điều trị:\n1.    Nghỉ ngơi cho mắt   : Thực hiện quy tắc 20-20-20: mỗi 20 phút, nhìn ra xa khoảng 20 feet (6 mét) trong ít nhất 20 giây.\n2.    Sử dụng thuốc nhỏ mắt   : Nếu mắt bị khô, có thể sử dụng thuốc nhỏ mắt nhân tạo để giữ ẩm.\n3.    Điều chỉnh môi trường làm việc   : Đảm bảo đủ ánh sáng, nên dùng đèn bàn thay vì chỉ làm việc dưới ánh sáng yếu.\n4.    Kiểm tra và điều chỉnh thị lực   : Nếu có vấn đề về kính hoặc thuốc kính, cần được kiểm tra và điều chỉnh kịp thời.\n5.    Đeo kính chống ánh sáng xanh   : Sử dụng kính lọc ánh sáng xanh khi làm việc với máy tính có thể giảm mỏi mắt.\n\n" +
+      "Phòng ngừa:\n- Tạo thói quen nghỉ ngơi cho mắt khi sử dụng thiết bị điện tử liên tục.\n- Điều chỉnh độ sáng màn hình và độ tương phản cho phù hợp.\n- Duy trì độ ẩm cho mắt bằng cách uống đủ nước và sử dụng máy tạo độ ẩm khi cần.\n\n" +
+      "Nếu triệu chứng mỏi mắt không giảm hoặc kèm theo các triệu chứng nghiêm trọng khác, bạn nên tham khảo ý kiến bác sĩ để có hướng điều trị và chăm sóc phù hợp.",
+    "nhức xương khớp vào mùa đông":
+      "Dạ, nhức xương khớp vào mùa đông là một triệu chứng thường gặp ở nhiều người, đặc biệt là những người có tiền sử bệnh về khớp hoặc xương. Thời tiết lạnh và ẩm ướt có thể làm tăng cảm giác đau và khó chịu. Dưới đây là một số thông tin chi tiết về nguyên nhân, triệu chứng, và cách điều trị nhức xương khớp vào mùa đông:\n\n" +
+      "Nguyên nhân:\n1.    Thay đổi nhiệt độ   : Nhiệt độ lạnh có thể làm co thắt mạch máu, giảm tuần hoàn máu đến các khớp, dẫn đến cảm giác đau và cứng.\n2.    Độ ẩm   : Sự thay đổi độ ẩm cũng có thể làm tăng cảm giác đau ở các khớp.\n3.    Căng thẳng cơ bắp   : Khi thời tiết lạnh, cơ bắp có thể trở nên căng cứng, làm tăng áp lực lên các khớp, gây ra cảm giác đau đớn.\n4.    Bệnh lý nền   : Những người bị viêm khớp, thoái hóa khớp, hoặc các bệnh lý liên quan đến khớp khác thường nhạy cảm hơn với sự thay đổi của thời tiết.\n\n" +
+      "Triệu chứng:\n-    Cảm giác đau nhức    ở các khớp, có thể kèm theo sưng hoặc cứng khớp.\n-    Cảm giác nóng rát    hoặc nhức nhói khi di chuyển hoặc gắng sức.\n-    Khó khăn trong việc di chuyển    hoặc thực hiện các hoạt động hàng ngày.\n\n" +
+      "Chẩn đoán:\nĐể chẩn đoán chính xác nguyên nhân gây đau khớp, bác sĩ có thể:\n-    Thực hiện một cuộc kiểm tra lâm sàng   , bao gồm việc hỏi về tiền sử bệnh lý và triệu chứng.\n-    Xét nghiệm hình ảnh    như X-quang hoặc MRI để xác định tình trạng khớp.\n-    Công thức máu    để kiểm tra các dấu hiệu viêm hoặc các vấn đề sức khỏe khác.\n\n" +
+      "Điều trị:\n1.    Điều trị tại chỗ   :\n   - Sử dụng thuốc giảm đau không kê đơn như paracetamol hoặc ibuprofen.\n   - Sử dụng nhiệt hoặc lạnh (chườm nóng hoặc lạnh) để giảm đau và sưng.\n2.    Thay đổi lối sống   :\n   - Tập thể dục nhẹ nhàng, như đi bộ hoặc yoga, để giữ cho khớp linh hoạt và khỏe mạnh.\n   - Nên giữ ấm cho cơ thể, đặc biệt là các khớp bị đau.\n3.    Sử dụng thuốc   :\n   - Trong trường hợp đau kéo dài hoặc nặng, có thể cần dùng thuốc giảm đau theo kê đơn.\n   - Những bệnh nhân có vấn đề viêm khớp có thể cần điều trị lâu dài bằng thuốc điều trị đặc hiệu.\n\n" +
+      "Phòng ngừa:\n-    Giữ ấm cho cơ thể    trong những ngày lạnh bằng cách mặc đủ quần áo.\n-    Tăng cường chế độ ăn uống    với thực phẩm giàu omega-3 và vitamin D để hỗ trợ sức khỏe khớp.\n-    Tránh các hoạt động thể chất    gây áp lực lớn lên các khớp.\n\n" +
+      "Nếu tình trạng đau khớp kéo dài hoặc nghiêm trọng, bạn nên tham khảo ý kiến bác sĩ để có hướng điều trị và chăm sóc phù hợp.",
+    "nhức xương khớp":
+      "Dạ, nhức xương khớp là một tình trạng phổ biến và có thể xuất phát từ nhiều nguyên nhân khác nhau. Các triệu chứng nhức xương khớp thường dễ nhận diện và có thể ảnh hưởng đáng kể đến chất lượng cuộc sống của người bệnh. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và cách điều trị nhức xương khớp.\n\n" +
+      "Nguyên nhân:\n1.    Viêm khớp   : Có nhiều dạng viêm khớp khác nhau như viêm khớp dạng thấp, viêm khớp gout, viêm khớp tự phát ở trẻ em.\n2.    Thoái hóa khớp   : Là sự lão hóa tự nhiên của các khớp, dẫn đến cơn đau và giảm khả năng vận động.\n3.    Chấn thương   : Các chấn thương ở đầu gối, cổ tay, hoặc các khu vực khác có thể gây đau đớn.\n4.    Nhiễm trùng   : Một số bệnh lý nhiễm trùng có thể ảnh hưởng đến khớp, gây ra tình trạng viêm và đau.\n5.    Bệnh lý nền   : Những người mắc bệnh tự miễn dịch hoặc bệnh nội tiết có thể dễ bị nhức xương khớp hơn.\n\n" +
+      "Triệu chứng:\n-    Cảm giác đau và cứng khớp   , đặc biệt là vào buổi sáng hoặc sau khi ngồi lâu.\n-    Sưng và nóng    ở các khớp bị ảnh hưởng.\n-    Khó khăn trong việc cử động và vận động   .\n-    Tiếng kêu khi di chuyển khớp    (crepitus).\n\n" +
+      "Chẩn đoán:\nĐể chẩn đoán nhức xương khớp, bác sĩ thường thực hiện:\n-    Khám lâm sàng   : Đánh giá triệu chứng và kiểm tra phạm vi chuyển động của khớp.\n-    Xét nghiệm hình ảnh   : Như X-quang, MRI để xác định tình trạng của khớp.\n-    Xét nghiệm máu   : Để loại trừ các bệnh lý khác hoặc kiểm tra dấu hiệu viêm.\n\n" +
+      "Điều trị:\n1.    Điều trị nội khoa   :\n   - Thuốc giảm đau: Như paracetamol hoặc NSAIDs (ibuprofen).\n   - Thuốc kháng viêm: Giúp giảm viêm và đau.\n   - Thuốc châm cứu hoặc thuốc tiêm: Trong một số trường hợp, bác sĩ có thể đề xuất tiêm mẹ corticoid để làm giảm viêm.\n2.    Vật lý trị liệu   :\n   - Thực hiện các bài tập giúp tăng cường sức mạnh cho cơ và cải thiện khả năng vận động.\n3.    Thay đổi lối sống   :\n   - Giữ trọng lượng cơ thể ổn định, chế độ ăn uống lành mạnh và tập thể dục đều đặn để duy trì sức khỏe xương khớp.\n4.    Phẫu thuật   : Trong trường hợp nặng, phẫu thuật có thể được xem xét để thay thế hoặc sửa chữa khớp.\n\n" +
+      "Nếu bạn gặp phải tình trạng nhức xương khớp kéo dài hoặc có các triệu chứng nghiêm trọng khác, bạn nên tham khảo ý kiến bác sĩ để được chẩn đoán và điều trị kịp thời.",
   };
 
   for (const key in responses) {
