@@ -352,37 +352,315 @@ function analyzeInput(input) {
       "- Khó tiêu kéo dài hơn vài tuần.\n" +
       "- Có kèm theo các triệu chứng nghiêm trọng như nôn ra máu, đau bụng dữ dội, hoặc giảm cân không rõ lý do.",
     "phát ban":
-      "Phát ban có thể do dị ứng hoặc nhiễm trùng. Tránh tiếp xúc với các chất gây dị ứng và tham khảo ý kiến bác sĩ.",
+      "Dạ, phát ban là hiện tượng tổn thương da có thể xuất hiện dưới nhiều hình thức khác nhau, từ những đốm nhỏ, mẩn đỏ đến vết sưng lớn. Phát ban có thể là một dấu hiệu của nhiều tình trạng khác nhau, từ nhẹ nhàng đến nghiêm trọng. Dưới đây là một số thông tin chi tiết về phát ban:\n\n" +
+      "  Nguyên nhân  \n" +
+      "1.   Nhiễm trùng:   Vi khuẩn, virus hoặc nấm có thể gây ra phát ban. Ví dụ, bệnh thủy đậu, bệnh sởi, hoặc nhiễm khuẩn da.\n" +
+      "2.   Dị ứng:   Các phản ứng dị ứng với thực phẩm, thuốc, hoặc hóa chất cũng có thể dẫn đến phát ban, như trong trường hợp dị ứng thuốc hay dị ứng thực phẩm.\n" +
+      "3.   Bệnh tự miễn:   Một số bệnh tự miễn có thể gây phát ban như lupus ban đỏ hệ thống hoặc bệnh vẩy nến.\n" +
+      "4.   Yếu tố môi trường:   Tiếp xúc với hóa chất độc hại, chất tẩy rửa mạnh hoặc thậm chí là các dị nguyên như phấn hoa, bụi có thể gây phát ban.\n" +
+      "5.   Tình trạng viêm da:   Viêm da tiếp xúc hoặc viêm da dị ứng cũng thường gây ra phát ban.\n\n" +
+      "  Triệu chứng  \n" +
+      "Phát ban có thể có nhiều triệu chứng khác nhau tùy thuộc vào nguyên nhân, bao gồm:\n" +
+      "-   Đỏ da:   Vùng da bị phát ban thường có màu đỏ.\n" +
+      "-   Ngứa:   Cảm giác ngứa ngáy khó chịu có thể xảy ra.\n" +
+      "-   Sưng:   Phát ban có thể kèm theo sưng hoặc phồng rộp.\n" +
+      "-   Vảy hoặc khô da:   Một số loại phát ban có thể làm cho da trở nên khô và có vảy.\n" +
+      "-   Đau hoặc khó chịu:   Một số loại phát ban có thể gây cảm giác đau hoặc khó chịu.\n\n" +
+      "  Chẩn đoán  \n" +
+      "Để chẩn đoán nguyên nhân của phát ban, bác sĩ có thể:\n" +
+      "-   Khám lâm sàng:   Kiểm tra tổn thương da và hỏi về lịch sử bệnh lý của bệnh nhân.\n" +
+      "-   Xét nghiệm máu:   Để phát hiện nhiễm trùng hoặc phản ứng dị ứng.\n" +
+      "-   Thử nghiệm dị ứng:   Xét nghiệm dị ứng để xác định tác nhân gây dị ứng nếu nghi ngờ.\n\n" +
+      "  Điều trị  \n" +
+      "Phương pháp điều trị phát ban phụ thuộc vào nguyên nhân cụ thể:\n" +
+      "-   Thuốc:   Có thể bao gồm thuốc kháng histamine, corticosteroid để giảm viêm và ngứa.\n" +
+      "-   Chăm sóc da:   Sử dụng kem dưỡng ẩm và các sản phẩm chăm sóc da nhẹ nhàng.\n" +
+      "-   Tránh tác nhân kích thích:   Nếu đã xác định được nguyên nhân gây dị ứng, cần tránh tiếp xúc với các tác nhân đó.\n\n" +
+      "  Phòng ngừa  \n" +
+      "-   Tránh tiếp xúc với các hóa chất   hoặc chất gây dị ứng nếu có tiền sử dị ứng.\n" +
+      "-   Duy trì vệ sinh da tốt   và sử dụng sản phẩm chăm sóc da an toàn.\n" +
+      "-   Tiêm phòng   cho những bệnh truyền nhiễm có thể gây phát ban, như sởi hoặc thủy đậu.\n\n" +
+      "Nếu phát ban kèm theo triệu chứng nghiêm trọng như sốt cao, đau đớn hoặc khó thở, bạn nên tìm kiếm sự chăm sóc y tế ngay lập tức.",
     sốt:
-      "Sốt có thể là dấu hiệu của nhiễm trùng. Nghỉ ngơi và uống đủ nước. Nếu sốt kéo dài, hãy đi khám.",
+      "Dạ, sốt là phản ứng tự nhiên của cơ thể khi bị xâm nhập bởi vi khuẩn, virus hoặc tác nhân khác. Hệ miễn dịch kích hoạt, làm tăng nhiệt độ cơ thể.\n\n" +
+      "  Nguyên nhân gây sốt  \n" +
+      "1.   Nhiễm trùng:   Như cúm, cảm lạnh, COVID-19, viêm phổi, sốt rét.\n" +
+      "2.   Bệnh lý tự miễn:   Lupus, viêm khớp dạng thấp.\n" +
+      "3.   Tác động từ môi trường:   Say nắng, sốc nhiệt.\n" +
+      "4.   Phản ứng dị ứng:   Dị ứng thuốc hoặc thực phẩm.\n" +
+      "5.   Thay đổi hormon:   Như cơn nóng trong thời kỳ mãn kinh.\n\n" +
+      "  Triệu chứng  \n" +
+      "-   Nhiệt độ cơ thể tăng cao   (trên 38°C).\n" +
+      "-   Đổ mồ hôi   hoặc   run rẩy  .\n" +
+      "-   Khó chịu, mệt mỏi, đau cơ, đau đầu  .\n\n" +
+      "  Chẩn đoán  \n" +
+      "Bác sĩ có thể kiểm tra tiền sử bệnh, triệu chứng và làm xét nghiệm như máu, nước tiểu.\n\n" +
+      "  Điều trị  \n" +
+      "-   Giảm sốt:   Thuốc như paracetamol, ibuprofen.\n" +
+      "-   Uống đủ nước   và   nghỉ ngơi  .\n" +
+      "-   Điều trị nguyên nhân:   Kháng sinh hoặc thuốc phù hợp.\n\n" +
+      "  Khi nào cần gặp bác sĩ  \n" +
+      "-   Sốt kéo dài hơn 3 ngày   hoặc   sốt trên 39°C  .\n" +
+      "- Có triệu chứng nghiêm trọng như   đau ngực, khó thở, phát ban, mệt mỏi  .",
     "tức ngực":
-      "Tức ngực có thể liên quan đến hô hấp hoặc tim mạch. Nếu tức ngực không giảm, hãy đi khám ngay.",
+      "Dạ, tức ngực là triệu chứng có thể liên quan đến nhiều nguyên nhân khác nhau, từ các vấn đề nhẹ đến nghiêm trọng.\n\n" +
+      "  Nguyên nhân gây tức ngực  \n" +
+      "1.   Vấn đề tim mạch:   Đau thắt ngực, nhồi máu cơ tim, rối loạn nhịp tim.\n" +
+      "2.   Bệnh phổi:   Viêm phổi, tràn khí màng phổi, hen suyễn.\n" +
+      "3.   Rối loạn tiêu hóa:   GERD, cơn đau dạ dày.\n" +
+      "4.   Nguyên nhân tâm lý:   Căng thẳng, lo âu.\n" +
+      "5.   Các nguyên nhân khác:   Chấn thương hoặc căng cơ.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Đau hoặc cảm giác nặng ngực.\n" +
+      "- Khó thở, thở gấp.\n" +
+      "- Cảm giác hồi hộp hoặc lo âu.\n" +
+      "- Đổ mồ hôi lạnh, buồn nôn.\n\n" +
+      "  Chẩn đoán  \n" +
+      "Bác sĩ có thể thực hiện khám lâm sàng, điện tâm đồ, xét nghiệm máu, siêu âm tim, hoặc chụp X-quang ngực.\n\n" +
+      "  Điều trị  \n" +
+      "-   Tim mạch:   Thuốc hoặc phẫu thuật nếu cần.\n" +
+      "-   Tiêu hóa:   Thay đổi chế độ ăn hoặc thuốc chống axit.\n" +
+      "-   Tâm lý:   Tư vấn tâm lý, thư giãn.\n\n" +
+      "  Khi nào cần gặp bác sĩ  \n" +
+      "- Tức ngực kèm cảm giác đè nén, lan ra cánh tay, cổ, hàm.\n" +
+      "- Kèm khó thở, đau đầu dữ dội, mồ hôi lạnh, buồn nôn.\n" +
+      "- Kéo dài trên 15 phút mà không cải thiện.",
     "chảy máu cam":
-      "Chảy máu cam có thể do mạch máu mũi yếu hoặc không khí khô. Cố gắng giữ ẩm mũi và tránh ngoáy mũi.",
+      "Dạ, chảy máu cam là hiện tượng máu chảy từ mũi ra ngoài, thường gặp ở trẻ em và người lớn tuổi. Đây có thể là triệu chứng bình thường, nhưng cũng có thể do các nguyên nhân khác nhau.\n\n" +
+      "  Nguyên nhân gây chảy máu cam  \n" +
+      "1.   Tổn thương niêm mạc mũi:   Do ngoáy mũi, hắt hơi mạnh, hoặc va chạm.\n" +
+      "2.   Khô không khí:   Mùa đông hoặc sử dụng điều hòa.\n" +
+      "3.   Nhiễm trùng:   Cảm lạnh, nhiễm virus hoặc vi khuẩn.\n" +
+      "4.   Dị ứng:   Phấn hoa, bụi bẩn, hóa chất.\n" +
+      "5.   Vấn đề sức khỏe:   Huyết áp cao, rối loạn đông máu.\n" +
+      "6.   Sử dụng thuốc:   Thuốc loãng máu như aspirin hoặc kháng đông.\n\n" +
+      "  Triệu chứng đi kèm  \n" +
+      "- Máu chảy từ một bên hoặc cả hai bên mũi.\n" +
+      "- Cảm giác đau hoặc khó chịu trong mũi.\n" +
+      "- Có thể kèm theo hắt hơi hoặc nghẹt mũi.\n\n" +
+      "  Cách xử lý  \n" +
+      "-   Ngồi/đứng thẳng:   Giảm áp suất trong mũi.\n" +
+      "-   Nghiêng người về phía trước:   Để máu không chảy xuống họng.\n" +
+      "-   Bóp mũi:   Dùng ngón cái và ngón trỏ bóp nhẹ hai bên cánh mũi 5-10 phút.\n" +
+      "-   Chườm lạnh:   Đặt túi đá hoặc khăn lạnh lên sống mũi.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Chảy máu kéo dài trên 20 phút không ngừng.\n" +
+      "- Dấu hiệu chảy máu nhiều, không rõ nguyên nhân.\n" +
+      "- Kèm theo triệu chứng chóng mặt, đau đầu, hoặc khó thở.",
     "đau hông":
-      "Đau hông có thể do căng cơ hoặc chấn thương. Nghỉ ngơi và hạn chế vận động mạnh có thể giúp giảm đau.",
+      "Dạ, đau hông là triệu chứng có thể gây khó chịu và ảnh hưởng đến khả năng vận động. Nó có thể xuất phát từ nhiều nguyên nhân, bao gồm các vấn đề về cơ, khớp, xương, hoặc các tổn thương khác.\n\n" +
+      "  Nguyên nhân gây đau hông  \n" +
+      "1.   Các vấn đề về cơ và khớp:   Viêm khớp, gai xương, chấn thương cơ ở vùng mông và hông.\n" +
+      "2.   Chấn thương:   Ngã, tai nạn thể thao, căng cơ hoặc dây chằng.\n" +
+      "3.   Vấn đề về xương:   Gãy xương, bệnh lý xương như loãng xương.\n" +
+      "4.   Nguyên nhân thần kinh:   Thoát vị đĩa đệm, chèn ép dây thần kinh.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Đau nhức hoặc cảm giác nặng nề ở hông.\n" +
+      "- Giới hạn khả năng vận động hoặc khó khăn khi di chuyển.\n" +
+      "- Cảm giác tê hoặc ngứa ran ở vùng hông hoặc chân.\n\n" +
+      "  Chẩn đoán  \n" +
+      "-   Khám lâm sàng:   Hỏi về triệu chứng và tiền sử bệnh lý.\n" +
+      "-   Xét nghiệm hình ảnh:   Chụp X-quang, MRI, hoặc CT scan để kiểm tra xương và mô mềm.\n\n" +
+      "  Điều trị  \n" +
+      "-   Không phẫu thuật:   Nghỉ ngơi, vật lý trị liệu, thuốc giảm đau và chống viêm.\n" +
+      "-   Phẫu thuật:   Nếu cần thiết, để điều trị gãy xương hoặc thoát vị đĩa đệm.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Đau kèm sốt, sưng hoặc đỏ.\n" +
+      "- Khó di chuyển hoặc vận động.\n" +
+      "- Đau dữ dội kéo dài mà không giảm.",
     "nôn mửa":
-      "Nôn mửa có thể do ngộ độc thực phẩm hoặc nhiễm trùng. Nghỉ ngơi và uống nước từng chút một để tránh mất nước.",
+      "Dạ, nôn mửa là triệu chứng thường gặp có thể do nhiều nguyên nhân khác nhau. Nó có thể liên quan đến vấn đề tiêu hóa, bệnh lý nội tiết, thần kinh, tác động của thuốc hoặc tình trạng tâm lý.\n\n" +
+      "  Nguyên nhân gây nôn mửa  \n" +
+      "1.   Rối loạn tiêu hóa:   Ngộ độc thực phẩm, viêm dạ dày ruột (nhiễm vi khuẩn hoặc virus).\n" +
+      "2.   Bệnh lý nội tiết:   Mang thai (buồn nôn thai kỳ), bệnh tiểu đường (ketoacidosis).\n" +
+      "3.   Vấn đề thần kinh:   Đau đầu, chấn thương sọ não.\n" +
+      "4.   Tác động của thuốc:   Một số thuốc gây nôn mửa.\n" +
+      "5.   Tình trạng tâm lý:   Căng thẳng, lo âu hoặc trầm cảm.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Buồn nôn, đau bụng, tiêu chảy, mất nước.\n\n" +
+      "  Cách xử lý khi nôn mửa  \n" +
+      "1. Nghỉ ngơi để giảm cảm giác buồn nôn.\n" +
+      "2. Uống nước hoặc dung dịch bù điện giải.\n" +
+      "3. Ăn thức ăn nhẹ khi cảm giác buồn nôn giảm.\n" +
+      "4. Thuốc chống buồn nôn theo chỉ định của bác sĩ.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Nôn mửa kéo dài hơn 24 giờ.\n" +
+      "- Có máu trong chất nôn.\n" +
+      "- Kèm theo triệu chứng đau bụng dữ dội, sốt cao, mất nước nghiêm trọng.",
     "ho ra máu":
-      "Ho ra máu là triệu chứng nghiêm trọng. Hãy đi khám bác sĩ ngay để kiểm tra nguyên nhân.",
+      "Dạ, ho ra máu là triệu chứng nghiêm trọng, có thể liên quan đến các bệnh lý nguy hiểm và cần được đánh giá kịp thời.\n\n" +
+      "  Nguyên nhân gây ho ra máu  \n" +
+      "1.   Bệnh lý phổi:   Viêm phổi, nấm phổi, lao phổi.\n" +
+      "2.   Bệnh lý hô hấp khác:   Ung thư phổi, bệnh phổi tắc nghẽn mãn tính (COPD).\n" +
+      "3.   Vấn đề tim mạch:   Thuyên tắc phổi, suy tim.\n" +
+      "4.   Các nguyên nhân khác:   Viêm họng, viêm phế quản, dị vật trong đường hô hấp.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Ho kéo dài, khó thở, mệt mỏi, sốt.\n" +
+      "- Đau ngực khi hít sâu hoặc ho.\n\n" +
+      "  Chẩn đoán  \n" +
+      "- Khám lâm sàng, xét nghiệm hình ảnh (X-quang, CT scan), xét nghiệm máu hoặc nội soi phế quản.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Ho ra máu với số lượng lớn hoặc kéo dài.\n" +
+      "- Khó thở nghiêm trọng, sốt cao, hoặc có dấu hiệu nhiễm trùng.",
     "run tay chân":
-      "Run tay chân có thể do lo âu hoặc hạ đường huyết. Nghỉ ngơi và ăn nhẹ có thể giúp cải thiện.",
+      "Dạ, run tay chân là tình trạng cơ thể bị run rẩy hoặc co giật ở các chi, có thể do nhiều nguyên nhân khác nhau.\n\n" +
+      "  Nguyên nhân gây run tay chân  \n" +
+      "1.   Stress và lo âu:   Căng thẳng, lo âu trong các tình huống áp lực có thể gây run tay chân.\n" +
+      "2.   Thiếu hụt dinh dưỡng:   Thiếu vitamin B12, canxi hoặc magie.\n" +
+      "3.   Rối loạn thần kinh:   Bệnh Parkinson, rối loạn lo âu.\n" +
+      "4.   Rượu và ma túy:   Sử dụng hoặc cắt đứt đột ngột các chất kích thích.\n" +
+      "5.   Bệnh lý hệ thần kinh ngoại biên:   Tổn thương hoặc bệnh lý ở hệ thần kinh.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Mệt mỏi, yếu sức, khó giữ thăng bằng.\n" +
+      "- Cảm giác lo âu, hồi hộp, tim đập nhanh.\n\n" +
+      "  Chẩn đoán  \n" +
+      "- Đánh giá lịch sử bệnh, khám lâm sàng, xét nghiệm máu kiểm tra điện giải, vitamin.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Run tay chân nghiêm trọng hoặc kéo dài.\n" +
+      "- Kèm theo triệu chứng như đau, tê liệt hoặc yếu cơ.\n" +
+      "- Gây khó khăn trong các hoạt động hàng ngày.",
     "đau cổ tay":
-      "Đau cổ tay có thể do hoạt động lặp lại nhiều lần. Nghỉ ngơi và giảm bớt sử dụng cổ tay.",
+      "Dạ, đau cổ tay có thể do nhiều nguyên nhân khác nhau, ảnh hưởng đến khả năng hoạt động hàng ngày của bạn.\n\n" +
+      "  Nguyên nhân chính gây đau cổ tay  \n" +
+      "1.   Chấn thương:   Trật khớp, gãy xương do va chạm mạnh hoặc ngã.\n" +
+      "2.   Viêm gân và viêm khớp:   Viêm gân do lặp đi lặp lại chuyển động, viêm khớp dạng thấp hoặc thoái hóa khớp.\n" +
+      "3.   Hội chứng ống cổ tay:   Dây thần kinh median bị chèn ép, gây đau, tê hoặc yếu.\n" +
+      "4.   Bệnh lý khác:   Gout, bệnh thận, hoặc tiểu đường có thể gây đau cổ tay.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Đau, tê, yếu ở cổ tay.\n" +
+      "- Sưng tấy hoặc nóng tại vùng cổ tay.\n" +
+      "- Khó khăn trong các hoạt động hàng ngày như cầm nắm.\n\n" +
+      "  Chẩn đoán  \n" +
+      "- Đánh giá lịch sử bệnh, khám lâm sàng, xét nghiệm hình ảnh như X-quang hoặc MRI.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Đau kéo dài hoặc nặng dần.\n" +
+      "- Sưng, đỏ, hoặc nóng tại cổ tay.\n" +
+      "- Khó cử động tay hoặc thực hiện công việc hàng ngày.",
     "đau bụng dưới":
-      "Đau bụng dưới có thể do kinh nguyệt hoặc nhiễm trùng. Nếu kéo dài, nên đi khám.",
+      "Dạ, đau bụng dưới có thể do nhiều nguyên nhân và thường là dấu hiệu của vấn đề sức khỏe.\n\n" +
+      "  Nguyên nhân gây đau bụng dưới  \n" +
+      "1.   Rối loạn tiêu hóa:   Tiêu chảy, táo bón hoặc hội chứng ruột kích thích.\n" +
+      "2.   Bệnh lý phụ khoa (ở phụ nữ):   Viêm vùng chậu, u nang buồng trứng, u xơ tử cung, hoặc lạc nội mạc tử cung.\n" +
+      "3.   Bệnh lý tiết niệu:   Sỏi thận hoặc nhiễm trùng đường tiết niệu.\n" +
+      "4.   Bệnh lý tiêu hóa:   Viêm ruột thừa, viêm đại tràng, hoặc loét dạ dày.\n" +
+      "5.   Chấn thương hoặc hoạt động thể chất:   Chấn thương vào vùng bụng hoặc các hoạt động thể lực mạnh.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Buồn nôn, nôn mửa, tiêu chảy, sốt.\n" +
+      "- Cảm giác khó chịu hoặc co thắt ở bụng.\n" +
+      "- Tiểu buốt, tiểu rắt nếu có vấn đề tiết niệu.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Cơn đau kéo dài hoặc nghiêm trọng.\n" +
+      "- Có dấu hiệu sốt cao, nôn mửa kéo dài, hoặc có máu trong phân.\n" +
+      "- Khó thở, chóng mặt.\n" +
+      "- Tiền sử bệnh lý về các cơ quan bụng.",
     "đau cánh tay":
-      "Đau cánh tay có thể do căng cơ hoặc chấn thương. Nghỉ ngơi và tránh nâng vật nặng có thể giúp giảm đau.",
+      "Dạ, đau cánh tay có thể do nhiều nguyên nhân và ảnh hưởng đến khả năng hoạt động của bạn.\n\n" +
+      "  Nguyên nhân gây đau cánh tay  \n" +
+      "1.   Chấn thương:   Gãy xương, trật khớp, bong gân, hoặc căng cơ do tai nạn hoặc va chạm.\n" +
+      "2.   Bệnh lý viêm khớp:   Viêm khớp gối, viêm khớp dạng thấp có thể gây đau cánh tay.\n" +
+      "3.   Hội chứng ống cổ tay:   Dây thần kinh bị chèn ép, gây đau và tê tại cánh tay.\n" +
+      "4.   Đau cơ xơ hóa:   Đau và cứng cơ ảnh hưởng đến cánh tay.\n" +
+      "5.   Vấn đề tim mạch:   Đau cánh tay có thể liên quan đến tim, như cơn đau thắt ngực hoặc nhồi máu cơ tim.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Đau nhói hoặc kéo dài ở cánh tay.\n" +
+      "- Tê hoặc yếu ở tay hoặc cánh tay.\n" +
+      "- Sưng hoặc cứng khớp cánh tay.\n" +
+      "- Khó thở, đau ngực, buồn nôn nếu liên quan đến vấn đề tim.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Cơn đau kéo dài hoặc nghiêm trọng.\n" +
+      "- Kèm theo triệu chứng như đau ngực, khó thở hoặc cảm giác đè nặng.\n" +
+      "- Sưng hoặc tê tạm thời ở cánh tay.",
     "khàn tiếng":
-      "Khàn tiếng có thể do viêm họng hoặc sử dụng giọng nói quá mức. Nghỉ ngơi và uống nước ấm.",
+      "Dạ, khàn tiếng là một triệu chứng thường gặp, có thể do nhiều nguyên nhân khác nhau.\n\n" +
+      "  Nguyên nhân gây khàn tiếng  \n" +
+      "1.   Viêm họng hoặc viêm thanh quản:   Viêm do nhiễm virus hoặc vi khuẩn có thể làm thanh quản sưng và gây khàn tiếng.\n" +
+      "2.   Sử dụng giọng nói quá mức:   Hét, nói nhiều hoặc nói lớn trong thời gian dài có thể làm dây thanh quản căng thẳng và khàn đi.\n" +
+      "3.   Tình trạng dị ứng:   Phấn hoa, bụi hoặc khói thuốc có thể kích thích đường hô hấp, làm thay đổi giọng nói.\n" +
+      "4.   Trào ngược dạ dày thực quản (GERD):   Axit từ dạ dày trào ngược lên thanh quản, gây kích thích và khàn tiếng.\n" +
+      "5.   U (bướu) ở dây thanh:   Sự phát triển của u nhỏ hoặc polyp có thể làm thay đổi giọng nói.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Cảm giác đau hoặc kích thích họng.\n" +
+      "- Ho khan hoặc ho có đờm.\n" +
+      "- Khó khăn trong việc nói hoặc nuốt.\n" +
+      "- Sốt hoặc cảm giác mệt mỏi nếu có nhiễm trùng.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Khàn tiếng kéo dài hơn 2 tuần mà không cải thiện.\n" +
+      "- Có triệu chứng đau họng nghiêm trọng hoặc khó nuốt.\n" +
+      "- Kèm theo triệu chứng sốt cao hoặc ho ra máu.\n" +
+      "- Có cảm giác khó thở hoặc khò khè.",
     "ngứa mắt":
-      "Ngứa mắt có thể do dị ứng hoặc khô mắt. Tránh dụi mắt và sử dụng thuốc nhỏ mắt nếu cần.",
+      "Dạ, ngứa mắt là triệu chứng thường gặp có thể gây khó chịu và ảnh hưởng đến sinh hoạt hàng ngày. Có nhiều nguyên nhân khác nhau gây ra triệu chứng này.\n\n" +
+      "  Nguyên nhân gây ngứa mắt  \n" +
+      "1.   Dị ứng:   Đây là một trong những nguyên nhân phổ biến nhất. Dị ứng có thể do phấn hoa, bụi, lông động vật hoặc hóa chất trong mỹ phẩm và nước hoa.\n" +
+      "2.   Khô mắt:   Khi không đủ nước mắt hoặc khi nước mắt bay hơi quá nhanh, có thể dẫn đến tình trạng khô mắt và ngứa.\n" +
+      "3.   Nhiễm trùng:   Các nhiễm trùng mắt như viêm kết mạc (pink eye) có thể gây ngứa, đỏ và chảy nước mắt.\n" +
+      "4.   Cơ thể mệt mỏi hoặc căng thẳng:   Khi bạn mệt mỏi hoặc có thời gian dài sử dụng máy tính, mắt có thể cảm thấy mệt mỏi và dẫn đến ngứa.\n" +
+      "5.   Lệch nhẹ:   Mắt có thể ngứa khi tiếp xúc với bụi hoặc các tạp chất khác.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Đỏ mắt hoặc sưng.\n" +
+      "- Chảy nước mắt hoặc khô mắt.\n" +
+      "- Cảm giác như có vật gì trong mắt.\n" +
+      "- Nhìn mờ hoặc khó chịu khi nhìn.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "- Triệu chứng ngứa kéo dài hoặc trở nên nghiêm trọng.\n" +
+      "- Kèm theo triệu chứng như đau mắt, tiết dịch mủ hoặc mất thị lực.\n" +
+      "- Có cảm giác nhìn mờ đột ngột hoặc ánh sáng chói.",
     "khô miệng":
-      "Khô miệng có thể do thiếu nước hoặc dùng thuốc. Uống nước thường xuyên có thể giúp cải thiện.",
+      "Dạ, khô miệng là một triệu chứng có thể gây khó chịu và ảnh hưởng đến sức khỏe răng miệng, cũng như khả năng ăn uống. Có nhiều nguyên nhân gây ra khô miệng, và dưới đây là những thông tin chi tiết liên quan đến vấn đề này.\n\n" +
+      "  Nguyên nhân gây khô miệng  \n" +
+      "1.   Thiếu nước:   Không uống đủ nước có thể dẫn đến tình trạng khô miệng.\n" +
+      "2.   Sử dụng thuốc:   Nhiều loại thuốc, đặc biệt là thuốc chống dị ứng, thuốc chống trầm cảm, và thuốc cao huyết áp, có thể gây tác dụng phụ là khô miệng.\n" +
+      "3.   Bệnh lý:   Một số căn bệnh như bệnh tiểu đường, hội chứng Sjögren, hoặc viêm tuyến nước bọt có thể dẫn đến tình trạng này.\n" +
+      "4.   Xạ trị hoặc hóa trị:   Các phương pháp điều trị ung thư có thể làm tổn thương các tuyến nước bọt, dẫn đến khô miệng.\n" +
+      "5.   Hút thuốc hoặc uống rượu:   Những thói quen này có thể làm giảm sản xuất nước bọt.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Khô miệng kéo dài.\n" +
+      "- Cảm giác dính trong miệng.\n" +
+      "- Khó nuốt hoặc nhai thức ăn.\n" +
+      "- Hơi thở có mùi.\n" +
+      "- Nướu răng có thể bị kích ứng hơn.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "Bạn nên liên hệ với bác sĩ nếu:\n" +
+      "- Khô miệng kéo dài và ảnh hưởng đến sinh hoạt hàng ngày.\n" +
+      "- Có dấu hiệu của nhiễm trùng miệng hoặc nướu.\n" +
+      "- Xuất hiện tình trạng khô miệng kèm theo khát nước liên tục hoặc các triệu chứng bất thường khác.",
     "đau bụng trên":
-      "Đau bụng trên có thể liên quan đến dạ dày hoặc gan. Nếu kéo dài, nên đi khám.",
+      "Dạ, đau bụng trên là một triệu chứng thường gặp và có thể do nhiều nguyên nhân khác nhau. Vùng bụng trên nằm giữa ngực và rốn, bao gồm các cơ quan như dạ dày, gan, tụy, và một phần ruột non. Dưới đây là một số nguyên nhân phổ biến gây ra đau bụng trên cùng với thông tin chi tiết.\n\n" +
+      "  Nguyên nhân gây đau bụng trên  \n" +
+      "1.   Bệnh lý dạ dày:   Các vấn đề như viêm loét dạ dày, trào ngược dạ dày thực quản (GERD), hoặc viêm dạ dày có thể gây đau.\n" +
+      "2.   Bệnh gan:   Viêm gan, xơ gan, hoặc các bệnh lý liên quan đến gan có thể gây đau tức ở phía trên bụng bên phải.\n" +
+      "3.   Rối loạn tụy:   Viêm tụy (viêm tụy cấp hoặc mãn tính) có thể gây đau bụng trên và thường kèm theo buồn nôn hoặc nôn mửa.\n" +
+      "4.   Đau do túi mật:   Sỏi mật hoặc viêm túi mật cũng có thể dẫn đến cảm giác đau ở vùng này.\n" +
+      "5.   Bệnh lý tim mạch:   Trong một số trường hợp, cơn đau ở vùng bụng trên bên trái cũng có thể liên quan đến các vấn đề về tim, như nhồi máu cơ tim hoặc đau thắt ngực.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Buồn nôn hoặc nôn.\n" +
+      "- Chướng bụng hoặc cảm giác đầy hơi.\n" +
+      "- Sốt hoặc ớn lạnh.\n" +
+      "- Đau lưng hoặc đau ở vùng khác.\n" +
+      "- Chảy máu trong phân hoặc nôn ra máu.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "Bạn nên tìm kiếm sự chăm sóc y tế nếu:\n" +
+      "- Đau bụng trở nên nghiêm trọng và không giảm sau khi dùng thuốc giảm đau.\n" +
+      "- Kèm theo triệu chứng như nôn ra máu, tiêu chảy, sốt cao, hoặc bị ngất xỉu.\n" +
+      "- Cảm thấy đau ngực kèm theo đau bụng.",
     "đau vai":
-      "Đau vai có thể do căng cơ hoặc chấn thương. Nghỉ ngơi và giảm vận động vai có thể giúp giảm đau.",
+      "Dạ, đau vai là một triệu chứng phổ biến có thể gây khó chịu và ảnh hưởng đến hoạt động hàng ngày. Nguyên nhân gây đau vai có thể rất đa dạng, từ chấn thương nhẹ cho đến các vấn đề nghiêm trọng hơn. Dưới đây là một số nguyên nhân, triệu chứng, và hướng điều trị chung cho tình trạng này.\n\n" +
+      "  Nguyên nhân gây đau vai  \n" +
+      "1.   Chấn thương:   Có thể do làm việc quá sức, va chạm, hoặc vận động không đúng cách.\n" +
+      "2.   Viêm đau:   Những tình trạng như viêm gân (tendinitis) hoặc viêm khớp có thể gây đau và cứng ở vùng vai.\n" +
+      "3.   Hội chứng vai:   Bao gồm hội chứng vai đóng, hội chứng vai ngực, với đau lan từ vùng cổ xuống vai và cả cánh tay.\n" +
+      "4.   Thói quen sinh hoạt:   Ngồi làm việc lâu với tư thế không đúng có thể kéo dài cơn đau và làm tình trạng trở nên tồi tệ hơn.\n" +
+      "5.   Bệnh lý liên quan:   Đau vai có thể là dấu hiệu của các vấn đề sức khỏe như suy tim, viêm khớp, thoát vị đĩa đệm, hoặc thậm chí là vấn đề liên quan đến phổi, chẳng hạn như viêm phổi, đặc biệt nếu cơn đau đi kèm với triệu chứng khác.\n\n" +
+      "  Triệu chứng kèm theo  \n" +
+      "- Cảm giác cứng, hạn chế vận động.\n" +
+      "- Đau khi nâng cánh tay hoặc xoay người.\n" +
+      "- Cảm giác tê hoặc châm chích lan từ vai xuống cánh tay.\n" +
+      "- Đau tăng lên khi có hoạt động thể chất hoặc thay đổi tư thế.\n\n" +
+      "  Khi nào cần tìm kiếm sự chăm sóc y tế  \n" +
+      "Bạn nên đi khám nếu:\n" +
+      "- Đau vai kéo dài và không cải thiện trong vài ngày.\n" +
+      "- Cảm thấy đau mạnh kèm theo các triệu chứng như sốt, mệt mỏi, hoặc khó thở.\n" +
+      "- Cảm giác châm chích hoặc mất cảm giác ở cánh tay.",
     "đầy hơi":
       "Dạ, đầy hơi (hay còn gọi là chứng chướng bụng) là tình trạng tích tụ khí trong hệ tiêu hóa, khiến bụng cảm thấy đầy hoặc căng. Tình trạng này có thể gây cảm giác khó chịu, đau bụng, cảm giác nặng nề hoặc ợ chua. Dưới đây là một số nguyên nhân phổ biến và phương pháp khắc phục tình trạng đầy hơi:\n\n" +
       "      Nguyên nhân gây đầy hơi:\n" +
@@ -440,9 +718,24 @@ function analyzeInput(input) {
     "ngứa họng":
       "Ngứa họng có thể do dị ứng hoặc viêm họng. Uống nước ấm và tránh tiếp xúc với các chất gây dị ứng.",
     "đau bàn chân":
-      "Đau bàn chân có thể do viêm gân hoặc căng cơ. Nghỉ ngơi và giãn cơ có thể giúp giảm đau.",
-    "suy giảm trí nhớ":
-      "Suy giảm trí nhớ có thể do căng thẳng hoặc thiếu ngủ. Giữ tâm lý thoải mái và bổ sung vitamin cho trí não.",
+      "Dạ, đau bàn chân là một triệu chứng mà nhiều người có thể trải qua và có thể xuất phát từ nhiều nguyên nhân khác nhau. Đau có thể xảy ra ở ngón chân, gót chân hoặc cả bàn chân. Dưới đây là một số nguyên nhân phổ biến, triệu chứng đi kèm, và các phương pháp điều trị cho tình trạng đau bàn chân.\n\n" +
+      "**Nguyên nhân gây đau bàn chân**\n" +
+      "1. **Chấn thương:** Bàn chân có thể bị chấn thương do va đập, ngã hoặc vận động không đúng cách, dẫn đến bong gân, gãy xương hoặc tổn thương mô mềm.\n" +
+      "2. **Viêm gân:** Viêm gân ở bàn chân cũng có thể gây ra cảm giác đau và khó chịu, đặc biệt là nếu có sự lặp lại trong các hoạt động thể chất mà người bệnh thường thực hiện.\n" +
+      "3. **Bệnh lý khớp:** Viêm khớp hoặc bệnh gout có thể gây ra tình trạng sưng và đau ở các khớp ở bàn chân.\n" +
+      "4. **Tình trạng xương:** Bệnh lý như bệnh xương mỏng (osteoporosis) có thể làm tăng nguy cơ gãy xương ở bàn chân.\n" +
+      "5. **Hội chứng đau thắt:** Tình trạng này xảy ra khi các dây thần kinh trong vùng chân bị chèn ép, gây cảm giác đau, tê quanh bàn chân.\n" +
+      "6. **Diabetes:** Người bị tiểu đường có thể gặp vấn đề về thần kinh (neuropathy), có thể dẫn đến cơn đau bàn chân.\n\n" +
+      "**Triệu chứng kèm theo**\n" +
+      "- Đau nhức hoặc cảm giác nóng bỏng.\n" +
+      "- Sưng, viêm hoặc đỏ ở một số khu vực của bàn chân.\n" +
+      "- Cảm giác tê hoặc châm chích.\n" +
+      "- Hạn chế khả năng vận động hoặc đi lại.\n\n" +
+      "**Khi nào cần tìm kiếm sự chăm sóc y tế**\n" +
+      "Bạn nên đi khám bác sĩ nếu:\n" +
+      "- Cảm thấy đau nặng hoặc kéo dài hơn vài ngày mà không có dấu hiệu cải thiện.\n" +
+      "- Đau đi kèm với sưng lớn hoặc đỏ ở bàn chân.\n" +
+      "- Xuất hiện triệu chứng khác như sốt, tê liệt hoặc khó đi lại.",
     "chảy máu chân răng":
       "Chảy máu chân răng có thể do viêm lợi hoặc thiếu vitamin. Vệ sinh răng miệng và ăn uống đủ chất.",
     "đau cơ":
@@ -585,7 +878,7 @@ function analyzeInput(input) {
       "Ngoài giờ hành chính, Bệnh viện vẫn tiếp đón bệnh nhân cấp cứu theo quy định của Bộ Y tế. Nếu bạn cần thêm thông tin, vui lòng cho tôi biết!",
     "Tạm biệt":
       "Dạ, tạm biệt bạn! Nếu bạn có bất kỳ câu hỏi nào khác trong tương lai hoặc cần sự trợ giúp, hãy quay lại nhé. Chúc bạn một ngày tốt lành!",
-    "tạm biệt":
+    "chào biệt":
       "Dạ, tạm biệt bạn! Nếu bạn có bất kỳ câu hỏi nào khác trong tương lai hoặc cần sự trợ giúp, hãy quay lại nhé. Chúc bạn một ngày tốt lành!",
     "Tiểu đường":
       "Dạ, nếu bạn bị tiểu đường, hãy chú ý:" +
@@ -1515,6 +1808,188 @@ function analyzeInput(input) {
       "Chẩn đoán:\nĐể chẩn đoán nhức xương khớp, bác sĩ thường thực hiện:\n-    Khám lâm sàng   : Đánh giá triệu chứng và kiểm tra phạm vi chuyển động của khớp.\n-    Xét nghiệm hình ảnh   : Như X-quang, MRI để xác định tình trạng của khớp.\n-    Xét nghiệm máu   : Để loại trừ các bệnh lý khác hoặc kiểm tra dấu hiệu viêm.\n\n" +
       "Điều trị:\n1.    Điều trị nội khoa   :\n   - Thuốc giảm đau: Như paracetamol hoặc NSAIDs (ibuprofen).\n   - Thuốc kháng viêm: Giúp giảm viêm và đau.\n   - Thuốc châm cứu hoặc thuốc tiêm: Trong một số trường hợp, bác sĩ có thể đề xuất tiêm mẹ corticoid để làm giảm viêm.\n2.    Vật lý trị liệu   :\n   - Thực hiện các bài tập giúp tăng cường sức mạnh cho cơ và cải thiện khả năng vận động.\n3.    Thay đổi lối sống   :\n   - Giữ trọng lượng cơ thể ổn định, chế độ ăn uống lành mạnh và tập thể dục đều đặn để duy trì sức khỏe xương khớp.\n4.    Phẫu thuật   : Trong trường hợp nặng, phẫu thuật có thể được xem xét để thay thế hoặc sửa chữa khớp.\n\n" +
       "Nếu bạn gặp phải tình trạng nhức xương khớp kéo dài hoặc có các triệu chứng nghiêm trọng khác, bạn nên tham khảo ý kiến bác sĩ để được chẩn đoán và điều trị kịp thời.",
+    "dấu hiệu bệnh tim":
+      "Dạ, dấu hiệu của bệnh tim có thể rất đa dạng và thường phụ thuộc vào loại bệnh lý tim mà người bệnh gặp phải. Dưới đây là một số dấu hiệu và triệu chứng phổ biến mà bạn cần chú ý:\n\n" +
+      "1.  Đau ngực :\n" +
+      "   - Cảm giác đau hoặc nặng ở vùng ngực có thể là dấu hiệu của bệnh tim mạch, đặc biệt là khi cơn đau lan ra vai, cổ, hàm hoặc lưng.\n\n" +
+      "2.  Khó thở :\n" +
+      "   - Khó thở có thể xảy ra khi bạn đang nghỉ ngơi hoặc khi gắng sức, và có thể là dấu hiệu của suy tim hoặc bệnh động mạch vành.\n\n" +
+      "3.  Nhịp tim không đều :\n" +
+      "   - Các rối loạn nhịp tim có thể bao gồm nhịp tim đập quá nhanh hoặc quá chậm, và có thể cảm thấy hồi hộp.\n\n" +
+      "4.  Sưng phù :\n" +
+      "   - Sưng ở chân, mắt cá chân hoặc bụng có thể do tích tụ chất lỏng, thường là dấu hiệu của suy tim.\n\n" +
+      "5.  Mệt mỏi :\n" +
+      "   - Cảm giác mệt mỏi không giải thích được và kéo dài có thể cho thấy tim không thể bơm máu hiệu quả đến các bộ phận của cơ thể.\n\n" +
+      "6.  Đổ mồ hôi :\n" +
+      "   - Rối loạn đổ mồ hôi không bình thường, đặc biệt là khi không hoạt động có thể là một dấu hiệu cảnh báo.\n\n" +
+      "7.  Chóng mặt hoặc ngất xỉu :\n" +
+      "   - Cảm giác chóng mặt hoặc ngất xỉu có thể xảy ra do áp lực máu giảm hoặc rối loạn nhịp tim.\n\n" +
+      "8.  Tiểu nhiều đêm :\n" +
+      "   - Người bệnh tim có thể gặp tình trạng tiểu nhiều vào ban đêm do tim không có khả năng bơm máu hiệu quả.\n\n" +
+      "Nếu bạn hoặc người thân có bất kỳ dấu hiệu nào trong số này kéo dài hoặc trở nặng, nên đi khám bác sĩ sớm để được chẩn đoán và điều trị kịp thời. Việc phát hiện sớm và điều trị bệnh lý tim sẽ giúp cải thiện chất lượng cuộc sống và tăng cường sức khỏe tim mạch.",
+    "mỏi vai":
+      "Dạ, mỏi vai là một biểu hiện phổ biến mà nhiều người thường gặp, thường xảy ra do nhiều nguyên nhân khác nhau. Dưới đây là một số thông tin hữu ích về tình trạng mỏi vai:\n\n" +
+      " Nguyên nhân gây mỏi vai: \n" +
+      "1.  Căng thẳng cơ : Ngồi làm việc ở một tư thế không đúng hoặc sử dụng máy tính lâu có thể dẫn đến căng cơ ở vùng vai.\n" +
+      "2.  Chấn thương : Những chấn thương do va chạm hoặc hoạt động thể thao có thể gây đau và mỏi ở vai.\n" +
+      "3.  Thói quen vận động : Những động tác lặp đi lặp lại, như nâng vật nặng thường xuyên, cũng có thể dẫn đến tình trạng này.\n" +
+      "4.  Rối loạn khớp : Các bệnh lý như viêm khớp, thoái hóa khớp, hoặc các vấn đề liên quan đến đĩa đệm ở cổ có thể gây ra triệu chứng mỏi vai.\n" +
+      "5.  Tình trạng tinh thần : Căng thẳng, lo âu và stress có thể làm tăng cảm giác mỏi và căng cơ.\n\n" +
+      " Triệu chứng đi kèm: \n" +
+      "- Cảm giác căng cứng hoặc đau nhức ở vùng vai.\n" +
+      "- Giảm khả năng cử động ở vai, đặc biệt là khi cố gắng nâng lên hoặc xoay vai.\n" +
+      "- Cảm giác tê hoặc yếu ở cánh tay.\n\n" +
+      " Cách điều trị: \n" +
+      "1.  Nghỉ ngơi : Hạn chế các hoạt động có thể làm tổn thương thêm cho vùng vai.\n" +
+      "2.  Chườm lạnh hoặc ấm : Sử dụng túi chườm lạnh để giảm sưng hoặc túi chườm ấm để thư giãn cơ bắp.\n" +
+      "3.  Vật lý trị liệu : Các bài tập kéo giãn và tăng cường sức mạnh có thể giúp cải thiện tình trạng và giảm cảm giác mỏi.\n" +
+      "4.  Sử dụng thuốc giảm đau : Có thể sử dụng thuốc không kê đơn như ibuprofen nếu cần thiết.\n" +
+      "5.  Hướng dẫn tư thế làm việc đúng : Điều chỉnh chỗ ngồi để duy trì tư thế đúng, tránh căng thẳng lên vai.\n\n" +
+      "Nếu tình trạng mỏi vai kéo dài, kèm theo các triệu chứng nghiêm trọng như đau dữ dội, tê liệt hoặc cử động khó khăn, bạn nên đi khám bác sĩ để được chẩn đoán chính xác và có liệu pháp điều trị thích hợp.",
+    "viêm niệu đạo":
+      "Dạ, viêm niệu đạo là tình trạng viêm của niệu đạo, ống dẫn nước tiểu từ bàng quang ra ngoài cơ thể. Tình trạng này có thể gây ra nhiều triệu chứng khó chịu và cần được điều trị kịp thời để tránh các biến chứng. Dưới đây là một số thông tin chi tiết về viêm niệu đạo:\n\n" +
+      " Nguyên nhân: \n" +
+      "-  Nhiễm khuẩn : Vi khuẩn là nguyên nhân phổ biến nhất gây viêm niệu đạo, thường là vi khuẩn lây qua đường tình dục như *Neisseria gonorrhoeae* (gây bệnh lậu) và *Chlamydia trachomatis*.\n" +
+      "-  Virus : Một số virus cũng có thể gây viêm niệu đạo, chẳng hạn như virus herpes hoặc adenovirus.\n" +
+      "-  Tình trạng không nhiễm trùng : Viêm niệu đạo cũng có thể do dị ứng với các sản phẩm như xà phòng, chất gây kích ứng hay hóa chất.\n\n" +
+      " Triệu chứng: \n" +
+      "- Đau và rát khi tiểu: Cảm giác đau hoặc khó chịu khi đi tiểu là triệu chứng chính.\n" +
+      "- Dịch tiết: Xuất hiện dịch mủ hoặc dịch trong từ niệu đạo.\n" +
+      "- Thường xuyên có nhu cầu tiểu: Cảm thấy cần phải tiểu nhiều hơn bình thường.\n" +
+      "- Ngứa hoặc khó chịu: Có thể cảm thấy ngứa hoặc khó chịu ở khu vực niệu đạo.\n\n" +
+      " Chẩn đoán: \n" +
+      "-  Khám lâm sàng : Bác sĩ sẽ thăm khám để kiểm tra triệu chứng và lấy thông tin bệnh sử.\n" +
+      "-  Xét nghiệm mẫu thử : Xét nghiệm mẫu nước tiểu hoặc dịch tiết từ niệu đạo để xác định tác nhân gây viêm.\n" +
+      "-  Xét nghiệm bệnh lây qua đường tình dục : Nếu nghi ngờ nguyên nhân là do nhiễm khuẩn lây qua đường tình dục, bác sĩ sẽ thực hiện các xét nghiệm cần thiết.\n\n" +
+      " Điều trị: \n" +
+      "-  Kháng sinh : Nếu nguyên nhân là do nhiễm khuẩn, bác sĩ sẽ chỉ định kháng sinh phù hợp.\n" +
+      "-  Điều trị triệu chứng : Sử dụng thuốc giảm đau và kháng viêm nếu cần thiết.\n" +
+      "-  Thay đổi lối sống : Tránh các chất gây kích ứng và duy trì vệ sinh cá nhân tốt.\n\n" +
+      " Phòng ngừa: \n" +
+      "-  Bảo vệ khi quan hệ tình dục : Sử dụng bao cao su để giảm nguy cơ lây nhiễm vi khuẩn.\n" +
+      "-  Vệ sinh tốt : Thực hiện vệ sinh cá nhân đúng cách, đặc biệt sau khi đi vệ sinh hoặc quan hệ tình dục.\n" +
+      "-  Tránh các sản phẩm gây kích ứng : Tránh sử dụng các sản phẩm hóa chất có thể gây dị ứng cho khu vực niệu đạo.\n\n" +
+      "Nếu bạn có triệu chứng của viêm niệu đạo hoặc nghi ngờ mình có vấn đề này, hãy tham khảo ý kiến bác sĩ để được chẩn đoán và điều trị kịp thời.",
+    "đau sườn trái":
+      "Dạ, đau sườn trái có thể xuất phát từ nhiều nguyên nhân khác nhau, từ các vấn đề về cơ xương khớp đến các bệnh lý nội tạng. Dưới đây là một số thông tin chi tiết về tình trạng này:\n\n" +
+      " Nguyên nhân: \n" +
+      "1.  Vấn đề về cơ xương khớp: \n" +
+      "   - Đau do cơ hoặc mô mềm: Căng cơ, chấn thương hoặc viêm quanh các khớp có thể gây đau ở khu vực sườn trái.\n" +
+      "   - Đau do thoái hóa khớp: Bệnh thoái hóa khớp có thể làm đau và khó chịu trong các khớp liên quan.\n" +
+      "2.  Bệnh lý nội tạng: \n" +
+      "   - Vấn đề về tim: Đau ở sườn trái có thể liên quan đến các vấn đề về tim như đau thắt ngực hoặc cơn đau tim.\n" +
+      "   - Bệnh phổi: Viêm phổi hoặc tràn dịch màng phổi có thể gây đau ở khu vực ngực trái.\n" +
+      "   - Bệnh về tiêu hóa: Một số bệnh lý như viêm loét dạ dày, cơn đau do trào ngược hoặc bệnh lý túi mật cũng có thể gây ra cảm giác đau ở bên trái.\n" +
+      "3.  Nguyên nhân khác: \n" +
+      "   - Stress hoặc lo âu: Các vấn đề tâm lý có thể gây ra cơn đau ngực mà người bệnh thường miêu tả như đau ở sườn trái.\n" +
+      "   - Vi khuẩn: Một số nhiễm trùng như viêm phổi do vi khuẩn có thể dẫn đến cảm giác đau ở vùng ngực trái.\n\n" +
+      " Triệu chứng kèm theo: \n" +
+      "- Đau nhói hoặc âm ỉ ở sườn trái\n" +
+      "- Khó thở\n" +
+      "- Cảm giác ngực nặng nề\n" +
+      "- Buồn nôn hoặc nôn\n" +
+      "- Sốt (nếu có nhiễm khuẩn)\n\n" +
+      " Chẩn đoán: \n" +
+      "Để xác định nguyên nhân gây đau sườn trái, bác sĩ có thể thực hiện các bước sau:\n" +
+      "-  Khám lâm sàng : Đánh giá triệu chứng và tiền sử bệnh.\n" +
+      "-  Xét nghiệm hình ảnh : Chụp X-quang, siêu âm hoặc CT scan có thể giúp xác định các vấn đề với phổi, tim hoặc các cơ quan nội tạng khác.\n" +
+      "-  Xét nghiệm máu : Kiểm tra các chỉ số viêm nhiễm và chức năng của các cơ quan.\n\n" +
+      " Điều trị: \n" +
+      "-  Điều trị triệu chứng : Sử dụng thuốc giảm đau và kháng viêm nếu cần thiết.\n" +
+      "-  Điều trị nguyên nhân : Nếu nguyên nhân do một bệnh lý nội tạng, cần phải điều trị theo tình trạng đó (ví dụ: điều trị viêm phổi hoặc bảo vệ dạ dày).\n" +
+      "-  Vật lý trị liệu : Nếu đau do những vấn đề cơ xương khớp, vật lý trị liệu có thể giúp cải thiện triệu chứng.\n\n" +
+      "Nếu bạn gặp phải cơn đau ở sườn trái kéo dài hoặc kèm theo các triệu chứng nghiêm trọng khác như khó thở, ngất xỉu, hoặc đau dữ dội, hãy tham khảo ý kiến bác sĩ ngay để được chẩn đoán và điều trị kịp thời.",
+    "đau sườn phải":
+      "Dạ, đau sườn phải có thể xuất phát từ nhiều nguyên nhân khác nhau, bao gồm các vấn đề cơ xương khớp, bệnh lý nội tạng hay các tình trạng khác. Dưới đây là một số thông tin chi tiết về tình trạng này:\n\n" +
+      " Nguyên nhân: \n" +
+      "1.  Vấn đề về cơ xương khớp: \n" +
+      "   - Căng cơ hoặc viêm: Căng cơ do hoạt động thể chất hoặc chấn thương có thể gây đau ở sườn phải.\n" +
+      "   - Thoái hóa khớp: Bệnh thoái hóa các khớp liên quan có thể gây đau và khó chịu tại khu vực này.\n" +
+      "2.  Bệnh lý nội tạng: \n" +
+      "   - Bệnh gan: Các bệnh lý liên quan đến gan như viêm gan, xơ gan có thể gây đau ở sườn phải do gan nằm ở phía bên phải của cơ thể.\n" +
+      "   - Bệnh túi mật: Sỏi mật hoặc viêm túi mật có thể gây ra cơn đau sắc bén ở phía bên phải bụng, lan ra sườn phải.\n" +
+      "   - Bệnh phổi: Viêm phổi hoặc tràn dịch màng phổi bên phải có thể tạo cảm giác đau ở sườn phải, đặc biệt khi hít vào sâu.\n" +
+      "   - Bệnh ruột: Một số bệnh về đường tiêu hóa như viêm ruột hay hội chứng ruột kích thích cũng có thể liên quan đến đau sườn phải.\n" +
+      "3.  Nguyên nhân khác: \n" +
+      "   - Chấn thương: Chấn thương phía bên phải như gãy xương hoặc va chạm có thể gây cơn đau dữ dội.\n" +
+      "   - Căng thẳng hoặc lo âu: Tình trạng này có thể dẫn đến cảm giác đau và khó chịu ở ngực và vùng sườn.\n\n" +
+      " Triệu chứng kèm theo: \n" +
+      "- Đau nhói hoặc âm ỉ tại sườn phải\n" +
+      "- Khó thở\n" +
+      "- Cảm giác nôn hoặc buồn nôn\n" +
+      "- Sốt hoặc dấu hiệu nhiễm trùng\n" +
+      "- Bụng chướng hoặc khó khăn trong tiêu hóa\n\n" +
+      " Chẩn đoán: \n" +
+      "Để xác định nguyên nhân của đau sườn phải, bác sĩ có thể:\n" +
+      "-  Khám lâm sàng : Đánh giá triệu chứng, lấy tiền sử bệnh.\n" +
+      "-  Xét nghiệm hình ảnh : Chụp X-quang, siêu âm hoặc CT scan để kiểm tra các cơ quan bên trong.\n" +
+      "-  Xét nghiệm máu : Kiểm tra các chỉ số viêm, chức năng gan và các yếu tố khác.\n\n" +
+      " Điều trị: \n" +
+      "-  Điều trị triệu chứng : Sử dụng thuốc giảm đau và kháng viêm nếu cần thiết.\n" +
+      "-  Điều trị nguyên nhân : Nếu xác định nguyên nhân cụ thể như bệnh gan hay túi mật, cần điều trị theo hướng đó.\n" +
+      "-  Vật lý trị liệu : Nếu đau do căng cơ hoặc viêm, vật lý trị liệu có thể hỗ trợ phục hồi.\n\n" +
+      "Nếu bạn gặp phải cơn đau sườn phải kéo dài hoặc kèm theo các triệu chứng nghiêm trọng như khó thở, sốt hoặc nôn mửa, hãy tham khảo ý kiến bác sĩ để được chẩn đoán và điều trị kịp thời.",
+    "suy gan":
+      "Dạ, suy gan là một trạng thái bệnh lý nghiêm trọng xảy ra khi gan không còn đủ khả năng thực hiện chức năng bình thường của nó. Dưới đây là một số thông tin chi tiết về suy gan:\n\n" +
+      " Định nghĩa: \n" +
+      "Suy gan có thể được định nghĩa là tình trạng khi gan không có khả năng giải độc các chất độc hại, tổng hợp protein, sản xuất yếu tố đông máu và thực hiện một số chức năng quan trọng khác. Suy gan có thể cấp tính (xảy ra đột ngột) hoặc mạn tính (diễn ra từ từ theo thời gian).\n\n" +
+      " Nguyên nhân: \n" +
+      "- Viêm gan virus: Viêm gan do virus B, C là nguyên nhân chính dẫn đến suy gan.\n" +
+      "- Rượu: Uống rượu quá mức trong thời gian dài có thể gây tổn thương gan dẫn đến xơ gan và suy gan.\n" +
+      "- Bệnh tự miễn: Các rối loạn tự miễn có thể tấn công mô gan.\n" +
+      "- Bệnh chuyển hóa: Một số bệnh như bệnh Wilson (tích tụ đồng trong gan) hoặc bệnh gan nhiễm mỡ không do rượu có thể dẫn đến tình trạng này.\n" +
+      "- Nhiễm độc thuốc: Sử dụng các loại thuốc độc hại cho gan (như acetaminophen quá liều) có thể gây tổn thương gan nặng.\n" +
+      "- Bệnh đường mật: Tắc mật trong và ngoài gan có thể làm suy giảm chức năng gan.\n\n" +
+      " Triệu chứng: \n" +
+      "-  Triệu chứng cơ năng:  Mệt mỏi, chán ăn, giảm cân, đau bụng (đặc biệt ở vùng hạ sườn phải).\n" +
+      "-  Triệu chứng thực thể:  Vàng da, ngứa, phù, cổ trướng (tích nước trong bụng), xuất huyết dễ dàng.\n" +
+      "-  Hội chứng suy tế bào gan:  Da vàng, xuất huyết dưới da, rối loạn ý thức, và có thể có hiện tượng chảy máu mũi.\n\n" +
+      " Chẩn đoán: \n" +
+      "Để chẩn đoán suy gan, bác sĩ có thể:\n" +
+      "-  Xét nghiệm máu:  Kiểm tra men gan (AST, ALT), mật độ protein trong huyết thanh, và mức bilirubin.\n" +
+      "-  Siêu âm gan:  Đánh giá sự hiện diện của xơ gan hay bất kỳ tổn thương nào khác.\n" +
+      "-  Nội soi dạ dày:  Kiểm tra biến chứng do áp lực tĩnh mạch cửa cao.\n" +
+      "-  Xét nghiệm virus:  Tìm các loại virus viêm gan.\n\n" +
+      " Điều trị: \n" +
+      "-  Điều trị nguyên nhân:  Nếu suy gan do viêm gan virus, điều trị thuốc kháng virus sẽ được thực hiện. Đối với bệnh gan do rượu, ngừng uống rượu là cần thiết.\n" +
+      "-  Chăm sóc hỗ trợ:  Duy trì dinh dưỡng hợp lý, điều trị triệu chứng như giảm phù, vàng da.\n" +
+      "-  Theo dõi các biến chứng:  Hội chứng gan thận, hôn mê gan, hoặc ung thư gan.\n\n" +
+      " Tiên lượng: \n" +
+      "Tiên lượng cho người bệnh suy gan phụ thuộc vào mức độ tổn thương gan và khả năng đáp ứng điều trị. Nếu không được điều trị kịp thời, tình trạng này có thể dẫn đến các biến chứng nguy hiểm, thậm chí tử vong.\n\n" +
+      "Nếu bạn có triệu chứng nào liên quan đến suy gan hoặc nghi ngờ mình có nguy cơ, hãy gặp bác sĩ để được khám và chẩn đoán kịp thời.",
+    "suy giảm trí nhớ":
+      "Dạ, suy giảm trí nhớ là một tình trạng mà nhiều người gặp phải, đặc biệt là khi tuổi tác tăng lên. Tình trạng này có thể ảnh hưởng đến khả năng ghi nhớ thông tin, học hỏi hoặc thực hiện các hoạt động hàng ngày. Dưới đây là một số thông tin chi tiết về suy giảm trí nhớ:\n\n" +
+      " Nguyên nhân \n" +
+      "1.  Tuổi tác:  Lão hóa tự nhiên có thể dẫn đến suy giảm trí nhớ, thường ở dạng các vấn đề nhẹ như quên tên hoặc sự kiện.\n" +
+      "2.  Bệnh lý: \n" +
+      "-  Bệnh Alzheimer:  Là loại bệnh liên quan đến mất trí nhớ phổ biến nhất, thường bắt đầu bằng sự quên những thông tin gần đây và sau đó dẫn đến khó khăn trong việc nhận thức.\n" +
+      "-  Bệnh tiểu đường:  Có thể dẫn đến các biến chứng về não, ảnh hưởng đến trí nhớ và khả năng tập trung.\n" +
+      "-  Bệnh mạch máu não:  Tổn thương do thiếu máu não có thể làm suy giảm chức năng trí tuệ.\n" +
+      "3.  Rối loạn tâm thần:  Lo âu, trầm cảm và stress có thể gây ra những vấn đề về trí nhớ tạm thời.\n" +
+      "4.  Thiếu dinh dưỡng:  Thiếu vitamin B12 và các dưỡng chất cần thiết khác cũng có thể dẫn đến giảm trí nhớ.\n" +
+      "5.  Chất kích thích:  Việc sử dụng rượu, thuốc lá, hoặc ma túy có thể ảnh hưởng đến khả năng ghi nhớ.\n" +
+      "6.  Chấn thương đầu:  Các chấn thương nghiêm trọng có thể dẫn đến suy giảm trí nhớ lâu dài.\n\n" +
+      " Triệu chứng \n" +
+      "-  Quên thông tin gần đây:  (chẳng hạn như cuộc trò chuyện đã diễn ra).\n" +
+      "-  Khó khăn trong việc lấy lại thông tin từ trí nhớ. \n" +
+      "-  Nhầm lẫn về thời gian và địa điểm. \n" +
+      "-  Khó khăn trong việc lập kế hoạch hoặc thực hiện các nhiệm vụ hàng ngày. \n" +
+      "-  Sự kiện hoặc thông tin quan trọng bị quên,  gây khó khăn trong việc duy trì mối quan hệ xã hội.\n\n" +
+      " Chẩn đoán \n" +
+      "Để chẩn đoán tình trạng suy giảm trí nhớ, bác sĩ có thể:\n" +
+      "1.  Khám lâm sàng:  Đánh giá triệu chứng và tiền sử bệnh.\n" +
+      "2.  Cận lâm sàng:  Thực hiện các xét nghiệm hình ảnh như CT scan hoặc MRI để kiểm tra trạng thái não.\n" +
+      "3.  Xét nghiệm máu:  Để kiểm tra các yếu tố dinh dưỡng hoặc bệnh lý khác.\n\n" +
+      " Điều trị \n" +
+      "-  Điều trị nguyên nhân:  Nếu suy giảm trí nhớ do bệnh lý cụ thể, việc điều trị nguyên nhân sẽ là ưu tiên.\n" +
+      "-  Thuốc:  Có thể sử dụng một số loại thuốc để cải thiện chức năng não.\n" +
+      "-  Vật lý trị liệu và phục hồi chức năng:  Một số chương trình có thể giúp cải thiện khả năng ghi nhớ và nhận thức.\n" +
+      "-  Thay đổi lối sống:  Duy trì chế độ dinh dưỡng cân bằng, tập thể dục thường xuyên, và thực hiện các hoạt động kích thích trí não như đọc sách hoặc chơi cờ.\n\n" +
+      " Phòng ngừa \n" +
+      "-  Duy trì lối sống khỏe mạnh  bằng cách ăn uống hợp lý, tập thể dục đều đặn và giảm căng thẳng.\n" +
+      "-  Tham gia hoạt động xã hội  và học tập liên tục để giữ cho trí não luôn hoạt động.\n" +
+      "-  Khám sức khỏe định kỳ  để phát hiện sớm các vấn đề về sức khỏe, bao gồm suy giảm trí nhớ.\n\n" +
+      "Nếu tình trạng suy giảm trí nhớ diễn ra đột ngột hoặc nghiêm trọng, bạn nên liên hệ với bác sĩ để được đánh giá và điều trị kịp thời.",
   };
 
   for (const key in responses) {
