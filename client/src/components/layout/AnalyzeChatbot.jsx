@@ -351,6 +351,26 @@ function analyzeInput(input) {
       "Khi nào nên gặp bác sĩ:\n" +
       "- Khó tiêu kéo dài hơn vài tuần.\n" +
       "- Có kèm theo các triệu chứng nghiêm trọng như nôn ra máu, đau bụng dữ dội, hoặc giảm cân không rõ lý do.",
+    "nổi mẩn đỏ":
+      "Dạ, nổi mẩn đỏ có thể do nhiều nguyên nhân khác nhau, bao gồm:\n\n" +
+      " 1. Dị ứng \n" +
+      "-  Dị ứng thuốc:  Một số người có thể phản ứng với thuốc, dẫn đến nổi mẩn đỏ.\n" +
+      "-  Dị ứng thực phẩm:  Một số thực phẩm như đậu phộng, hải sản, hoặc các loại thực phẩm khác cũng có thể gây ra các phản ứng dị ứng.\n" +
+      "-  Dị ứng với côn trùng:  Côn trùng đốt hoặc chích cũng là nguyên nhân phổ biến.\n\n" +
+      " 2. Nhiễm trùng \n" +
+      "-  Nhiễm virus:  Một số bệnh như bệnh sởi, rubella, hoặc bệnh zona có thể gây ra phát ban.\n" +
+      "-  Nhiễm khuẩn:  Các tình trạng như viêm da hoặc nhiễm khuẩn do vi khuẩn cũng có thể gây mẩn đỏ.\n\n" +
+      " 3. Các tình trạng da \n" +
+      "-  Chàm (eczema):  Làm cho da trở nên khô và ngứa, thường kèm theo mẩn đỏ.\n" +
+      "-  Mề đay (urticaria):  Là tình trạng da tự phát với mẩn đỏ, ngứa, có thể do nhiều nguyên nhân.\n\n" +
+      " 4. Các vấn đề nội tiết \n" +
+      "-  Hóc-môn:  Sự thay đổi hóc-môn, ví dụ như trong thời kỳ mang thai hoặc kinh nguyệt, có thể dẫn đến nổi mẩn đỏ.\n\n" +
+      " 5. Yếu tố môi trường \n" +
+      "-  Nhiệt độ:  Nhiệt độ quá cao hoặc quá thấp có thể khiến da phản ứng bằng cách nổi mẩn đỏ.\n" +
+      "-  Hóa chất:  Một số sản phẩm chăm sóc da hoặc mỹ phẩm có thể gây kích ứng da.\n\n" +
+      " 6. Các bệnh lý toàn thân \n" +
+      "-  Bệnh nghiêm trọng:  Lupus ban đỏ hệ thống hoặc bạch huyết cũng có thể biểu hiện qua tình trạng mẩn đỏ trên da.\n\n" +
+      "Nếu nổi mẩn đỏ đi kèm với các triệu chứng như khó thở, sưng mặt, hoặc triệu chứng nghiêm trọng khác, bạn nên tìm sự trợ giúp y tế ngay lập tức. Ngoài ra, để có chẩn đoán chính xác và điều trị hiệu quả, bạn nên đến gặp bác sĩ da liễu hoặc chuyên gia y tế. Mong rằng thông tin này hữu ích cho bạn!",
     "phát ban":
       "Dạ, phát ban là hiện tượng tổn thương da có thể xuất hiện dưới nhiều hình thức khác nhau, từ những đốm nhỏ, mẩn đỏ đến vết sưng lớn. Phát ban có thể là một dấu hiệu của nhiều tình trạng khác nhau, từ nhẹ nhàng đến nghiêm trọng. Dưới đây là một số thông tin chi tiết về phát ban:\n\n" +
       "  Nguyên nhân  \n" +
@@ -687,95 +707,1109 @@ function analyzeInput(input) {
       "- Thực hành các kỹ thuật thư giãn như thiền, yoga hoặc các bài tập hít thở sâu có thể giúp giảm mức độ stress và cải thiện chức năng tiêu hóa.\n\n" +
       "5. Tham khảo ý kiến bác sĩ:\n" +
       "- Nếu tình trạng đầy hơi xảy ra thường xuyên kèm theo triệu chứng khác như đau bụng nghiêm trọng, tiêu chảy, hoặc giảm cân không rõ nguyên nhân, hãy đến gặp bác sĩ để kiểm tra và điều trị kịp thời.",
+    "Chảy mồ hôi nhiều":
+      "Dạ, chảy mồ hôi nhiều, hay còn gọi là hyperhidrosis, là tình trạng mà cơ thể sản xuất mồ hôi quá mức so với nhu cầu bình thường. Điều này có thể xảy ra ở những vùng cụ thể trên cơ thể, chẳng hạn như nách, bàn tay, bàn chân hoặc mặt, hoặc toàn bộ cơ thể. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị chảy mồ hôi nhiều.\n\n" +
+      " Nguyên nhân gây chảy mồ hôi nhiều \n\n" +
+      " 1. Nguyên phát (đầu tiên) : Là trường hợp không liên quan đến bệnh lý nào khác, thường do di truyền và xuất hiện ở những khu vực cụ thể.\n\n" +
+      " 2. Thứ phát : Là kết quả của các bệnh lý hoặc tình trạng khác, ví dụ:\n" +
+      "- Rối loạn nội tiết, như cường giáp.\n" +
+      "- Bệnh tiểu đường.\n" +
+      "- Các bệnh về tim mạch.\n" +
+      "- Nhiễm trùng.\n" +
+      "- Tác dụng phụ của thuốc.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Mồ hôi chảy nhiều ở những vùng như nách, lòng bàn tay, lòng bàn chân.\n" +
+      "- Cảm giác ẩm ướt, khó chịu.\n" +
+      "- Có thể kèm theo mùi cơ thể không dễ chịu.\n" +
+      "- Tình trạng có thể gây tâm lý lo âu hoặc tự ti cho người mắc.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán tình trạng chảy mồ hôi nhiều thường dựa trên các triệu chứng lâm sàng và tiền sử bệnh sử của người bệnh. Bác sĩ có thể thực hiện các xét nghiệm như:\n" +
+      "- Xét nghiệm máu để kiểm tra các rối loạn nội tiết như bệnh cường giáp.\n" +
+      "- Bài kiểm tra mồ hôi (điện đồ mồ hôi) để xác định mức độ tiết mồ hôi.\n\n" +
+      " Điều trị \n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Sử dụng các sản phẩm khử mùi, lăn nách giúp kiềm chế mồ hôi.\n" +
+      "- Lựa chọn quần áo thoáng mát, thoát mồ hôi tốt.\n" +
+      "2.  Thuốc :\n" +
+      "- Sử dụng các loại thuốc kháng cholinergic giúp giảm tiết mồ hôi.\n" +
+      "- Thuốc chống trầm cảm trong trường hợp căng thẳng gây ra tình trạng mồ hôi nhiều.\n" +
+      "3.  Thủ thuật y tế :\n" +
+      "- Tiêm botox: Được sử dụng để giảm tiết mồ hôi ở những vùng cụ thể như nách hoặc bàn tay.\n" +
+      "- Phẫu thuật: Trong một số trường hợp nghiêm trọng (chẳng hạn như cắt bỏ tuyến mồ hôi).\n" +
+      "4.  Can thiệp khác :\n" +
+      "- Chia sẻ với bác sĩ về các biện pháp hỗ trợ tâm lý nếu tình trạng này ảnh hưởng đến sức khỏe tâm thần.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu tình trạng chảy mồ hôi nhiều ảnh hưởng đến chất lượng cuộc sống của bạn hoặc kèm theo các triệu chứng bất thường khác như đau ngực, khó thở, bạn nên tìm kiếm sự tư vấn từ bác sĩ để được thăm khám và chẩn đoán chính xác.\n\n" +
+      "Hy vọng rằng thông tin trên đã cung cấp những hiểu biết hữu ích về tình trạng chảy mồ hôi nhiều. Nếu cần thêm thông tin chi tiết hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
     "chảy mồ hôi nhiều":
-      "Chảy mồ hôi nhiều có thể do căng thẳng hoặc bệnh lý. Nếu đổ mồ hôi quá mức, nên đi khám.",
+      "Dạ, chảy mồ hôi nhiều, hay còn gọi là hyperhidrosis, là tình trạng mà cơ thể sản xuất mồ hôi quá mức so với nhu cầu bình thường. Điều này có thể xảy ra ở những vùng cụ thể trên cơ thể, chẳng hạn như nách, bàn tay, bàn chân hoặc mặt, hoặc toàn bộ cơ thể. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị chảy mồ hôi nhiều.\n\n" +
+      " Nguyên nhân gây chảy mồ hôi nhiều \n\n" +
+      " 1. Nguyên phát (đầu tiên) : Là trường hợp không liên quan đến bệnh lý nào khác, thường do di truyền và xuất hiện ở những khu vực cụ thể.\n\n" +
+      " 2. Thứ phát : Là kết quả của các bệnh lý hoặc tình trạng khác, ví dụ:\n" +
+      "- Rối loạn nội tiết, như cường giáp.\n" +
+      "- Bệnh tiểu đường.\n" +
+      "- Các bệnh về tim mạch.\n" +
+      "- Nhiễm trùng.\n" +
+      "- Tác dụng phụ của thuốc.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Mồ hôi chảy nhiều ở những vùng như nách, lòng bàn tay, lòng bàn chân.\n" +
+      "- Cảm giác ẩm ướt, khó chịu.\n" +
+      "- Có thể kèm theo mùi cơ thể không dễ chịu.\n" +
+      "- Tình trạng có thể gây tâm lý lo âu hoặc tự ti cho người mắc.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán tình trạng chảy mồ hôi nhiều thường dựa trên các triệu chứng lâm sàng và tiền sử bệnh sử của người bệnh. Bác sĩ có thể thực hiện các xét nghiệm như:\n" +
+      "- Xét nghiệm máu để kiểm tra các rối loạn nội tiết như bệnh cường giáp.\n" +
+      "- Bài kiểm tra mồ hôi (điện đồ mồ hôi) để xác định mức độ tiết mồ hôi.\n\n" +
+      " Điều trị \n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Sử dụng các sản phẩm khử mùi, lăn nách giúp kiềm chế mồ hôi.\n" +
+      "- Lựa chọn quần áo thoáng mát, thoát mồ hôi tốt.\n" +
+      "2.  Thuốc :\n" +
+      "- Sử dụng các loại thuốc kháng cholinergic giúp giảm tiết mồ hôi.\n" +
+      "- Thuốc chống trầm cảm trong trường hợp căng thẳng gây ra tình trạng mồ hôi nhiều.\n" +
+      "3.  Thủ thuật y tế :\n" +
+      "- Tiêm botox: Được sử dụng để giảm tiết mồ hôi ở những vùng cụ thể như nách hoặc bàn tay.\n" +
+      "- Phẫu thuật: Trong một số trường hợp nghiêm trọng (chẳng hạn như cắt bỏ tuyến mồ hôi).\n" +
+      "4.  Can thiệp khác :\n" +
+      "- Chia sẻ với bác sĩ về các biện pháp hỗ trợ tâm lý nếu tình trạng này ảnh hưởng đến sức khỏe tâm thần.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu tình trạng chảy mồ hôi nhiều ảnh hưởng đến chất lượng cuộc sống của bạn hoặc kèm theo các triệu chứng bất thường khác như đau ngực, khó thở, bạn nên tìm kiếm sự tư vấn từ bác sĩ để được thăm khám và chẩn đoán chính xác.\n\n" +
+      "Hy vọng rằng thông tin trên đã cung cấp những hiểu biết hữu ích về tình trạng chảy mồ hôi nhiều. Nếu cần thêm thông tin chi tiết hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
     "căng thẳng":
-      "Căng thẳng có thể ảnh hưởng đến sức khỏe toàn thân. Nghỉ ngơi và thực hành các kỹ thuật thư giãn như thiền hoặc yoga.",
+      "Dạ, căng thẳng là một trạng thái tinh thần và cảm xúc xảy ra khi chúng ta cảm thấy áp lực hoặc không thể đối phó với những yêu cầu từ môi trường xung quanh. Căng thẳng có thể xuất phát từ nhiều nguồn khác nhau, bao gồm công việc, học hành, mối quan hệ cá nhân, hoặc các tình huống sống căng thẳng. Dưới đây là những thông tin chi tiết về nguyên nhân, triệu chứng, cách chẩn đoán và phương pháp điều trị căng thẳng.\n\n" +
+      " Nguyên nhân gây căng thẳng \n\n" +
+      " 1. Yếu tố công việc : Áp lực công việc, khối lượng công việc lớn, mối quan hệ không tốt với đồng nghiệp hoặc cấp trên.\n\n" +
+      " 2. Yếu tố cá nhân : Vấn đề tài chính, mâu thuẫn trong gia đình, trách nhiệm nuôi dạy con cái hoặc chăm sóc người lớn tuổi.\n\n" +
+      " 3. Biến cố trong cuộc sống : Chia tay, mất mát người thân, thay đổi nơi ở hoặc việc làm.\n\n" +
+      " 4. Sức khỏe : Những vấn đề sức khỏe cá nhân hoặc của người thân cũng có thể gây ra cảm giác căng thẳng.\n\n" +
+      " Triệu chứng của căng thẳng \n" +
+      "-  Triệu chứng cảm xúc : Lo âu, buồn bã, cảm giác mệt mỏi hoặc tuyệt vọng.\n" +
+      "-  Triệu chứng thể chất : Nhức đầu, căng cơ, đau bụng, hoặc các vấn đề về tiêu hóa.\n" +
+      "-  Tình huống tâm lý : Khó ngủ, rối loạn giấc ngủ, hoặc giảm khả năng tập trung.\n" +
+      "-  Hành vi : Thay đổi thói quen ăn uống, lạm dụng rượu hoặc thuốc, hoặc cô lập bản thân.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán căng thẳng thường dựa trên các triệu chứng mà người bệnh báo cáo. Các chuyên gia sức khỏe tâm thần có thể sử dụng các công cụ và câu hỏi đánh giá để xác định mức độ căng thẳng và ảnh hưởng của nó đến cuộc sống của người bệnh.\n\n" +
+      " Điều trị \n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Tập thể dục: Hoạt động thể chất có thể giúp giảm căng thẳng.\n" +
+      "- Thực hành thiền hoặc yoga: Những kỹ thuật này có thể giúp thư giãn cơ thể và tâm trí.\n" +
+      "- Giấc ngủ đầy đủ: Đảm bảo có giấc ngủ ngon giúp cải thiện tâm trạng và khả năng đối phó với áp lực.\n" +
+      "2.  Hỗ trợ tâm lý :\n" +
+      "- Tư vấn tâm lý: Làm việc với chuyên gia tâm lý có thể cung cấp các kỹ năng và chiến lược để quản lý căng thẳng.\n" +
+      "- Nhóm hỗ trợ: Tham gia vào một nhóm hỗ trợ có thể giúp bạn chia sẻ trải nghiệm và tìm kiếm sự hỗ trợ từ những người khác.\n" +
+      "3.  Dùng thuốc :\n" +
+      "- Trong một số trường hợp, bác sĩ có thể kê toa thuốc giảm lo âu hoặc thuốc chống trầm cảm để giúp giảm triệu chứng căng thẳng.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu cảm thấy căng thẳng đang ảnh hưởng đến chất lượng cuộc sống của bạn, hoặc nếu bạn có triệu chứng nghiêm trọng như ý nghĩ tự sát, hãy tìm kiếm sự giúp đỡ từ chuyên gia sức khỏe tâm thần càng sớm càng tốt.\n\n" +
+      "Hy vọng thông tin trên hữu ích cho bạn! Nếu bạn cần thông tin thêm hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
+    "Căng thẳng":
+      "Dạ, căng thẳng là một trạng thái tinh thần và cảm xúc xảy ra khi chúng ta cảm thấy áp lực hoặc không thể đối phó với những yêu cầu từ môi trường xung quanh. Căng thẳng có thể xuất phát từ nhiều nguồn khác nhau, bao gồm công việc, học hành, mối quan hệ cá nhân, hoặc các tình huống sống căng thẳng. Dưới đây là những thông tin chi tiết về nguyên nhân, triệu chứng, cách chẩn đoán và phương pháp điều trị căng thẳng.\n\n" +
+      " Nguyên nhân gây căng thẳng \n\n" +
+      " 1. Yếu tố công việc : Áp lực công việc, khối lượng công việc lớn, mối quan hệ không tốt với đồng nghiệp hoặc cấp trên.\n\n" +
+      " 2. Yếu tố cá nhân : Vấn đề tài chính, mâu thuẫn trong gia đình, trách nhiệm nuôi dạy con cái hoặc chăm sóc người lớn tuổi.\n\n" +
+      " 3. Biến cố trong cuộc sống : Chia tay, mất mát người thân, thay đổi nơi ở hoặc việc làm.\n\n" +
+      " 4. Sức khỏe : Những vấn đề sức khỏe cá nhân hoặc của người thân cũng có thể gây ra cảm giác căng thẳng.\n\n" +
+      " Triệu chứng của căng thẳng \n" +
+      "-  Triệu chứng cảm xúc : Lo âu, buồn bã, cảm giác mệt mỏi hoặc tuyệt vọng.\n" +
+      "-  Triệu chứng thể chất : Nhức đầu, căng cơ, đau bụng, hoặc các vấn đề về tiêu hóa.\n" +
+      "-  Tình huống tâm lý : Khó ngủ, rối loạn giấc ngủ, hoặc giảm khả năng tập trung.\n" +
+      "-  Hành vi : Thay đổi thói quen ăn uống, lạm dụng rượu hoặc thuốc, hoặc cô lập bản thân.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán căng thẳng thường dựa trên các triệu chứng mà người bệnh báo cáo. Các chuyên gia sức khỏe tâm thần có thể sử dụng các công cụ và câu hỏi đánh giá để xác định mức độ căng thẳng và ảnh hưởng của nó đến cuộc sống của người bệnh.\n\n" +
+      " Điều trị \n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Tập thể dục: Hoạt động thể chất có thể giúp giảm căng thẳng.\n" +
+      "- Thực hành thiền hoặc yoga: Những kỹ thuật này có thể giúp thư giãn cơ thể và tâm trí.\n" +
+      "- Giấc ngủ đầy đủ: Đảm bảo có giấc ngủ ngon giúp cải thiện tâm trạng và khả năng đối phó với áp lực.\n" +
+      "2.  Hỗ trợ tâm lý :\n" +
+      "- Tư vấn tâm lý: Làm việc với chuyên gia tâm lý có thể cung cấp các kỹ năng và chiến lược để quản lý căng thẳng.\n" +
+      "- Nhóm hỗ trợ: Tham gia vào một nhóm hỗ trợ có thể giúp bạn chia sẻ trải nghiệm và tìm kiếm sự hỗ trợ từ những người khác.\n" +
+      "3.  Dùng thuốc :\n" +
+      "- Trong một số trường hợp, bác sĩ có thể kê toa thuốc giảm lo âu hoặc thuốc chống trầm cảm để giúp giảm triệu chứng căng thẳng.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu cảm thấy căng thẳng đang ảnh hưởng đến chất lượng cuộc sống của bạn, hoặc nếu bạn có triệu chứng nghiêm trọng như ý nghĩ tự sát, hãy tìm kiếm sự giúp đỡ từ chuyên gia sức khỏe tâm thần càng sớm càng tốt.\n\n" +
+      "Hy vọng thông tin trên hữu ích cho bạn! Nếu bạn cần thông tin thêm hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
     "đau lưỡi":
-      "Đau lưỡi có thể do tổn thương, nhiệt miệng hoặc thiếu vitamin. Nếu kéo dài, hãy đi khám bác sĩ.",
+      "Dạ, đau lưỡi là một triệu chứng mà người bệnh có thể gặp phải và có thể do nhiều nguyên nhân khác nhau. Đau lưỡi có thể biểu hiện ở nhiều dạng, như đau nhức, rát, khó chịu hoặc viêm loét. Dưới đây là một số nguyên nhân, triệu chứng và cách điều trị khi gặp phải tình trạng đau lưỡi.\n\n" +
+      " Nguyên nhân gây đau lưỡi \n\n" +
+      " 1. Viêm nhiễm : Viêm nhiễm có thể do nhiễm virus, nấm (như nấm miệng) hoặc vi khuẩn. Viêm họng có thể lan sang lưỡi gây đau.\n\n" +
+      " 2. Chấn thương : Cắn phải lưỡi, va chạm hoặc bỏng lưỡi do thực phẩm nóng có thể gây tổn thương.\n\n" +
+      " 3. Thiếu hụt dinh dưỡng : Thiếu vitamin B12, sắt hoặc folate có thể dẫn đến các triệu chứng đau lưỡi.\n\n" +
+      " 4. Líc thuốc : Một số loại thuốc, đặc biệt là thuốc hóa trị hoặc kháng sinh, có thể làm thay đổi tình trạng niêm mạc miệng và gây đau.\n\n" +
+      " 5. Các bệnh lý khác : Những tình trạng như bệnh lichen planus, bệnh Behçet, hoặc hội chứng Sjögren cũng có thể gây đau lưỡi.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Đau nhức hoặc rát trên lưỡi.\n" +
+      "- Sưng hoặc tấy đỏ.\n" +
+      "- Cảm giác ngứa ngáy hoặc khó chịu khi ăn hoặc uống.\n" +
+      "- Mùi vị thay đổi hoặc cảm giác vị giác kém.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán tình trạng đau lưỡi thường dựa vào triệu chứng lâm sàng và tiền sử bệnh sử. Bác sĩ có thể tiến hành khám lâm sàng và có thể cần làm một số xét nghiệm thêm nếu nghi ngờ có nguyên nhân khác ex: xét nghiệm máu để kiểm tra thiếu hụt dinh dưỡng.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Điều trị nguyên nhân :\n" +
+      "- Nếu do viêm nhiễm, bác sĩ có thể kê đơn thuốc kháng sinh hoặc thuốc chống nấm.\n" +
+      "- Đối với thiếu hụt dinh dưỡng, bổ sung vitamin và khoáng chất cần thiết.\n" +
+      "2.  Giảm đau :\n" +
+      "- Sử dụng thuốc giảm đau không kê đơn như paracetamol hoặc ibuprofen để giảm tình trạng đau.\n" +
+      "- Súc miệng bằng nước muối ấm để giảm sưng và đau.\n" +
+      "3.  Chăm sóc tại nhà :\n" +
+      "- Tránh thực phẩm cay, nóng hoặc chua có thể làm tăng cơn đau.\n" +
+      "- Uống nhiều nước và giữ độ ẩm cho miệng.\n" +
+      "4.  Khám chuyên khoa :\n" +
+      "- Nếu triệu chứng không cải thiện hoặc có dấu hiệu nghiêm trọng như vết loét kéo dài, cần phải thăm khám chuyên sĩ tai mũi họng hoặc bác sĩ răng hàm mặt.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu cơn đau lưỡi kéo dài, kèm theo triệu chứng thân nhiệt cao, khó thở hoặc xuất hiện các vết loét, bạn nên tìm kiếm sự hỗ trợ từ bác sĩ để được chẩn đoán và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin trên sẽ hữu ích cho bạn! Nếu bạn có thêm các câu hỏi hoặc cần góp ý nào khác, hãy cho tôi biết nhé!",
+    "Đau lưỡi":
+      "Dạ, đau lưỡi là một triệu chứng mà người bệnh có thể gặp phải và có thể do nhiều nguyên nhân khác nhau. Đau lưỡi có thể biểu hiện ở nhiều dạng, như đau nhức, rát, khó chịu hoặc viêm loét. Dưới đây là một số nguyên nhân, triệu chứng và cách điều trị khi gặp phải tình trạng đau lưỡi.\n\n" +
+      " Nguyên nhân gây đau lưỡi \n\n" +
+      " 1. Viêm nhiễm : Viêm nhiễm có thể do nhiễm virus, nấm (như nấm miệng) hoặc vi khuẩn. Viêm họng có thể lan sang lưỡi gây đau.\n\n" +
+      " 2. Chấn thương : Cắn phải lưỡi, va chạm hoặc bỏng lưỡi do thực phẩm nóng có thể gây tổn thương.\n\n" +
+      " 3. Thiếu hụt dinh dưỡng : Thiếu vitamin B12, sắt hoặc folate có thể dẫn đến các triệu chứng đau lưỡi.\n\n" +
+      " 4. Líc thuốc : Một số loại thuốc, đặc biệt là thuốc hóa trị hoặc kháng sinh, có thể làm thay đổi tình trạng niêm mạc miệng và gây đau.\n\n" +
+      " 5. Các bệnh lý khác : Những tình trạng như bệnh lichen planus, bệnh Behçet, hoặc hội chứng Sjögren cũng có thể gây đau lưỡi.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Đau nhức hoặc rát trên lưỡi.\n" +
+      "- Sưng hoặc tấy đỏ.\n" +
+      "- Cảm giác ngứa ngáy hoặc khó chịu khi ăn hoặc uống.\n" +
+      "- Mùi vị thay đổi hoặc cảm giác vị giác kém.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán tình trạng đau lưỡi thường dựa vào triệu chứng lâm sàng và tiền sử bệnh sử. Bác sĩ có thể tiến hành khám lâm sàng và có thể cần làm một số xét nghiệm thêm nếu nghi ngờ có nguyên nhân khác ex: xét nghiệm máu để kiểm tra thiếu hụt dinh dưỡng.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Điều trị nguyên nhân :\n" +
+      "- Nếu do viêm nhiễm, bác sĩ có thể kê đơn thuốc kháng sinh hoặc thuốc chống nấm.\n" +
+      "- Đối với thiếu hụt dinh dưỡng, bổ sung vitamin và khoáng chất cần thiết.\n" +
+      "2.  Giảm đau :\n" +
+      "- Sử dụng thuốc giảm đau không kê đơn như paracetamol hoặc ibuprofen để giảm tình trạng đau.\n" +
+      "- Súc miệng bằng nước muối ấm để giảm sưng và đau.\n" +
+      "3.  Chăm sóc tại nhà :\n" +
+      "- Tránh thực phẩm cay, nóng hoặc chua có thể làm tăng cơn đau.\n" +
+      "- Uống nhiều nước và giữ độ ẩm cho miệng.\n" +
+      "4.  Khám chuyên khoa :\n" +
+      "- Nếu triệu chứng không cải thiện hoặc có dấu hiệu nghiêm trọng như vết loét kéo dài, cần phải thăm khám chuyên sĩ tai mũi họng hoặc bác sĩ răng hàm mặt.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu cơn đau lưỡi kéo dài, kèm theo triệu chứng thân nhiệt cao, khó thở hoặc xuất hiện các vết loét, bạn nên tìm kiếm sự hỗ trợ từ bác sĩ để được chẩn đoán và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin trên sẽ hữu ích cho bạn! Nếu bạn có thêm các câu hỏi hoặc cần góp ý nào khác, hãy cho tôi biết nhé!",
+    "Nhiệt miệng":
+      "Dạ, nhiệt miệng, hay còn gọi là loét miệng, là tình trạng đau và khó chịu xuất hiện trên bề mặt lưỡi hoặc niêm mạc miệng. Nhiệt miệng thường là do sự nhiễm trùng hoặc tổn thương ở vùng miệng, và có thể gây ra các triệu chứng như đau rát, khó khăn trong việc ăn uống và nói chuyện. Dưới đây là một số thông tin chi tiết về nguyên nhân, triệu chứng và cách điều trị nhiệt miệng.\n\n" +
+      " Nguyên nhân gây nhiệt miệng \n\n" +
+      " 1. Nhiễm trùng : Vi khuẩn, virus hoặc nấm có thể gây ra nhiễm khuẩn trong khoang miệng.\n\n" +
+      " 2. Chấn thương : Cắn phải lưỡi, gây ra vết thương, hoặc bỏng do thực phẩm nóng cũng có thể gây đau và khó chịu.\n\n" +
+      " 3. Thiếu hụt dinh dưỡng : Thiếu vitamin B12, sắt hoặc folate có thể dẫn đến nhiệt miệng.\n\n" +
+      " 4. Căng thẳng : Căng thẳng tinh thần cũng có thể làm tăng nguy cơ nhiệt miệng.\n\n" +
+      " 5. Sử dụng thuốc : Một số loại thuốc, đặc biệt là thuốc gây khô miệng, có thể làm tăng khả năng bị nhiệt miệng.\n\n" +
+      " Triệu chứng \n" +
+      "- Đau nhức, rát ở vùng bị tổn thương.\n" +
+      "- Xuất hiện các vết loét trắng hoặc vàng trên niêm mạc miệng.\n" +
+      "- Vùng lưỡi hoặc mô mềm trong khoang miệng có thể bị sưng đỏ.\n" +
+      "- Gặp khó khăn khi ăn, uống hoặc nói chuyện.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán nhiệt miệng thường dựa vào các triệu chứng lâm sàng mà bệnh nhân trình bày. Bác sĩ có thể kiểm tra miệng và hỏi về tiền sử bệnh để xác định nguyên nhân gây ra triệu chứng.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Điều trị tại nhà :\n" +
+      "- Sử dụng nước muối ấm để súc miệng, giúp giảm đau và sưng.\n" +
+      "- Đắp gel làm giảm đau cho khu vực bị tổn thương.\n" +
+      "- Tránh thực phẩm cay, chua hoặc nóng có thể làm tình trạng tồi tệ hơn.\n" +
+      "2.  Thuốc :\n" +
+      "- Sử dụng thuốc giảm đau không kê đơn như paracetamol hoặc ibuprofen.\n" +
+      "- Trong trường hợp viêm nặng hoặc có dấu hiệu nhiễm khuẩn, bác sĩ có thể kê toa thuốc kháng sinh hoặc corticosteroid.\n" +
+      "3.  Chế độ ăn uống :\n" +
+      "- Tăng cường thực phẩm giàu vitamin và khoáng chất để hỗ trợ quá trình lành vết thương.\n" +
+      "- Uống đủ nước để giữ cho miệng ẩm.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu nhiệt miệng kéo dài hơn 2 tuần, xuất hiện sốt, hoặc có dấu hiệu nhiễm trùng nặng khác như sưng tấy hoặc chảy mủ, bạn nên tìm kiếm sự tư vấn từ bác sĩ để được chẩn đoán và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin trên đây sẽ hữu ích cho bạn! Nếu bạn có thêm câu hỏi hoặc cần giải đáp gì khác nữa, hãy cho tôi biết.",
+    "nhiệt miệng":
+      "Dạ, nhiệt miệng, hay còn gọi là loét miệng, là tình trạng đau và khó chịu xuất hiện trên bề mặt lưỡi hoặc niêm mạc miệng. Nhiệt miệng thường là do sự nhiễm trùng hoặc tổn thương ở vùng miệng, và có thể gây ra các triệu chứng như đau rát, khó khăn trong việc ăn uống và nói chuyện. Dưới đây là một số thông tin chi tiết về nguyên nhân, triệu chứng và cách điều trị nhiệt miệng.\n\n" +
+      " Nguyên nhân gây nhiệt miệng \n\n" +
+      " 1. Nhiễm trùng : Vi khuẩn, virus hoặc nấm có thể gây ra nhiễm khuẩn trong khoang miệng.\n\n" +
+      " 2. Chấn thương : Cắn phải lưỡi, gây ra vết thương, hoặc bỏng do thực phẩm nóng cũng có thể gây đau và khó chịu.\n\n" +
+      " 3. Thiếu hụt dinh dưỡng : Thiếu vitamin B12, sắt hoặc folate có thể dẫn đến nhiệt miệng.\n\n" +
+      " 4. Căng thẳng : Căng thẳng tinh thần cũng có thể làm tăng nguy cơ nhiệt miệng.\n\n" +
+      " 5. Sử dụng thuốc : Một số loại thuốc, đặc biệt là thuốc gây khô miệng, có thể làm tăng khả năng bị nhiệt miệng.\n\n" +
+      " Triệu chứng \n" +
+      "- Đau nhức, rát ở vùng bị tổn thương.\n" +
+      "- Xuất hiện các vết loét trắng hoặc vàng trên niêm mạc miệng.\n" +
+      "- Vùng lưỡi hoặc mô mềm trong khoang miệng có thể bị sưng đỏ.\n" +
+      "- Gặp khó khăn khi ăn, uống hoặc nói chuyện.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán nhiệt miệng thường dựa vào các triệu chứng lâm sàng mà bệnh nhân trình bày. Bác sĩ có thể kiểm tra miệng và hỏi về tiền sử bệnh để xác định nguyên nhân gây ra triệu chứng.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Điều trị tại nhà :\n" +
+      "- Sử dụng nước muối ấm để súc miệng, giúp giảm đau và sưng.\n" +
+      "- Đắp gel làm giảm đau cho khu vực bị tổn thương.\n" +
+      "- Tránh thực phẩm cay, chua hoặc nóng có thể làm tình trạng tồi tệ hơn.\n" +
+      "2.  Thuốc :\n" +
+      "- Sử dụng thuốc giảm đau không kê đơn như paracetamol hoặc ibuprofen.\n" +
+      "- Trong trường hợp viêm nặng hoặc có dấu hiệu nhiễm khuẩn, bác sĩ có thể kê toa thuốc kháng sinh hoặc corticosteroid.\n" +
+      "3.  Chế độ ăn uống :\n" +
+      "- Tăng cường thực phẩm giàu vitamin và khoáng chất để hỗ trợ quá trình lành vết thương.\n" +
+      "- Uống đủ nước để giữ cho miệng ẩm.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu nhiệt miệng kéo dài hơn 2 tuần, xuất hiện sốt, hoặc có dấu hiệu nhiễm trùng nặng khác như sưng tấy hoặc chảy mủ, bạn nên tìm kiếm sự tư vấn từ bác sĩ để được chẩn đoán và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin trên đây sẽ hữu ích cho bạn! Nếu bạn có thêm câu hỏi hoặc cần giải đáp gì khác nữa, hãy cho tôi biết.",
+    "sưng cổ chân":
+      "Dạ, sưng cổ chân là một triệu chứng phổ biến và có thể do nhiều nguyên nhân khác nhau. Tình trạng này có thể ảnh hưởng đến khả năng di chuyển và gây khó chịu. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và cách điều trị sưng cổ chân.\n\n" +
+      " Nguyên nhân gây sưng cổ chân \n\n" +
+      " 1. Chấn thương và tổn thương : Cổ chân có thể bị sưng do chấn thương như sprain (bong gân), strain (căng cơ) hoặc gãy xương.\n\n" +
+      " 2. Viêm khớp : Các bệnh lý như viêm khớp dạng thấp hoặc thoái hóa khớp có thể gây ra tình trạng viêm và sưng.\n\n" +
+      " 3. Nhiễm trùng : Nhiễm trùng ở khu vực cổ chân (chẳng hạn như viêm mô tế bào) có thể gây sưng kèm theo đỏ và đau.\n\n" +
+      " 4. Tình trạng tuần hoàn : Các vấn đề tuần hoàn, như tắc nghẽn tĩnh mạch sâu, có thể khiến máu bị tích tụ tại cổ chân và gây sưng.\n\n" +
+      " 5. Mệt mỏi : Đứng hoặc ngồi trong thời gian dài có thể dẫn đến việc giữ nước tại các chi và gây sưng.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Cổ chân có cảm giác đau, khó chịu, nóng hoặc nhạy cảm khi chạm vào.\n" +
+      "- Sưng có thể đi kèm với màu sắc da thay đổi, đỏ biến hoặc bầm.\n" +
+      "- Khó khăn trong việc cử động chân và đi lại.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán tình trạng sưng cổ chân thường bao gồm việc bác sĩ kiểm tra lâm sàng, đánh giá triệu chứng và có thể yêu cầu một số xét nghiệm như siêu âm hoặc chụp X-quang để xác định nguyên nhân.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Cách chăm sóc tại nhà :\n" +
+      "- Nghỉ ngơi, nâng cao chân để giảm sưng.\n" +
+      "- Sử dụng đá lạnh để chườm lên khu vực bị sưng nhằm giảm đau và sưng.\n" +
+      "- Sử dụng băng ép để hỗ trợ và giảm bớt độ căng.\n" +
+      "2.  Sử dụng thuốc :\n" +
+      "- Thuốc giảm đau như paracetamol hoặc ibuprofen có thể giúp giảm đau và giảm viêm.\n" +
+      "- Nếu nguyên nhân là do viêm nhiễm, bác sĩ có thể kê đơn kháng sinh.\n" +
+      "3.  Điều trị chuyên khoa :\n" +
+      "- Nếu sưng kéo dài hoặc nghiêm trọng, có thể cần thăm khám bác sĩ chuyên khoa hơn như bác sĩ cơ xương khớp hoặc bác sĩ phẫu thuật chỉnh hình.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu sưng cổ chân kèm theo các triệu chứng như đau dữ dội, sốt, tê bì hoặc mất chức năng di chuyển, bạn nên tìm kiếm sự chăm sóc y tế ngay lập tức.\n\n" +
+      "Hy vọng những thông tin trên hữu ích cho bạn. Nếu bạn có câu hỏi nào khác hoặc cần thêm thông tin, đừng ngần ngại để mình biết nhé!",
+    "Sưng cổ chân":
+      "Dạ, sưng cổ chân là một triệu chứng phổ biến và có thể do nhiều nguyên nhân khác nhau. Tình trạng này có thể ảnh hưởng đến khả năng di chuyển và gây khó chịu. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và cách điều trị sưng cổ chân.\n\n" +
+      " Nguyên nhân gây sưng cổ chân \n\n" +
+      " 1. Chấn thương và tổn thương : Cổ chân có thể bị sưng do chấn thương như sprain (bong gân), strain (căng cơ) hoặc gãy xương.\n\n" +
+      " 2. Viêm khớp : Các bệnh lý như viêm khớp dạng thấp hoặc thoái hóa khớp có thể gây ra tình trạng viêm và sưng.\n\n" +
+      " 3. Nhiễm trùng : Nhiễm trùng ở khu vực cổ chân (chẳng hạn như viêm mô tế bào) có thể gây sưng kèm theo đỏ và đau.\n\n" +
+      " 4. Tình trạng tuần hoàn : Các vấn đề tuần hoàn, như tắc nghẽn tĩnh mạch sâu, có thể khiến máu bị tích tụ tại cổ chân và gây sưng.\n\n" +
+      " 5. Mệt mỏi : Đứng hoặc ngồi trong thời gian dài có thể dẫn đến việc giữ nước tại các chi và gây sưng.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Cổ chân có cảm giác đau, khó chịu, nóng hoặc nhạy cảm khi chạm vào.\n" +
+      "- Sưng có thể đi kèm với màu sắc da thay đổi, đỏ biến hoặc bầm.\n" +
+      "- Khó khăn trong việc cử động chân và đi lại.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán tình trạng sưng cổ chân thường bao gồm việc bác sĩ kiểm tra lâm sàng, đánh giá triệu chứng và có thể yêu cầu một số xét nghiệm như siêu âm hoặc chụp X-quang để xác định nguyên nhân.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Cách chăm sóc tại nhà :\n" +
+      "- Nghỉ ngơi, nâng cao chân để giảm sưng.\n" +
+      "- Sử dụng đá lạnh để chườm lên khu vực bị sưng nhằm giảm đau và sưng.\n" +
+      "- Sử dụng băng ép để hỗ trợ và giảm bớt độ căng.\n" +
+      "2.  Sử dụng thuốc :\n" +
+      "- Thuốc giảm đau như paracetamol hoặc ibuprofen có thể giúp giảm đau và giảm viêm.\n" +
+      "- Nếu nguyên nhân là do viêm nhiễm, bác sĩ có thể kê đơn kháng sinh.\n" +
+      "3.  Điều trị chuyên khoa :\n" +
+      "- Nếu sưng kéo dài hoặc nghiêm trọng, có thể cần thăm khám bác sĩ chuyên khoa hơn như bác sĩ cơ xương khớp hoặc bác sĩ phẫu thuật chỉnh hình.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu sưng cổ chân kèm theo các triệu chứng như đau dữ dội, sốt, tê bì hoặc mất chức năng di chuyển, bạn nên tìm kiếm sự chăm sóc y tế ngay lập tức.\n\n" +
+      "Hy vọng những thông tin trên hữu ích cho bạn. Nếu bạn có câu hỏi nào khác hoặc cần thêm thông tin, đừng ngần ngại để mình biết nhé!",
     "sưng chân":
-      "Sưng chân có thể do phù nề hoặc vấn đề về tuần hoàn. Nghỉ ngơi và nâng cao chân có thể giúp giảm sưng.",
+      "Dạ, sưng chân là một triệu chứng phổ biến có thể xảy ra do nhiều nguyên nhân khác nhau và thường liên quan đến việc giữ nước hoặc sự tích tụ của chất lỏng trong mô. Dưới đây là một số thông tin chi tiết về nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị sưng chân.\n\n" +
+      " Nguyên nhân gây sưng chân \n\n" +
+      " 1. Giữ nước : Tình trạng này có thể do chế độ ăn uống (ví dụ như ăn nhiều muối), thời tiết nắng nóng hoặc đứng/ngồi lâu trong thời gian dài.\n\n" +
+      " 2. Chấn thương : Các chấn thương do ngã hoặc hoạt động thể thao có thể gây tích tụ chất lỏng và dẫn đến sưng.\n\n" +
+      " 3. Vấn đề tuần hoàn : Rối loạn lưu thông máu, chẳng hạn như tắc nghẽn tĩnh mạch sâu, có thể gây sưng chân.\n\n" +
+      " 4. Bệnh lý tim mạch : Suy tim có thể dẫn đến tình trạng tích tụ dịch trong cơ thể, đặc biệt là ở các chi dưới.\n\n" +
+      " 5. Vấn đề thận hoặc gan : Các bệnh lý ảnh hưởng đến chức năng thận hoặc gan có thể góp phần vào tình trạng giữ nước.\n\n" +
+      " 6. Viêm : Một số tình trạng viêm như viêm khớp cũng có thể gây sưng chân.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Sưng có thể kèm theo cảm giác đau hoặc khó chịu.\n" +
+      "- Da có thể trở nên căng bóng hoặc sáng.\n" +
+      "- Có thể cảm thấy nặng nề ở chân.\n" +
+      "- Trong một số trường hợp, có thể có hiện tượng đổi màu da hoặc xuất hiện bầm tím.\n\n" +
+      " Chẩn đoán \n" +
+      "Việc chẩn đoán sưng chân thường bao gồm khám lâm sàng, hỏi về tiền sử bệnh và có thể yêu cầu làm các xét nghiệm như siêu âm Doppler để kiểm tra lưu thông máu hoặc xét nghiệm máu để kiểm tra chức năng thận và gan.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Chăm sóc tại nhà :\n" +
+      "- Nghỉ ngơi và nâng cao chân khi có thể để giảm sưng.\n" +
+      "- Chườm đá lên khu vực bị sưng trong 15-20 phút mỗi vài giờ.\n" +
+      "- Điều chỉnh chế độ ăn uống, đặc biệt là giảm lượng muối.\n" +
+      "2.  Sử dụng thuốc :\n" +
+      "- Thuốc giảm đau không kê đơn như ibuprofen có thể giúp giảm đau và viêm.\n" +
+      "- Nếu nguyên nhân là do vấn đề bệnh lý, bác sĩ có thể kê đơn kháng sinh hoặc thuốc điều trị đặc hiệu.\n" +
+      "3.  Thăm khám bác sĩ :\n" +
+      "- Nếu sưng chân kéo dài, kèm theo đau nghiêm trọng, sốt hoặc có dấu hiệu nhiễm trùng (đỏ, nóng, mủ), bạn nên tìm kiếm sự chăm sóc y tế ngay lập tức.\n" +
+      "4.  Điều trị chuyên khoa :\n" +
+      "- Nếu sưng chân là dấu hiệu của một tình trạng sức khỏe nghiêm trọng, bác sĩ có thể đề xuất các phương pháp điều trị phẫu thuật hoặc điều trị nội khoa khác.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu bạn gặp phải các triệu chứng như đau nhói, rối loạn cảm giác hoặc có lịch sử bệnh tim, thận hoặc gan, hãy nhanh chóng thăm khám bác sĩ. Việc điều trị sớm có thể giúp bạn tránh được những biến chứng tiềm tàng.\n\n" +
+      "Hy vọng thông tin trên có ích cho bạn. Nếu bạn có câu hỏi khác hoặc cần thêm thông tin, hãy cho tôi biết nhé!",
     "mất khứu giác":
-      "Mất khứu giác có thể do nhiễm trùng hoặc các bệnh về mũi. Nếu kéo dài, hãy đi khám chuyên khoa tai mũi họng.",
+      "Dạ, mất khứu giác, hay còn gọi là mất khả năng ngửi, là tình trạng mà người bệnh không còn cảm nhận được mùi hoặc có cảm giác mùi bị giảm đi. Tình trạng này có thể do nhiều nguyên nhân khác nhau, bao gồm các yếu tố tạm thời và nghiêm trọng. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị mất khứu giác.\n\n" +
+      " Nguyên nhân gây mất khứu giác \n\n" +
+      " 1. Nhiễm trùng đường hô hấp : Các nhiễm trùng như cảm lạnh thông thường, cúm, hoặc COVID-19 có thể dẫn đến tình trạng mất khứu giác tạm thời.\n\n" +
+      " 2. Viêm xoang : Viêm xoang mãn tính có thể làm tắc nghẽn các lỗ thông của xoang, từ đó ảnh hưởng đến khả năng ngửi.\n\n" +
+      " 3. Chấn thương đầu : Chấn thương nghiêm trọng ở đầu có thể gây tổn thương đến các dây thần kinh liên quan đến khứu giác.\n\n" +
+      " 4. Khối u hoặc polyp : Các khối u ở mũi hoặc xoang có thể gây ra tình trạng mất khứu giác.\n\n" +
+      " 5. Tuổi tác : Khi tuổi tác tăng, khả năng ngửi có thể giảm dần dần.\n\n" +
+      " 6. Một số bệnh lý : Các điều kiện như bệnh Alzheimer, Parkinson hoặc một số tình trạng khuyết tật thần kinh cũng có thể là nguyên nhân gây mất khứu giác.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Mất khả năng cảm nhận mùi.\n" +
+      "- Mùi có thể bị biến đổi hoặc khó ngửi.\n" +
+      "- Một số người cảm thấy như có mùi kỳ lạ mà không có nguồn gốc, được gọi là 'phantosmia'.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán mất khứu giác thường dựa vào lịch sử bệnh lý, triệu chứng lâm sàng và có thể yêu cầu một số xét nghiệm như nội soi mũi hoặc hình ảnh chẩn đoán (CT scan) nếu nghi ngờ có khối u hoặc tổn thương.\n\n" +
+      " Phương pháp điều trị \n" +
+      "-  Điều trị nguyên nhân : Nếu mất khứu giác do nhiễm trùng, thì điều trị nhiễm trùng như dùng thuốc kháng sinh hoặc thuốc chống viêm có thể cần thiết.\n" +
+      "-  Liệu pháp khứu giác : Một số nghiên cứu cho thấy liệu pháp khứu giác, trong đó bệnh nhân tiếp xúc với các mùi khác nhau, có thể giúp cải thiện khả năng ngửi.\n" +
+      "-  Tránh các yếu tố kích thích : Việc tránh tiếp xúc với các hóa chất, thuốc lá hoặc các mùi khó chịu có thể giúp bệnh nhân duy trì sức khỏe đường hô hấp.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "Bạn nên tìm kiếm sự chăm sóc y tế nếu mất khứu giác kéo dài, kèm theo các triệu chứng như đau đầu, cổ họng, sốt hoặc bất kỳ triệu chứng bất thường nào khác, vì có thể đây là dấu hiệu của một tình trạng sức khỏe nghiêm trọng hơn.\n\n" +
+      "Hy vọng thông tin trên hữu ích cho bạn. Nếu bạn cần thêm thông tin hoặc có câu hỏi khác, hãy cho tôi biết nhé!",
     "mất vị giác":
-      "Mất vị giác có thể do nhiễm trùng hoặc thiếu hụt dinh dưỡng. Nếu kéo dài, nên đi khám bác sĩ.",
+      "Dạ, mất vị giác là tình trạng mà người bệnh không còn khả năng cảm nhận được vị của thức ăn. Tình trạng này có thể do nhiều nguyên nhân khác nhau và có thể ảnh hưởng đáng kể đến chất lượng cuộc sống. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị mất vị giác.\n\n" +
+      " Nguyên nhân gây mất vị giác \n\n" +
+      " 1. Nhiễm trùng : Nhiều bệnh nhiễm trùng, đặc biệt là các nhiễm trùng đường hô hấp trên như cảm cúm hoặc COVID-19 có thể gây mất vị giác. Việc viêm niêm mạc mũi và họng có thể ảnh hưởng đến cảm giác vị giác.\n\n" +
+      " 2. Mất khứu giác : Vì vị giác và khứu giác có mối tương quan, việc mất khứu giác có thể đồng nghĩa với việc giảm khả năng cảm nhận vị.\n\n" +
+      " 3. Chấn thương : Chấn thương vùng đầu hoặc nửa mặt có thể gây hại cho các dây thần kinh liên quan đến vị giác.\n\n" +
+      " 4. Rối loạn chuyển hóa : Một số bệnh lý như tiểu đường, vấn đề tuyến giáp có thể gây thay đổi cảm giác vị giác.\n\n" +
+      " 5. Thuốc : Một số loại thuốc, như thuốc chống trầm cảm và thuốc hóa trị, có thể gây ra tác dụng phụ mất vị giác.\n\n" +
+      " 6. Tuổi tác : Khi người ta già đi, cảm giác vị giác có thể giảm dần dần.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Mất vị giác hoàn toàn hoặc một phần.\n" +
+      "- Vị giác có thể bị biến đổi, khiến người bệnh cảm thấy thức ăn có vị khác với bình thường.\n" +
+      "- Một số người có thể cảm thấy vị lạ hoặc khó chịu từ các loại thực phẩm mà họ thường yêu thích.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán thường dựa vào lịch sử sức khỏe của bệnh nhân và xét nghiệm khác nếu cần thiết. Các bác sĩ có thể tiến hành khám lâm sàng, các thử nghiệm về chức năng vị giác hoặc thậm chí kiểm tra hình ảnh (CT hoặc MRI) để xác định nguyên nhân.\n\n" +
+      " Phương pháp điều trị \n" +
+      "-  Điều trị nguyên nhân : Nếu mất vị giác là dấu hiệu của một vấn đề sức khỏe tiềm ẩn, việc điều trị vấn đề đó có thể giúp phục hồi khả năng vị giác.\n" +
+      "-  Liệu pháp vị giác : Một số nghiên cứu cho thấy rằng việc tiếp xúc với các mùi vị khác nhau có thể giúp cải thiện tình trạng này.\n" +
+      "-  Chăm sóc tại nhà : Giữ cho miệng và lưỡi sạch sẽ bằng cách duy trì vệ sinh răng miệng tốt và uống đủ nước có thể giúp cải thiện tình trạng mất vị giác.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "Nếu bạn gặp tình trạng mất vị giác kéo dài, kèm theo các triệu chứng khác như sốt, đau đầu hoặc bất kỳ triệu chứng nghiêm trọng nào khác, nên nhanh chóng tìm kiếm sự chăm sóc y tế để được đánh giá và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin này có ích cho bạn. Nếu bạn cần thêm thông tin hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
     "mắt nháy liên tục":
-      "Mắt nháy liên tục có thể do căng thẳng hoặc thiếu ngủ. Nghỉ ngơi và thư giãn mắt có thể giúp giảm triệu chứng.",
+      "Dạ, mắt nháy liên tục hay còn gọi là co giật mắt, thường là một hiện tượng không đau đớn và có thể xảy ra ở một hoặc cả hai mắt. Hiện tượng này thường không gây hại nhưng có thể gây khó chịu và đôi khi là dấu hiệu của một số vấn đề sức khỏe. Dưới đây là một số nguyên nhân, triệu chứng, cách chẩn đoán và phương pháp điều trị cho tình trạng này.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Căng thẳng và lo âu : Căng thẳng thần kinh có thể góp phần vào việc co giật cơ bắp nhỏ trong mắt.\n\n" +
+      " 2. Mệt mỏi : Thiếu ngủ hoặc làm việc nhiều giờ trước máy tính có thể gây ra mệt mỏi cho mắt, dẫn đến tình trạng mắt nháy.\n\n" +
+      " 3. Sử dụng caffeine hoặc đồ uống có chứa chất kích thích : Tiêu thụ quá nhiều cafe hay đồ uống có cafein có thể làm tăng nguy cơ mắt nháy.\n\n" +
+      " 4. Tình trạng mắt : Khô mắt hoặc các vấn đề về mắt khác có thể gây căng thẳng cho mắt.\n\n" +
+      " 5. Thiếu dinh dưỡng : Thiếu hụt vitamin, đặc biệt là magnesium, có thể gây ra triệu chứng này.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Nháy mắt liên tục hoặc không thể kiểm soát được.\n" +
+      "- Cảm giác ngứa ngáy hoặc khó chịu trong mắt.\n" +
+      "- Có thể cảm thấy mắt mỏi hoặc mệt.\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán tình trạng mắt nháy thường dựa vào lịch sử sức khỏe và các triệu chứng mà bạn mô tả. Trong một số trường hợp, bác sĩ có thể thực hiện kiểm tra mắt toàn diện để loại trừ nguyên nhân khác như viêm kết mạc hoặc bệnh khô mắt.\n\n" +
+      " Phương pháp điều trị \n" +
+      "-  Thay đổi chế độ sinh hoạt : Giảm căng thẳng, đảm bảo ngủ đủ giấc và hạn chế tiêu thụ caffeine có thể góp phần làm giảm triệu chứng.\n" +
+      "-  Nghỉ ngơi cho mắt : Nếu bạn làm việc trước màn hình máy tính nhiều giờ, hãy chắc chắn có những khoảng thời gian nghỉ ngắn để mắt được thư giãn.\n" +
+      "-  Sử dụng thuốc nhỏ mắt : Nếu khô mắt là nguyên nhân, thuốc nhỏ mắt có thể giúp làm giảm triệu chứng.\n" +
+      "-  Bổ sung dinh dưỡng : Đảm bảo chế độ ăn uống đủ vitamin và khoáng chất, đặc biệt là magnesium.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "Nếu tình trạng mắt nháy kéo dài trong một khoảng thời gian dài, hoặc nếu bạn kèm theo những triệu chứng như đau mắt, thị lực giảm, hoặc mắt sưng đỏ, bạn nên tìm kiếm sự chăm sóc y tế để được kiểm tra và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin này hữu ích cho bạn. Nếu bạn có thêm câu hỏi nào khác, hãy cho tôi biết nhé!",
     "buồn ngủ quá mức":
-      "Buồn ngủ quá mức có thể do thiếu ngủ hoặc rối loạn giấc ngủ. Nếu kéo dài, hãy xem xét điều chỉnh lại lịch ngủ.",
+      "Dạ, buồn ngủ quá mức, hay còn gọi là chứng ngủ rũ, là tình trạng mà người bệnh cảm thấy buồn ngủ liên tục và có thể ngủ vào những lúc không thoải mái, như trong công việc hoặc trong các hoạt động xã hội. Tình trạng này có thể ảnh hưởng đáng kể đến cuộc sống hàng ngày và cần được xác định nguyên nhân chính xác để có phương pháp điều trị phù hợp. Dưới đây là một số thông tin chi tiết về tình trạng này.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Rối loạn giấc ngủ : Giấc ngủ không đủ hoặc chất lượng giấc ngủ kém có thể dẫn đến buồn ngủ quá mức. Ví dụ, hội chứng ngừng thở khi ngủ có thể gây ra giấc ngủ bị gián đoạn và dẫn đến cảm giác mệt mỏi trong suốt cả ngày.\n\n" +
+      " 2. Sử dụng thuốc : Một số loại thuốc, đặc biệt là thuốc an thần, thuốc chống trầm cảm hoặc thuốc điều trị dị ứng, có thể gây buồn ngủ như một tác dụng phụ.\n\n" +
+      " 3. Bệnh lý tiềm ẩn : Một số bệnh lý như bệnh tiểu đường, bệnh tuyến giáp hoặc thậm chí là các vấn đề về thần kinh cũng có thể góp phần gây ra tình trạng buồn ngủ quá mức.\n\n" +
+      " 4. Căng thẳng và lo âu : Cảm xúc và tâm lý cũng có thể ảnh hưởng tới giấc ngủ. Căng thẳng kéo dài có thể dẫn đến mệt mỏi và buồn ngủ.\n\n" +
+      " 5. Lối sống không lành mạnh : Chế độ ăn uống kém, thiếu hoạt động thể chất, hoặc thói quen sinh hoạt không đều đặn cũng có thể làm giảm năng lượng và gây ra buồn ngủ.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Ngủ không sâu hoặc thường xuyên tỉnh dậy giữa đêm.\n" +
+      "- Cảm thấy lờ đờ, mệt mỏi cả ngày.\n" +
+      "- Khó tập trung hoặc giữ tỉnh táo trong công việc hoặc học tập.\n" +
+      "- Có thể có cảm giác thèm ngủ bất cứ lúc nào, thậm chí trong các tình huống không phù hợp.\n\n" +
+      " Chẩn đoán \n" +
+      "Để chẩn đoán nguyên nhân gây buồn ngủ quá mức, bác sĩ có thể tiến hành một số xét nghiệm lâm sàng, bao gồm đánh giá lịch sử bệnh, thói quen giấc ngủ, hoặc thậm chí thực hiện các xét nghiệm y tế như khảo sát giấc ngủ hoặc điện não đồ (EEG).\n\n" +
+      " Phương pháp điều trị \n" +
+      "-  Thay đổi lối sống : Cải thiện thói quen ngủ, duy trì một lịch trình giấc ngủ cố định, và tránh các chất kích thích như caffeine gần giờ ngủ.\n" +
+      "-  Điều trị bệnh lý tiềm ẩn : Nếu buồn ngủ là dấu hiệu của một tình trạng sức khỏe khác, việc điều trị nguyên nhân sẽ giúp cải thiện triệu chứng.\n" +
+      "-  Liệu pháp hành vi : Có thể áp dụng liệu pháp hành vi điều chỉnh giấc ngủ để giúp thực hiện các thói quen ngủ tốt hơn.\n" +
+      "-  Thực phẩm bổ sung : Một số loại thực phẩm hoặc vitamin có thể hỗ trợ cải thiện năng lượng và giấc ngủ.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "Nếu bạn thường xuyên gặp tình trạng buồn ngủ quá mức ảnh hưởng đến khả năng học tập, làm việc hoặc hoạt động hàng ngày, bạn nên tìm kiếm sự tư vấn và hỗ trợ từ chuyên gia y tế.\n\n" +
+      "Hy vọng thông tin này hữu ích cho bạn. Nếu bạn có thêm câu hỏi nào khác, hãy cho tôi biết nhé!",
     "mắt đỏ":
-      "Mắt đỏ có thể do viêm kết mạc hoặc mỏi mắt. Rửa sạch mắt và tránh dụi mắt có thể giúp cải thiện.",
+      "Dạ, mắt đỏ là một triệu chứng khá phổ biến và có thể do nhiều nguyên nhân khác nhau. Tình trạng này có thể ảnh hưởng đến cả hai mắt hoặc chỉ một bên mắt. Dưới đây là một số nguyên nhân, triệu chứng đi cùng, cách kiểm tra và phương pháp điều trị cho tình trạng mắt đỏ.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Viêm kết mạc (đau mắt đỏ) : Là một trong những nguyên nhân phổ biến nhất, viêm kết mạc có thể do nhiễm virus, vi khuẩn hoặc dị ứng. Triệu chứng bao gồm mắt đỏ, ngứa, chảy nước mắt và có thể có mủ.\n\n" +
+      " 2. Khô mắt : Khi mắt không đủ nước mắt hoặc chất lượng nước mắt kém, có thể dẫn đến tình trạng viêm và đỏ mắt.\n\n" +
+      " 3. Cơn dị ứng : Sự tiếp xúc với các tác nhân gây dị ứng như phấn hoa, bụi bẩn hoặc lông thú vật có thể làm mắt bị đỏ.\n\n" +
+      " 4. Viêm hoặc nhiễm trùng : Các tình trạng viêm như viêm họng, viêm amidan hoặc các bệnh lý khác có thể gây ra triệu chứng đỏ mắt.\n\n" +
+      " 5. Chấn thương mắt : Va chạm hoặc chấn thương vào mắt có thể dẫn đến tình trạng đỏ sắc tố do chảy máu.\n\n" +
+      " 6. Tăng nhãn áp : Tình trạng này có thể gây đỏ mắt, đặc biệt là trong các trường hợp như tăng nhãn áp cấp tính.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Ngứa hoặc cảm giác nhức mắt.\n" +
+      "- Chảy nước mắt nhiều hoặc tiết dịch từ mắt.\n" +
+      "- Mắt có thể cảm thấy khô hoặc cộm.\n" +
+      "- Có thể nhìn thấy bọng mắt hoặc phù nề ở mí mắt.\n\n" +
+      " Kiểm tra và chẩn đoán \n" +
+      "Để xác định nguyên nhân gây ra tình trạng mắt đỏ, bác sĩ sẽ tiến hành kiểm tra lâm sàng, bao gồm:\n" +
+      "- Lịch sử bệnh: Hỏi về triệu chứng đi kèm và thời gian xuất hiện.\n" +
+      "- Kiểm tra mắt: Sử dụng các dụng cụ chuyên dụng để kiểm tra tình trạng mắt.\n" +
+      "- Xét nghiệm nếu cần thiết: Có thể bao gồm xét nghiệm dịch mắt hoặc các xét nghiệm khác để xác định nguyên nhân cụ thể.\n\n" +
+      " Phương pháp điều trị \n" +
+      "-  Nguyên nhân dị ứng : Sử dụng thuốc kháng histamin hoặc nước mắt nhân tạo để làm dịu tình trạng.\n" +
+      "-  Nhiễm trùng : Nếu do vi khuẩn, bác sĩ có thể kê đơn kháng sinh nhỏ mắt.\n" +
+      "-  Khô mắt : Thường xuyên sử dụng nước mắt nhân tạo hoặc thuốc làm ẩm để làm dịu tình trạng.\n" +
+      "-  Chấn thương : Nếu có tổn thương, có thể cần đến bác sĩ chuyên khoa để đánh giá và điều trị.\n" +
+      "-  Viêm kết mạc : Có thể điều trị bằng cách sử dụng thuốc nhỏ mắt kháng viêm hoặc kháng sinh.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "Bạn nên tìm kiếm sự chăm sóc y tế nếu:\n" +
+      "- Mắt đỏ kéo dài không cải thiện sau vài ngày.\n" +
+      "- Xuất hiện các triệu chứng nghiêm trọng hơn như đau mắt dữ dội, giảm thị lực, hoặc có dịch mủ.\n" +
+      "- Có dấu hiệu của dị ứng nặng hoặc nhiễm trùng.\n\n" +
+      "Hy vọng thông tin này sẽ giúp ích cho bạn. Nếu bạn có thêm câu hỏi nào khác, hãy cho tôi biết nhé!",
     "đau xương":
-      "Đau xương có thể do thiếu canxi hoặc chấn thương. Nếu cơn đau kéo dài, hãy đi khám bác sĩ để kiểm tra.",
+      "Dạ, đau xương có thể do nhiều nguyên nhân khác nhau, và để xác định được tình trạng cụ thể, cần xem xét các triệu chứng đi kèm, tiền sử sức khỏe và có thể thực hiện một số xét nghiệm cần thiết. Dưới đây là thông tin chi tiết về nguyên nhân, triệu chứng và phương pháp điều trị đối với tình trạng đau xương.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Chấn thương : Đau xương thường có thể xảy ra do chấn thương, như gãy xương hoặc sai khớp.\n\n" +
+      " 2. Bệnh lý xương khớp : Một số bệnh như viêm khớp, thoái hóa khớp có thể gây ra cơn đau xương.\n\n" +
+      " 3. Loãng xương : Đây là tình trạng mà mật độ xương giảm, làm cho xương trở nên yếu và dễ gãy, dẫn đến cơn đau.\n\n" +
+      " 4. Nhiễm trùng : Nhiễm trùng xương (osteomyelitis) cũng có thể tạo ra cảm giác đau nhức tại khu vực bị nhiễm.\n\n" +
+      " 5. Bệnh lý khác : Một vài tình trạng như bệnh ung thư hoặc các bệnh lý di truyền có thể ảnh hưởng đến sức khỏe xương và gây ra cơn đau.\n\n" +
+      " 6. Thiếu hụt dinh dưỡng : Thiếu hụt vitamin D và canxi có thể dẫn đến các vấn đề về xương và cơn đau.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Đau nhức liên tục hoặc theo từng cơn.\n" +
+      "- Có thể thấy sưng, đỏ hoặc nóng ở vùng bị đau.\n" +
+      "- Khó khăn trong việc di chuyển hoặc thực hiện các hoạt động bình thường.\n" +
+      "- Có thể có dấu hiệu sốt hoặc cảm giác không khỏe nếu có nhiễm trùng.\n\n" +
+      " Chẩn đoán \n" +
+      "Để chẩn đoán chính xác nguyên nhân gây đau xương, bác sĩ có thể thực hiện:\n" +
+      "- Khám sức khỏe tổng quát và hỏi về tiền sử bệnh.\n" +
+      "- Các xét nghiệm hình ảnh như X-quang, MRI hoặc CT để quan sát tình trạng xương.\n" +
+      "- Xét nghiệm máu để kiểm tra dấu hiệu của viêm hoặc các bệnh lý khác.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Thuốc : Sử dụng thuốc giảm đau, thuốc kháng viêm (như NSAIDs) hoặc thậm chí thuốc đặc trị nếu có bệnh lý nền.\n" +
+      "2.  Vật lý trị liệu : Các bài tập physiotherapy có thể giúp cải thiện chức năng và giảm triệu chứng đau.\n" +
+      "3.  Phẫu thuật : Trong một số trường hợp nặng, như gãy xương phức tạp hay tình trạng nhiễm trùng, có thể cần thực hiện phẫu thuật để xử lý.\n" +
+      "4.  Thay đổi lối sống : Duy trì chế độ ăn uống cân bằng giàu vitamin D và canxi, tập thể dục đều đặn để bảo vệ sức khỏe xương.\n" +
+      "5.  Sử dụng bổ sung : Nếu thiếu hụt dinh dưỡng, có thể cần bổ sung các vitamin hoặc khoáng chất cần thiết.\n\n" +
+      " Khi nào cần gặp bác sĩ \n" +
+      "Bạn nên tìm kiếm sự tư vấn y tế nếu:\n" +
+      "- Cơn đau xương kéo dài hoặc gia tăng mức độ nghiêm trọng.\n" +
+      "- Đau xương đi kèm với sốt, sưng tấy hoặc cảm giác không khỏe.\n" +
+      "- Gặp khó khăn trong việc di chuyển hoặc thực hiện các hoạt động hàng ngày.\n\n" +
+      "Hy vọng thông tin này giúp ích cho bạn. Nếu bạn cần thêm thông tin hoặc hỗ trợ gì khác, hãy cho tôi biết nhé!",
     "tê tay chân":
-      "Tê tay chân có thể do vấn đề tuần hoàn hoặc thần kinh. Nếu triệu chứng kéo dài, hãy đi khám chuyên khoa.",
+      'Dạ, tê tay chân là một triệu chứng khá phổ biến mà nhiều người có thể gặp phải và có thể được gây ra bởi nhiều nguyên nhân khác nhau. Tình trạng này thường liên quan đến cảm giác ngứa ran hoặc "kim châm" ở các đầu chi, và dưới đây là thông tin chi tiết về nguyên nhân, triệu chứng đi kèm và phương pháp điều trị.\n\n' +
+      " Nguyên nhân \n\n" +
+      " 1. Chấn thương : Các chấn thương ở tay hoặc chân, như gãy xương hoặc căng cơ có thể dẫn đến tê.\n\n" +
+      " 2. Chèn ép dây thần kinh : Tình trạng như hội chứng ống cổ tay hoặc chèn ép dây thần kinh do tư thế ngủ không đúng có thể gây tê.\n\n" +
+      " 3. Thiếu máu : Máu không cung cấp đủ đến các chi do xơ vữa động mạch hoặc bệnh tim cũng có thể dẫn đến cảm giác tê.\n\n" +
+      " 4. Diabetes (Đái tháo đường) : Tê có thể là dấu hiệu của bệnh lý tiểu đường gây ra tổn thương dây thần kinh (biến chứng thần kinh ngoại vi).\n\n" +
+      " 5. Dinh dưỡng không đủ : Thiếu hụt vitamin, đặc biệt là vitamin B12, có thể dẫn đến các vấn đề về dây thần kinh và cảm giác tê liệt.\n\n" +
+      " 6. Bệnh lý thần kinh : Các bệnh như đa xơ cứng, viêm dây thần kinh có thể gây tê tay chân.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Cảm giác ngứa ran, kim châm hoặc mất cảm giác tại khu vực bị ảnh hưởng.\n" +
+      "- Có thể kèm theo đau nhức, yếu cơ hoặc khó khăn trong việc cử động.\n" +
+      "- Trong một số trường hợp, có thể cảm thấy lạnh hoặc nóng bất thường ở tay chân.\n\n" +
+      " Kiểm tra và chẩn đoán \n" +
+      "Để xác định nguyên nhân cụ thể của tê tay chân, bác sĩ có thể:\n" +
+      "- Hỏi về tiền sử bệnh, các triệu chứng đi kèm và thói quen sinh hoạt.\n" +
+      "- Thực hiện các xét nghiệm như xét nghiệm máu (để kiểm tra mức đường huyết, vitamin) và các xét nghiệm hình ảnh để kiểm tra tình trạng dây thần kinh hoặc mạch máu.\n\n" +
+      " Phương pháp điều trị \n" +
+      "Tùy thuộc vào nguyên nhân gây tê, phương pháp điều trị có thể bao gồm:\n" +
+      "-  Thuốc : Nếu nguyên nhân là do viêm hoặc đau, thuốc chống viêm hoặc giảm đau có thể được kê đơn.\n" +
+      "-  Vật lý trị liệu : Các bài tập có thể giúp cải thiện sức mạnh và linh hoạt của các chi bị ảnh hưởng.\n" +
+      "-  Bổ sung dinh dưỡng : Nếu tê do thiếu vitamin, bác sĩ có thể khuyên bạn bổ sung các vitamin hoặc khoáng chất cần thiết.\n" +
+      "-  Thay đổi lối sống : Việc tránh các tư thế chèn ép thần kinh và tập thể dục thường xuyên có thể giúp cải thiện tình trạng.\n\n" +
+      " Khi nào cần gặp bác sĩ \n" +
+      "Bạn nên tìm kiếm sự chăm sóc y tế nếu tình trạng tê kéo dài, nặng lên hoặc đi kèm với dấu hiệu bất thường khác như yếu cơ đột ngột, đau dữ dội hoặc mất cảm giác hoàn toàn tại tay chân.\n\n" +
+      "Hy vọng thông tin này sẽ hữu ích cho bạn. Nếu bạn có thêm câu hỏi nào khác, hãy cho tôi biết nhé!",
     "khó nuốt":
-      "Khó nuốt có thể do viêm họng hoặc các vấn đề về thực quản. Nếu kéo dài, hãy tham khảo ý kiến bác sĩ.",
+      "Dạ, khó nuốt (hay còn gọi là dysphagia) là tình trạng mà người bệnh gặp khó khăn trong việc nuốt thức ăn, nước uống hoặc thậm chí là nước bọt. Tình trạng này có thể do nhiều nguyên nhân khác nhau và có thể đi kèm với nhiều triệu chứng khác. Dưới đây là một số thông tin chi tiết về triệu chứng, nguyên nhân, chẩn đoán và phương pháp điều trị của tình trạng này.\n\n" +
+      " Triệu chứng đi kèm \n\n" +
+      "- Cảm giác đau khi nuốt (odynophagia).\n" +
+      "- Cảm giác thức ăn bị kẹt lại trong cổ họng hoặc ngực.\n" +
+      "- Khó khăn trong việc nuốt thức ăn đặc hơn so với thức ăn lỏng.\n" +
+      "- Khanh tiếng, ho khan hoặc khạc nhổ khi nuốt.\n" +
+      "- Có thể xuất hiện nghẹn khi uống nước hoặc ăn thức ăn.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Vấn đề về hệ thần kinh : Bệnh Parkinson, đột quỵ hoặc xơ cứng thể bạch có thể ảnh hưởng đến khả năng kiểm soát cơ bắp khi nuốt.\n\n" +
+      " 2. Vấn đề về cấu trúc : Ung thư, dị dạng cấu trúc như polyp, tuyển mạch bất thường hoặc sự teo của thực quản.\n\n" +
+      " 3. Tình trạng viêm nhiễm : Viêm họng, viêm amiđan hoặc viêm thực quản do nhiễm vi khuẩn hoặc virus.\n\n" +
+      " 4. Bệnh tự miễn : Như bệnh loạn dưỡng cơ hoặc bệnh Graves có thể ảnh hưởng đến khả năng nuốt.\n\n" +
+      " 5. Các yếu tố khác : Như stress, lo âu có thể dẫn đến sự co thắt bất thường của cơ bắp trong tâm trí nuốt.\n\n" +
+      " Chẩn đoán \n" +
+      "Để chẩn đoán đúng nguyên nhân của tình trạng khó nuốt, bác sĩ có thể thực hiện:\n" +
+      "-  Khám sức khỏe tổng quát : Đánh giá lịch sử bệnh lý và triệu chứng mà bạn đang gặp phải.\n" +
+      "-  Nội soi thực quản : Để kiểm tra bên trong thực quản và xác định sự thay đổi nào đó.\n" +
+      "-  Xét nghiệm hình ảnh : Như CT hoặc MRI có thể được chỉ định để xem các cấu trúc bên trong.\n" +
+      "-  Xét nghiệm chức năng nuốt : Để đánh giá khả năng nuốt và xác định nơi gặp vấn đề.\n\n" +
+      " Phương pháp điều trị \n" +
+      "Phương pháp điều trị khó nuốt thường phụ thuộc vào nguyên nhân cụ thể:\n" +
+      "-  Thay đổi chế độ ăn uống : Chế độ ăn mềm, dễ nuốt có thể giúp giảm triệu chứng.\n" +
+      "-  Vật lý trị liệu : Các bài tập nuốt có thể giúp cải thiện tình trạng.\n" +
+      "-  Thuốc : Sử dụng thuốc kháng viêm hoặc thuốc điều trị các tình trạng underlying như loét hoặc viêm.\n" +
+      "-  Phẫu thuật : Trong một số trường hợp nghiêm trọng, phẫu thuật có thể được yêu cầu để sửa chữa các vấn đề cấu trúc.\n\n" +
+      " Khi nào cần gặp bác sĩ \n" +
+      "Bạn nên tìm đến bác sĩ nếu:\n" +
+      "- Khó nuốt kéo dài hoặc ngày càng nghiêm trọng.\n" +
+      "- Xuất hiện những dấu hiệu bất thường như giảm cân nhanh chóng, chảy máu khi nuốt hoặc đau nghiêm trọng.\n\n" +
+      "Hy vọng thông tin này sẽ hữu ích cho bạn. Nếu bạn có thêm câu hỏi hoặc cần tư vấn gì khác, hãy cho tôi biết nhé!",
     "chảy nước mắt không ngừng":
-      "Chảy nước mắt không ngừng có thể do kích ứng hoặc viêm nhiễm. Rửa mắt nhẹ nhàng và tránh chạm vào mắt.",
+      "Dạ, chảy nước mắt không ngừng có thể là một triệu chứng khó chịu và có thể được gây ra bởi nhiều nguyên nhân khác nhau. Dưới đây là một số thông tin về các nguyên nhân phổ biến, triệu chứng đi kèm và những biện pháp khắc phục có thể thực hiện.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Kích ứng - Dị ứng : Các chất gây dị ứng như phấn hoa, bụi bẩn, hoặc lông thú cưng có thể dẫn đến tiết nước mắt nhiều hơn.\n\n" +
+      " 2. Nhiễm trùng : Viêm kết mạc (conjunctivitis) hoặc viêm mũi có thể gây ra chảy nước mắt. Nhiễm trùng có thể đi kèm với đỏ mắt, ngứa và sốt.\n\n" +
+      " 3. Tắc nghẽn ống dẫn nước mắt : Khi ống dẫn nước mắt bị tắc, nước mắt không thể chảy vào mũi, dẫn đến việc nước mắt tràn ra ngoài.\n\n" +
+      " 4. Ánh sáng mạnh hoặc gió : Sáng ánh nắng mặt trời hoặc gió mạnh có thể kích thích tuyến lệ tạo nước mắt, dẫn đến nước mắt không ngừng.\n\n" +
+      " 5. Bệnh lý mắt : Các vấn đề khác như khô mắt (paradoxical tearing), loét giác mạc hoặc mỏi mắt có thể gây ra sự tiết nước mắt bất thường.\n\n" +
+      " Triệu chứng đi kèm \n\n" +
+      "- Đỏ hoặc ngứa mắt.\n" +
+      "- Cảm giác khó chịu, cay mắt.\n" +
+      "- Tăng tiết nhầy trong mắt.\n" +
+      "- Có thể kèm theo tình trạng đau đầu hoặc cảm giác mệt mỏi.\n\n" +
+      " Biện pháp khắc phục \n\n" +
+      "1.  Tránh chất gây dị ứng : Nếu bạn biết rằng có một chất gây dị ứng cụ thể gây kích ứng mắt, hãy hạn chế tiếp xúc với chúng.\n\n" +
+      "2.  Dùng thuốc nhỏ mắt : Sử dụng thuốc nhỏ mắt không chứa corticoid có thể giúp làm dịu mắt và giảm chảy nước mắt.\n\n" +
+      "3.  Bảo vệ mắt : Khi ra ngoài, hãy đeo kính râm để bảo vệ mắt khỏi ánh sáng mạnh và gió.\n\n" +
+      "4.  Rửa mắt : Rửa mắt bằng nước muối sinh lý có thể giúp làm sạch và giảm kích ứng.\n\n" +
+      "5.  Nếu tình trạng nghiêm trọng : Nếu chảy nước mắt không ngừng kéo dài hoặc có kèm theo các triệu chứng nghiêm trọng như đau mắt, bạn nên gặp bác sĩ chuyên khoa để được thăm khám và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin này hữu ích cho bạn. Nếu bạn cần thêm thông tin hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
     "khó tập trung":
-      "Khó tập trung có thể do căng thẳng hoặc thiếu ngủ. Nghỉ ngơi đầy đủ và thư giãn có thể giúp cải thiện.",
+      "Dạ, khó tập trung là một triệu chứng thường gặp mà nhiều người trải qua trong cuộc sống hàng ngày. Tình trạng này có thể do nhiều nguyên nhân khác nhau, và việc nhận diện đúng nguyên nhân giúp tìm ra phương pháp cải thiện hiệu quả hơn. Dưới đây là một số nguyên nhân phổ biến, triệu chứng đi kèm và các biện pháp khắc phục có thể giúp bạn.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Căng thẳng và lo âu : Cảm giác lo lắng, áp lực có thể làm giảm khả năng tập trung.\n\n" +
+      " 2. Thiếu ngủ : Giấc ngủ kém có thể làm giảm năng lực nhận thức và khả năng tập trung.\n\n" +
+      " 3. Vấn đề về dinh dưỡng : Thiếu hụt vitamin, khoáng chất hoặc chế độ ăn uống không cân bằng có thể ảnh hưởng đến chức năng não.\n\n" +
+      " 4. Rối loạn chú ý : Các tình trạng như ADHD (Rối loạn tăng động giảm chú ý) có thể gây ra khó khăn trong việc duy trì tập trung.\n\n" +
+      " 5. Môi trường xung quanh : Tiếng ồn, sự hỗn loạn trong môi trường làm việc hoặc học tập cũng có thể làm rối loạn khả năng tập trung.\n\n" +
+      " 6. Sử dụng chất kích thích : Caffeine, rượu hoặc ma túy có thể tác động đến sự chú ý và khả năng tập trung.\n\n" +
+      " Triệu chứng đi kèm \n\n" +
+      "- Khó khăn trong việc hoàn thành nhiệm vụ.\n" +
+      "- Mơ màng, dễ bị phân tâm.\n" +
+      "- Cảm thấy kiệt sức và mất động lực.\n" +
+      "- Cáu gắt, khó chịu hoặc lo lắng.\n\n" +
+      " Biện pháp khắc phục \n\n" +
+      "1.  Quản lý căng thẳng : Thực hành các kỹ thuật thư giãn như thiền, yoga hoặc hít thở sâu.\n\n" +
+      "2.  Cải thiện giấc ngủ : Đảm bảo có giấc ngủ đủ và chất lượng để giúp phục hồi năng lực nhận thức.\n\n" +
+      "3.  Chế độ ăn uống hợp lý : Ăn nhiều thực phẩm giàu omega-3, vitamin và khoáng chất hỗ trợ sức khỏe não bộ.\n\n" +
+      "4.  Giảm thiểu môi trường phân tâm : Tạo không gian làm việc yên tĩnh, sử dụng tai nghe chống ồn hoặc đặt thời gian tập trung mà không bị quấy rầy.\n\n" +
+      "5.  Lập kế hoạch và tổ chức : Sử dụng danh sách công việc hoặc lịch để quản lý thời gian và giúp bạn tập trung vào các nhiệm vụ ưu tiên.\n\n" +
+      "Nếu tình trạng khó tập trung kéo dài và ảnh hưởng đáng kể đến cuộc sống hàng ngày, bạn có thể cần thăm khám bác sĩ hoặc chuyên gia tâm lý để được tư vấn và hỗ trợ cụ thể hơn.\n\n" +
+      "Hy vọng thông tin này hữu ích cho bạn. Nếu bạn có thêm câu hỏi nào khác, hãy cho tôi biết nhé!",
     "ngứa họng":
-      "Ngứa họng có thể do dị ứng hoặc viêm họng. Uống nước ấm và tránh tiếp xúc với các chất gây dị ứng.",
+      "Dạ, ngứa họng là một triệu chứng phổ biến và có thể do nhiều nguyên nhân khác nhau gây ra. Dưới đây là một số thông tin về nguyên nhân, triệu chứng đi kèm và các biện pháp khắc phục:\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Dị ứng : Nguyên nhân phổ biến nhất là do dị ứng với phấn hoa, bụi bẩn hoặc lông động vật.\n\n" +
+      " 2. Ô nhiễm không khí : Khói, bụi hoặc các chất gây ô nhiễm khác có thể kích thích niêm mạc họng.\n\n" +
+      " 3. Nhiễm trùng : Viêm họng do virus hay vi khuẩn có thể gây ra ngứa và khó chịu.\n\n" +
+      " 4. Khô không khí : Đặc biệt là vào mùa đông, không khí khô có thể làm cho họng bị khô và ngứa.\n\n" +
+      " 5. Sử dụng thuốc lá : Khói thuốc lá cũng có thể gây kích ứng niêm mạc họng và dẫn đến cảm giác ngứa.\n\n" +
+      " Triệu chứng đi kèm \n\n" +
+      "- Cảm giác vướng mắc hoặc khó chịu ở họng.\n" +
+      "- Ho khan.\n" +
+      "- Khó nuốt.\n" +
+      "- Đau họng hoặc cảm giác rát.\n\n" +
+      " Biện pháp khắc phục \n\n" +
+      "1.  Uống nước : Đảm bảo uống đủ nước để giữ cho họng luôn ẩm.\n\n" +
+      "2.  Súc miệng bằng nước muối : Giúp làm dịu kích ứng và giảm viêm.\n\n" +
+      "3.  Dùng thuốc kháng histamin : Nếu nguyên nhân do dị ứng, thuốc kháng histamin có thể giúp giảm ngứa.\n\n" +
+      "4.  Tránh các chất kích thích : Hạn chế khói thuốc, bụi bẩn và ô nhiễm không khí càng nhiều càng tốt.\n\n" +
+      "5.  Sử dụng máy tạo độ ẩm : Giúp làm ẩm không khí, đặc biệt là trong mùa khô.\n\n" +
+      "6.  Thăm khám bác sĩ : Nếu tình trạng ngứa họng kéo dài hoặc kèm theo các triệu chứng nặng hơn như sốt hay khó thở, bạn nên gặp bác sĩ để được chẩn đoán và điều trị thích hợp.\n\n" +
+      "Hy vọng những thông tin trên sẽ giúp bạn hiểu rõ về ngứa họng và có hướng xử lý thích hợp. Nếu bạn cần thêm thông tin hay có câu hỏi khác, hãy cho tôi biết nhé!",
+    "đau rát họng":
+      "Dạ, đau rát họng là một triệu chứng thường gặp và có thể xuất phát từ nhiều nguyên nhân khác nhau. Dưới đây là các nguyên nhân, triệu chứng đi kèm và một số biện pháp điều trị mà bạn có thể tham khảo.\n\n" +
+      " Nguyên nhân \n\n" +
+      " 1. Nhiễm virus : Đây là nguyên nhân phổ biến nhất gây đau họng, bao gồm cảm cúm hoặc cảm lạnh.\n\n" +
+      " 2. Nhiễm khuẩn : Viêm họng do vi khuẩn, đặc biệt là Streptococcus, có thể gây đau rát nghiêm trọng và cần điều trị bằng kháng sinh.\n\n" +
+      " 3. Dị ứng : Dị ứng với phấn hoa, bụi hoặc lông động vật có thể khiến họng bị ngứa và đau.\n\n" +
+      " 4. Ô nhiễm : Khói, bụi bẩn hoặc hóa chất trong không khí có thể kích thích niêm mạc họng.\n\n" +
+      " 5. Khô miệng : Nhiều người bị đau họng khi không có đủ độ ẩm, chẳng hạn khi ngủ trong phòng có không khí khô.\n\n" +
+      " 6. Viêm amiđan : Viêm amiđan (viêm amidan) có thể gây đau họng kèm theo khó nuốt và ngạt thở.\n\n" +
+      " Triệu chứng đi kèm \n\n" +
+      "- Cảm giác vướng mắc hoặc khó chịu ở họng.\n" +
+      "- Ho, có thể là ho khan hoặc ho có đờm.\n" +
+      "- Khó nuốt hoặc cảm thấy đau khi nuốt.\n" +
+      "- Hơi thở có thể có mùi hôi.\n" +
+      "- Có thể kèm theo sốt hoặc cảm lạnh, tùy thuộc vào nguyên nhân.\n\n" +
+      " Biện pháp khắc phục \n\n" +
+      "1.  Uống đủ nước : Giúp giữ cho họng ẩm và giảm cảm giác đau.\n\n" +
+      "2.  Súc miệng bằng nước muối ấm : Giúp làm dịu kích ứng và có tính sát khuẩn.\n\n" +
+      "3.  Sử dụng thuốc giảm đau : Paracetamol hoặc ibuprofen có thể giúp giảm đau rát.\n\n" +
+      "4.  Tránh các chất gây kích thích : Tránh khói thuốc, thực phẩm cay nóng, và những thứ có thể làm tăng tình trạng kích ứng.\n\n" +
+      "5.  Thăm khám bác sĩ : Nếu tình trạng kéo dài hơn 2 ngày hoặc kèm theo triệu chứng nghiêm trọng như sốt cao, khó thở, bạn nên thăm khám bác sĩ để được chẩn đoán và điều trị đúng.\n\n" +
+      "Nếu bạn có thêm câu hỏi hoặc cần hỗ trợ gì khác, hãy cho tôi biết nhé!",
     "đau bàn chân":
       "Dạ, đau bàn chân là một triệu chứng mà nhiều người có thể trải qua và có thể xuất phát từ nhiều nguyên nhân khác nhau. Đau có thể xảy ra ở ngón chân, gót chân hoặc cả bàn chân. Dưới đây là một số nguyên nhân phổ biến, triệu chứng đi kèm, và các phương pháp điều trị cho tình trạng đau bàn chân.\n\n" +
-      "**Nguyên nhân gây đau bàn chân**\n" +
-      "1. **Chấn thương:** Bàn chân có thể bị chấn thương do va đập, ngã hoặc vận động không đúng cách, dẫn đến bong gân, gãy xương hoặc tổn thương mô mềm.\n" +
-      "2. **Viêm gân:** Viêm gân ở bàn chân cũng có thể gây ra cảm giác đau và khó chịu, đặc biệt là nếu có sự lặp lại trong các hoạt động thể chất mà người bệnh thường thực hiện.\n" +
-      "3. **Bệnh lý khớp:** Viêm khớp hoặc bệnh gout có thể gây ra tình trạng sưng và đau ở các khớp ở bàn chân.\n" +
-      "4. **Tình trạng xương:** Bệnh lý như bệnh xương mỏng (osteoporosis) có thể làm tăng nguy cơ gãy xương ở bàn chân.\n" +
-      "5. **Hội chứng đau thắt:** Tình trạng này xảy ra khi các dây thần kinh trong vùng chân bị chèn ép, gây cảm giác đau, tê quanh bàn chân.\n" +
-      "6. **Diabetes:** Người bị tiểu đường có thể gặp vấn đề về thần kinh (neuropathy), có thể dẫn đến cơn đau bàn chân.\n\n" +
-      "**Triệu chứng kèm theo**\n" +
+      " Nguyên nhân gây đau bàn chân \n" +
+      "1.  Chấn thương:  Bàn chân có thể bị chấn thương do va đập, ngã hoặc vận động không đúng cách, dẫn đến bong gân, gãy xương hoặc tổn thương mô mềm.\n" +
+      "2.  Viêm gân:  Viêm gân ở bàn chân cũng có thể gây ra cảm giác đau và khó chịu, đặc biệt là nếu có sự lặp lại trong các hoạt động thể chất mà người bệnh thường thực hiện.\n" +
+      "3.  Bệnh lý khớp:  Viêm khớp hoặc bệnh gout có thể gây ra tình trạng sưng và đau ở các khớp ở bàn chân.\n" +
+      "4.  Tình trạng xương:  Bệnh lý như bệnh xương mỏng (osteoporosis) có thể làm tăng nguy cơ gãy xương ở bàn chân.\n" +
+      "5.  Hội chứng đau thắt:  Tình trạng này xảy ra khi các dây thần kinh trong vùng chân bị chèn ép, gây cảm giác đau, tê quanh bàn chân.\n" +
+      "6.  Diabetes:  Người bị tiểu đường có thể gặp vấn đề về thần kinh (neuropathy), có thể dẫn đến cơn đau bàn chân.\n\n" +
+      " Triệu chứng kèm theo \n" +
       "- Đau nhức hoặc cảm giác nóng bỏng.\n" +
       "- Sưng, viêm hoặc đỏ ở một số khu vực của bàn chân.\n" +
       "- Cảm giác tê hoặc châm chích.\n" +
       "- Hạn chế khả năng vận động hoặc đi lại.\n\n" +
-      "**Khi nào cần tìm kiếm sự chăm sóc y tế**\n" +
+      " Khi nào cần tìm kiếm sự chăm sóc y tế \n" +
       "Bạn nên đi khám bác sĩ nếu:\n" +
       "- Cảm thấy đau nặng hoặc kéo dài hơn vài ngày mà không có dấu hiệu cải thiện.\n" +
       "- Đau đi kèm với sưng lớn hoặc đỏ ở bàn chân.\n" +
       "- Xuất hiện triệu chứng khác như sốt, tê liệt hoặc khó đi lại.",
     "chảy máu chân răng":
-      "Chảy máu chân răng có thể do viêm lợi hoặc thiếu vitamin. Vệ sinh răng miệng và ăn uống đủ chất.",
+      "Dạ, chảy máu chân răng có thể là triệu chứng của nhiều tình trạng khác nhau, và đây là một vấn đề cần được chú ý. Dưới đây là một số nguyên nhân và thông tin liên quan đến chảy máu chân răng:\n\n" +
+      " 1. Viêm nướu (Viêm lợi) \n" +
+      "Viêm nướu là tình trạng viêm mô nướu quanh chân răng, thường do sự tích tụ của mảng bám và vi khuẩn. Viêm nướu có thể gây ra đỏ, sưng và chảy máu khi bạn đánh răng hoặc dùng chỉ nha khoa.\n\n" +
+      " 2. Thiếu hụt vitamin \n" +
+      "Thiếu vitamin C (scurvy) có thể dẫn đến chảy máu chân răng và các mô mềm khác trong cơ thể. Vitamin K cũng có vai trò trong quá trình đông máu.\n\n" +
+      " 3. Bệnh lý toàn thân \n" +
+      "Một số bệnh lý như bệnh tiểu đường, bệnh tim mạch hay một số bệnh lý tự miễn có thể ảnh hưởng đến các mạch máu và tạo điều kiện cho sự chảy máu chân răng.\n\n" +
+      " 4. Sử dụng thuốc \n" +
+      "Một số loại thuốc, đặc biệt là thuốc chống đông máu hoặc thuốc điều trị cao huyết áp, có thể gây ra tăng nguy cơ chảy máu, bao gồm cả chảy máu chân răng.\n\n" +
+      " 5. Quy trình chăm sóc răng miệng không đúng cách \n" +
+      "Ít đánh răng hoặc không vệ sinh răng miệng đúng cách có thể làm gia tăng mảng bám, gây viêm nướu và chảy máu chân răng.\n\n" +
+      " 6. Khối u \n" +
+      "Trong một số trường hợp hiếm, khối u ở vùng miệng hoặc nướu có thể là nguyên nhân gây chảy máu.\n\n" +
+      "Nếu bạn hoặc ai đó gặp tình trạng chảy máu chân răng kéo dài hoặc đi kèm với các triệu chứng khác như đau hoặc sưng, bạn nên tìm kiếm sự tư vấn y tế từ bác sĩ nha khoa hoặc chuyên gia y tế để có thể chẩn đoán và điều trị kịp thời. Mong rằng thông tin này hữu ích cho bạn!",
     "đau cơ":
       "Đau cơ có thể do tập luyện quá sức hoặc căng thẳng. Nghỉ ngơi và giãn cơ có thể giúp giảm đau.",
     "khó mở mắt vào buổi sáng":
-      "Khó mở mắt vào buổi sáng có thể do khô mắt hoặc mỏi mắt. Uống nhiều nước và rửa mắt có thể giúp cải thiện.",
-    "đau thái dương":
+      "Dạ, khó mở mắt vào buổi sáng có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến có thể ảnh hưởng đến tình trạng này:\n\n" +
+      " 1. Thiếu nước \n" +
+      "Khi bạn không uống đủ nước trong suốt cả ngày, cơ thể có thể bị mất nước, dẫn đến mắt khô và khó mở vào buổi sáng.\n\n" +
+      " 2. Ngủ không đủ \n" +
+      "Nếu bạn không có giấc ngủ sâu hoặc đủ thời gian ngủ, có thể dẫn đến tình trạng mắt mệt mỏi, ngáy và khó mở khi thức dậy.\n\n" +
+      " 3. Dị ứng \n" +
+      "Mắt có thể bị kích thích từ bụi bẩn, phấn hoa hoặc lông thú cưng, gây sưng tấy và khó mở vào buổi sáng.\n\n" +
+      " 4. Hội chứng khô mắt \n" +
+      "Tình trạng này xảy ra khi mắt không có đủ nước mắt để giữ ẩm. Người mắc hội chứng khô mắt thường gặp khó khăn khi mở mắt vào buổi sáng.\n\n" +
+      " 5. Sử dụng thiết bị điện tử \n" +
+      "Sử dụng điện thoại hoặc máy tính quá lâu có thể làm cho mắt mệt mỏi, dẫn đến cảm giác khó chịu và khó mở mắt vào sáng hôm sau.\n\n" +
+      " 6. Tình trạng sức khỏe \n" +
+      "Một số vấn đề sức khỏe như viêm kết mạc, bệnh tiểu đường hoặc bệnh cường giáp có thể gây ra cảm giác khó mở mắt.\n\n" +
+      " 7. Mê mệt hoặc mỏi mắt \n" +
+      "Các cơ xung quanh mắt có thể bị mệt mỏi nếu bạn đã làm việc căng thẳng trong suốt cả ngày.\n\n" +
+      "Nếu tình trạng khó mở mắt vào buổi sáng kéo dài hoặc đi kèm với triệu chứng khác như đau, sưng hoặc đỏ mắt, bạn nên tham khảo ý kiến từ bác sĩ chuyên khoa để được chẩn đoán và điều trị kịp thời. Mong rằng thông tin này hữu ích cho bạn!",
+    "Khó mở mắt vào buổi sáng":
+      "Dạ, khó mở mắt vào buổi sáng có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến có thể ảnh hưởng đến tình trạng này:\n\n" +
+      " 1. Thiếu nước \n" +
+      "Khi bạn không uống đủ nước trong suốt cả ngày, cơ thể có thể bị mất nước, dẫn đến mắt khô và khó mở vào buổi sáng.\n\n" +
+      " 2. Ngủ không đủ \n" +
+      "Nếu bạn không có giấc ngủ sâu hoặc đủ thời gian ngủ, có thể dẫn đến tình trạng mắt mệt mỏi, ngáy và khó mở khi thức dậy.\n\n" +
+      " 3. Dị ứng \n" +
+      "Mắt có thể bị kích thích từ bụi bẩn, phấn hoa hoặc lông thú cưng, gây sưng tấy và khó mở vào buổi sáng.\n\n" +
+      " 4. Hội chứng khô mắt \n" +
+      "Tình trạng này xảy ra khi mắt không có đủ nước mắt để giữ ẩm. Người mắc hội chứng khô mắt thường gặp khó khăn khi mở mắt vào buổi sáng.\n\n" +
+      " 5. Sử dụng thiết bị điện tử \n" +
+      "Sử dụng điện thoại hoặc máy tính quá lâu có thể làm cho mắt mệt mỏi, dẫn đến cảm giác khó chịu và khó mở mắt vào sáng hôm sau.\n\n" +
+      " 6. Tình trạng sức khỏe \n" +
+      "Một số vấn đề sức khỏe như viêm kết mạc, bệnh tiểu đường hoặc bệnh cường giáp có thể gây ra cảm giác khó mở mắt.\n\n" +
+      " 7. Mê mệt hoặc mỏi mắt \n" +
+      "Các cơ xung quanh mắt có thể bị mệt mỏi nếu bạn đã làm việc căng thẳng trong suốt cả ngày.\n\n" +
+      "Nếu tình trạng khó mở mắt vào buổi sáng kéo dài hoặc đi kèm với triệu chứng khác như đau, sưng hoặc đỏ mắt, bạn nên tham khảo ý kiến từ bác sĩ chuyên khoa để được chẩn đoán và điều trị kịp thời. Mong rằng thông tin này hữu ích cho bạn!",
+    "Đau thái dương":
       "Đau thái dương có thể do căng thẳng hoặc viêm xoang. Nghỉ ngơi và thư giãn có thể giúp giảm triệu chứng.",
+    "đau thái dương":
+      "Dạ, đau thái dương là một triệu chứng có thể xuất phát từ nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến mà bạn cần chú ý:\n\n" +
+      " 1. Đau nửa đầu (Migraines) \n" +
+      "Đau nửa đầu thường có thể được cảm nhận ở một bên của đầu, thường kèm theo các triệu chứng như buồn nôn, nhạy cảm với ánh sáng và âm thanh. Cơn đau có thể tập trung ở vùng thái dương.\n\n" +
+      " 2. Đau dây thần kinh \n" +
+      "Đau dây thần kinh sinh ba có thể gây ra cơn đau đột ngột, có thể cảm thấy như 'điện giật' ở vùng thái dương, thường liên quan đến các kích thích như chạm hoặc va chạm.\n\n" +
+      " 3. Viêm xoang \n" +
+      "Viêm xoang có thể gây ra cơn đau ở khu vực thái dương do áp lực tích tụ trong các xoang, kèm theo triệu chứng như nghẹt mũi, chảy nước mũi, và cảm giác nặng nề ở khu vực mặt.\n\n" +
+      " 4. Rối loạn khớp thái dương hàm \n" +
+      "Rối loạn khớp thái dương hàm có thể gây ra cảm giác đau ở vùng thái dương và khu vực xung quanh, thường kèm theo cảm giác khó chịu khi nhai hoặc mở miệng.\n\n" +
+      " 5. Ngoại cảm \n" +
+      "Đau thái dương có thể là triệu chứng của hiện tượng căng thẳng hoặc lo âu. Những người thường xuyên cảm thấy lo âu có thể gặp các cơn đau đầu.\n\n" +
+      " 6. Các vấn đề về mạch máu \n" +
+      "Các vấn đề như viêm động mạch thái dương hoặc tắc nghẽn động mạch có thể dẫn đến tình trạng đau ở vùng thái dương. Đây là tình trạng nghiêm trọng và cần được điều trị kịp thời.\n\n" +
+      "Nếu cơn đau thái dương của bạn kéo dài, nghiêm trọng, hoặc kèm theo các triệu chứng khác như sốt, nhức mỏi, hoặc thay đổi thị lực, bạn nên tìm kiếm sự tư vấn từ bác sĩ để được chẩn đoán và điều trị kịp thời. Mong rằng thông tin này hữu ích cho bạn!",
     "Đau ngực":
       "Đau ngực có thể do căng cơ hoặc vấn đề tim mạch. Nếu đau dữ dội hoặc khó thở, hãy đi khám ngay lập tức.",
-    "Khó thở":
-      "Khó thở có thể do căng thẳng, hen suyễn hoặc nhiễm trùng. Nghỉ ngơi và thở sâu, nếu kéo dài, nên gặp bác sĩ.",
-    "nổi mẩn đỏ":
-      "Nổi mẩn đỏ có thể do dị ứng hoặc viêm nhiễm. Tránh tiếp xúc với tác nhân gây dị ứng và theo dõi tình trạng.",
-    "rát họng":
+    "Rát họng":
       "Rát họng có thể do viêm họng hoặc kích ứng. Uống nước ấm và tránh thức ăn cay, nếu kéo dài, nên đi khám.",
-    "sốt nhẹ":
+    "rát họng":
+      "Dạ, rát họng là một triệu chứng mà nhiều người gặp phải và có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến và triệu chứng kèm theo của tình trạng này:\n\n" +
+      " 1. Viêm họng \n" +
+      "Viêm họng là nguyên nhân phổ biến nhất gây ra cảm giác rát họng. Có thể do virus (như cúm, cảm lạnh) hoặc vi khuẩn (như liên cầu khuẩn) gây ra. Triệu chứng đi kèm có thể bao gồm:\n" +
+      "- Cảm giác đau hoặc ngứa ở họng.\n" +
+      "- Khó khăn khi nuốt.\n" +
+      "- Có thể có sốt hoặc ho.\n\n" +
+      " 2. Dị ứng \n" +
+      "Dị ứng với bụi, phấn hoa, hoặc các chất gây dị ứng khác có thể khiến họng cảm thấy ngứa và rát. Người bị dị ứng thường có triệu chứng như chảy mũi hoặc hắt hơi.\n\n" +
+      " 3. Thói quen sinh hoạt \n" +
+      "- Hút thuốc lá hoặc tiếp xúc với khói thuốc lá.\n" +
+      "- Uống rượu hoặc đồ uống có cồn với nồng độ cao.\n" +
+      "- Sử dụng đồ uống hoặc thực phẩm nóng, cay.\n\n" +
+      " 4. Khác \n" +
+      "- Trào ngược dạ dày thực quản (GERD): Axit dạ dày lên họng có thể gây ra cảm giác rát và khó chịu.\n" +
+      "- Viêm amiđan: Amiđan sưng đau có thể gây ra cảm giác rát trong họng kèm theo triệu chứng vướng víu, khó nuốt [1].\n\n" +
+      " 5. Ung thư \n" +
+      "Trong một số trường hợp hiếm gặp, rát họng có thể là triệu chứng sớm của ung thư vòm họng hoặc ung thư amiđan, thường đi kèm với các triệu chứng như sụt cân, khó nuốt hoặc khàn giọng kéo dài.\n\n" +
+      " Điều trị \n" +
+      "- Nghỉ ngơi và uống nhiều nước: Giúp giữ ẩm và làm dịu cổ họng.\n" +
+      "- Sử dụng thuốc giảm đau: Nếu đau rát nghiêm trọng, có thể sử dụng acetaminophen hoặc ibuprofen để giảm đau.\n" +
+      "- Xúc miệng với nước muối: Giúp làm dịu cơn đau họng.\n\n" +
+      "Nếu triệu chứng kéo dài hơn một tuần hoặc có triệu chứng nghiêm trọng khác như sốt cao hoặc khó thở, bạn nên đến bác sĩ để được chẩn đoán và điều trị phù hợp. Mong rằng những thông tin này hữu ích cho bạn!",
+    "Sốt nhẹ":
       "Sốt nhẹ có thể do nhiễm virus hoặc căng thẳng. Nghỉ ngơi và uống đủ nước, nếu sốt cao hoặc kéo dài, nên đi khám.",
-    "sốt cao":
+    "sốt nhẹ":
+      "Dạ, sốt nhẹ là tình trạng có thể xảy ra do nhiều nguyên nhân khác nhau, thường là một dấu hiệu cho thấy cơ thể đang phản ứng với một tình trạng nhiễm trùng hoặc bệnh lý nào đó. Dưới đây là một số nguyên nhân và thông tin liên quan đến sốt nhẹ:\n\n" +
+      " Nguyên nhân gây sốt nhẹ \n\n" +
+      " 1. Nhiễm trùng : Sốt nhẹ thường là phản ứng tự nhiên của cơ thể khi bị nhiễm virus hoặc vi khuẩn như cảm lạnh, cúm hoặc viêm họng.\n\n" +
+      " 2. Các bệnh lý : Một số bệnh lý mãn tính hoặc bệnh truyền nhiễm có thể gây sốt nhẹ, chẳng hạn như bệnh lao hoặc sốt rét.\n\n" +
+      " 3. Phản ứng bồi bổ : Sốt có thể xuất hiện sau khi tiêm vắc xin hoặc khi cơ thể cảm thấy mệt mỏi.\n\n" +
+      " 4. Căng thẳng hoặc mệt mỏi : Căng thẳng lâu dài hoặc mệt mỏi quá mức cũng có thể gây ra hiện tượng sốt.\n\n" +
+      " 5. Các vấn đề về miễn dịch : Một số bệnh tự miễn có thể gây sốt như viêm khớp dạng thấp.\n\n" +
+      " Triệu chứng kèm theo \n" +
+      "Ngoài sốt nhẹ, bạn có thể gặp một số triệu chứng khác như:\n" +
+      "- Mệt mỏi, khó chịu.\n" +
+      "- Đau cơ, sưng hạch bạch huyết.\n" +
+      "- Ho, viêm họng, hoặc các triệu chứng cảm cúm khác.\n\n" +
+      " Khi nào cần đến bác sĩ? \n" +
+      "Nếu sốt nhẹ kéo dài hơn vài ngày, hoặc nếu bạn xuất hiện các triệu chứng nghiêm trọng kèm theo như khó thở, nhức đầu dữ dội, phát ban, hoặc triệu chứng bất thường nào khác, bạn nên tìm gặp bác sĩ để được tư vấn và chẩn đoán chính xác.\n\n" +
+      " Điều trị \n" +
+      "- Nghỉ ngơi: Cung cấp cho cơ thể thời gian hồi phục.\n" +
+      "- Uống nhiều nước: Giúp giữ cơ thể đủ nước.\n" +
+      "- Thuốc giảm sốt: Có thể dùng acetaminophen hoặc ibuprofen theo hướng dẫn để giảm cảm giác không thoải mái.\n\n" +
+      "Hy vọng thông tin này giúp ích cho bạn! Nếu bạn có thêm câu hỏi nào khác, đừng ngần ngại hỏi nhé!",
+    "Sốt cao":
       "Sốt cao có thể là dấu hiệu nhiễm trùng. Hãy uống đủ nước, nghỉ ngơi, và đi khám nếu sốt không giảm.",
-    "ho khan":
+    "sốt cao":
+      "Dạ, sốt cao là tình trạng nhiệt độ cơ thể vượt quá mức bình thường (trên 38 độ C) và thường là dấu hiệu cho thấy cơ thể đang phản ứng với một bệnh lý nào đó. Dưới đây là một số nguyên nhân và thông tin liên quan đến sốt cao:\n\n" +
+      " Nguyên nhân gây sốt cao \n\n" +
+      " 1. Nhiễm trùng : Bệnh nhiễm virus như cúm, bệnh do vi khuẩn (như viêm phổi, viêm màng não, nhiễm trùng niệu) cực kỳ phổ biến gây ra sốt cao.\n\n" +
+      " 2. Bệnh lý : Một số bệnh lý như sốt rét, sốt dengue, hay bệnh viêm khớp có thể gây ra sốt cao.\n\n" +
+      " 3. Rối loạn miễn dịch : Một số bệnh tự miễn như lupus hoặc viêm khớp dạng thấp cũng có thể gây sốt.\n\n" +
+      " 4. Ung thư : Một số loại ung thư có thể gây ra sốt kéo dài, đặc biệt là khi có nhiễm trùng thứ phát.\n\n" +
+      " 5. Tiêm chủng : Một số người có thể sốt cao sau khi tiêm vắc xin.\n\n" +
+      " Triệu chứng kèm theo \n" +
+      "Sốt cao thường đi kèm với các triệu chứng như:\n" +
+      "- Đổ mồ hôi nhiều hoặc cảm thấy lạnh.\n" +
+      "- Mệt mỏi, yếu đuối.\n" +
+      "- Đau đầu hoặc đau cơ khớp.\n" +
+      "- Khó chịu, không muốn ăn uống.\n\n" +
+      " Khi nào cần đến bác sĩ? \n" +
+      "Bạn nên tìm kiếm sự chăm sóc y tế ngay khi:\n" +
+      "- Sốt cao kéo dài hơn 3 ngày mà không có dấu hiệu cải thiện.\n" +
+      "- Sốt cao kèm theo các triệu chứng nghiêm trọng như khó thở, nhức đầu dữ dội, hoặc phát ban.\n" +
+      "- Có dấu hiệu mất nước (châm chích khi đi tiểu, nước tiểu có màu tối).\n\n" +
+      " Điều trị \n" +
+      "- Nghỉ ngơi: Cần nghỉ ngơi để cơ thể có thể hồi phục.\n" +
+      "- Uống nước: Giữ cơ thể đủ nước để ngăn ngừa mất nước do mồ hôi.\n" +
+      "- Thuốc giảm sốt: Có thể sử dụng acetaminophen hoặc ibuprofen để giảm sốt.\n\n" +
+      "Nếu bạn thấy sốt cao của mình kèm theo nhiều triệu chứng nghiêm trọng, hãy tìm đến bác sĩ để có thể được chẩn đoán và điều trị kịp thời. Mong rằng những thông tin này hữu ích cho bạn!",
+    "Ho khan":
       "Ho khan có thể do cảm lạnh hoặc dị ứng. Uống nước ấm và tránh tiếp xúc với tác nhân gây dị ứng.",
-    "run tay":
+    "ho khan":
+      "Dạ, ho khan là một triệu chứng thường gặp và có thể là dấu hiệu của nhiều tình trạng sức khỏe khác nhau. Ho khan được định nghĩa là ho mà không có đờm hoặc chất nhầy. Dưới đây là một số nguyên nhân, triệu chứng kèm theo và cách điều trị ho khan:\n\n" +
+      " Nguyên nhân gây ho khan \n\n" +
+      " 1. Nhiễm virus : Các loại virus gây cảm cúm hoặc cảm lạnh có thể dẫn đến ho khan.\n\n" +
+      " 2. Dị ứng : Các tác nhân gây dị ứng như phấn hoa, bụi, hoặc lông thú cưng cũng có thể kích thích ho.\n\n" +
+      " 3. Bệnh lý hô hấp : Một số tình trạng như viêm phế quản, hen suyễn hoặc bệnh phổi tắc nghẽn mạn tính (COPD) có thể gây ra ho khan.\n\n" +
+      " 4. Thói quen : Hút thuốc lá hoặc tiếp xúc với khói thuốc cũng có thể gây ra triệu chứng này.\n\n" +
+      " 5. Trào ngược dạ dày thực quản (GERD) : Axit từ dạ dày có thể gây kích thích họng và dẫn đến ho khan.\n\n" +
+      " Triệu chứng kèm theo \n" +
+      "- Cảm giác ngứa ngáy, rát bỏng ở họng.\n" +
+      "- Khó ngủ do ho xảy ra thường xuyên, đặc biệt vào ban đêm.\n" +
+      "- Có thể kèm theo triệu chứng khác như nghẹt mũi, hắt hơi, hoặc cảm giác nặng nề ở ngực.\n\n" +
+      " Khi nào cần đến bác sĩ? \n" +
+      "Bạn nên tìm kiếm sự chăm sóc y tế nếu:\n" +
+      "- Ho kéo dài hơn vài tuần mà không cải thiện.\n" +
+      "- Kèm theo triệu chứng nghiêm trọng như khó thở, đau ngực, hoặc sốt cao.\n" +
+      "- Có triệu chứng bất thường khác xảy ra cùng lúc.\n\n" +
+      " Điều trị \n" +
+      "1. Điều trị tại nhà:\n" +
+      "- Súc họng với nước muối ấm, uống nhiều nước ấm để làm dịu họng.\n" +
+      "- Sử dụng máy tạo độ ẩm để giữ độ ẩm trong không khí.\n" +
+      "- Sử dụng thuốc ho không cần đơn hoặc siro ho có thành phần làm dịu cổ họng.\n\n" +
+      "2. Điều trị y tế:\n" +
+      "- Nếu ho khan do nhiễm trùng, bác sĩ có thể kê toa thuốc kháng sinh hoặc thuốc điều trị triệu chứng.\n" +
+      "- Trong trường hợp dị ứng, thuốc kháng histamin có thể giúp giảm triệu chứng.\n\n" +
+      "Nếu bạn gặp phải vấn đề này một cách thường xuyên hoặc nghi ngờ nguyên nhân nghiêm trọng, hãy tìm đến bác sĩ để được khám và điều trị kịp thời. Hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "Run tay":
       "Run tay có thể do căng thẳng hoặc thiếu dinh dưỡng. Nếu triệu chứng kéo dài hoặc nặng thêm, hãy tham khảo bác sĩ.",
-    "đau ngón tay":
+    "rối loạn tay":
+      "Dạ, rối loạn tay là một hiện tượng mà nhiều người có thể gặp phải và có thể gây ra nhiều khó chịu. Có nhiều nguyên nhân và triệu chứng liên quan đến tình trạng này:\n\n" +
+      " Nguyên nhân gây ra rối loạn tay \n\n" +
+      " 1. Chấn thương : Có thể do va đập hoặc té ngã dẫn đến tổn thương các cơ, gân hoặc dây thần kinh.\n\n" +
+      " 2. Dư thừa căng thẳng : Rối loạn tay cũng có thể xảy ra do ngồi hoặc làm việc trong một tư thế không tốt, gây áp lực lên các dây thần kinh.\n\n" +
+      " 3. Bệnh lý khớp : Các bệnh như viêm khớp dạng thấp hoặc thoái hóa khớp có thể dẫn đến đau và rối loạn ở tay.\n\n" +
+      " 4. Vấn đề thần kinh : Các bệnh như hội chứng ống cổ tay hoặc dây thần kinh bị chèn ép có thể gây cảm giác tê, rát, hoặc yếu ở tay.\n\n" +
+      " Triệu chứng kèm theo \n" +
+      "- Đau nhức hay tê tay.\n" +
+      "- Yếu sức mạnh khi cầm đồ vật.\n" +
+      "- Cảm giác châm chích hoặc ngứa ran.\n" +
+      "- Khó khăn trong việc thực hiện các động tác tinh tế, như viết hoặc cầm nắm nhỏ.\n\n" +
+      " Khi nào cần đến bác sĩ? \n" +
+      "Bạn nên tìm kiếm sự chăm sóc y tế nếu:\n" +
+      "- Triệu chứng kéo dài hoặc ngày càng nặng.\n" +
+      "- Có dấu hiệu của viêm hoặc sưng ở tay.\n" +
+      "- Gặp khó khăn trong việc cử động tay hoặc bàn tay.\n\n" +
+      " Điều trị \n" +
+      "- Nghỉ ngơi: Cần cho tay được nghỉ ngơi, tránh hoạt động mạnh.\n" +
+      "- Chườm lạnh: Chườm đá để giảm sưng và đau.\n" +
+      "- Vật lý trị liệu: Có thể cần để phục hồi sức mạnh và chức năng.\n" +
+      "- Thuốc giảm đau: Có thể sử dụng thuốc giảm đau theo chỉ định của bác sĩ.\n\n" +
+      "Nếu tình trạng không cải thiện hoặc bạn cảm thấy triệu chứng nghiêm trọng, hãy tìm đến bác sĩ để có phương pháp điều trị phù hợp. Mong rằng thông tin này sẽ hữu ích cho bạn!",
+    "Đau ngón tay":
       "Đau ngón tay có thể do chấn thương hoặc viêm khớp. Nghỉ ngơi và tránh sử dụng quá mức.",
-    "đổ mồ hôi lạnh":
+    "đau ngón tay":
+      "Dạ, đau ngón tay có thể xuất phát từ nhiều nguyên nhân khác nhau và thường kèm theo một số triệu chứng khác. Dưới đây là thông tin chi tiết về nguyên nhân, triệu chứng đi kèm, và cách điều trị đau ngón tay:\n\n" +
+      " Nguyên nhân gây đau ngón tay \n\n" +
+      " 1. Chấn thương : Va đập hoặc té ngã có thể dẫn đến bong gân, gãy ngón hoặc tổn thương các mô mềm.\n\n" +
+      " 2. Bệnh khớp : Viêm khớp, viêm khớp dạng thấp, hoặc thoái hóa khớp có thể gây đau và sưng ở ngón tay.\n\n" +
+      " 3. Hội chứng ống cổ tay : Do áp lực lên dây thần kinh giữa, gây ra cảm giác đau, tê và yếu ở ngón tay.\n\n" +
+      " 4. Gout : Tình trạng tăng axit uric trong máu có thể gây viêm khớp, thường ở ngón chân và đôi khi là ở ngón tay.\n\n" +
+      " 5. Viêm gân : Tình trạng viêm gân ở tay có thể dẫn đến đau và khó khăn khi cử động.\n\n" +
+      " Triệu chứng kèm theo \n" +
+      "- Đau nhức hoặc tê ở một hoặc nhiều ngón tay.\n" +
+      "- Sưng hoặc đỏ xung quanh khu vực bị đau.\n" +
+      "- Khó khăn khi cử động ngón tay và cảm giác yếu.\n" +
+      "- Đôi khi xuất hiện triệu chứng sốt hoặc cảm lạnh nếu có nhiễm trùng.\n\n" +
+      " Khi nào cần đến bác sĩ? \n" +
+      "Bạn nên đến gặp bác sĩ nếu:\n" +
+      "- Đau kéo dài hoặc nghiêm trọng.\n" +
+      "- Có dấu hiệu sưng, đỏ, hoặc nóng xung quanh ngón tay.\n" +
+      "- Khó khăn trong việc cử động ngón tay hoặc cảm thấy tê liệt.\n\n" +
+      " Điều trị \n" +
+      "- Nghỉ ngơi và chườm lạnh: Cần cho ngón tay được nghỉ ngơi và chườm lạnh để giảm sưng.\n" +
+      "- Dùng thuốc giảm đau: Thuốc như ibuprofen hoặc paracetamol có thể giúp làm giảm cơn đau.\n" +
+      "- Vật lý trị liệu: Trong trường hợp cần thiết, có thể phải thực hiện các bài tập vật lý trị liệu nhằm phục hồi chức năng.\n" +
+      "- Điều trị y tế: Nếu nguyên nhân do tình trạng bệnh lý nghiêm trọng, bác sĩ có thể kê đơn thuốc hoặc điều trị chuyên biệt.\n\n" +
+      "Nếu bạn gặp phải vấn đề đau ngón tay một cách thường xuyên hoặc triệu chứng không cải thiện, hãy tìm kiếm sự chú ý y tế nhanh chóng. Mong rằng thông tin này sẽ hữu ích cho bạn!",
+    "Đổ mồ hôi lạnh":
       "Đổ mồ hôi lạnh có thể do hạ đường huyết hoặc căng thẳng. Nếu lặp lại, bạn nên kiểm tra sức khỏe.",
-    "khô môi":
+    "đổ mồ hôi lạnh":
+      "Dạ, đổ mồ hôi lạnh là hiện tượng cơ thể tiết ra mồ hôi nhưng cảm thấy lạnh, thường xảy ra trong những tình huống căng thẳng, lo âu hoặc khi bị bệnh. Dưới đây là một số nguyên nhân, triệu chứng và cách xử lý khi gặp tình trạng này:\n\n" +
+      " Nguyên nhân gây đổ mồ hôi lạnh \n\n" +
+      " 1. Căng thẳng và lo âu : Khi cơ thể phản ứng với căng thẳng, hệ thần kinh giao cảm sẽ hoạt động, dẫn đến đổ mồ hôi lạnh.\n\n" +
+      " 2. Cảm cúm hoặc cảm lạnh : Một trong những triệu chứng của việc bị cảm có thể bao gồm đổ mồ hôi lạnh khi cơ thể đang cố gắng chiến đấu với vi khuẩn hoặc virus.\n\n" +
+      " 3. Hạ đường huyết : Khi mức đường huyết quá thấp, bạn có thể cảm thấy yếu và ra mồ hôi lạnh.\n\n" +
+      " 4. Rối loạn hệ thần kinh : Một số rối loạn có thể ảnh hưởng đến khả năng điều tiết nhiệt độ của cơ thể, dẫn đến tình trạng mồ hôi lạnh.\n\n" +
+      " 5. Cơn sốc : Trong các tình huống gây sốc, như chấn thương nghiêm trọng hoặc phản ứng dị ứng nặng, cơ thể có thể phản ứng bằng cách đổ mồ hôi lạnh.\n\n" +
+      " Triệu chứng kèm theo \n" +
+      "- Da lạnh, ẩm ướt.\n" +
+      "- Thay đổi nhịp tim.\n" +
+      "- Cảm giác chóng mặt hoặc yếu.\n" +
+      "- Cảm giác lo âu hoặc hồi hộp.\n" +
+      "- Có thể đi kèm với buồn nôn.\n\n" +
+      " Khi nào cần đi khám bác sĩ? \n" +
+      "Nên tìm kiếm sự chăm sóc y tế ngay nếu:\n" +
+      "- Triệu chứng đổ mồ hôi lạnh kèm theo đau ngực hoặc cảm giác khó thở.\n" +
+      "- Có dấu hiệu của cơn sốc, như da nhợt hoặc lạnh.\n" +
+      "- Cảm thấy rất yếu hoặc choáng váng mà không rõ nguyên nhân.\n\n" +
+      " Cách xử lý \n" +
+      "- Ngồi hoặc nằm: Nếu cảm thấy choáng váng, ngồi hoặc nằm có thể giúp ngăn ngừa ngã.\n" +
+      "- Uống nước: Cung cấp đủ nước cho cơ thể có thể giúp cải thiện tình hình nếu do hiện tượng mất nước.\n" +
+      "- Hít thở sâu: Thực hiện các bài tập hít thở sâu để giảm căng thẳng và lo âu.\n\n" +
+      "Nếu tình trạng này kéo dài hoặc xảy ra thường xuyên, hãy gặp bác sĩ để được tư vấn và điều trị cụ thể. Hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "Khô môi":
       "Khô môi có thể do thiếu nước hoặc thời tiết khô. Uống nhiều nước và dùng kem dưỡng môi.",
+    "khô môi":
+      "Dạ, khô môi là tình trạng phổ biến mà nhiều người gặp phải, có thể do nhiều nguyên nhân khác nhau. Dưới đây là những nguyên nhân, triệu chứng, cũng như cách khắc phục và phòng ngừa tình trạng khô môi:\n\n" +
+      " Nguyên nhân khô môi \n\n" +
+      " 1. Thời tiết : Không khí khô, lạnh hoặc có gió có thể làm môi mất độ ẩm nhanh chóng.\n\n" +
+      " 2. Thiếu nước : Cung cấp không đủ nước cho cơ thể có thể dẫn đến tình trạng mất nước, gây khô môi.\n\n" +
+      " 3. Thiếu vitamin : Thiếu hụt vitamin B, vitamin C hoặc các khoáng chất như kẽm có thể góp phần làm môi khô.\n\n" +
+      " 4. Thói quen xấu : Liếm môi thường xuyên có thể làm khô môi hơn do nước bọt bay hơi nhanh chóng.\n\n" +
+      " 5. Sử dụng sản phẩm kém : Một số sản phẩm trang điểm hoặc chăm sóc môi có thể chứa hóa chất gây kích ứng và khô da.\n\n" +
+      " 6. Bệnh lý : Một số bệnh lý như viêm da dị ứng, bệnh cường giáp, hoặc tình trạng thiếu máu có thể gây khô môi.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Môi nứt nẻ, có thể đau hoặc chảy máu.\n" +
+      "- Cảm giác căng chặt và đau khi cử động môi.\n" +
+      "- Da môi có thể xuất hiện vảy hoặc lở loét.\n\n" +
+      " Cách khắc phục \n" +
+      "1.  Dưỡng ẩm : Sử dụng son dưỡng môi hoặc kem dưỡng ẩm để cung cấp độ ẩm cho môi.\n" +
+      "2.  Uống đủ nước : Cần uống đủ nước mỗi ngày để duy trì độ ẩm cho cơ thể và da.\n" +
+      "3.  Bổ sung dinh dưỡng : Đảm bảo chế độ ăn có đủ vitamin và khoáng chất cần thiết.\n" +
+      "4.  Tránh thói quen xấu : Không liếm môi và tránh tiếp xúc với các sản phẩm gây kích ứng.\n" +
+      "5.  Sử dụng máy tạo ẩm : Trong mùa đông hoặc vùng khí hậu khô hạn, máy tạo ẩm giúp duy trì độ ẩm không khí.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "Nếu tình trạng khô môi kèm theo triệu chứng nghiêm trọng khác như sưng tấy, sốt, hoặc không cải thiện sau khi áp dụng các biện pháp tại nhà trong một khoảng thời gian, bạn nên tìm đến bác sĩ để được tư vấn và điều trị cụ thể.\n\n" +
+      "Hy vọng rằng thông tin này sẽ giúp bạn giải quyết vấn đề khô môi! Nếu còn thắc mắc nào khác, hãy cho tôi biết nhé!",
+    "Buồn nôn":
+      "Dạ, buồn nôn là một triệu chứng phổ biến có thể do nhiều nguyên nhân khác nhau. Dưới đây là các nguyên nhân, triệu chứng đi kèm cũng như biện pháp khắc phục và khi nào cần tìm sự chăm sóc y tế:\n\n" +
+      " Nguyên nhân gây buồn nôn \n\n" +
+      " 1. Rối loạn tiêu hóa : Ăn uống không hợp vệ sinh, ăn uống quá nhiều hoặc quá nhanh, hay thức ăn bị ôi thiu có thể gây buồn nôn.\n\n" +
+      " 2. Vấn đề tâm lý : Lo âu, căng thẳng, hoặc cơn hoảng loạn có thể làm cho bạn cảm thấy buồn nôn.\n\n" +
+      " 3. Say tàu xe : Nhiều người cảm thấy buồn nôn khi di chuyển bằng xe cộ, máy bay hoặc tàu thuyền do sự thay đổi cảm giác thăng bằng.\n\n" +
+      " 4. Bệnh lý : Các bệnh lý như viêm dạ dày, viêm ruột, hoặc một số bệnh về gan, thận có thể dẫn đến triệu chứng buồn nôn.\n\n" +
+      " 5. Tác dụng phụ của thuốc : Một số loại thuốc có thể gây buồn nôn như tác dụng phụ.\n\n" +
+      ' 6. Mang thai : Buồn nôn có thể xảy ra trong giai đoạn đầu của thai kỳ, thường gọi là "buồn nôn buổi sáng".\n\n' +
+      " Triệu chứng đi kèm \n" +
+      "- Đau bụng, đầy hơi.\n" +
+      "- Cảm giác khó chịu không chỉ ở dạ dày mà còn có thể lan ra toàn thân.\n" +
+      "- Nôn hoặc có cảm giác muốn nôn.\n" +
+      "- Mệt mỏi, có thể cảm thấy chóng mặt.\n\n" +
+      " Cách khắc phục tại nhà \n" +
+      "1.  Uống nước : Cố gắng uống nước hoặc nước điện giải để tránh mất nước.\n" +
+      "2.  Ăn nhẹ : Thử ăn các món dễ tiêu như bánh mì nướng, chuối hoặc đồ ăn không có nhiều gia vị.\n" +
+      "3.  Gừng : Uống trà gừng hoặc ăn gừng có thể giúp giảm buồn nôn.\n" +
+      "4.  Thư giãn : Thực hiện các bài tập hít thở sâu để giảm căng thẳng.\n" +
+      "5.  Tránh các chất kích thích : Hạn chế caffeine, rượu và thức ăn béo vì chúng có thể làm triệu chứng tồi tệ hơn.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu buồn nôn kéo dài hơn 24 giờ.\n" +
+      "- Có dấu hiệu mất nước như khô miệng, đi tiểu ít hoặc không đi tiểu.\n" +
+      "- Kèm theo các triệu chứng nghiêm trọng khác như đau ngực, sốt cao, hoặc nôn ra máu.\n\n" +
+      "Hy vọng thông tin này sẽ giúp bạn hiểu rõ hơn về triệu chứng buồn nôn. Nếu còn thắc mắc nào khác, hãy cho tôi biết nhé!",
     "buồn nôn":
-      "Buồn nôn có thể do rối loạn tiêu hóa hoặc say tàu xe. Nghỉ ngơi và tránh thực phẩm dầu mỡ.",
+      "Dạ, buồn nôn là một triệu chứng phổ biến có thể do nhiều nguyên nhân khác nhau. Dưới đây là các nguyên nhân, triệu chứng đi kèm cũng như biện pháp khắc phục và khi nào cần tìm sự chăm sóc y tế:\n\n" +
+      " Nguyên nhân gây buồn nôn \n\n" +
+      " 1. Rối loạn tiêu hóa : Ăn uống không hợp vệ sinh, ăn uống quá nhiều hoặc quá nhanh, hay thức ăn bị ôi thiu có thể gây buồn nôn.\n\n" +
+      " 2. Vấn đề tâm lý : Lo âu, căng thẳng, hoặc cơn hoảng loạn có thể làm cho bạn cảm thấy buồn nôn.\n\n" +
+      " 3. Say tàu xe : Nhiều người cảm thấy buồn nôn khi di chuyển bằng xe cộ, máy bay hoặc tàu thuyền do sự thay đổi cảm giác thăng bằng.\n\n" +
+      " 4. Bệnh lý : Các bệnh lý như viêm dạ dày, viêm ruột, hoặc một số bệnh về gan, thận có thể dẫn đến triệu chứng buồn nôn.\n\n" +
+      " 5. Tác dụng phụ của thuốc : Một số loại thuốc có thể gây buồn nôn như tác dụng phụ.\n\n" +
+      ' 6. Mang thai : Buồn nôn có thể xảy ra trong giai đoạn đầu của thai kỳ, thường gọi là "buồn nôn buổi sáng".\n\n' +
+      " Triệu chứng đi kèm \n" +
+      "- Đau bụng, đầy hơi.\n" +
+      "- Cảm giác khó chịu không chỉ ở dạ dày mà còn có thể lan ra toàn thân.\n" +
+      "- Nôn hoặc có cảm giác muốn nôn.\n" +
+      "- Mệt mỏi, có thể cảm thấy chóng mặt.\n\n" +
+      " Cách khắc phục tại nhà \n" +
+      "1.  Uống nước : Cố gắng uống nước hoặc nước điện giải để tránh mất nước.\n" +
+      "2.  Ăn nhẹ : Thử ăn các món dễ tiêu như bánh mì nướng, chuối hoặc đồ ăn không có nhiều gia vị.\n" +
+      "3.  Gừng : Uống trà gừng hoặc ăn gừng có thể giúp giảm buồn nôn.\n" +
+      "4.  Thư giãn : Thực hiện các bài tập hít thở sâu để giảm căng thẳng.\n" +
+      "5.  Tránh các chất kích thích : Hạn chế caffeine, rượu và thức ăn béo vì chúng có thể làm triệu chứng tồi tệ hơn.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu buồn nôn kéo dài hơn 24 giờ.\n" +
+      "- Có dấu hiệu mất nước như khô miệng, đi tiểu ít hoặc không đi tiểu.\n" +
+      "- Kèm theo các triệu chứng nghiêm trọng khác như đau ngực, sốt cao, hoặc nôn ra máu.\n\n" +
+      "Hy vọng thông tin này sẽ giúp bạn hiểu rõ hơn về triệu chứng buồn nôn. Nếu còn thắc mắc nào khác, hãy cho tôi biết nhé!",
+    "Ngủ gà":
+      "Dạ, ngủ gà, hay còn gọi là tình trạng cảm thấy buồn ngủ mà không thể giữ cho mình tỉnh táo, thường xảy ra trong những thời điểm không mong muốn. Đây là một triệu chứng có thể liên quan đến nhiều yếu tố khác nhau. Dưới đây là một số nguyên nhân, triệu chứng đi kèm, cũng như cách khắc phục và phòng ngừa:\n\n" +
+      " Nguyên nhân gây ngủ gà \n\n" +
+      " 1. Thiếu ngủ : Không đủ giấc ngủ hoặc giấc ngủ không chất lượng có thể là nguyên nhân chính gây ra tình trạng này.\n\n" +
+      " 2. Rối loạn giấc ngủ : Các rối loạn như ngưng thở khi ngủ hoặc mất ngủ có thể làm mất tính chất phục hồi của giấc ngủ.\n\n" +
+      " 3. Stress và lo âu : Căng thẳng hoặc lo âu kéo dài có thể ảnh hưởng đến giấc ngủ và gây ra cảm giác buồn ngủ.\n\n" +
+      " 4. Sử dụng thuốc : Một số loại thuốc có thể có tác dụng phụ khiến bạn cảm thấy mệt mỏi hoặc buồn ngủ.\n\n" +
+      " 5. Bệnh lý : Các bệnh lý như trầm cảm, tiểu đường, hoặc bệnh tim có thể tạo ra cảm giác mệt mỏi và buồn ngủ.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Cảm giác mệt mỏi, nặng đầu.\n" +
+      "- Khó tập trung hoặc duy trì sự chú ý.\n" +
+      "- Ngái ngủ, nhất là trong môi trường yên tĩnh.\n" +
+      "- Cảm giác buồn ngủ bất thường khi làm việc hoặc học tập.\n\n" +
+      " Cách khắc phục \n" +
+      "1.  Đảm bảo giấc ngủ : Cố gắng dành đủ thời gian cho giấc ngủ mỗi đêm (thông thường là 7-9 giờ).\n" +
+      "2.  Tạo thói quen ngủ : Đi ngủ và thức dậy vào cùng một giờ mỗi ngày, ngay cả vào cuối tuần.\n" +
+      "3.  Hạn chế caffeine và rượu : Tránh tiêu thụ các chai thức uống có chứa caffeine hoặc rượu gần giờ đi ngủ.\n" +
+      "4.  Tập thể dục đều đặn : Hoạt động thể chất có thể cải thiện chất lượng giấc ngủ.\n" +
+      "5.  Quản lý căng thẳng : Thực hiện các phương pháp thư giãn như yoga, thiền hay hít thở sâu.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu tình trạng buồn ngủ diễn ra kéo dài và có ảnh hưởng đến chất lượng cuộc sống hoặc kèm theo các triệu chứng khác như khó thở, đau ngực, hoặc thay đổi trong tâm trạng, bạn nên tìm sự tư vấn từ bác sĩ.\n\n" +
+      "Hy vọng thông tin này giúp bạn hiểu rõ hơn về tình trạng ngủ gà. Nếu có thêm thắc mắc, hãy cho tôi biết nhé!",
     "ngủ gà":
-      "Ngủ gà có thể do thiếu ngủ hoặc vấn đề thần kinh. Điều chỉnh lại giấc ngủ và nghỉ ngơi.",
+      "Dạ, ngủ gà, hay còn gọi là tình trạng cảm thấy buồn ngủ mà không thể giữ cho mình tỉnh táo, thường xảy ra trong những thời điểm không mong muốn. Đây là một triệu chứng có thể liên quan đến nhiều yếu tố khác nhau. Dưới đây là một số nguyên nhân, triệu chứng đi kèm, cũng như cách khắc phục và phòng ngừa:\n\n" +
+      " Nguyên nhân gây ngủ gà \n\n" +
+      " 1. Thiếu ngủ : Không đủ giấc ngủ hoặc giấc ngủ không chất lượng có thể là nguyên nhân chính gây ra tình trạng này.\n\n" +
+      " 2. Rối loạn giấc ngủ : Các rối loạn như ngưng thở khi ngủ hoặc mất ngủ có thể làm mất tính chất phục hồi của giấc ngủ.\n\n" +
+      " 3. Stress và lo âu : Căng thẳng hoặc lo âu kéo dài có thể ảnh hưởng đến giấc ngủ và gây ra cảm giác buồn ngủ.\n\n" +
+      " 4. Sử dụng thuốc : Một số loại thuốc có thể có tác dụng phụ khiến bạn cảm thấy mệt mỏi hoặc buồn ngủ.\n\n" +
+      " 5. Bệnh lý : Các bệnh lý như trầm cảm, tiểu đường, hoặc bệnh tim có thể tạo ra cảm giác mệt mỏi và buồn ngủ.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Cảm giác mệt mỏi, nặng đầu.\n" +
+      "- Khó tập trung hoặc duy trì sự chú ý.\n" +
+      "- Ngái ngủ, nhất là trong môi trường yên tĩnh.\n" +
+      "- Cảm giác buồn ngủ bất thường khi làm việc hoặc học tập.\n\n" +
+      " Cách khắc phục \n" +
+      "1.  Đảm bảo giấc ngủ : Cố gắng dành đủ thời gian cho giấc ngủ mỗi đêm (thông thường là 7-9 giờ).\n" +
+      "2.  Tạo thói quen ngủ : Đi ngủ và thức dậy vào cùng một giờ mỗi ngày, ngay cả vào cuối tuần.\n" +
+      "3.  Hạn chế caffeine và rượu : Tránh tiêu thụ các chai thức uống có chứa caffeine hoặc rượu gần giờ đi ngủ.\n" +
+      "4.  Tập thể dục đều đặn : Hoạt động thể chất có thể cải thiện chất lượng giấc ngủ.\n" +
+      "5.  Quản lý căng thẳng : Thực hiện các phương pháp thư giãn như yoga, thiền hay hít thở sâu.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu tình trạng buồn ngủ diễn ra kéo dài và có ảnh hưởng đến chất lượng cuộc sống hoặc kèm theo các triệu chứng khác như khó thở, đau ngực, hoặc thay đổi trong tâm trạng, bạn nên tìm sự tư vấn từ bác sĩ.\n\n" +
+      "Hy vọng thông tin này giúp bạn hiểu rõ hơn về tình trạng ngủ gà. Nếu có thêm thắc mắc, hãy cho tôi biết nhé!",
     "Đau bụng dưới":
       "Đau bụng dưới có thể liên quan đến tiêu hóa hoặc phụ khoa. Nếu đau kéo dài, hãy đi khám bác sĩ.",
+    "ngủ ngáy to":
+      "Dạ, ngủ ngáy to là một vấn đề thường gặp và có thể ảnh hưởng đến cả chất lượng giấc ngủ của người ngủ ngáy lẫn người xung quanh. Dưới đây là một số thông tin liên quan đến nguyên nhân, triệu chứng đi kèm, tác động của ngủ ngáy, và các phương pháp khắc phục.\n\n" +
+      " Nguyên nhân gây ngủ ngáy \n\n" +
+      " 1. Hẹp đường thở : Các vấn đề về đường thở như viêm amiđan, phì đại adenoid, hoặc thoái hóa các cấu trúc của khoang họng có thể gây ra hiện tượng ngủ ngáy khi không khí không thể đi qua một cách dễ dàng.\n\n" +
+      " 2. Cảm lạnh và dị ứng : Nhiễm trùng đường hô hấp (cảm lạnh) hoặc dị ứng có thể làm tắc nghẽn mũi, dẫn đến ngủ ngáy.\n\n" +
+      " 3. Tư thế ngủ : Ngủ nằm ngửa có thể khiến lưỡi và vòm miệng mềm ngả về phía sau, gây tắc nghẽn đường thở.\n\n" +
+      " 4. Thừa cân : Béo phì có thể góp phần làm tăng lượng mô mềm trong cổ họng, gây tải trọng lên đường hô hấp.\n\n" +
+      " 5. Tuổi tác : Khi tuổi tác tăng lên, các mô trong đường thở cũng trở nên mềm hơn, dễ gây ra hiện tượng ngủ ngáy.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Ngủ ngáy to thường liên quan đến tình trạng mệt mỏi, khó chịu vào ban ngày do giấc ngủ không đủ chất lượng.\n" +
+      "- Hơi thở ngắt quãng (ngưng thở khi ngủ) có thể xảy ra, dẫn đến cảm giác buồn ngủ và mệt mỏi suốt cả ngày.\n" +
+      "- Khô miệng hoặc đau họng vào buổi sáng.\n\n" +
+      " Tác động của ngủ ngáy \n" +
+      "-  Ảnh hưởng đến giấc ngủ : Ngủ ngáy có thể làm gián đoạn giấc ngủ của cả người ngủ ngáy và người bên cạnh.\n" +
+      "-  Khả năng làm việc : Giấc ngủ không đủ chất lượng có thể dẫn đến sự giảm sút hiệu suất làm việc và khả năng tập trung.\n" +
+      "-  Sức khỏe tổng thể : Nếu ngủ ngáy liên quan đến ngưng thở khi ngủ, điều này có thể gây ra các vấn đề sức khỏe nghiêm trọng như tăng huyết áp, bệnh tim mạch hoặc đột quỵ.\n\n" +
+      " Phương pháp khắc phục \n" +
+      "1.  Thay đổi tư thế ngủ : Thay đổi tư thế sang nằm nghiêng có thể giúp giảm hoặc ngừng tình trạng ngủ ngáy.\n" +
+      "2.  Giảm cân : Giảm béo có thể giúp làm giảm áp lực lên đường hô hấp, từ đó giảm tình trạng ngủ ngáy.\n" +
+      "3.  Tránh đồ uống có cồn và thuốc an thần : Những chất này có thể làm thư giãn các cơ ở cổ họng, gây tắc nghẽn.\n" +
+      "4.  Sử dụng máy tạo độ ẩm : Không khí khô có thể làm tắc nghẽn đường thở; sử dụng máy tạo độ ẩm có thể giúp cải thiện tình hình.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu tình trạng ngủ ngáy kéo dài và gây ra các triệu chứng như ngưng thở, mệt mỏi vào ban ngày, hay có bất kỳ dấu hiệu nào liên quan đến sức khỏe tổng thể, bạn nên tìm kiếm sự tư vấn từ bác sĩ để có các biện pháp can thiệp thích hợp.\n\n" +
+      "Hy vọng thông tin trên hữu ích cho bạn! Nếu cần thêm thông tin, bạn hãy cho tôi biết nhé!",
+    "Ngủ ngáy to":
+      "Dạ, ngủ ngáy to là một vấn đề thường gặp và có thể ảnh hưởng đến cả chất lượng giấc ngủ của người ngủ ngáy lẫn người xung quanh. Dưới đây là một số thông tin liên quan đến nguyên nhân, triệu chứng đi kèm, tác động của ngủ ngáy, và các phương pháp khắc phục.\n\n" +
+      " Nguyên nhân gây ngủ ngáy \n\n" +
+      " 1. Hẹp đường thở : Các vấn đề về đường thở như viêm amiđan, phì đại adenoid, hoặc thoái hóa các cấu trúc của khoang họng có thể gây ra hiện tượng ngủ ngáy khi không khí không thể đi qua một cách dễ dàng.\n\n" +
+      " 2. Cảm lạnh và dị ứng : Nhiễm trùng đường hô hấp (cảm lạnh) hoặc dị ứng có thể làm tắc nghẽn mũi, dẫn đến ngủ ngáy.\n\n" +
+      " 3. Tư thế ngủ : Ngủ nằm ngửa có thể khiến lưỡi và vòm miệng mềm ngả về phía sau, gây tắc nghẽn đường thở.\n\n" +
+      " 4. Thừa cân : Béo phì có thể góp phần làm tăng lượng mô mềm trong cổ họng, gây tải trọng lên đường hô hấp.\n\n" +
+      " 5. Tuổi tác : Khi tuổi tác tăng lên, các mô trong đường thở cũng trở nên mềm hơn, dễ gây ra hiện tượng ngủ ngáy.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Ngủ ngáy to thường liên quan đến tình trạng mệt mỏi, khó chịu vào ban ngày do giấc ngủ không đủ chất lượng.\n" +
+      "- Hơi thở ngắt quãng (ngưng thở khi ngủ) có thể xảy ra, dẫn đến cảm giác buồn ngủ và mệt mỏi suốt cả ngày.\n" +
+      "- Khô miệng hoặc đau họng vào buổi sáng.\n\n" +
+      " Tác động của ngủ ngáy \n" +
+      "-  Ảnh hưởng đến giấc ngủ : Ngủ ngáy có thể làm gián đoạn giấc ngủ của cả người ngủ ngáy và người bên cạnh.\n" +
+      "-  Khả năng làm việc : Giấc ngủ không đủ chất lượng có thể dẫn đến sự giảm sút hiệu suất làm việc và khả năng tập trung.\n" +
+      "-  Sức khỏe tổng thể : Nếu ngủ ngáy liên quan đến ngưng thở khi ngủ, điều này có thể gây ra các vấn đề sức khỏe nghiêm trọng như tăng huyết áp, bệnh tim mạch hoặc đột quỵ.\n\n" +
+      " Phương pháp khắc phục \n" +
+      "1.  Thay đổi tư thế ngủ : Thay đổi tư thế sang nằm nghiêng có thể giúp giảm hoặc ngừng tình trạng ngủ ngáy.\n" +
+      "2.  Giảm cân : Giảm béo có thể giúp làm giảm áp lực lên đường hô hấp, từ đó giảm tình trạng ngủ ngáy.\n" +
+      "3.  Tránh đồ uống có cồn và thuốc an thần : Những chất này có thể làm thư giãn các cơ ở cổ họng, gây tắc nghẽn.\n" +
+      "4.  Sử dụng máy tạo độ ẩm : Không khí khô có thể làm tắc nghẽn đường thở; sử dụng máy tạo độ ẩm có thể giúp cải thiện tình hình.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu tình trạng ngủ ngáy kéo dài và gây ra các triệu chứng như ngưng thở, mệt mỏi vào ban ngày, hay có bất kỳ dấu hiệu nào liên quan đến sức khỏe tổng thể, bạn nên tìm kiếm sự tư vấn từ bác sĩ để có các biện pháp can thiệp thích hợp.\n\n" +
+      "Hy vọng thông tin trên hữu ích cho bạn! Nếu cần thêm thông tin, bạn hãy cho tôi biết nhé!",
     "Đau lưng":
       "Đau lưng có thể do căng cơ hoặc tư thế sai. Nghỉ ngơi và điều chỉnh tư thế.",
+    "Rối loạn tiêu hóa":
+      "Dạ, rối loạn tiêu hóa là một vấn đề phổ biến mà nhiều người có thể gặp phải. Đây không phải là một bệnh mà là một thuật ngữ nhằm mô tả những triệu chứng liên quan đến hệ tiêu hóa. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, cũng như một số phương pháp điều trị và phòng ngừa rối loạn tiêu hóa.\n\n" +
+      " Nguyên nhân gây rối loạn tiêu hóa \n\n" +
+      " 1. Chế độ ăn uống không hợp lý : Sử dụng nhiều thực phẩm chế biến sẵn, đồ uống có ga, thức ăn khó tiêu, hoặc ăn không đều đặn có thể gây ra rối loạn tiêu hóa.\n\n" +
+      " 2. Căng thẳng : Tình trạng tâm lý căng thẳng có thể ảnh hưởng đến chức năng tiêu hóa, dẫn đến các triệu chứng như đau bụng, tiêu chảy hoặc táo bón.\n\n" +
+      " 3. Nhiễm trùng : Nhiễm trùng do vi khuẩn, virus, hoặc ký sinh trùng có thể gây ra tình trạng tiêu chảy, nôn mửa, và đau bụng.\n\n" +
+      " 4. Rối loạn thần kinh : Các vấn đề như hội chứng ruột kích thích (IBS) có thể gây ra triệu chứng đau bụng, chướng bụng, và thay đổi trong thói quen đi vệ sinh.\n\n" +
+      " 5. Sử dụng thuốc : Một số loại thuốc, đặc biệt là kháng sinh hoặc thuốc chống viêm, có thể gây rối loạn tiêu hóa khi làm thay đổi cân bằng vi khuẩn trong ruột.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Đau bụng hoặc khó chịu.\n" +
+      "- Tiêu chảy hoặc táo bón.\n" +
+      "- Chướng bụng hoặc cảm giác đầy hơi.\n" +
+      "- Đầy bụng sau khi ăn.\n" +
+      "- Nôn mửa hoặc buồn nôn.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Thay đổi chế độ ăn uống : \n" +
+      "- Tăng cường thực phẩm chất xơ như rau, trái cây, và ngũ cốc nguyên cám, giúp cải thiện chức năng ruột.\n" +
+      "- Hạn chế thực phẩm dầu mỡ, cay nóng, và đồ uống có ga.\n" +
+      "2.  Uống đủ nước : Bảo đảm cơ thể luôn đủ nước để hỗ trợ quá trình tiêu hóa.\n" +
+      "3.  Sử dụng thuốc : Thuốc chống viêm, men tiêu hóa, hoặc thuốc kháng sinh có thể được sử dụng nếu cần thiết tùy thuộc vào nguyên nhân rối loạn.\n" +
+      "4.  Quản lý căng thẳng : Thực hiện các kỹ thuật thư giãn như yoga, thiền, hoặc tập thể dục nhẹ nhàng.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu các triệu chứng kéo dài, nghiêm trọng, hoặc kèm theo các triệu chứng khác như sốt cao, nôn ra máu, hoặc đi cầu ra máu, bạn nên tìm kiếm sự tư vấn từ bác sĩ để có chẩn đoán và điều trị phù hợp.\n\n" +
+      "Hy vọng rằng thông tin này sẽ hữu ích cho bạn. Nếu bạn cần thêm sự giúp đỡ hoặc thông tin cụ thể hơn, hãy cho tôi biết nhé!",
     "rối loạn tiêu hóa":
-      "Rối loạn tiêu hóa có thể do ăn uống không hợp lý hoặc căng thẳng. Ăn uống khoa học và giảm căng thẳng.",
+      "Dạ, rối loạn tiêu hóa là một vấn đề phổ biến mà nhiều người có thể gặp phải. Đây không phải là một bệnh mà là một thuật ngữ nhằm mô tả những triệu chứng liên quan đến hệ tiêu hóa. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, cũng như một số phương pháp điều trị và phòng ngừa rối loạn tiêu hóa.\n\n" +
+      " Nguyên nhân gây rối loạn tiêu hóa \n\n" +
+      " 1. Chế độ ăn uống không hợp lý : Sử dụng nhiều thực phẩm chế biến sẵn, đồ uống có ga, thức ăn khó tiêu, hoặc ăn không đều đặn có thể gây ra rối loạn tiêu hóa.\n\n" +
+      " 2. Căng thẳng : Tình trạng tâm lý căng thẳng có thể ảnh hưởng đến chức năng tiêu hóa, dẫn đến các triệu chứng như đau bụng, tiêu chảy hoặc táo bón.\n\n" +
+      " 3. Nhiễm trùng : Nhiễm trùng do vi khuẩn, virus, hoặc ký sinh trùng có thể gây ra tình trạng tiêu chảy, nôn mửa, và đau bụng.\n\n" +
+      " 4. Rối loạn thần kinh : Các vấn đề như hội chứng ruột kích thích (IBS) có thể gây ra triệu chứng đau bụng, chướng bụng, và thay đổi trong thói quen đi vệ sinh.\n\n" +
+      " 5. Sử dụng thuốc : Một số loại thuốc, đặc biệt là kháng sinh hoặc thuốc chống viêm, có thể gây rối loạn tiêu hóa khi làm thay đổi cân bằng vi khuẩn trong ruột.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Đau bụng hoặc khó chịu.\n" +
+      "- Tiêu chảy hoặc táo bón.\n" +
+      "- Chướng bụng hoặc cảm giác đầy hơi.\n" +
+      "- Đầy bụng sau khi ăn.\n" +
+      "- Nôn mửa hoặc buồn nôn.\n\n" +
+      " Phương pháp điều trị \n" +
+      "1.  Thay đổi chế độ ăn uống : \n" +
+      "- Tăng cường thực phẩm chất xơ như rau, trái cây, và ngũ cốc nguyên cám, giúp cải thiện chức năng ruột.\n" +
+      "- Hạn chế thực phẩm dầu mỡ, cay nóng, và đồ uống có ga.\n" +
+      "2.  Uống đủ nước : Bảo đảm cơ thể luôn đủ nước để hỗ trợ quá trình tiêu hóa.\n" +
+      "3.  Sử dụng thuốc : Thuốc chống viêm, men tiêu hóa, hoặc thuốc kháng sinh có thể được sử dụng nếu cần thiết tùy thuộc vào nguyên nhân rối loạn.\n" +
+      "4.  Quản lý căng thẳng : Thực hiện các kỹ thuật thư giãn như yoga, thiền, hoặc tập thể dục nhẹ nhàng.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu các triệu chứng kéo dài, nghiêm trọng, hoặc kèm theo các triệu chứng khác như sốt cao, nôn ra máu, hoặc đi cầu ra máu, bạn nên tìm kiếm sự tư vấn từ bác sĩ để có chẩn đoán và điều trị phù hợp.\n\n" +
+      "Hy vọng rằng thông tin này sẽ hữu ích cho bạn. Nếu bạn cần thêm sự giúp đỡ hoặc thông tin cụ thể hơn, hãy cho tôi biết nhé!",
     "Ngứa da":
       "Ngứa da có thể do dị ứng hoặc khô da. Tránh gãi và dùng kem dưỡng ẩm.",
     "Táo bón":
@@ -825,32 +1859,119 @@ function analyzeInput(input) {
       "Cảm giác nóng rát ở da có thể do dị ứng hoặc viêm nhiễm. Tránh tiếp xúc với các tác nhân gây dị ứng.",
     "Đau ngực trái":
       "Đau ngực trái có thể liên quan đến tim hoặc phổi. Nếu đau dữ dội, hãy đi khám ngay lập tức.",
-    "Mắt nhìn mờ":
-      "Mắt nhìn mờ có thể do mỏi mắt hoặc vấn đề về thị lực. Nghỉ ngơi và kiểm tra mắt có thể giúp cải thiện.",
+    "mắt nhìn mờ":
+      "Dạ, tình trạng mắt nhìn mờ có thể do nhiều nguyên nhân khác nhau, và nó có thể là dấu hiệu của một vấn đề sức khỏe nghiêm trọng hoặc chỉ là một tình trạng tạm thời. Dưới đây là một số nguyên nhân phổ biến và thông tin liên quan đến tình trạng này:\n\n" +
+      "**1. Nguyên nhân gây nhìn mờ**\n\n" +
+      "1. **Khúc xạ mắt**: Tình trạng như cận thị, viễn thị, loạn thị có thể gây ra mờ mắt nếu không được điều trị bằng kính mắt phù hợp.\n" +
+      "2. **Thay đổi trong thủy tinh thể**: Đục thủy tinh thể là một nguyên nhân phổ biến gây mất thị lực ở người cao tuổi.\n" +
+      "3. **Bệnh lý mắt**: Các vấn đề như viêm kết mạc (đỏ mắt), viêm giác mạc, hoặc loét giác mạc có thể ảnh hưởng đến tầm nhìn.\n" +
+      "4. **Bệnh lý hệ thống**: Một số bệnh như tiểu đường có thể gây biến chứng ảnh hưởng đến mắt, dẫn đến tình trạng mờ mắt.\n" +
+      "5. **Tình trạng tạm thời**: Nhìn mờ có thể do mệt mỏi, quá tải mắt, hoặc sau khi sử dụng các thiết bị điện tử trong thời gian dài.\n\n" +
+      "**2. Triệu chứng kèm theo**\n\n" +
+      "Nếu nhìn mờ đi kèm với các triệu chứng khác như:\n" +
+      "- **Đau mắt**\n" +
+      "- **Nhức đầu**\n" +
+      "- **Nhìn thấy đốm hoặc chóp sáng**\n" +
+      "- **Chảy nước mắt quá nhiều hoặc khô mắt**\n\n" +
+      "**3. Khi nào cần đi khám**\n\n" +
+      "Nếu bạn gặp tình trạng nhìn mờ kéo dài hoặc cảm thấy có bất kỳ triệu chứng lạ nào khác, hãy tham khảo ý kiến bác sĩ hoặc chuyên gia về mắt ngay. Điều quan trọng là xác định nguyên nhân kịp thời để có phương pháp điều trị phù hợp.\n\n" +
+      "**4. Giải pháp tạm thời**\n\n" +
+      "1. **Nghỉ ngơi cho mắt**: Nghỉ ngơi cho mắt và tránh sử dụng thiết bị điện tử quá lâu.\n" +
+      "2. **Điều chỉnh ánh sáng môi trường làm việc**: Kiểm tra và điều chỉnh ánh sáng môi trường làm việc.\n" +
+      "3. **Sử dụng kính mắt**: Sử dụng kính mắt nếu bạn đã được chẩn đoán mắc các vấn đề liên quan đến khúc xạ.\n\n" +
+      "Nếu cần thêm thông tin chi tiết hơn hoặc có triệu chứng cụ thể nào khác, hãy cho tôi biết nhé!",
     "Khó tiêu hóa":
-      "Khó tiêu hóa có thể do ăn uống không hợp lý. Ăn uống khoa học và tránh thức ăn khó tiêu có thể giúp cải thiện.",
+      "Dạ, khó tiêu hóa, hay còn gọi là rối loạn tiêu hóa, là tình trạng mà nhiều người gặp phải. Đây là một thuật ngữ mô tả cảm giác khó chịu hoặc đau ở vùng bụng, thường đi kèm với các triệu chứng như đầy bụng, buồn nôn, ợ chua, và sự giảm khả năng tiêu hóa thức ăn. Dưới đây là các thông tin chi tiết về nguyên nhân, triệu chứng, chẩn đoán, điều trị và phòng ngừa khó tiêu hóa.\n\n" +
+      " Nguyên nhân gây khó tiêu hóa \n\n" +
+      " 1. Chế độ ăn uống không hợp lý : Tiêu thụ thực phẩm khó tiêu, ăn uống không đều đặn, hoặc tiêu thụ thực phẩm chế biến sẵn có thể gây khó tiêu.\n\n" +
+      " 2. Căng thẳng : Tình trạng tâm lý như lo âu hoặc căng thẳng có thể ảnh hưởng đến chức năng tiêu hóa.\n\n" +
+      " 3. Bệnh lý dạ dày hoặc tá tràng : Các bệnh như loét dạ dày, trào ngược dạ dày thực quản, hoặc bệnh viêm dạ dày có thể dẫn đến khó tiêu.\n\n" +
+      " 4. Nhiễm trùng : Nhiễm trùng do vi khuẩn hoặc virus cũng có thể gây ra triệu chứng khó tiêu.\n\n" +
+      " 5. Tác dụng phụ của thuốc : Một số loại thuốc, đặc biệt là thuốc giảm đau hoặc kháng sinh, có thể ảnh hưởng đến quá trình tiêu hóa.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Đau hoặc khó chịu ở vùng bụng.\n" +
+      "- Cảm giác đầy hơi hoặc chướng bụng.\n" +
+      "- Buồn nôn hoặc nôn.\n" +
+      "- Ợ nóng hoặc ợ chua.\n" +
+      "- Thay đổi thói quen trong việc đi vệ sinh (tiêu chảy hoặc táo bón).\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán khó tiêu thường dựa vào triệu chứng lâm sàng và tiền sử bệnh sử. Bác sĩ có thể yêu cầu các xét nghiệm như:\n" +
+      "- Nội soi dạ dày để kiểm tra tình trạng niêm mạc dạ dày và tá tràng.\n" +
+      "- Xét nghiệm máu để kiểm tra các vấn đề sức khỏe liên quan.\n" +
+      "- Siêu âm hoặc CT nếu cần thiết.\n\n" +
+      " Điều trị \n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Cải thiện chế độ ăn uống bằng cách bổ sung thực phẩm dễ tiêu, như rau quả, ngũ cốc nguyên hạt, và tăng cường nước uống.\n" +
+      "- Tránh ăn thực phẩm chế biến sẵn, thực phẩm cay nóng hoặc nhiều mỡ.\n" +
+      "- Điều chỉnh thói quen ăn uống như ăn chậm và không ăn quá no.\n" +
+      "2.  Sử dụng thuốc : \n" +
+      "- Có thể sử dụng thuốc kháng acid hoặc thuốc giảm đau nếu cần.\n" +
+      "- Nếu có nhiễm trùng, bác sĩ sẽ kê toa kháng sinh.\n" +
+      "3.  Quản lý căng thẳng : Thực hiện các kỹ thuật thư giãn như yoga hoặc thiền có thể giúp giảm triệu chứng.\n\n" +
+      " Phòng ngừa \n" +
+      "- Xây dựng chế độ ăn uống lành mạnh và cân bằng.\n" +
+      "- Tập thể dục thường xuyên để hỗ trợ tiêu hóa.\n" +
+      "- Giảm thiểu căng thẳng trong cuộc sống hàng ngày.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu triệu chứng kéo dài hoặc trở nên nghiêm trọng, hoặc nếu bạn có các triệu chứng kèm theo như sốt, nôn ra máu, hoặc đại tiện có máu, bạn nên tìm kiếm sự tư vấn y tế để kiểm tra và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin trên sẽ hữu ích cho bạn. Nếu bạn cần thêm sự trợ giúp hoặc thông tin cụ thể hơn, hãy cho tôi biết nhé!",
+    "khó tiêu hóa":
+      "Dạ, khó tiêu hóa, hay còn gọi là rối loạn tiêu hóa, là tình trạng mà nhiều người gặp phải. Đây là một thuật ngữ mô tả cảm giác khó chịu hoặc đau ở vùng bụng, thường đi kèm với các triệu chứng như đầy bụng, buồn nôn, ợ chua, và sự giảm khả năng tiêu hóa thức ăn. Dưới đây là các thông tin chi tiết về nguyên nhân, triệu chứng, chẩn đoán, điều trị và phòng ngừa khó tiêu hóa.\n\n" +
+      " Nguyên nhân gây khó tiêu hóa \n\n" +
+      " 1. Chế độ ăn uống không hợp lý : Tiêu thụ thực phẩm khó tiêu, ăn uống không đều đặn, hoặc tiêu thụ thực phẩm chế biến sẵn có thể gây khó tiêu.\n\n" +
+      " 2. Căng thẳng : Tình trạng tâm lý như lo âu hoặc căng thẳng có thể ảnh hưởng đến chức năng tiêu hóa.\n\n" +
+      " 3. Bệnh lý dạ dày hoặc tá tràng : Các bệnh như loét dạ dày, trào ngược dạ dày thực quản, hoặc bệnh viêm dạ dày có thể dẫn đến khó tiêu.\n\n" +
+      " 4. Nhiễm trùng : Nhiễm trùng do vi khuẩn hoặc virus cũng có thể gây ra triệu chứng khó tiêu.\n\n" +
+      " 5. Tác dụng phụ của thuốc : Một số loại thuốc, đặc biệt là thuốc giảm đau hoặc kháng sinh, có thể ảnh hưởng đến quá trình tiêu hóa.\n\n" +
+      " Triệu chứng đi kèm \n" +
+      "- Đau hoặc khó chịu ở vùng bụng.\n" +
+      "- Cảm giác đầy hơi hoặc chướng bụng.\n" +
+      "- Buồn nôn hoặc nôn.\n" +
+      "- Ợ nóng hoặc ợ chua.\n" +
+      "- Thay đổi thói quen trong việc đi vệ sinh (tiêu chảy hoặc táo bón).\n\n" +
+      " Chẩn đoán \n" +
+      "Chẩn đoán khó tiêu thường dựa vào triệu chứng lâm sàng và tiền sử bệnh sử. Bác sĩ có thể yêu cầu các xét nghiệm như:\n" +
+      "- Nội soi dạ dày để kiểm tra tình trạng niêm mạc dạ dày và tá tràng.\n" +
+      "- Xét nghiệm máu để kiểm tra các vấn đề sức khỏe liên quan.\n" +
+      "- Siêu âm hoặc CT nếu cần thiết.\n\n" +
+      " Điều trị \n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Cải thiện chế độ ăn uống bằng cách bổ sung thực phẩm dễ tiêu, như rau quả, ngũ cốc nguyên hạt, và tăng cường nước uống.\n" +
+      "- Tránh ăn thực phẩm chế biến sẵn, thực phẩm cay nóng hoặc nhiều mỡ.\n" +
+      "- Điều chỉnh thói quen ăn uống như ăn chậm và không ăn quá no.\n" +
+      "2.  Sử dụng thuốc : \n" +
+      "- Có thể sử dụng thuốc kháng acid hoặc thuốc giảm đau nếu cần.\n" +
+      "- Nếu có nhiễm trùng, bác sĩ sẽ kê toa kháng sinh.\n" +
+      "3.  Quản lý căng thẳng : Thực hiện các kỹ thuật thư giãn như yoga hoặc thiền có thể giúp giảm triệu chứng.\n\n" +
+      " Phòng ngừa \n" +
+      "- Xây dựng chế độ ăn uống lành mạnh và cân bằng.\n" +
+      "- Tập thể dục thường xuyên để hỗ trợ tiêu hóa.\n" +
+      "- Giảm thiểu căng thẳng trong cuộc sống hàng ngày.\n\n" +
+      " Khi nào cần gặp bác sĩ? \n" +
+      "- Nếu triệu chứng kéo dài hoặc trở nên nghiêm trọng, hoặc nếu bạn có các triệu chứng kèm theo như sốt, nôn ra máu, hoặc đại tiện có máu, bạn nên tìm kiếm sự tư vấn y tế để kiểm tra và điều trị kịp thời.\n\n" +
+      "Hy vọng thông tin trên sẽ hữu ích cho bạn. Nếu bạn cần thêm sự trợ giúp hoặc thông tin cụ thể hơn, hãy cho tôi biết nhé!",
     "đặt lịch khám":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám Đà Nẵng - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt lịch":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám Đà Nẵng - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt khám ngay":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám Đà Nẵng - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt khám nhanh":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám Đà Nẵng - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt khám":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám Đà Nẵng - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "thời gian làm việc của phòng khám":
-      "Dạ, thời gian làm việc của Bệnh viện Đà Nẵng - Đa Khoa Chất Lượng Cao như sau:" +
+      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
       "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
       "Buổi sáng: từ 6h30 đến 11h00" +
       "Buổi chiều: từ 13h30 đến 17h00" +
@@ -859,7 +1980,7 @@ function analyzeInput(input) {
       "Buổi chiều: từ 13h30 đến 17h00" +
       "Ngoài giờ hành chính, Bệnh viện vẫn tiếp đón bệnh nhân cấp cứu theo quy định của Bộ Y tế. Nếu bạn cần thêm thông tin, vui lòng cho tôi biết!",
     "thời gian làm việc":
-      "Dạ, thời gian làm việc của Bệnh viện Đà Nẵng - Đa Khoa Chất Lượng Cao như sau:" +
+      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
       "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
       "Buổi sáng: từ 6h30 đến 11h00" +
       "Buổi chiều: từ 13h30 đến 17h00" +
@@ -868,7 +1989,16 @@ function analyzeInput(input) {
       "Buổi chiều: từ 13h30 đến 17h00" +
       "Ngoài giờ hành chính, Bệnh viện vẫn tiếp đón bệnh nhân cấp cứu theo quy định của Bộ Y tế. Nếu bạn cần thêm thông tin, vui lòng cho tôi biết!",
     "giờ làm việc":
-      "Dạ, thời gian làm việc của Bệnh viện Đà Nẵng - Đa Khoa Chất Lượng Cao như sau:" +
+      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
+      "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
+      "Buổi sáng: từ 6h30 đến 11h00" +
+      "Buổi chiều: từ 13h30 đến 17h00" +
+      "2. Thời gian làm việc mùa đông (từ 16 tháng 10 đến hết ngày 15 tháng 4 năm tiếp theo):" +
+      "Buổi sáng: từ 7h00 đến 11h30" +
+      "Buổi chiều: từ 13h30 đến 17h00" +
+      "Ngoài giờ hành chính, Bệnh viện vẫn tiếp đón bệnh nhân cấp cứu theo quy định của Bộ Y tế. Nếu bạn cần thêm thông tin, vui lòng cho tôi biết!",
+    "làm việc":
+      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
       "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
       "Buổi sáng: từ 6h30 đến 11h00" +
       "Buổi chiều: từ 13h30 đến 17h00" +
@@ -922,8 +2052,68 @@ function analyzeInput(input) {
       "Nếu bạn hoặc người thân của bạn gặp phải một hoặc nhiều triệu chứng như trên, hãy tham khảo ý kiến bác sĩ để được kiểm tra và chẩn đoán chính xác về tình trạng sức khỏe của mình. Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
     "dấu hiệu nhận biết của bệnh cao huyết áp":
       "Dạ, nếu bạn bị cao huyết áp, có một số dấu hiệu bạn có thể nhận biết: đau đầu, chóng mặt, ngực khó chịu, mệt mỏi, khó thở, và đôi khi chảy máu cam.\n\n",
+    "huyết áp cao":
+      "Dạ, huyết áp cao, hay còn gọi là tăng huyết áp, là tình trạng trong đó áp lực của dòng máu lên thành mạch tăng cao một cách bất thường. Đây là một vấn đề sức khỏe nghiêm trọng có thể dẫn đến nhiều biến chứng nếu không được quản lý và điều trị đúng cách. Dưới đây là một số thông tin quan trọng về huyết áp cao.\n\n" +
+      " Định nghĩa \n\n" +
+      "Theo Tổ chức Y tế Thế giới (WHO), tăng huyết áp được định nghĩa là khi huyết áp tâm thu (áp lực máu khi tim đập) lớn hơn 140 mmHg và/hoặc huyết áp tâm trương (áp lực máu khi tim nghỉ) bằng hoặc lớn hơn 90 mmHg.\n\n" +
+      " Nguyên nhân \n\n" +
+      "Tăng huyết áp có thể được chia thành hai loại:\n\n" +
+      " 1. Tăng huyết áp nguyên phát : Không rõ nguyên nhân cụ thể, nhưng có thể liên quan đến yếu tố di truyền, lối sống (ví dụ: chế độ ăn uống không lành mạnh, ít vận động).\n\n" +
+      " 2. Tăng huyết áp thứ phát : Có nguyên nhân rõ ràng, chẳng hạn như:\n" +
+      "- Bệnh thận mạn\n" +
+      "- Dùng steroid lâu dài\n" +
+      "- Béo phì\n" +
+      "- Cường Aldosteron nguyên phát\n" +
+      "- Hội chứng ngưng thở khi ngủ\n" +
+      "- Một số bệnh lý tuyến giáp\n\n" +
+      " Biến chứng \n\n" +
+      "Nếu không được kiểm soát, huyết áp cao có thể dẫn đến:\n\n" +
+      "- Các vấn đề tim mạch như phì đại thất trái, suy tim và bệnh mạch vành.\n" +
+      "- Bệnh thận mạn hoặc suy thận.\n" +
+      "- Đột quỵ hoặc các vấn đề liên quan đến não.\n" +
+      "- Vấn đề về mắt (bệnh võng mạc).\n\n" +
+      " Điều trị \n\n" +
+      "Điều trị tăng huyết áp thường bao gồm những biện pháp sau:\n\n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Giảm cân nếu thừa cân.\n" +
+      "- Hạn chế rượu và muối.\n" +
+      "- Tăng cường hoạt động thể chất.\n" +
+      "- Bỏ thuốc lá.\n" +
+      "- Duy trì chế độ ăn uống lành mạnh với nhiều trái cây, rau xanh và ngũ cốc nguyên hạt.\n\n" +
+      "2.  Điều trị bằng thuốc : Tùy thuộc vào từng bệnh nhân, bác sĩ có thể chỉ định các loại thuốc để hạ huyết áp, nhằm mục tiêu đưa huyết áp về mức bình thường (dưới 140/90 mmHg, và dưới 135/85 mmHg cho người có tiểu đường).\n\n" +
+      "Nếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi cụ thể hơn về huyết áp cao, hãy cho tôi biết nhé!",
     "dấu hiệu nhận biết của bệnh viêm gan":
       "Dạ, nếu bạn bị viêm gan, các dấu hiệu có thể bao gồm: mệt mỏi, vàng da, vàng mắt, đau vùng bụng trên bên phải, buồn nôn, và sụt cân.\n\n",
+    "cao huyết áp":
+      "Dạ, huyết áp cao, hay còn gọi là tăng huyết áp, là tình trạng trong đó áp lực của dòng máu lên thành mạch tăng cao một cách bất thường. Đây là một vấn đề sức khỏe nghiêm trọng có thể dẫn đến nhiều biến chứng nếu không được quản lý và điều trị đúng cách. Dưới đây là một số thông tin quan trọng về huyết áp cao.\n\n" +
+      " Định nghĩa \n\n" +
+      "Theo Tổ chức Y tế Thế giới (WHO), tăng huyết áp được định nghĩa là khi huyết áp tâm thu (áp lực máu khi tim đập) lớn hơn 140 mmHg và/hoặc huyết áp tâm trương (áp lực máu khi tim nghỉ) bằng hoặc lớn hơn 90 mmHg.\n\n" +
+      " Nguyên nhân \n\n" +
+      "Tăng huyết áp có thể được chia thành hai loại:\n\n" +
+      " 1. Tăng huyết áp nguyên phát : Không rõ nguyên nhân cụ thể, nhưng có thể liên quan đến yếu tố di truyền, lối sống (ví dụ: chế độ ăn uống không lành mạnh, ít vận động).\n\n" +
+      " 2. Tăng huyết áp thứ phát : Có nguyên nhân rõ ràng, chẳng hạn như:\n" +
+      "- Bệnh thận mạn\n" +
+      "- Dùng steroid lâu dài\n" +
+      "- Béo phì\n" +
+      "- Cường Aldosteron nguyên phát\n" +
+      "- Hội chứng ngưng thở khi ngủ\n" +
+      "- Một số bệnh lý tuyến giáp\n\n" +
+      " Biến chứng \n\n" +
+      "Nếu không được kiểm soát, huyết áp cao có thể dẫn đến:\n\n" +
+      "- Các vấn đề tim mạch như phì đại thất trái, suy tim và bệnh mạch vành.\n" +
+      "- Bệnh thận mạn hoặc suy thận.\n" +
+      "- Đột quỵ hoặc các vấn đề liên quan đến não.\n" +
+      "- Vấn đề về mắt (bệnh võng mạc).\n\n" +
+      " Điều trị \n\n" +
+      "Điều trị tăng huyết áp thường bao gồm những biện pháp sau:\n\n" +
+      "1.  Thay đổi lối sống :\n" +
+      "- Giảm cân nếu thừa cân.\n" +
+      "- Hạn chế rượu và muối.\n" +
+      "- Tăng cường hoạt động thể chất.\n" +
+      "- Bỏ thuốc lá.\n" +
+      "- Duy trì chế độ ăn uống lành mạnh với nhiều trái cây, rau xanh và ngũ cốc nguyên hạt.\n\n" +
+      "2.  Điều trị bằng thuốc : Tùy thuộc vào từng bệnh nhân, bác sĩ có thể chỉ định các loại thuốc để hạ huyết áp, nhằm mục tiêu đưa huyết áp về mức bình thường (dưới 140/90 mmHg, và dưới 135/85 mmHg cho người có tiểu đường).\n\n" +
+      "Nếu bạn cần thêm thông tin chi tiết hoặc có câu hỏi cụ thể hơn về huyết áp cao, hãy cho tôi biết nhé!",
     "viêm gan":
       "Dạ, viêm gan là tình trạng viêm nhiễm ở gan, có thể do nhiều nguyên nhân khác nhau, trong đó các loại viêm gan virus là phổ biến nhất. Dưới đây là tổng quan về các loại viêm gan cũng như các thông tin liên quan:\n\n" +
       "Các loại viêm gan:\n\n" +
@@ -1127,6 +2317,21 @@ function analyzeInput(input) {
       "Dạ, nếu bạn cần thêm thông tin chi tiết hơn hoặc có câu hỏi cụ thể về viêm phổi, hãy cho tôi biết nhé!",
     "dấu hiệu nhận biết của bệnh ung thư phổi":
       "Dạ, nếu bạn bị ung thư phổi, có thể gặp các dấu hiệu như: ho kéo dài, khó thở, đau ngực, giảm cân, và ho ra máu.\n\n",
+    "ung thư phổi":
+      "Dạ, ung thư phổi là một bệnh lý nghiêm trọng và có thể không có triệu chứng rõ ràng ở giai đoạn đầu. Tuy nhiên, khi bệnh tiến triển, người bệnh có thể mắc phải một số triệu chứng nhận biết. Dưới đây là một số dấu hiệu phổ biến của ung thư phổi mà mọi người nên lưu ý:\n\n" +
+      " Dấu hiệu nhận biết \n\n" +
+      "1.  Ho lâu không khỏi : Một cơn ho kéo dài hơn ba tuần mà không cải thiện có thể là dấu hiệu của ung thư phổi.\n\n" +
+      "2.  Thay đổi trong tính chất cơn ho : Nếu bạn đã từng bị ho mãn tính (ví dụ ho do bệnh hen suyễn) nhưng thấy cơn ho của mình trở nên khác thường, hãy thăm khám bác sĩ.\n\n" +
+      "3.  Khó thở : Cảm thấy khó thở, thở gấp hay có tiếng rít khi thở, đặc biệt là nếu không có nguyên nhân rõ ràng.\n\n" +
+      "4.  Đau ngực : Cảm giác đau hoặc cảm giác áp lực ở ngực, nhất là khi hít vào sâu hoặc ho.\n\n" +
+      "5.  Khạc đờm có máu : Sự hiện diện của máu trong đờm (có thể là những mạch máu nhỏ hoặc nhiều).\n\n" +
+      "6.  Giảm cân đột ngột : Nếu bạn không thay đổi chế độ ăn uống hay lối sống mà vẫn giảm cân nhanh chóng.\n\n" +
+      "7.  Mệt mỏi : Cảm giác mệt mỏi thường xuyên không rõ nguyên nhân.\n\n" +
+      "8.  Khó nuốt : Nếu bạn cảm thấy đau đớn hoặc khó khăn khi nuốt thức ăn.\n\n" +
+      "9.  Ho không có nguyên nhân : Thay đổi giọng nói hoặc khàn tiếng lâu dài không giải thích được cũng có thể là dấu hiệu cảnh báo.\n\n" +
+      " Các dấu hiệu khác \n\n" +
+      "Ngoài những dấu hiệu trên, người bệnh ung thư phổi cũng có thể gặp các triệu chứng khác như hô hấp có mùi khó chịu, cảm giác yếu đuối và các vấn đề về phổi như viêm phổi hoặc viêm phế quản tái phát.\n\n" +
+      "Nếu bạn hoặc ai đó có các triệu chứng này, hãy nhanh chóng tham khảo ý kiến của bác sĩ để được chẩn đoán và điều trị kịp thời. Nhận biết sớm dấu hiệu ung thư phổi có thể góp phần rất lớn trong việc cải thiện tiên lượng điều trị.",
     "dấu hiệu nhận biết của bệnh trầm cảm":
       "Dạ, nếu bạn bị trầm cảm, có thể nhận biết qua: cảm giác buồn bã kéo dài, mất hứng thú với hoạt động thường ngày, mệt mỏi, và khó ngủ.\n\n",
     "dấu hiệu nhận biết của bệnh viêm loét dạ dày":
@@ -1141,8 +2346,53 @@ function analyzeInput(input) {
       "Dạ, nếu bạn bị bệnh tim mạch, các dấu hiệu bao gồm: đau ngực, khó thở, mệt mỏi, đánh trống ngực, và phù tay chân.\n\n",
     "dấu hiệu nhận biết của bệnh lo âu":
       "Dạ, nếu bạn bị lo âu, có thể gặp các dấu hiệu như: căng thẳng, bồn chồn, hồi hộp, và khó ngủ.\n\n",
+    "viêm đại tràng":
+      "Dạ, viêm đại tràng là một tình trạng viêm của đại tràng, có thể ảnh hưởng đến một phần hoặc toàn bộ đại tràng. Bệnh có thể gây ra nhiều triệu chứng và ảnh hưởng đến chất lượng cuộc sống của người bệnh. Dưới đây là một số thông tin chi tiết về viêm đại tràng:\n\n" +
+      " Định nghĩa \n\n" +
+      "Viêm đại tràng là tình trạng viêm của lớp niêm mạc đại tràng, có thể do nhiễm trùng, viêm loét, hoặc các bệnh lý tự miễn.\n\n" +
+      " Các loại viêm đại tràng \n\n" +
+      "1.  Viêm đại tràng cấp tính : Thường do nhiễm trùng do vi khuẩn hoặc virus, và thường tự khỏi với điều trị hỗ trợ.\n\n" +
+      "2.  Viêm đại tràng mạn tính : Có thể xuất phát từ bệnh viêm ruột (IBD) như bệnh Crohn hoặc viêm đại tràng loét (ulcerative colitis).\n\n" +
+      "3.  Viêm đại tràng do thuốc : Một số loại thuốc, đặc biệt là kháng sinh, có thể dẫn đến viêm đại tràng.\n\n" +
+      " Triệu chứng \n\n" +
+      "-  Đau bụng : Có thể xảy ra ở vùng dưới bụng, thường là đau quặn.\n\n" +
+      "-  Tiêu chảy : Có thể đi kèm với máu hoặc mủ trong phân.\n\n" +
+      "-  Mệt mỏi : Do mất nước và các chất dinh dưỡng.\n\n" +
+      "-  Sốt : Thông thường xảy ra trong trường hợp viêm nặng hoặc có nhiễm trùng.\n\n" +
+      "-  Giảm cân : Ở những người viêm đại tràng mạn tính.\n\n" +
+      " Chẩn đoán \n\n" +
+      "Chẩn đoán viêm đại tràng thường bao gồm:\n\n" +
+      "-  Nội soi đại tràng : Để quan sát trực tiếp và nắm bắt tình trạng niêm mạc đại tràng.\n\n" +
+      "-  Xét nghiệm máu : Để kiểm tra dấu hiệu viêm, thiếu máu hoặc nhiễm trùng.\n\n" +
+      "-  Xét nghiệm phân : Để tìm kiếm vi khuẩn hoặc ký sinh trùng.\n\n" +
+      " Điều trị \n\n" +
+      "1.  Điều trị không dùng thuốc :\n\n" +
+      "   -  Thay đổi chế độ ăn uống : Ăn thức ăn dễ tiêu, hạn chế chất béo và các thực phẩm có thể kích thích đại tràng.\n\n" +
+      "   -  Bổ sung nước và điện giải  để tránh mất nước.\n\n" +
+      "2.  Điều trị bằng thuốc :\n\n" +
+      "   -  Kháng sinh : Trong trường hợp viêm do nhiễm trùng.\n\n" +
+      "   -  Kháng viêm non-steroid (NSAIDs) : Giúp giảm viêm và đau.\n\n" +
+      "   -  Corticosteroids : Được sử dụng trong các trường hợp viêm nặng để giảm thiểu phản ứng viêm.\n\n" +
+      "   -  Immunosuppressive : Để kiểm soát các bệnh lý tự miễn như IBD.\n\n" +
+      "Dạ, nếu bạn có thêm câu hỏi hoặc cần biết thêm thông tin chi tiết về các triệu chứng, chẩn đoán và điều trị viêm đại tràng, hãy cho tôi biết nhé!",
     "viêm xoang":
-      "Dạ, nếu bạn bị viêm xoang, các dấu hiệu bao gồm: nghẹt mũi, đau nhức vùng mặt, đau đầu, và chảy dịch mũi.\n\n",
+      "Dạ, viêm xoang là tình trạng viêm niêm mạc xoang, thường có triệu chứng như nghẹt mũi, chảy dịch mũi, đau nhức vùng mặt và có thể kèm theo sốt. Để điều trị viêm xoang hiệu quả, bạn có thể tham khảo một số loại thuốc và phương pháp sau:\n\n" +
+      " 1. Thuốc giảm đau và hạ sốt \n" +
+      "-  Paracetamol:  Giúp giảm đau và hạ sốt.\n" +
+      "-  Ibuprofen:  Ngoài tác dụng giảm đau và hạ sốt, còn có tác dụng kháng viêm.\n\n" +
+      " 2. Thuốc kháng histamin \n" +
+      "- Thuốc kháng histamin: Giúp giảm triệu chứng sổ mũi, ngứa và hắt hơi. Một số thuốc thường được sử dụng là cetirizine, loratadine.\n\n" +
+      " 3. Thuốc xịt mũi \n" +
+      "-  Xịt mũi chứa corticosteroid:  Như fluticasone hoặc mometasone, giúp giảm viêm trong xoang.\n" +
+      "-  Xịt mũi xông hơi muối sinh lý:  Giúp làm ẩm niêm mạc mũi và giảm nghẹt mũi.\n\n" +
+      " 4. Kháng sinh \n" +
+      "- Nếu viêm xoang nặng hoặc có dấu hiệu nhiễm khuẩn (như dịch mũi có màu vàng xanh hoặc có mủ), bác sĩ có thể kê toa kháng sinh cho bạn. Lưu ý rằng chỉ nên sử dụng kháng sinh khi có sự chỉ định của bác sĩ.\n\n" +
+      " 5. Điều trị bằng phương pháp tự nhiên \n" +
+      "-  Sử dụng nước muối sinh lý:  Rửa mũi hàng ngày có thể giúp làm sạch dịch nhầy và giảm nghẹt mũi.\n" +
+      "-  Xông hơi:  Với tinh dầu hoặc nước nóng có thể giúp giảm ngạt mũi và thông thoáng xoang.\n\n" +
+      " 6. Phẫu thuật \n" +
+      "- Trong trường hợp mãn tính, nếu các phương pháp điều trị không hiệu quả, phẫu thuật để thông xoang có thể là một lựa chọn.\n\n" +
+      "Dù có các loại thuốc hiệu quả, bạn nên tham khảo ý kiến bác sĩ để có kế hoạch điều trị phù hợp nhất cho tình trạng viêm xoang của mình. Mong rằng bạn sẽ sớm cảm thấy khỏe mạnh!",
     "dấu hiệu nhận biết của bệnh sỏi thận":
       "Dạ, nếu bạn bị sỏi thận, các dấu hiệu có thể là: đau quặn lưng hoặc bụng dưới, buồn nôn, tiểu đau, và tiểu ra máu.\n\n",
     "sỏi thận":
@@ -1248,6 +2498,28 @@ function analyzeInput(input) {
       "Dạ, nếu bạn bị suy nhược cơ thể, các dấu hiệu bao gồm: mệt mỏi, giảm cân, không thèm ăn, và dễ bị ốm.\n\n",
     "dấu hiệu nhận biết của bệnh viêm nhiễm đường tiết niệu":
       "Dạ, nếu bạn bị viêm đường tiết niệu, có thể có các dấu hiệu như: đau khi tiểu, tiểu nhiều lần, tiểu ra máu, và đau bụng dưới.\n\n",
+    "viêm ruột thừa":
+      "Dạ, đau ruột thừa, hay còn gọi là viêm ruột thừa, là một tình trạng viêm nhiễm của ruột thừa, thường gây ra cơn đau bụng dữ dội và là một cấp cứu ngoại khoa. Dưới đây là một số thông tin chi tiết về triệu chứng, chẩn đoán và điều trị viêm ruột thừa:\n\n" +
+      " Triệu chứng \n\n" +
+      "1.  Đau bụng : Cơn đau thường bắt đầu ở vùng quanh rốn và sau đó di chuyển xuống bên phải của bụng, nơi nằm của ruột thừa. Đau có thể tăng lên khi ho, hắt hơi hoặc di chuyển.\n\n" +
+      "2.  Buồn nôn và nôn : Nhiều bệnh nhân có cảm giác buồn nôn và có thể nôn.\n\n" +
+      "3.  Ăn kém : Khó chịu ăn uống do cơn đau.\n\n" +
+      "4.  Sốt nhẹ : Thường đi kèm với tình trạng viêm.\n\n" +
+      "5.  Tiêu chảy hoặc táo bón : Có thể xảy ra trong một số trường hợp.\n\n" +
+      " Chẩn đoán \n\n" +
+      "Chẩn đoán viêm ruột thừa thường dựa vào triệu chứng lâm sàng và có thể cần một số xét nghiệm như:\n\n" +
+      "-  Siêu âm bụng : Để kiểm tra tình trạng của ruột thừa.\n\n" +
+      "-  Xét nghiệm máu : Để tìm dấu hiệu viêm (tăng bạch cầu).\n\n" +
+      "-  Chụp CT bụng : Nếu cần thiết, để có hình ảnh rõ ràng hơn về cấu trúc bụng.\n\n" +
+      " Điều trị \n\n" +
+      "1.  Phẫu thuật : Phẫu thuật cắt bỏ ruột thừa (appendectomy) là phương pháp điều trị chính. Có thể thực hiện bằng cách mổ mở hoặc mổ nội soi, tùy thuộc vào từng trường hợp và tình trạng cụ thể của bệnh nhân.\n\n" +
+      "2.  Kháng sinh : Thường được dùng để điều trị nhiễm trùng trước và sau phẫu thuật.\n\n" +
+      "3.  Chăm sóc hậu phẫu : Quan trọng để tránh biến chứng và phục hồi sức khỏe.\n\n" +
+      " Biến chứng \n\n" +
+      "Nếu không được điều trị kịp thời, viêm ruột thừa có thể dẫn đến một số biến chứng nghiêm trọng như:\n\n" +
+      "-  Áp xe ruột thừa : Tình trạng tích tụ mủ.\n\n" +
+      "-  Thủng ruột thừa : Có thể gây nhiễm trùng toàn thân (viêm phúc mạc).\n\n" +
+      "Dạ, nếu bạn cần thêm thông tin chi tiết về viêm ruột thừa hoặc có câu hỏi cụ thể nào khác, xin vui lòng cho tôi biết nhé!",
     "viêm đường tiết niệu":
       "Dạ, viêm đường tiết niệu (VDTNI) là một nhiễm trùng khá phổ biến, ảnh hưởng đến một phần hoặc toàn bộ đường tiết niệu, bao gồm thận, niệu quản, bàng quang và niệu đạo. Dưới đây là thông tin chi tiết về tình trạng này:\n\n" +
       "Nguyên nhân:\n\n" +
@@ -1565,7 +2837,7 @@ function analyzeInput(input) {
       "Lời khuyên:\n\n" +
       "Nếu bạn gặp phải triệu chứng viêm da kéo dài hoặc nghiêm trọng, hãy tìm kiếm sự tư vấn từ bác sĩ hoặc chuyên gia da liễu để được chẩn đoán và điều trị thích hợp.\n\n" +
       "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
-    "cao huyết áp":
+    "Cao huyết áp":
       "Dạ, cao huyết áp, hay còn gọi là tăng huyết áp, là một tình trạng y tế phổ biến, trong đó huyết áp trong các động mạch cao hơn mức bình thường. Dưới đây là một số thông tin chi tiết về cao huyết áp:\n\n" +
       "Định nghĩa:\n\n" +
       "- Tăng huyết áp được xác định khi huyết áp tâm thu (số trên) lớn hơn 140 mmHg và/hoặc huyết áp tâm trương (số dưới) lớn hơn hoặc bằng 90 mmHg theo tiêu chuẩn của Tổ chức Y tế Thế giới (WHO).\n\n" +
@@ -1628,6 +2900,37 @@ function analyzeInput(input) {
       "Lời khuyên:\n\n" +
       "Nếu bạn gặp phải triệu chứng viêm khớp, hãy tìm kiếm sự tư vấn từ bác sĩ chuyên khoa để được chẩn đoán và điều trị đúng cách.\n\n" +
       "Dạ, hy vọng thông tin này sẽ giúp ích cho bạn trong việc hiểu biết về viêm khớp!",
+    "Béo phì":
+      "Dạ, béo phì là một tình trạng sức khỏe nghiêm trọng liên quan đến sự tích tụ mỡ thừa trong cơ thể, dẫn đến những rủi ro cho sức khỏe. Đây là một vấn đề toàn cầu, và theo Tổ chức Y tế Thế giới (WHO), béo phì được định nghĩa khi chỉ số khối cơ thể (BMI) từ 30 trở lên.\n\n" +
+      " Nguyên nhân của béo phì \n\n" +
+      "1.  Yếu tố di truyền : Di truyền có thể ảnh hưởng đến cách cơ thể xử lý thực phẩm và lưu trữ năng lượng.\n\n" +
+      "2.  Chế độ ăn : Thực phẩm giàu calo, đặc biệt là những thực phẩm có nhiều đường và chất béo.\n\n" +
+      "3.  Lối sống ít vận động : Thiếu hoạt động thể chất dẫn đến việc cơ thể không tiêu hao calo.\n\n" +
+      "4.  Yếu tố tâm lý : Căng thẳng, trầm cảm có thể dẫn đến ăn uống không kiểm soát.\n\n" +
+      "5.  Bệnh lý : Một số bệnh lý như hội chứng Cushing hoặc vấn đề về tuyến giáp có thể góp phần gây béo phì.\n\n" +
+      " Hệ quả của béo phì \n\n" +
+      "Béo phì có thể dẫn đến nhiều vấn đề sức khỏe như:\n\n" +
+      "-  Bệnh tiểu đường type 2 \n\n" +
+      "-  Bệnh tim mạch \n\n" +
+      "-  Cao huyết áp \n\n" +
+      "-  Bệnh về khớp \n\n" +
+      "-  Một số loại ung thư \n\n" +
+      " Chẩn đoán \n\n" +
+      "Chẩn đoán béo phì thường dựa trên:\n\n" +
+      "-  Chỉ số khối cơ thể (BMI) : Tính bằng công thức BMI = Cân nặng (kg) / (Chiều cao (m))^2.\n\n" +
+      "-  Vòng eo : Có thể chỉ ra sự phân bố mỡ trong cơ thể.\n\n" +
+      "-  Đánh giá tổng quát về thói quen vận động và chế độ ăn .\n\n" +
+      " Điều trị \n\n" +
+      "1.  Thay đổi lối sống :\n\n" +
+      "   - Đưa ra chế độ ăn uống lành mạnh: Nên tăng cường trái cây, rau xanh, protein nạc và hạn chế đường và chất béo bão hòa.\n\n" +
+      "   - Tăng cường hoạt động thể chất: Thực hiện các bài tập 150 phút mỗi tuần.\n\n" +
+      "2.  Liệu pháp tâm lý : Hỗ trợ về tâm lý và hành vi có thể giúp duy trì thay đổi lối sống.\n\n" +
+      "3.  Thuốc : Trong một số trường hợp, bác sĩ có thể kê đơn thuốc hỗ trợ giảm cân.\n\n" +
+      "4.  Phẫu thuật : Nếu những phương pháp trên không hiệu quả cho trường hợp nghiêm trọng, phẫu thuật giảm cân có thể được xem xét.\n\n" +
+      " Phòng ngừa \n\n" +
+      "- Tạo thói quen ăn uống khoa học từ nhỏ.\n\n" +
+      "- Khuyến khích các hoạt động thể chất và vận động thường xuyên.\n\n" +
+      "Dạ, nếu bạn cần thêm thông tin hoặc có câu hỏi cụ thể về béo phì, xin vui lòng cho tôi biết nhé!",
     "tiểu đường loại 1":
       "Dạ, bệnh tiểu đường type 1, hay còn gọi là tiểu đường phụ thuộc insulin, là một rối loạn chuyển hóa mạn tính do cơ thể không sản xuất đủ insulin. Thường gặp ở trẻ em và thanh thiếu niên, nhưng có thể xảy ra ở mọi độ tuổi.\n\n" +
       "Nguyên nhân: Bệnh có thể do di truyền, tự miễn dịch khi hệ miễn dịch tấn công các tế bào sản xuất insulin trong tuyến tụy, hoặc các yếu tố môi trường như virus.\n\n" +
@@ -1990,6 +3293,341 @@ function analyzeInput(input) {
       "-  Tham gia hoạt động xã hội  và học tập liên tục để giữ cho trí não luôn hoạt động.\n" +
       "-  Khám sức khỏe định kỳ  để phát hiện sớm các vấn đề về sức khỏe, bao gồm suy giảm trí nhớ.\n\n" +
       "Nếu tình trạng suy giảm trí nhớ diễn ra đột ngột hoặc nghiêm trọng, bạn nên liên hệ với bác sĩ để được đánh giá và điều trị kịp thời.",
+    "sốt và ho":
+      "Dạ, khi bạn gặp phải triệu chứng sốt và ho, đây có thể là dấu hiệu của nhiều tình trạng sức khỏe khác nhau, từ cảm lạnh thông thường cho đến các bệnh lý nghiêm trọng hơn. Dưới đây là một số hướng dẫn bạn có thể tham khảo:\n\n" +
+      " 1. Theo dõi triệu chứng \n" +
+      "-  Sốt:  Đo nhiệt độ thường xuyên. Nếu nhiệt độ cao hơn 38.5°C, hãy tìm cách hạ sốt.\n" +
+      "-  Ho:  Theo dõi xem ho có kèm theo đờm hay không, màu sắc và tính chất của đờm.\n\n" +
+      " 2. Nghỉ ngơi và uống đủ nước \n" +
+      "- Nghỉ ngơi đầy đủ giúp cơ thể hồi phục nhanh hơn.\n" +
+      "- Uống nhiều nước để giữ cho cơ thể luôn được cung cấp đủ nước và giúp làm loãng đờm nếu có.\n\n" +
+      " 3. Sử dụng thuốc \n" +
+      "-  Giảm sốt:  Có thể sử dụng paracetamol hoặc ibuprofen theo liều hướng dẫn để hạ sốt và giảm đau.\n" +
+      "-  Kháng histamin:  Nếu bạn có triệu chứng dị ứng kèm theo, thuốc kháng histamin có thể giúp.\n\n" +
+      " 4. Cách ly và theo dõi \n" +
+      "- Nếu bạn nghĩ rằng mình có thể đã tiếp xúc với virus hoặc mắc bệnh truyền nhiễm, hãy tự cách ly để tránh lây lan cho người khác.\n" +
+      "- Nếu các triệu chứng ngày càng nặng hơn hoặc không cải thiện sau 2-3 ngày, bạn nên tìm kiếm sự chăm sóc y tế.\n\n" +
+      " 5. Khi nào cần đi khám bác sĩ \n" +
+      "- Nếu sốt kéo dài hơn 3 ngày mà không có dấu hiệu thuyên giảm.\n" +
+      "- Nếu ho kèm theo khó thở, đau ngực, hoặc có đờm màu xanh, vàng hoặc có máu.\n" +
+      "- Nếu bạn cảm thấy mệt mỏi quá mức hoặc có triệu chứng khác như đau đầu, phát ban, hoặc đau bụng.\n\n" +
+      "Bạn nên đến cơ sở y tế để được thăm khám và chẩn đoán chính xác nếu triệu chứng nghiêm trọng. Hãy chăm sóc sức khỏe của mình và liên hệ với bác sĩ nếu cần thiết. Nếu có thêm câu hỏi nào, đừng ngần ngại cho tôi biết nhé!",
+    "đau đầu dữ dội":
+      "Dạ, nếu bạn đang cảm thấy đau đầu dữ dội, có một số loại thuốc có thể giúp bạn giảm đau hiệu quả. Tuy nhiên, trước khi tự ý sử dụng bất kỳ loại thuốc nào, bạn cần lưu ý các triệu chứng đi kèm và xác định nguyên nhân gây ra cơn đau đầu. Dưới đây là một số lựa chọn thuốc thường dùng:\n\n" +
+      " 1. Thuốc giảm đau không kê đơn \n" +
+      "-  Paracetamol (Acetaminophen):  Là lựa chọn đầu tiên cho những cơn đau đầu nhẹ đến trung bình. Đây là một loại thuốc ít gây tác dụng phụ và an toàn cho hầu hết mọi người.\n" +
+      "-  Ibuprofen:  Là thuốc chống viêm không steroid (NSAID) có tác dụng giảm đau và giảm viêm. Nó có hiệu quả hơn trong một số trường hợp đau đầu, đặc biệt là khi cơn đau do viêm gây ra.\n\n" +
+      " 2. Thuốc kê đơn \n" +
+      "-  Triptans:  Nếu bạn có tiền sử đau nửa đầu (migraine), bác sĩ có thể kê các thuốc thuộc nhóm triptans như sumatriptan hay rizatriptan, giúp giảm nhanh chóng các triệu chứng đau đầu.\n" +
+      "-  Thuốc chống co giật:  Có thể được bác sĩ kê trong trường hợp đau đầu mãn tính hoặc đau nửa đầu.\n\n" +
+      " 3. Khi nào cần đi khám bác sĩ \n" +
+      "- Đau đầu kèm theo các triệu chứng khác nghiêm trọng như sốt cao, nôn mửa, thay đổi ý thức, hoặc khó chịu không có dấu hiệu thuyên giảm.\n" +
+      "- Cơn đau đầu kéo dài hơn 48 giờ mặc dù đã dùng thuốc.\n" +
+      "- Nếu bạn có tiền sử bệnh nghiêm trọng hoặc các điều kiện sức khỏe có thể liên quan đến cơn đau đầu.\n\n" +
+      "Lưu ý rằng việc xác định đúng nguyên nhân gây ra đau đầu rất quan trọng để có phương pháp điều trị hiệu quả. Nếu cơn đau không thuyên giảm hoặc có các triệu chứng khác kèm theo, bạn nên tìm đến bác sĩ để được thăm khám và điều trị phù hợp.\n\n" +
+      "Nếu bạn cần thêm thông tin hoặc có câu hỏi thêm, xin vui lòng cho tôi biết!",
+    "dị ứng thực phẩm":
+      "Dạ, nếu bạn bị dị ứng với một số loại thực phẩm, có vài cách để giảm triệu chứng dị ứng mà bạn có thể tham khảo:\n\n" +
+      " 1. Tránh xa thực phẩm gây dị ứng \n" +
+      "Điều đầu tiên và quan trọng nhất là bạn cần xác định và tránh hoàn toàn các thực phẩm mà bạn bị dị ứng. Bạn có thể ghi chú lại các loại thực phẩm mà bạn đã tiêu thụ và bất kỳ triệu chứng nào xuất hiện sau đó để dễ dàng theo dõi và nhận diện.\n\n" +
+      " 2. Sử dụng thuốc giảm triệu chứng \n" +
+      "-  Kháng histamin:  Đây là loại thuốc giúp giảm các triệu chứng như ngứa, hắt hơi, và chảy nước mũi. Questirizine (Zyrtec) và Loratadine (Claritin) là một số thuốc kháng histamin phổ biến.\n" +
+      "-  Thuốc corticosteroid tại chỗ:  Có thể giúp giảm viêm nếu bạn có tình trạng viêm kết mạc (dị ứng mắt).\n" +
+      "-  Các loại thuốc khác:  Nếu dị ứng nghiêm trọng, bác sĩ có thể kê toa epinephrine (adrenaline) để dùng trong trường hợp khẩn cấp.\n\n" +
+      " 3. Thực hiện miễn dịch dị ứng \n" +
+      'Trong một số trường hợp, bác sĩ có thể đề xuất liệu pháp miễn dịch (thường được gọi là "miễn dịch dị ứng"). Đây là quá trình diễn ra theo thời gian, trong đó bạn được tiếp xúc với một liều lượng nhỏ thức ăn gây dị ứng để giúp cơ thể phát triển khả năng miễn dịch với chúng.\n\n' +
+      " 4. Tham khảo ý kiến bác sĩ \n" +
+      "Nếu các triệu chứng của bạn nặng hoặc ảnh hưởng tới chất lượng cuộc sống, bạn nên tham khảo ý kiến bác sĩ hoặc chuyên gia dị ứng để được tư vấn và điều trị phù hợp.\n\n" +
+      " 5. Theo dõi khẩu phần ăn \n" +
+      "Lưu giữ nhật ký thực phẩm có thể giúp bạn và bác sĩ theo dõi sự xuất hiện của triệu chứng và cải thiện sự quản lý dị ứng.\n\n" +
+      "Nhớ rằng, mỗi người có thể có phản ứng khác nhau với thực phẩm dị ứng, vì vậy điều quan trọng là tìm ra phương pháp nào phù hợp nhất cho bạn. Nếu bạn có bất kỳ triệu chứng nghiêm trọng nào, như khó thở hay sốc phản vệ, hãy tìm kiếm sự trợ giúp y tế ngay lập tức.\n\n" +
+      "Nếu bạn cần thêm thông tin cụ thể hơn hoặc có câu hỏi khác, xin vui lòng cho tôi biết nhé!",
+    "đau khớp gối":
+      "Dạ, đau khớp gối có thể do nhiều nguyên nhân khác nhau, bao gồm chấn thương, thoái hóa khớp, viêm khớp, hoặc các bệnh lý khác. Để điều trị bệnh đau khớp gối, bạn có thể thực hiện theo các biện pháp sau:\n\n" +
+      " 1. Nghỉ ngơi \n" +
+      "- Hạn chế hoạt động khiến đau tăng lên có thể giúp giảm bớt cơn đau. Nghỉ ngơi là rất quan trọng để khớp có thời gian hồi phục.\n\n" +
+      " 2. Chườm lạnh hoặc chườm nóng \n" +
+      "-  Chườm lạnh:  Sử dụng túi đá chườm lên vùng khớp gối trong 15-20 phút để giảm đau và sưng.\n" +
+      "-  Chườm nóng:  Sau khi đã giảm sưng, bạn có thể sử dụng gạc ấm hoặc túi nhiệt để thư giãn cơ bắp xung quanh khớp.\n\n" +
+      " 3. Thuốc giảm đau \n" +
+      "- Sử dụng thuốc giảm đau không kê đơn như paracetamol hoặc ibuprofen để giảm cơn đau và viêm. Tuy nhiên, bạn nên tham khảo ý kiến bác sĩ trước khi sử dụng thuốc, đặc biệt nếu bạn có các bệnh lý nền khác.\n\n" +
+      " 4. Tập thể dục cường độ nhẹ \n" +
+      "- Tập những bài tập nhẹ nhàng như đi bộ, bơi lội hoặc đạp xe có thể giúp tăng cường sức mạnh cơ bắp xung quanh khớp mà không gây áp lực lớn lên khớp.\n\n" +
+      " 5. Vật lý trị liệu \n" +
+      "- Tư vấn một chuyên gia vật lý trị liệu có thể giúp bạn tìm giải pháp điều trị thích hợp, bao gồm các bài tập nhằm cải thiện độ linh hoạt và sức mạnh cho khớp gối.\n\n" +
+      " 6. Chế độ ăn và bổ sung dinh dưỡng \n" +
+      "- Một chế độ ăn giàu omega-3 (có trong cá hồi, hạt chia) và vitamin D có thể giúp hỗ trợ sức khỏe khớp.\n" +
+      "- Bổ sung glucosamine và chondroitin có thể được xem xét nếu không có chống chỉ định.\n\n" +
+      " 7. Thăm khám bác sĩ \n" +
+      "- Nếu cơn đau không thuyên giảm trong vài tuần hoặc có dấu hiệu như sưng, đỏ, nóng, hoặc không thể cử động chân, bạn nên đến gặp bác sĩ để được khám và điều trị kịp thời. Có thể cần các phương pháp điều trị chuyên sâu hơn như tiêm thuốc vào khớp, kháng sinh, hoặc phẫu thuật nếu cần thiết.\n\n" +
+      "Hy vọng rằng thông tin này hữu ích cho bạn! Nếu bạn có bất kỳ câu hỏi nào khác, xin vui lòng cho tôi biết.",
+    "Viêm xoang":
+      "Dạ, viêm xoang là tình trạng viêm niêm mạc xoang, thường có triệu chứng như nghẹt mũi, chảy dịch mũi, đau nhức vùng mặt và có thể kèm theo sốt. Để điều trị viêm xoang hiệu quả, bạn có thể tham khảo một số loại thuốc và phương pháp sau:\n\n" +
+      " 1. Thuốc giảm đau và hạ sốt \n" +
+      "-  Paracetamol:  Giúp giảm đau và hạ sốt.\n" +
+      "-  Ibuprofen:  Ngoài tác dụng giảm đau và hạ sốt, còn có tác dụng kháng viêm.\n\n" +
+      " 2. Thuốc kháng histamin \n" +
+      "- Thuốc kháng histamin: Giúp giảm triệu chứng sổ mũi, ngứa và hắt hơi. Một số thuốc thường được sử dụng là cetirizine, loratadine.\n\n" +
+      " 3. Thuốc xịt mũi \n" +
+      "-  Xịt mũi chứa corticosteroid:  Như fluticasone hoặc mometasone, giúp giảm viêm trong xoang.\n" +
+      "-  Xịt mũi xông hơi muối sinh lý:  Giúp làm ẩm niêm mạc mũi và giảm nghẹt mũi.\n\n" +
+      " 4. Kháng sinh \n" +
+      "- Nếu viêm xoang nặng hoặc có dấu hiệu nhiễm khuẩn (như dịch mũi có màu vàng xanh hoặc có mủ), bác sĩ có thể kê toa kháng sinh cho bạn. Lưu ý rằng chỉ nên sử dụng kháng sinh khi có sự chỉ định của bác sĩ.\n\n" +
+      " 5. Điều trị bằng phương pháp tự nhiên \n" +
+      "-  Sử dụng nước muối sinh lý:  Rửa mũi hàng ngày có thể giúp làm sạch dịch nhầy và giảm nghẹt mũi.\n" +
+      "-  Xông hơi:  Với tinh dầu hoặc nước nóng có thể giúp giảm ngạt mũi và thông thoáng xoang.\n\n" +
+      " 6. Phẫu thuật \n" +
+      "- Trong trường hợp mãn tính, nếu các phương pháp điều trị không hiệu quả, phẫu thuật để thông xoang có thể là một lựa chọn.\n\n" +
+      "Dù có các loại thuốc hiệu quả, bạn nên tham khảo ý kiến bác sĩ để có kế hoạch điều trị phù hợp nhất cho tình trạng viêm xoang của mình. Mong rằng bạn sẽ sớm cảm thấy khỏe mạnh!",
+    "cải thiện tâm trạng khi buồn chán và cô đơn":
+      "Dạ, cảm giác buồn chán và cô đơn là trạng thái tâm lý phổ biến mà ai cũng có thể trải qua. Dưới đây là một số gợi ý giúp bạn cải thiện tâm trạng của mình:\n\n" +
+      " Các cách kết nối với người khác \n\n" +
+      "1.  Liên lạc với bạn bè hoặc gia đình : Hãy gọi điện, nhắn tin hoặc gặp gỡ trực tiếp để chia sẻ cảm xúc của mình.\n\n" +
+      "2.  Tham gia hoạt động nhóm : Hãy tham gia các nhóm có cùng sở thích, lớp học hoặc các câu lạc bộ để tạo ra kết nối mới.\n\n" +
+      " Thay đổi lối sống \n\n" +
+      "1.  Tập thể dục : Vận động thể chất giúp cơ thể sản sinh endorphin, làm bạn cảm thấy vui vẻ và lạc quan hơn.\n\n" +
+      "2.  Ăn uống lành mạnh : Chế độ ăn uống cân bằng không chỉ tốt cho sức khỏe mà còn cải thiện tâm trạng.\n\n" +
+      " Khám phá sở thích mới \n\n" +
+      "1.  Thử một sở thích mới : Dành thời gian cho những hoạt động mà bạn yêu thích như vẽ, nấu ăn, hoặc chơi nhạc cụ.\n\n" +
+      "2.  Thực hiện các dự án cá nhân : Điều này giúp bạn tập trung và cảm thấy có mục tiêu trong cuộc sống.\n\n" +
+      " Thiền và thực hành chánh niệm \n\n" +
+      "1.  Thực hành thiền : Thiền định hoặc yoga giúp bạn thư giãn, giảm căng thẳng và tăng cường sự tập trung.\n\n" +
+      "2.  Thở sâu : Kỹ thuật thở đúng cách cũng có thể giảm lo âu và mang lại cảm giác bình an.\n\n" +
+      " Tìm kiếm sự hỗ trợ chuyên nghiệp \n\n" +
+      "1.  Gặp chuyên gia tâm lý : Nếu cảm giác cô đơn kéo dài và ảnh hưởng tiêu cực, hãy tìm đến chuyên gia để được hỗ trợ kịp thời.\n\n" +
+      "2.  Tham gia trị liệu nhóm : Đây là cơ hội để gặp gỡ những người có chung hoàn cảnh và chia sẻ kinh nghiệm.\n\n" +
+      " Giúp đỡ người khác \n\n" +
+      "1.  Tham gia hoạt động tình nguyện : Hỗ trợ cộng đồng không chỉ làm bạn cảm thấy có ích mà còn mang lại niềm vui và kết nối mới.\n\n" +
+      "Dạ, hy vọng những gợi ý trên sẽ giúp bạn cảm thấy tốt hơn. Nếu bạn cần thêm thông tin hay muốn chia sẻ thêm, hãy cho tôi biết nhé!",
+    buồn:
+      "Dạ, cảm giác buồn chán và cô đơn là trạng thái tâm lý phổ biến mà ai cũng có thể trải qua. Dưới đây là một số gợi ý giúp bạn cải thiện tâm trạng của mình:\n\n" +
+      " Các cách kết nối với người khác \n\n" +
+      "1.  Liên lạc với bạn bè hoặc gia đình : Hãy gọi điện, nhắn tin hoặc gặp gỡ trực tiếp để chia sẻ cảm xúc của mình.\n\n" +
+      "2.  Tham gia hoạt động nhóm : Hãy tham gia các nhóm có cùng sở thích, lớp học hoặc các câu lạc bộ để tạo ra kết nối mới.\n\n" +
+      " Thay đổi lối sống \n\n" +
+      "1.  Tập thể dục : Vận động thể chất giúp cơ thể sản sinh endorphin, làm bạn cảm thấy vui vẻ và lạc quan hơn.\n\n" +
+      "2.  Ăn uống lành mạnh : Chế độ ăn uống cân bằng không chỉ tốt cho sức khỏe mà còn cải thiện tâm trạng.\n\n" +
+      " Khám phá sở thích mới \n\n" +
+      "1.  Thử một sở thích mới : Dành thời gian cho những hoạt động mà bạn yêu thích như vẽ, nấu ăn, hoặc chơi nhạc cụ.\n\n" +
+      "2.  Thực hiện các dự án cá nhân : Điều này giúp bạn tập trung và cảm thấy có mục tiêu trong cuộc sống.\n\n" +
+      " Thiền và thực hành chánh niệm \n\n" +
+      "1.  Thực hành thiền : Thiền định hoặc yoga giúp bạn thư giãn, giảm căng thẳng và tăng cường sự tập trung.\n\n" +
+      "2.  Thở sâu : Kỹ thuật thở đúng cách cũng có thể giảm lo âu và mang lại cảm giác bình an.\n\n" +
+      " Tìm kiếm sự hỗ trợ chuyên nghiệp \n\n" +
+      "1.  Gặp chuyên gia tâm lý : Nếu cảm giác cô đơn kéo dài và ảnh hưởng tiêu cực, hãy tìm đến chuyên gia để được hỗ trợ kịp thời.\n\n" +
+      "2.  Tham gia trị liệu nhóm : Đây là cơ hội để gặp gỡ những người có chung hoàn cảnh và chia sẻ kinh nghiệm.\n\n" +
+      " Giúp đỡ người khác \n\n" +
+      "1.  Tham gia hoạt động tình nguyện : Hỗ trợ cộng đồng không chỉ làm bạn cảm thấy có ích mà còn mang lại niềm vui và kết nối mới.\n\n" +
+      "Dạ, hy vọng những gợi ý trên sẽ giúp bạn cảm thấy tốt hơn. Nếu bạn cần thêm thông tin hay muốn chia sẻ thêm, hãy cho tôi biết nhé!",
+    "cô đơn":
+      "Dạ, cảm giác buồn chán và cô đơn là trạng thái tâm lý phổ biến mà ai cũng có thể trải qua. Dưới đây là một số gợi ý giúp bạn cải thiện tâm trạng của mình:\n\n" +
+      " Các cách kết nối với người khác \n\n" +
+      "1.  Liên lạc với bạn bè hoặc gia đình : Hãy gọi điện, nhắn tin hoặc gặp gỡ trực tiếp để chia sẻ cảm xúc của mình.\n\n" +
+      "2.  Tham gia hoạt động nhóm : Hãy tham gia các nhóm có cùng sở thích, lớp học hoặc các câu lạc bộ để tạo ra kết nối mới.\n\n" +
+      " Thay đổi lối sống \n\n" +
+      "1.  Tập thể dục : Vận động thể chất giúp cơ thể sản sinh endorphin, làm bạn cảm thấy vui vẻ và lạc quan hơn.\n\n" +
+      "2.  Ăn uống lành mạnh : Chế độ ăn uống cân bằng không chỉ tốt cho sức khỏe mà còn cải thiện tâm trạng.\n\n" +
+      " Khám phá sở thích mới \n\n" +
+      "1.  Thử một sở thích mới : Dành thời gian cho những hoạt động mà bạn yêu thích như vẽ, nấu ăn, hoặc chơi nhạc cụ.\n\n" +
+      "2.  Thực hiện các dự án cá nhân : Điều này giúp bạn tập trung và cảm thấy có mục tiêu trong cuộc sống.\n\n" +
+      " Thiền và thực hành chánh niệm \n\n" +
+      "1.  Thực hành thiền : Thiền định hoặc yoga giúp bạn thư giãn, giảm căng thẳng và tăng cường sự tập trung.\n\n" +
+      "2.  Thở sâu : Kỹ thuật thở đúng cách cũng có thể giảm lo âu và mang lại cảm giác bình an.\n\n" +
+      " Tìm kiếm sự hỗ trợ chuyên nghiệp \n\n" +
+      "1.  Gặp chuyên gia tâm lý : Nếu cảm giác cô đơn kéo dài và ảnh hưởng tiêu cực, hãy tìm đến chuyên gia để được hỗ trợ kịp thời.\n\n" +
+      "2.  Tham gia trị liệu nhóm : Đây là cơ hội để gặp gỡ những người có chung hoàn cảnh và chia sẻ kinh nghiệm.\n\n" +
+      " Giúp đỡ người khác \n\n" +
+      "1.  Tham gia hoạt động tình nguyện : Hỗ trợ cộng đồng không chỉ làm bạn cảm thấy có ích mà còn mang lại niềm vui và kết nối mới.\n\n" +
+      "Dạ, hy vọng những gợi ý trên sẽ giúp bạn cảm thấy tốt hơn. Nếu bạn cần thêm thông tin hay muốn chia sẻ thêm, hãy cho tôi biết nhé!",
+    "giảm bớt lo lắng quá mức":
+      "Dạ, cảm giác lo lắng quá mức có thể ảnh hưởng đến sức khỏe tinh thần và thể chất của bạn. Dưới đây là một số phương pháp giúp bạn giảm bớt lo lắng:\n\n" +
+      " Thực hành chánh niệm và thiền \n\n" +
+      "1.  Thiền : Ngồi trong không gian yên tĩnh, tập trung vào hơi thở và giữ tâm trí ở hiện tại.\n\n" +
+      "2.  Chánh niệm : Tập trung vào những gì bạn đang làm, tránh lo lắng về tương lai hoặc quá khứ.\n\n" +
+      " Tập thể dục thường xuyên \n\n" +
+      "1.  Vận động thể chất : Các hoạt động như đi bộ, chạy bộ hoặc yoga giúp cơ thể sản sinh endorphin, cải thiện tâm trạng và giảm căng thẳng.\n\n" +
+      " Kết nối xã hội \n\n" +
+      "1.  Chia sẻ với bạn bè hoặc gia đình : Nói chuyện với người bạn tin tưởng để giải tỏa căng thẳng.\n\n" +
+      "2.  Tham gia hoạt động nhóm : Đây là cách để tạo ra kết nối mới và giảm cảm giác cô đơn.\n\n" +
+      " Xây dựng chế độ ăn uống lành mạnh \n\n" +
+      "1.  Chế độ ăn uống cân bằng : Bao gồm trái cây, rau xanh, và thực phẩm giàu omega-3 giúp hỗ trợ sức khỏe tinh thần.\n\n" +
+      "2.  Tránh caffeine và đường : Những chất này có thể làm tăng cảm giác lo lắng.\n\n" +
+      " Giấc ngủ đủ và chất lượng \n\n" +
+      "1.  Ngủ ngon : Đảm bảo bạn có giấc ngủ sâu và đủ giờ để phục hồi cả thể chất và tinh thần.\n\n" +
+      " Thực hiện những sở thích \n\n" +
+      "1.  Tham gia hoạt động yêu thích : Những sở thích như vẽ, nấu ăn, hay đọc sách giúp bạn thư giãn và tập trung vào điều tích cực.\n\n" +
+      " Tìm kiếm sự hỗ trợ chuyên nghiệp \n\n" +
+      "1.  Tư vấn tâm lý : Nếu lo lắng kéo dài và ảnh hưởng đến cuộc sống, hãy gặp chuyên gia để được hỗ trợ.\n\n" +
+      "Dạ, hy vọng những gợi ý này sẽ giúp bạn cảm thấy nhẹ nhõm hơn. Nếu bạn cần thêm thông tin hoặc có câu hỏi, hãy cho tôi biết nhé!",
+    "lo lắng":
+      "Dạ, cảm giác lo lắng quá mức có thể ảnh hưởng đến sức khỏe tinh thần và thể chất của bạn. Dưới đây là một số phương pháp giúp bạn giảm bớt lo lắng:\n\n" +
+      " Thực hành chánh niệm và thiền \n\n" +
+      "1.  Thiền : Ngồi trong không gian yên tĩnh, tập trung vào hơi thở và giữ tâm trí ở hiện tại.\n\n" +
+      "2.  Chánh niệm : Tập trung vào những gì bạn đang làm, tránh lo lắng về tương lai hoặc quá khứ.\n\n" +
+      " Tập thể dục thường xuyên \n\n" +
+      "1.  Vận động thể chất : Các hoạt động như đi bộ, chạy bộ hoặc yoga giúp cơ thể sản sinh endorphin, cải thiện tâm trạng và giảm căng thẳng.\n\n" +
+      " Kết nối xã hội \n\n" +
+      "1.  Chia sẻ với bạn bè hoặc gia đình : Nói chuyện với người bạn tin tưởng để giải tỏa căng thẳng.\n\n" +
+      "2.  Tham gia hoạt động nhóm : Đây là cách để tạo ra kết nối mới và giảm cảm giác cô đơn.\n\n" +
+      " Xây dựng chế độ ăn uống lành mạnh \n\n" +
+      "1.  Chế độ ăn uống cân bằng : Bao gồm trái cây, rau xanh, và thực phẩm giàu omega-3 giúp hỗ trợ sức khỏe tinh thần.\n\n" +
+      "2.  Tránh caffeine và đường : Những chất này có thể làm tăng cảm giác lo lắng.\n\n" +
+      " Giấc ngủ đủ và chất lượng \n\n" +
+      "1.  Ngủ ngon : Đảm bảo bạn có giấc ngủ sâu và đủ giờ để phục hồi cả thể chất và tinh thần.\n\n" +
+      " Thực hiện những sở thích \n\n" +
+      "1.  Tham gia hoạt động yêu thích : Những sở thích như vẽ, nấu ăn, hay đọc sách giúp bạn thư giãn và tập trung vào điều tích cực.\n\n" +
+      " Tìm kiếm sự hỗ trợ chuyên nghiệp \n\n" +
+      "1.  Tư vấn tâm lý : Nếu lo lắng kéo dài và ảnh hưởng đến cuộc sống, hãy gặp chuyên gia để được hỗ trợ.\n\n" +
+      "Dạ, hy vọng những gợi ý này sẽ giúp bạn cảm thấy nhẹ nhõm hơn. Nếu bạn cần thêm thông tin hoặc có câu hỏi, hãy cho tôi biết nhé!",
+    "đối mặt với suy nghĩ tiêu cực":
+      "Dạ, nếu bạn đang phải đối mặt với những suy nghĩ tiêu cực, dưới đây là một số phương pháp và thực hành có thể giúp bạn cải thiện tình trạng này:\n\n" +
+      " Nhận diện và chấp nhận suy nghĩ tiêu cực \n\n" +
+      "1.  Nhận thức suy nghĩ tiêu cực : Hãy ghi lại những suy nghĩ này để nhìn nhận chúng một cách rõ ràng.\n\n" +
+      " Thực hành tư duy phản biện \n\n" +
+      "1.  Đặt câu hỏi cho suy nghĩ tiêu cực : Hỏi bản thân, 'Có bằng chứng nào chứng minh suy nghĩ này là đúng không?' hoặc 'Suy nghĩ này có giúp ích cho tôi không?'\n\n" +
+      " Thay thế bằng suy nghĩ tích cực \n\n" +
+      "1.  Thay đổi cách nhìn nhận : Chuyển từ 'Tôi không thể làm được' thành 'Tôi sẽ cố gắng hết sức'.\n\n" +
+      " Thực hành chánh niệm \n\n" +
+      "1.  Thiền : Dành thời gian mỗi ngày để tập trung vào hiện tại và giảm lo âu.\n\n" +
+      "2.  Chánh niệm : Tập trung vào những việc bạn đang làm để không bị cuốn vào dòng suy nghĩ tiêu cực.\n\n" +
+      " Kết nối với người khác \n\n" +
+      "1.  Chia sẻ cảm xúc : Nói chuyện với bạn bè hoặc gia đình để nhận được sự hỗ trợ và quan điểm tích cực.\n\n" +
+      " Tham gia hoạt động thể chất \n\n" +
+      "1.  Tập thể dục : Vận động giúp cải thiện tâm trạng và giảm suy nghĩ tiêu cực nhờ sản sinh hormone hạnh phúc.\n\n" +
+      " Tìm kiếm sự hỗ trợ chuyên nghiệp \n\n" +
+      "1.  Gặp bác sĩ tâm lý : Nếu suy nghĩ tiêu cực kéo dài và ảnh hưởng đến cuộc sống, hãy tìm đến chuyên gia để được hỗ trợ.\n\n" +
+      " Duy trì thói quen lành mạnh \n\n" +
+      "1.  Ăn uống cân bằng : Một chế độ ăn uống tốt giúp duy trì sức khỏe tinh thần.\n\n" +
+      "2.  Ngủ đủ giấc : Giấc ngủ chất lượng giúp bạn cảm thấy tỉnh táo và tích cực hơn.\n\n" +
+      "Dạ, hy vọng những gợi ý trên sẽ giúp bạn quản lý và hạn chế những suy nghĩ tiêu cực. Nếu bạn cần thêm thông tin hoặc sự hỗ trợ, hãy cho tôi biết nhé!",
+    "suy nghĩ tiêu cực":
+      "Dạ, nếu bạn đang phải đối mặt với những suy nghĩ tiêu cực, dưới đây là một số phương pháp và thực hành có thể giúp bạn cải thiện tình trạng này:\n\n" +
+      " Nhận diện và chấp nhận suy nghĩ tiêu cực \n\n" +
+      "1.  Nhận thức suy nghĩ tiêu cực : Hãy ghi lại những suy nghĩ này để nhìn nhận chúng một cách rõ ràng.\n\n" +
+      " Thực hành tư duy phản biện \n\n" +
+      "1.  Đặt câu hỏi cho suy nghĩ tiêu cực : Hỏi bản thân, 'Có bằng chứng nào chứng minh suy nghĩ này là đúng không?' hoặc 'Suy nghĩ này có giúp ích cho tôi không?'\n\n" +
+      " Thay thế bằng suy nghĩ tích cực \n\n" +
+      "1.  Thay đổi cách nhìn nhận : Chuyển từ 'Tôi không thể làm được' thành 'Tôi sẽ cố gắng hết sức'.\n\n" +
+      " Thực hành chánh niệm \n\n" +
+      "1.  Thiền : Dành thời gian mỗi ngày để tập trung vào hiện tại và giảm lo âu.\n\n" +
+      "2.  Chánh niệm : Tập trung vào những việc bạn đang làm để không bị cuốn vào dòng suy nghĩ tiêu cực.\n\n" +
+      " Kết nối với người khác \n\n" +
+      "1.  Chia sẻ cảm xúc : Nói chuyện với bạn bè hoặc gia đình để nhận được sự hỗ trợ và quan điểm tích cực.\n\n" +
+      " Tham gia hoạt động thể chất \n\n" +
+      "1.  Tập thể dục : Vận động giúp cải thiện tâm trạng và giảm suy nghĩ tiêu cực nhờ sản sinh hormone hạnh phúc.\n\n" +
+      " Tìm kiếm sự hỗ trợ chuyên nghiệp \n\n" +
+      "1.  Gặp bác sĩ tâm lý : Nếu suy nghĩ tiêu cực kéo dài và ảnh hưởng đến cuộc sống, hãy tìm đến chuyên gia để được hỗ trợ.\n\n" +
+      " Duy trì thói quen lành mạnh \n\n" +
+      "1.  Ăn uống cân bằng : Một chế độ ăn uống tốt giúp duy trì sức khỏe tinh thần.\n\n" +
+      "2.  Ngủ đủ giấc : Giấc ngủ chất lượng giúp bạn cảm thấy tỉnh táo và tích cực hơn.\n\n" +
+      "Dạ, hy vọng những gợi ý trên sẽ giúp bạn quản lý và hạn chế những suy nghĩ tiêu cực. Nếu bạn cần thêm thông tin hoặc sự hỗ trợ, hãy cho tôi biết nhé!",
+    "tự chăm sóc sức khỏe tại nhà":
+      "Dạ, mặc dù việc tự chữa bệnh tại nhà có thể giúp bạn cảm thấy thoải mái hơn, nhưng không phải tất cả các tình trạng sức khỏe đều có thể được điều trị hiệu quả mà không có sự giám sát của bác sĩ. Dưới đây là một số phương pháp bạn có thể tham khảo để tự chăm sóc sức khỏe tại nhà:\n\n" +
+      " 1. Giữ gìn sức khỏe thể chất \n\n" +
+      "1.  Chế độ ăn uống lành mạnh : Ăn đa dạng thực phẩm như trái cây, rau xanh, ngũ cốc nguyên hạt, và protein nạc. Hạn chế thực phẩm chế biến sẵn, nhiều đường và muối.\n\n" +
+      "2.  Tập thể dục thường xuyên : Thực hiện ít nhất 150 phút hoạt động thể chất vừa phải mỗi tuần.\n\n" +
+      " 2. Quản lý căng thẳng \n\n" +
+      "1.  Thiền và chánh niệm : Thực hành thiền để thư giãn, giảm căng thẳng và cải thiện tinh thần.\n\n" +
+      "2.  Hít thở sâu : Dành thời gian hàng ngày để tập hít thở sâu, giúp thư giãn cơ thể và tâm trí.\n\n" +
+      " 3. Nghỉ ngơi và phục hồi \n\n" +
+      "1.  Giấc ngủ đủ : Đảm bảo bạn ngủ đủ giấc mỗi ngày để hỗ trợ quá trình phục hồi sức khỏe.\n\n" +
+      "2.  Thư giãn : Tham gia vào các hoạt động yêu thích để giảm căng thẳng và thư giãn tâm trí.\n\n" +
+      " 4. Sử dụng các biện pháp tự nhiên \n\n" +
+      "1.  Nước ấm và chanh : Uống nước ấm pha chanh để tăng cường hệ miễn dịch và làm dịu cơn đau họng.\n\n" +
+      "2.  Gừng và mật ong : Nước gừng hoặc mật ong có thể giúp kháng viêm và hỗ trợ giảm triệu chứng bệnh tật.\n\n" +
+      " 5. Theo dõi dấu hiệu sức khỏe \n\n" +
+      "1.  Lưu ý các triệu chứng : Quan sát tình trạng sức khỏe của bạn. Nếu không cải thiện hoặc có dấu hiệu nghiêm trọng, hãy tìm kiếm sự tư vấn y tế.\n\n" +
+      " 6. Tìm kiếm thông tin \n\n" +
+      "1.  Tìm hiểu qua các nguồn tin cậy : Đọc sách, tìm kiếm trên internet hoặc tham khảo ý kiến chuyên gia để hiểu rõ hơn về tình trạng sức khỏe của mình.\n\n" +
+      "Dù bạn có thể tự chăm sóc bản thân tại nhà, nhưng nếu xuất hiện triệu chứng nghiêm trọng hoặc không biến chuyển, hãy tìm đến bác sĩ để được chẩn đoán và điều trị kịp thời. Dạ, nếu bạn cần thêm thông tin hoặc có câu hỏi cụ thể, hãy cho tôi biết nhé!",
+    "tự chữa bệnh tại nhà":
+      "Dạ, mặc dù việc tự chữa bệnh tại nhà có thể giúp bạn cảm thấy thoải mái hơn, nhưng không phải tất cả các tình trạng sức khỏe đều có thể được điều trị hiệu quả mà không có sự giám sát của bác sĩ. Dưới đây là một số phương pháp bạn có thể tham khảo để tự chăm sóc sức khỏe tại nhà:\n\n" +
+      " 1. Giữ gìn sức khỏe thể chất \n\n" +
+      "1.  Chế độ ăn uống lành mạnh : Ăn đa dạng thực phẩm như trái cây, rau xanh, ngũ cốc nguyên hạt, và protein nạc. Hạn chế thực phẩm chế biến sẵn, nhiều đường và muối.\n\n" +
+      "2.  Tập thể dục thường xuyên : Thực hiện ít nhất 150 phút hoạt động thể chất vừa phải mỗi tuần.\n\n" +
+      " 2. Quản lý căng thẳng \n\n" +
+      "1.  Thiền và chánh niệm : Thực hành thiền để thư giãn, giảm căng thẳng và cải thiện tinh thần.\n\n" +
+      "2.  Hít thở sâu : Dành thời gian hàng ngày để tập hít thở sâu, giúp thư giãn cơ thể và tâm trí.\n\n" +
+      " 3. Nghỉ ngơi và phục hồi \n\n" +
+      "1.  Giấc ngủ đủ : Đảm bảo bạn ngủ đủ giấc mỗi ngày để hỗ trợ quá trình phục hồi sức khỏe.\n\n" +
+      "2.  Thư giãn : Tham gia vào các hoạt động yêu thích để giảm căng thẳng và thư giãn tâm trí.\n\n" +
+      " 4. Sử dụng các biện pháp tự nhiên \n\n" +
+      "1.  Nước ấm và chanh : Uống nước ấm pha chanh để tăng cường hệ miễn dịch và làm dịu cơn đau họng.\n\n" +
+      "2.  Gừng và mật ong : Nước gừng hoặc mật ong có thể giúp kháng viêm và hỗ trợ giảm triệu chứng bệnh tật.\n\n" +
+      " 5. Theo dõi dấu hiệu sức khỏe \n\n" +
+      "1.  Lưu ý các triệu chứng : Quan sát tình trạng sức khỏe của bạn. Nếu không cải thiện hoặc có dấu hiệu nghiêm trọng, hãy tìm kiếm sự tư vấn y tế.\n\n" +
+      " 6. Tìm kiếm thông tin \n\n" +
+      "1.  Tìm hiểu qua các nguồn tin cậy : Đọc sách, tìm kiếm trên internet hoặc tham khảo ý kiến chuyên gia để hiểu rõ hơn về tình trạng sức khỏe của mình.\n\n" +
+      "Dù bạn có thể tự chăm sóc bản thân tại nhà, nhưng nếu xuất hiện triệu chứng nghiêm trọng hoặc không biến chuyển, hãy tìm đến bác sĩ để được chẩn đoán và điều trị kịp thời. Dạ, nếu bạn cần thêm thông tin hoặc có câu hỏi cụ thể, hãy cho tôi biết nhé!",
+    "sốt và xì mũi":
+      "Dạ, nếu bạn đang gặp tình trạng sốt và xì mũi, đây có thể là triệu chứng của các bệnh lý như cảm lạnh, viêm xoang, hoặc các vấn đề liên quan đến đường hô hấp. Dưới đây là một số hướng dẫn để bạn có thể chăm sóc tại nhà:\n\n" +
+      " 1. Nghỉ ngơi và phục hồi \n\n" +
+      "1.  Nghỉ ngơi đủ : Hãy dành thời gian để cơ thể có cơ hội phục hồi. Ngủ đủ giấc giúp tăng cường hệ miễn dịch.\n\n" +
+      " 2. Uống đủ nước \n\n" +
+      "1.  Giữ cơ thể không mất nước : Uống nhiều nước, nước trái cây, hoặc nước ấm với chanh và mật ong để làm dịu cổ họng và giảm nghẹt mũi.\n\n" +
+      " 3. Sử dụng thuốc giảm đau và hạ sốt \n\n" +
+      "1.  Paracetamol : Có thể sử dụng thuốc hạ sốt hoặc giảm đau như paracetamol, tuân thủ đúng liều lượng hướng dẫn trên bao bì hoặc tham khảo ý kiến dược sĩ.\n\n" +
+      " 4. Xông hơi \n\n" +
+      "1.  Xông hơi nước nóng : Hít hơi nước nóng để làm giảm nghẹt mũi. Bạn có thể thêm vài giọt tinh dầu như eucalyptus vào nước nóng để tăng hiệu quả.\n\n" +
+      " 5. Xịt mũi bằng dung dịch muối \n\n" +
+      "1.  Dung dịch nước muối sinh lý : Rửa mũi bằng nước muối sinh lý để làm sạch và giảm tắc nghẽn mũi.\n\n" +
+      " 6. Theo dõi triệu chứng \n\n" +
+      "1.  Chú ý các dấu hiệu nghiêm trọng : Nếu không cải thiện sau vài ngày hoặc có triệu chứng như khó thở, đau ngực, hoặc sốt cao kéo dài, hãy tìm đến cơ sở y tế.\n\n" +
+      " 7. Hạn chế lây lan \n\n" +
+      "1.  Tránh tiếp xúc với người khác : Nếu bạn bị cảm lạnh hoặc cúm, hãy hạn chế tiếp xúc gần để ngăn ngừa sự lây lan.\n\n" +
+      "Dạ, hy vọng những hướng dẫn trên sẽ giúp bạn cải thiện tình trạng sức khỏe. Nếu bạn cần thêm thông tin hoặc có triệu chứng khác cần tư vấn, vui lòng cho tôi biết nhé!",
+    "ngủ nhiều":
+      "Dạ, việc ngủ nhiều có thể xuất phát từ nhiều nguyên nhân và có thể ảnh hưởng đến sức khỏe của bạn. Dưới đây là một số thông tin chi tiết mà bạn có thể tham khảo:\n\n" +
+      " 1. Nguyên nhân gây ra ngủ nhiều \n\n" +
+      "1.  Thiếu ngủ trước đó : Nếu bạn không ngủ đủ giấc trong một thời gian dài, cơ thể có thể cần thêm giấc ngủ để phục hồi.\n" +
+      "2.  Căng thẳng hoặc lo âu : Những áp lực trong cuộc sống có thể khiến bạn cảm thấy mệt mỏi hơn và cần ngủ nhiều hơn.\n" +
+      "3.  Rối loạn giấc ngủ : Các tình trạng như ngưng thở khi ngủ hoặc hội chứng chân không yên có thể làm bạn cảm thấy mệt dù ngủ nhiều.\n" +
+      "4.  Bệnh lý : Một số bệnh như trầm cảm, chứng ngủ rũ, hoặc các vấn đề nội khoa có thể dẫn đến tình trạng ngủ nhiều.\n" +
+      "5.  Lối sống : Thói quen ít vận động, chế độ ăn uống không hợp lý, hoặc sử dụng nhiều thiết bị điện tử trước khi ngủ cũng có thể là nguyên nhân.\n\n" +
+      " 2. Hệ quả của việc ngủ nhiều \n\n" +
+      "1.  Mệt mỏi kéo dài : Dù ngủ nhiều nhưng bạn vẫn cảm thấy uể oải và thiếu năng lượng.\n" +
+      "2.  Giảm khả năng tập trung : Việc ngủ quá mức có thể làm giảm hiệu quả trong công việc và học tập.\n" +
+      "3.  Tăng nguy cơ bệnh lý : Ngủ nhiều liên quan đến nguy cơ mắc các bệnh tim mạch, tiểu đường, và béo phì.\n\n" +
+      " 3. Giải pháp cải thiện \n\n" +
+      "1.  Thiết lập lịch ngủ hợp lý : Cố gắng duy trì thời gian đi ngủ và thức dậy cố định mỗi ngày.\n" +
+      "2.  Tạo môi trường ngủ lý tưởng : Nơi ngủ nên yên tĩnh, tối và thoáng mát để giúp bạn ngủ ngon hơn.\n" +
+      "3.  Tăng cường hoạt động thể chất : Tập thể dục đều đặn giúp cải thiện chất lượng giấc ngủ và giảm cảm giác mệt mỏi.\n" +
+      "4.  Tham khảo ý kiến bác sĩ : Nếu tình trạng ngủ nhiều kéo dài hoặc gây ảnh hưởng nghiêm trọng, hãy tìm sự hỗ trợ y tế để xác định nguyên nhân và hướng điều trị.\n\n" +
+      "Dạ, hy vọng những thông tin trên sẽ giúp bạn hiểu rõ hơn về tình trạng này và tìm được giải pháp phù hợp. Nếu cần thêm thông tin hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
+    "ngủ ít":
+      "Dạ, ngủ ít có thể là một tình trạng ảnh hưởng đến sức khỏe tinh thần và thể chất của bạn. Dưới đây là một số thông tin chi tiết mà bạn có thể tham khảo:\n\n" +
+      " 1. Nguyên nhân gây mất ngủ \n\n" +
+      "1.  Căng thẳng và lo âu : Những áp lực trong cuộc sống hay công việc có thể gây khó khăn cho việc ngủ, khiến bạn khó đi vào giấc ngủ hoặc không ngủ sâu.\n" +
+      "2.  Rối loạn giấc ngủ : Các tình trạng như chứng mất ngủ, ngưng thở khi ngủ có thể làm giảm thời gian ngủ.\n" +
+      "3.  Thói quen sinh hoạt : Tăng cường sử dụng các thiết bị điện tử, uống cà phê hoặc đồ uống có caffein, ăn uống không đúng giờ có thể ảnh hưởng đến giấc ngủ.\n" +
+      "4.  Bệnh lý : Một số vấn đề sức khỏe như bệnh tim mạch, đau mãn tính, hoặc trầm cảm có thể gây ra tình trạng mất ngủ.\n\n" +
+      " 2. Hệ quả của việc ngủ ít \n\n" +
+      "1.  Giảm khả năng tập trung : Thiếu ngủ có thể ảnh hưởng đến khả năng chú ý và ghi nhớ, khiến bạn không thể làm việc một cách hiệu quả.\n" +
+      "2.  Tăng nguy cơ sức khỏe : Những người ngủ không đủ giấc có nguy cơ cao mắc các bệnh như tiểu đường, béo phì, và bệnh tim.\n" +
+      "3.  Ảnh hưởng đến tâm trạng : Không đủ giấc ngủ có thể làm gia tăng cảm giác lo âu, trầm cảm và khó chịu trong cuộc sống hàng ngày.\n\n" +
+      " 3. Giải pháp cải thiện giấc ngủ \n\n" +
+      "1.  Thiết lập thói quen ngủ hợp lý : Ngủ và dậy vào cùng một giờ mỗi ngày, kể cả vào cuối tuần.\n" +
+      "2.  Tạo môi trường ngủ thoải mái : Đảm bảo phòng ngủ tối, yên tĩnh và có nhiệt độ thoải mái.\n" +
+      "3.  Giảm dùng thiết bị điện tử : Hạn chế sử dụng điện thoại, máy tính hoặc tivi ít nhất một giờ trước khi đi ngủ.\n" +
+      "4.  Thư giãn trước khi ngủ : Thực hiện các hoạt động thư giãn như đọc sách, thiền hoặc tắm nước ấm để giúp cơ thể lạnh đi và dễ đi vào giấc ngủ hơn.\n" +
+      "5.  Tập thể dục đều đặn : Vận động thể chất thường xuyên có thể giúp cải thiện chất lượng giấc ngủ, nhưng tránh tập thể dục gần giờ đi ngủ.\n\n" +
+      "Dạ, hy vọng những thông tin trên sẽ giúp bạn hiểu rõ hơn về tình trạng này và tìm được giải pháp phù hợp. Nếu cần thêm thông tin hoặc có câu hỏi nào khác, hãy cho tôi biết nhé!",
+    "chậm kinh":
+      "Dạ, chậm kinh nguyệt là một tình trạng phổ biến mà nhiều phụ nữ có thể gặp phải. Nguyên nhân gây ra chậm kinh nguyệt có thể rất đa dạng và không phải lúc nào cũng là dấu hiệu của một vấn đề nghiêm trọng. Dưới đây là một số nguyên nhân và thông tin liên quan:\n\n" +
+      " 1. Nguyên nhân chậm kinh nguyệt \n\n" +
+      "1.  Mang thai : Đây là nguyên nhân phổ biến nhất của việc chậm kinh. Nếu bạn có quan hệ tình dục không bảo vệ và kinh nguyệt chậm, bạn nên dùng que thử thai để kiểm tra.\n" +
+      "2.  Căng thẳng : Tình trạng căng thẳng tâm lý cao có thể ảnh hưởng đến hormone và làm trì hoãn chu kỳ kinh nguyệt.\n" +
+      "3.  Thay đổi cân nặng : Tăng hoặc giảm cân nhanh chóng có thể làm thay đổi chu kỳ kinh nguyệt. Người mắc chứng rối loạn ăn uống cũng có thể gặp phải tình trạng này.\n" +
+      "4.  Vấn đề về hormone : Các vấn đề liên quan đến hormone như hội chứng buồng trứng đa nang (PCOS) có thể gây ra chậm kinh.\n" +
+      "5.  Lối sống : Biến động về lối sống như thay đổi chế độ ăn uống, mất ngủ hoặc tập luyện thể dục quá mức.\n" +
+      "6.  Bệnh lý : Một số bệnh mạn tính như tiểu đường, bệnh tuyến giáp hoặc bệnh lý phụ khoa có thể ảnh hưởng đến chu kỳ kinh nguyệt.\n\n" +
+      " 2. Khi nào cần đi khám \n\n" +
+      "1.  Chậm kinh kéo dài : Nếu bạn bị chậm kinh kéo dài hoặc có các triệu chứng khác như đau bụng dữ dội, chảy máu không bình thường, hoặc triệu chứng không tự cải thiện.\n" +
+      "2.  Dấu hiệu thai kỳ : Nếu bạn có dấu hiệu của thai kỳ nhưng không mong muốn mang thai.\n\n" +
+      " 3. Giải pháp \n\n" +
+      "1.  Theo dõi chu kỳ kinh nguyệt : Theo dõi chu kỳ kinh nguyệt của bạn để nhận biết các thay đổi và nguyên nhân tiềm ẩn.\n" +
+      "2.  Tham khảo ý kiến bác sĩ : Nếu lo lắng hoặc nhận thấy các dấu hiệu bất thường, hãy tham khảo ý kiến bác sĩ chuyên khoa sản để được chẩn đoán và điều trị kịp thời.\n\n" +
+      "Dạ, chậm kinh nguyệt không phải luôn là vấn đề nghiêm trọng, nhưng nếu bạn có bất kỳ thắc mắc nào hoặc lo lắng về tình trạng của mình, hãy tìm kiếm sự tư vấn từ bác sĩ để nhận được sự hỗ trợ phù hợp. Nếu cần thêm thông tin cụ thể hơn, hãy cho tôi biết nhé!",
   };
 
   for (const key in responses) {
