@@ -25,8 +25,32 @@ import chungnhan1 from "../../assets/img/chungnhan1.jpg";
 import chungnhan2 from "../../assets/img/chungnhan2.jpg";
 import chungnhan3 from "../../assets/img/chungnhan3.jpg";
 import chungnhan4 from "../../assets/img/chungnhan4.jpg";
+import axios from "axios";
+import ReactPaginate from "react-paginate";
+import MedicinesList from "./Medicines";
+
+// import { getAllMedicines } from "../../../../server/controllers/medicineController";
 
 const HomePage = () => {
+  const [medicines, setMedicines] = useState([]); // Sửa tên hàm cập nhật state cho thuốc
+  const [loading, setLoading] = useState(true); // Thêm state để quản lý trạng thái loading
+
+  // Hàm để lấy danh sách thuốc
+  // const fetchMedicines = async () => {
+  //   try {
+  //     const data = await getAllMedicines(); // Giả sử bạn có hàm này tương tự như getAllUser ByRole
+  //     setMedicines(data.medicines); // Cập nhật state cho thuốc
+  //   } catch (error) {
+  //     console.error("Lỗi khi  lấy thuốc:", error);
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   fetchMedicines(); // Gọi hàm fetchMedicines khi component mount
+  // }, []);
+
   const navigate = useNavigate();
   const [isExpanded, setIsExpanded] = useState(false);
   const handleBookingBySpecialties = (specialty) => {
@@ -358,10 +382,10 @@ const HomePage = () => {
           </div>
         </div>
 
+        {/* tin y tế */}
         <div className="news_section">
           <h1 className="title">Tin Y tế</h1>
           <p className="subtitle">Chính thống - Minh bạch - Trung lập</p>
-
           <div className="search_container">
             <div className="filter_buttons">
               <button>Thuốc</button>
@@ -376,70 +400,12 @@ const HomePage = () => {
               </button>
             </div>
           </div>
-
-          <div className="news_cards_container">
-            <div className="news_card">
-              <img src={image2} alt="News Image" />
-              <div className="news_info">
-                <h3>
-                  Tìm hiểu về hệ nội tiết của cơ thể: Chức năng và các bệnh lý
-                  liên quan
-                </h3>
-                <p>ThS.BS Hồ Phúc Hiếu - Cập nhật: 30/9/2024</p>
-              </div>
-            </div>
-            <div className="news_card">
-              <img src={image2} alt="News Image" />
-              <div className="news_info">
-                <h3>
-                  Tìm hiểu về hệ nội tiết của cơ thể: Chức năng và các bệnh lý
-                  liên quan
-                </h3>
-                <p>ThS.BS Hồ Phúc Hiếu - Cập nhật: 30/9/2024</p>
-              </div>
-            </div>
-            <div className="news_card">
-              <img src={image2} alt="News Image" />
-              <div className="news_info">
-                <h3>
-                  Tìm hiểu về hệ nội tiết của cơ thể: Chức năng và các bệnh lý
-                  liên quan
-                </h3>
-                <p>ThS.BS Hồ Phúc Hiếu - Cập nhật: 30/9/2024</p>
-              </div>
-            </div>
-            <div className="news_card">
-              <img src={image2} alt="News Image" />
-              <div className="news_info">
-                <h3>
-                  Tìm hiểu về hệ nội tiết của cơ thể: Chức năng và các bệnh lý
-                  liên quan
-                </h3>
-                <p>ThS.BS Hồ Phúc Hiếu - Cập nhật: 30/9/2024</p>
-              </div>
-            </div>
-            <div className="news_card">
-              <img src={image2} alt="News Image" />
-              <div className="news_info">
-                <h3>
-                  Tìm hiểu về hệ nội tiết của cơ thể: Chức năng và các bệnh lý
-                  liên quan
-                </h3>
-                <p>ThS.BS Hồ Phúc Hiếu - Cập nhật: 30/9/2024</p>
-              </div>
-            </div>
-            <div className="news_card">
-              <img src={image2} alt="News Image" />
-              <div className="news_info">
-                <h3>
-                  Klamentin là thuốc gì? Công dụng, cách dùng và lưu ý khi sử
-                  dụng
-                </h3>
-                <p>Dược sĩ Lê Văn Trung Tính - Cập nhật: 24/05/2024</p>
-              </div>
-            </div>
+          <div>
+            <MedicinesList />
           </div>
         </div>
+        {/* kết thúc tin y tế */}
+
         <div className="data-security-section">
           <h1 className="title">GIẤY PHÉP CHỨNG NHẬN ĐẠT CHUẨN GPP</h1>
           <p className="subtitle">
