@@ -26,11 +26,70 @@ import chungnhan2 from "../../assets/img/chungnhan2.jpg";
 import chungnhan3 from "../../assets/img/chungnhan3.jpg";
 import chungnhan4 from "../../assets/img/chungnhan4.jpg";
 import axios from "axios";
-import MedicinesList from "./Medicines";
+import ReactPaginate from "react-paginate";
+import "../../style/Medicines/Medicines.scss";
 
 const HomePage = () => {
-  const [medicines, setMedicines] = useState([]); // Sửa tên hàm cập nhật state cho thuốc
-  const [loading, setLoading] = useState(true); // Thêm state để quản lý trạng thái loading
+  // thuốc
+  const [medicines, setMedicines] = useState([]);
+  const [totalPages, setTotalPages] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [searchKeyword, setSearchKeyword] = useState("");
+
+  const limit = 7;
+
+  // Fetch medicines function
+  const fetchMedicines = async (page = 1, keyword = "") => {
+    try {
+      const url = keyword
+        ? `http://localhost:8000/api/medicines/all-medicines?page=${page}&limit=${limit}&search=${keyword}`
+        : `http://localhost:8000/api/medicines/all-medicines?page=${page}&limit=${limit}`;
+
+      const response = await axios.get(url);
+      if (response.data.success) {
+        setMedicines(response.data.medicines);
+        setTotalPages(response.data.totalPages);
+        setCurrentPage(response.data.currentPage);
+      } else {
+        console.error("Failed to fetch medicines:", response.data.message);
+      }
+    } catch (error) {
+      console.error("Error fetching medicines:", error);
+    }
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      // Nếu người dùng nhấn Enter, gọi hàm tìm kiếm
+      fetchMedicines(1, searchKeyword.trim());
+    }
+  };
+
+  const handleSearchChange = (event) => {
+    const keyword = event.target.value;
+    setSearchKeyword(keyword);
+
+    // Nếu ô tìm kiếm rỗng, gọi API để lấy toàn bộ danh sách thuốc
+    if (keyword.trim() === "") {
+      fetchMedicines(1); // Gọi API mà không có tham số search
+    }
+  };
+
+  const handleSearch = () => {
+    fetchMedicines(1, searchKeyword.trim()); // Gửi từ khóa tìm kiếm (hoặc rỗng nếu xóa)
+  };
+
+  // Effect to fetch data when the page changes
+  useEffect(() => {
+    fetchMedicines(currentPage);
+  }, [currentPage]);
+
+  // Handle pagination click
+  const handlePageClick = (data) => {
+    const selectedPage = data.selected + 1; // ReactPaginate pages are 0-indexed
+    setCurrentPage(selectedPage);
+  };
+  // kêt thúc thuốc
 
   const navigate = useNavigate();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -371,14 +430,68 @@ const HomePage = () => {
               <button>Cơ thể</button>
             </div>
             <div className="search_bar">
-              <input type="text" placeholder="Nhập tên thuốc..." />
-              <button className="search_icon">
+              <input
+                type="text"
+                placeholder="Nhập tên thuốc..."
+                value={searchKeyword}
+                onChange={handleSearchChange} // Xử lý khi người dùng nhập
+                onKeyDown={handleKeyDown} // Xử lý khi nhấn Enter
+              />
+              <button className="search_icon" onClick={handleSearch}>
                 <i className="fa fa-search"></i>
               </button>
             </div>
           </div>
           <div>
-            <MedicinesList />
+            {medicines.length > 0 ? (
+              <ul className="product_grid">
+                {medicines.map((medicine) => (
+                  <div className="product_card" key={medicine._id}>
+                    <img
+                      src={medicine.medicalImage}
+                      alt={medicine.name}
+                      className="product_image"
+                    />
+                    <h3 className="product_name">{medicine.name}</h3>
+                    <p className="product_description">
+                      <strong>Mô tả:</strong>{" "}
+                      {medicine.description.substring(0, 100)}
+                      ...
+                    </p>
+                    <p className="product_price">
+                      <strong>Giá:</strong> {medicine.price}đ
+                    </p>
+                    <a
+                      href={`/medicine/${medicine._id}`}
+                      className="product_link"
+                    >
+                      Xem chi tiết
+                    </a>
+                  </div>
+                ))}
+              </ul>
+            ) : (
+              <p>Không tìm thấy thuốc nào.</p>
+            )}
+            <ReactPaginate
+              previousLabel={"Previous"}
+              nextLabel={"Next"}
+              breakLabel={"..."}
+              pageCount={totalPages}
+              marginPagesDisplayed={2}
+              pageRangeDisplayed={3}
+              onPageChange={handlePageClick}
+              containerClassName={"pagination-container"}
+              pageClassName={"page-item"}
+              pageLinkClassName={"page-link"}
+              previousClassName={"page-item"}
+              previousLinkClassName={"page-link"}
+              nextClassName={"page-item"}
+              nextLinkClassName={"page-link"}
+              breakClassName={"page-item"}
+              breakLinkClassName={"page-link"}
+              activeClassName={"active"}
+            />
           </div>
         </div>
         {/* kết thúc tin y tế */}
