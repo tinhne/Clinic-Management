@@ -26,30 +26,11 @@ import chungnhan2 from "../../assets/img/chungnhan2.jpg";
 import chungnhan3 from "../../assets/img/chungnhan3.jpg";
 import chungnhan4 from "../../assets/img/chungnhan4.jpg";
 import axios from "axios";
-import ReactPaginate from "react-paginate";
 import MedicinesList from "./Medicines";
-
-// import { getAllMedicines } from "../../../../server/controllers/medicineController";
 
 const HomePage = () => {
   const [medicines, setMedicines] = useState([]); // Sửa tên hàm cập nhật state cho thuốc
   const [loading, setLoading] = useState(true); // Thêm state để quản lý trạng thái loading
-
-  // Hàm để lấy danh sách thuốc
-  // const fetchMedicines = async () => {
-  //   try {
-  //     const data = await getAllMedicines(); // Giả sử bạn có hàm này tương tự như getAllUser ByRole
-  //     setMedicines(data.medicines); // Cập nhật state cho thuốc
-  //   } catch (error) {
-  //     console.error("Lỗi khi  lấy thuốc:", error);
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchMedicines(); // Gọi hàm fetchMedicines khi component mount
-  // }, []);
 
   const navigate = useNavigate();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -90,10 +71,6 @@ const HomePage = () => {
   };
   return (
     <>
-      {/* <div className="chatbot-container">
-        <Chatbot />
-      </div> */}
-
       <div className="body-homepage">
         <div className="description-search-container">
           <p className="description_1">Ứng dụng đặt khám </p>
