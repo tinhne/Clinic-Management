@@ -573,6 +573,32 @@ function analyzeInput(input) {
       "- Có dấu hiệu sốt cao, nôn mửa kéo dài, hoặc có máu trong phân.\n" +
       "- Khó thở, chóng mặt.\n" +
       "- Tiền sử bệnh lý về các cơ quan bụng.",
+    "bệnh trĩ":
+      "Dạ, bệnh trĩ là tình trạng xảy ra khi các tĩnh mạch ở vùng hậu môn và trực tràng bị sưng và viêm. Bệnh này có thể xuất hiện ở cả nam và nữ và có thể gây ra nhiều triệu chứng khó chịu như đau, ngứa, và xuất huyết. Dưới đây là một số thông tin hữu ích về bệnh trĩ:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Tăng áp lực trong khu vực hậu môn: Điều này có thể do ngồi lâu, mang vác nặng, hoặc táo bón thường xuyên.\n" +
+      "2. Thay đổi nội tiết: Phụ nữ mang thai thường có nguy cơ cao do thay đổi hormone và tăng áp lực lên vùng chậu.\n" +
+      "3. Tuổi tác: Tuổi tác cao có thể làm suy yếu các mô hỗ trợ trong trực tràng và hậu môn.\n" +
+      "4. Chế độ dinh dưỡng: Ăn ít chất xơ có thể dẫn đến táo bón, làm tăng nguy cơ mắc trĩ.\n\n" +
+      "Triệu chứng:\n" +
+      "- Đau và cảm giác khó chịu ở vùng hậu môn.\n" +
+      "- Ngứa hoặc viêm xung quanh vùng hậu môn.\n" +
+      "- Xuất huyết khi đi tiêu (máu đỏ tươi trên giấy vệ sinh hoặc trong phân).\n" +
+      "- Cảm giác cộm, đầy ở vùng hậu môn.\n\n" +
+      "Phân loại:\n" +
+      "- Trĩ nội: Xuất hiện ở bên trong trực tràng và thường không thấy được bằng mắt thường nhưng có thể gây ra chảy máu.\n" +
+      "- Trĩ ngoại: Xuất hiện bên ngoài hậu môn và có thể gây ra đau và khó chịu.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Thay đổi lối sống:\n" +
+      "   - Bổ sung nhiều chất xơ vào chế độ ăn uống (rau củ, trái cây, ngũ cốc nguyên hạt).\n" +
+      "   - Uống nhiều nước để tránh táo bón.\n" +
+      "   - Tập thể dục thường xuyên để cải thiện lưu thông máu.\n\n" +
+      "2. Thuốc: \n" +
+      "   - Có thể sử dụng thuốc bôi tại chỗ hoặc các loại thuốc giảm đau để giảm triệu chứng.\n\n" +
+      "3. Điều trị y tế:\n" +
+      "   - Nếu triệu chứng nghiêm trọng hoặc không cải thiện, hãy thăm bác sĩ để được chuẩn đoán và điều trị thích hợp. Có thể bao gồm các phương pháp can thiệp như làm thủ thuật hoặc phẫu thuật.\n\n" +
+      "4. Thăm khám định kỳ: Nếu bạn có lịch sử gia đình mắc bệnh trĩ hoặc có các triệu chứng cấp tính, hãy thăm khám định kỳ để phát hiện sớm và điều trị kịp thời.\n\n" +
+      "Nếu bạn gặp phải các triệu chứng nghiêm trọng như chảy máu nhiều hoặc đau mạnh, vui lòng tìm kiếm sự trợ giúp y tế ngay lập tức. Mong rằng những thông tin này hữu ích cho bạn! Bạn có cần thêm thông tin gì không?",
     "đau cánh tay":
       "Dạ, đau cánh tay có thể do nhiều nguyên nhân và ảnh hưởng đến khả năng hoạt động của bạn.\n\n" +
       "  Nguyên nhân gây đau cánh tay  \n" +
@@ -608,6 +634,32 @@ function analyzeInput(input) {
       "- Có triệu chứng đau họng nghiêm trọng hoặc khó nuốt.\n" +
       "- Kèm theo triệu chứng sốt cao hoặc ho ra máu.\n" +
       "- Có cảm giác khó thở hoặc khò khè.",
+    trĩ:
+      "Dạ, bệnh trĩ là tình trạng xảy ra khi các tĩnh mạch ở vùng hậu môn và trực tràng bị sưng và viêm. Bệnh này có thể xuất hiện ở cả nam và nữ và có thể gây ra nhiều triệu chứng khó chịu như đau, ngứa, và xuất huyết. Dưới đây là một số thông tin hữu ích về bệnh trĩ:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Tăng áp lực trong khu vực hậu môn: Điều này có thể do ngồi lâu, mang vác nặng, hoặc táo bón thường xuyên.\n" +
+      "2. Thay đổi nội tiết: Phụ nữ mang thai thường có nguy cơ cao do thay đổi hormone và tăng áp lực lên vùng chậu.\n" +
+      "3. Tuổi tác: Tuổi tác cao có thể làm suy yếu các mô hỗ trợ trong trực tràng và hậu môn.\n" +
+      "4. Chế độ dinh dưỡng: Ăn ít chất xơ có thể dẫn đến táo bón, làm tăng nguy cơ mắc trĩ.\n\n" +
+      "Triệu chứng:\n" +
+      "- Đau và cảm giác khó chịu ở vùng hậu môn.\n" +
+      "- Ngứa hoặc viêm xung quanh vùng hậu môn.\n" +
+      "- Xuất huyết khi đi tiêu (máu đỏ tươi trên giấy vệ sinh hoặc trong phân).\n" +
+      "- Cảm giác cộm, đầy ở vùng hậu môn.\n\n" +
+      "Phân loại:\n" +
+      "- Trĩ nội: Xuất hiện ở bên trong trực tràng và thường không thấy được bằng mắt thường nhưng có thể gây ra chảy máu.\n" +
+      "- Trĩ ngoại: Xuất hiện bên ngoài hậu môn và có thể gây ra đau và khó chịu.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Thay đổi lối sống:\n" +
+      "   - Bổ sung nhiều chất xơ vào chế độ ăn uống (rau củ, trái cây, ngũ cốc nguyên hạt).\n" +
+      "   - Uống nhiều nước để tránh táo bón.\n" +
+      "   - Tập thể dục thường xuyên để cải thiện lưu thông máu.\n\n" +
+      "2. Thuốc: \n" +
+      "   - Có thể sử dụng thuốc bôi tại chỗ hoặc các loại thuốc giảm đau để giảm triệu chứng.\n\n" +
+      "3. Điều trị y tế:\n" +
+      "   - Nếu triệu chứng nghiêm trọng hoặc không cải thiện, hãy thăm bác sĩ để được chuẩn đoán và điều trị thích hợp. Có thể bao gồm các phương pháp can thiệp như làm thủ thuật hoặc phẫu thuật.\n\n" +
+      "4. Thăm khám định kỳ: Nếu bạn có lịch sử gia đình mắc bệnh trĩ hoặc có các triệu chứng cấp tính, hãy thăm khám định kỳ để phát hiện sớm và điều trị kịp thời.\n\n" +
+      "Nếu bạn gặp phải các triệu chứng nghiêm trọng như chảy máu nhiều hoặc đau mạnh, vui lòng tìm kiếm sự trợ giúp y tế ngay lập tức. Mong rằng những thông tin này hữu ích cho bạn! Bạn có cần thêm thông tin gì không?",
     "ngứa mắt":
       "Dạ, ngứa mắt là triệu chứng thường gặp có thể gây khó chịu và ảnh hưởng đến sinh hoạt hàng ngày. Có nhiều nguyên nhân khác nhau gây ra triệu chứng này.\n\n" +
       "  Nguyên nhân gây ngứa mắt  \n" +
@@ -1032,6 +1084,56 @@ function analyzeInput(input) {
       " Khi nào cần gặp bác sĩ? \n" +
       "- Nếu bạn gặp phải các triệu chứng như đau nhói, rối loạn cảm giác hoặc có lịch sử bệnh tim, thận hoặc gan, hãy nhanh chóng thăm khám bác sĩ. Việc điều trị sớm có thể giúp bạn tránh được những biến chứng tiềm tàng.\n\n" +
       "Hy vọng thông tin trên có ích cho bạn. Nếu bạn có câu hỏi khác hoặc cần thêm thông tin, hãy cho tôi biết nhé!",
+    "đau cột sống":
+      "Dạ, đau cột sống là một triệu chứng phổ biến có thể xảy ra ở bất kỳ đối tượng nào và có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số thông tin chi tiết về đau cột sống, bao gồm nguyên nhân, triệu chứng và biện pháp xử lý:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Chấn thương: Va chạm hoặc chấn thương có thể gây ra đau cột sống.\n" +
+      "2. Thay đổi cấu trúc: Các bệnh lý như thoát vị đĩa đệm, thoái hóa cột sống, hoặc cong vẹo cột sống có thể gây ra cảm giác đau.\n" +
+      "3. Tư thế ngồi không đúng: Ngồi lâu và sai tư thế, đặc biệt là khi làm việc văn phòng, có thể dẫn đến đau cột sống.\n" +
+      "4. Yếu cơ: Các cơ bên lưng yếu có thể gây ra áp lực lên cột sống và dẫn đến đau.\n" +
+      "5. Stress và căng thẳng: Tình trạng căng thẳng có thể làm căng cơ lưng và dẫn đến đau.\n\n" +
+      "Triệu chứng:\n" +
+      "- Đau nhức ở lưng, có thể lan ra các vùng xung quanh như vai, cổ, hoặc chân.\n" +
+      "- Cảm giác tê, ngứa, hoặc yếu cơ ở chân.\n" +
+      "- Khó khăn trong việc cử động hoặc đứng lên.\n" +
+      "- Có thể cảm thấy đau khi ho hoặc hắt hơi.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Nghỉ ngơi: Nếu cơn đau do chấn thương hoặc căng cơ, việc nghỉ ngơi có thể giúp giảm triệu chứng.\n" +
+      "2. Chườm lạnh hoặc nóng: Sử dụng đá lạnh để giảm viêm hoặc chườm nóng để thư giãn cơ bắp.\n" +
+      "3. Vật lý trị liệu: Nếu đau kéo dài, bạn nên tìm đến chuyên gia vật lý trị liệu để giúp cải thiện tình trạng.\n" +
+      "4. Thuốc giảm đau: Sử dụng thuốc không kê đơn như ibuprofen hoặc acetaminophen có thể giúp giảm đau.\n" +
+      "5. Tập luyện: Tăng cường các bài tập cho vùng cột sống và cơ lưng để cải thiện sức mạnh và linh hoạt.\n" +
+      "6. Tư vấn chuyên gia: Nếu cơn đau nghiêm trọng hoặc không thuyên giảm, hãy tìm đến bác sĩ để có chẩn đoán và điều trị thích hợp.\n\n" +
+      "Phòng ngừa:\n" +
+      "- Duy trì tư thế đúng khi ngồi hoặc đứng.\n" +
+      "- Tập thể dục thường xuyên để tăng cường sức mạnh cơ bắp.\n" +
+      "- Tránh mang vác vật nặng không đúng cách.\n\n" +
+      "Nếu bạn gặp phải cơn đau cột sống dai dẳng hoặc có các triệu chứng kèm theo như tê bì chân, khó cử động, hãy tham khảo bác sĩ để được thăm khám và điều trị kịp thời. Mong rằng thông tin này hữu ích cho bạn! Có điều gì khác bạn muốn biết không?",
+    "cột sống":
+      "Dạ, đau cột sống là một triệu chứng phổ biến có thể xảy ra ở bất kỳ đối tượng nào và có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số thông tin chi tiết về đau cột sống, bao gồm nguyên nhân, triệu chứng và biện pháp xử lý:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Chấn thương: Va chạm hoặc chấn thương có thể gây ra đau cột sống.\n" +
+      "2. Thay đổi cấu trúc: Các bệnh lý như thoát vị đĩa đệm, thoái hóa cột sống, hoặc cong vẹo cột sống có thể gây ra cảm giác đau.\n" +
+      "3. Tư thế ngồi không đúng: Ngồi lâu và sai tư thế, đặc biệt là khi làm việc văn phòng, có thể dẫn đến đau cột sống.\n" +
+      "4. Yếu cơ: Các cơ bên lưng yếu có thể gây ra áp lực lên cột sống và dẫn đến đau.\n" +
+      "5. Stress và căng thẳng: Tình trạng căng thẳng có thể làm căng cơ lưng và dẫn đến đau.\n\n" +
+      "Triệu chứng:\n" +
+      "- Đau nhức ở lưng, có thể lan ra các vùng xung quanh như vai, cổ, hoặc chân.\n" +
+      "- Cảm giác tê, ngứa, hoặc yếu cơ ở chân.\n" +
+      "- Khó khăn trong việc cử động hoặc đứng lên.\n" +
+      "- Có thể cảm thấy đau khi ho hoặc hắt hơi.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Nghỉ ngơi: Nếu cơn đau do chấn thương hoặc căng cơ, việc nghỉ ngơi có thể giúp giảm triệu chứng.\n" +
+      "2. Chườm lạnh hoặc nóng: Sử dụng đá lạnh để giảm viêm hoặc chườm nóng để thư giãn cơ bắp.\n" +
+      "3. Vật lý trị liệu: Nếu đau kéo dài, bạn nên tìm đến chuyên gia vật lý trị liệu để giúp cải thiện tình trạng.\n" +
+      "4. Thuốc giảm đau: Sử dụng thuốc không kê đơn như ibuprofen hoặc acetaminophen có thể giúp giảm đau.\n" +
+      "5. Tập luyện: Tăng cường các bài tập cho vùng cột sống và cơ lưng để cải thiện sức mạnh và linh hoạt.\n" +
+      "6. Tư vấn chuyên gia: Nếu cơn đau nghiêm trọng hoặc không thuyên giảm, hãy tìm đến bác sĩ để có chẩn đoán và điều trị thích hợp.\n\n" +
+      "Phòng ngừa:\n" +
+      "- Duy trì tư thế đúng khi ngồi hoặc đứng.\n" +
+      "- Tập thể dục thường xuyên để tăng cường sức mạnh cơ bắp.\n" +
+      "- Tránh mang vác vật nặng không đúng cách.\n\n" +
+      "Nếu bạn gặp phải cơn đau cột sống dai dẳng hoặc có các triệu chứng kèm theo như tê bì chân, khó cử động, hãy tham khảo bác sĩ để được thăm khám và điều trị kịp thời. Mong rằng thông tin này hữu ích cho bạn! Có điều gì khác bạn muốn biết không?",
     "mất khứu giác":
       "Dạ, mất khứu giác, hay còn gọi là mất khả năng ngửi, là tình trạng mà người bệnh không còn cảm nhận được mùi hoặc có cảm giác mùi bị giảm đi. Tình trạng này có thể do nhiều nguyên nhân khác nhau, bao gồm các yếu tố tạm thời và nghiêm trọng. Dưới đây là một số thông tin về nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị mất khứu giác.\n\n" +
       " Nguyên nhân gây mất khứu giác \n\n" +
@@ -1710,8 +1812,21 @@ function analyzeInput(input) {
       " Khi nào cần gặp bác sĩ? \n" +
       "- Nếu tình trạng buồn ngủ diễn ra kéo dài và có ảnh hưởng đến chất lượng cuộc sống hoặc kèm theo các triệu chứng khác như khó thở, đau ngực, hoặc thay đổi trong tâm trạng, bạn nên tìm sự tư vấn từ bác sĩ.\n\n" +
       "Hy vọng thông tin này giúp bạn hiểu rõ hơn về tình trạng ngủ gà. Nếu có thêm thắc mắc, hãy cho tôi biết nhé!",
-    "Đau bụng dưới":
-      "Đau bụng dưới có thể liên quan đến tiêu hóa hoặc phụ khoa. Nếu đau kéo dài, hãy đi khám bác sĩ.",
+    "khó thở khi nằm":
+      "Dạ, khó thở khi nằm là một triệu chứng có thể gây ra nhiều lo ngại và có thể liên quan đến nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến và cách xử lý mà bạn có thể tham khảo:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Bệnh lý hô hấp: Khi nằm, một số bệnh lý như hen phế quản, COPD (bệnh phổi tắc nghẽn mạn tính) có thể làm tăng áp lực lên đường thở, từ đó gây khó thở.\n" +
+      "2. Bệnh tim: Các tình trạng như suy tim có thể gây ra tích tụ nước trong phổi, dẫn đến khó thở khi nằm. Triệu chứng này thường được gọi là 'khó thở khi nằm' hoặc 'orthopnea.'\n" +
+      "3. Béo phì: Trọng lượng cơ thể cao có thể gây áp lực lên lồng ngực và phổi, làm giảm khả năng hô hấp khi nằm xuống.\n" +
+      "4. Tình trạng lo âu hoặc panic attack: Cảm giác lo âu có thể gây ra khó thở và triệu chứng này có thể trở nặng hơn khi nằm do tăng cảm giác không thoải mái.\n" +
+      "5. Tắc nghẽn đường thở: Nguyên nhân như ngưng thở khi ngủ có thể dẫn đến khó thở khi nằm.\n\n" +
+      "Cách xử lý:\n" +
+      "- Thăm khám bác sĩ: Nếu triệu chứng khó thở kéo dài hoặc nghiêm trọng, bạn nên đến bệnh viện để được bác sĩ thăm khám và chẩn đoán chính xác.\n" +
+      "- Thay đổi tư thế ngủ: Nếu bạn gặp khó khăn khi nằm phẳng, hãy thử ngủ với gối cao hoặc nghiêng bên. Điều này có thể giúp giảm áp lực lên đường thở.\n" +
+      "- Quản lý lo âu: Nếu cảm giác lo âu là nguyên nhân gây khó thở, hãy tham khảo các kỹ thuật thư giãn như thiền hoặc yoga.\n" +
+      "- Giảm cân: Nếu bạn thừa cân, việc giảm cân có thể cải thiện triệu chứng khó thở khi nằm.\n" +
+      "- Duy trì lối sống lành mạnh: Tập thể dục thường xuyên, ăn uống cân đối và tránh hút thuốc có thể giúp cải thiện sức khỏe hô hấp và tim mạch.\n\n" +
+      "Nếu bạn cảm thấy khó thở nặng hoặc kèm theo các triệu chứng như đau ngực, chóng mặt, hoặc môi và mặt xanh tái, hãy tìm kiếm sự giúp đỡ y tế ngay lập tức. Hy vọng rằng những thông tin này sẽ hữu ích cho bạn! Nếu bạn cần thêm thông tin, xin vui lòng cho tôi biết!",
     "ngủ ngáy to":
       "Dạ, ngủ ngáy to là một vấn đề thường gặp và có thể ảnh hưởng đến cả chất lượng giấc ngủ của người ngủ ngáy lẫn người xung quanh. Dưới đây là một số thông tin liên quan đến nguyên nhân, triệu chứng đi kèm, tác động của ngủ ngáy, và các phương pháp khắc phục.\n\n" +
       " Nguyên nhân gây ngủ ngáy \n\n" +
@@ -1833,8 +1948,29 @@ function analyzeInput(input) {
       "7. Xem xét các phương pháp điều trị khác: Nếu đau bụng kinh của bạn nghiêm trọng hoặc xảy ra thường xuyên, hãy tham khảo ý kiến bác sĩ. Họ có thể xem xét thêm các lựa chọn điều trị như liệu pháp hormone hoặc thuốc kê đơn.\n\n" +
       "8. Thực hiện các biện pháp giảm stress: Thực hành các bài tập thư giãn như yoga, thiền, hoặc phương pháp thở sâu có thể giúp làm giảm mức độ stress và giảm đau.\n\n" +
       "Nếu các biện pháp trên không giúp được nhiều hoặc cơn đau trở nên nghiêm trọng hơn, bạn nên đến gặp bác sĩ để được khám và chẩn đoán cụ thể hơn.",
-    "Mệt mỏi mãn tính":
-      "Mệt mỏi mãn tính có thể do thiếu ngủ hoặc stress. Cần nghỉ ngơi và điều chỉnh lối sống.",
+    "mệt mỏi mãn tính":
+      "Dạ, tình trạng mệt mỏi mãn tính là một vấn đề sức khỏe phức tạp, có thể ảnh hưởng đến chất lượng cuộc sống của người mắc. Dưới đây là một số thông tin về nguyên nhân, triệu chứng và cách xử lý mệt mỏi mãn tính:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Yếu tố tâm lý: Stress, lo âu, trầm cảm có thể gây ra tình trạng mệt mỏi kéo dài.\n" +
+      "2. Bệnh lý nền: Một số bệnh lý như bệnh tim, bệnh phổi, viêm nhiễm mãn tính, rối loạn giấc ngủ có thể dẫn đến cảm giác mệt mỏi.\n" +
+      "3. Thiếu dinh dưỡng: Chế độ ăn uống không cân đối, thiếu các vitamin và khoáng chất thiết yếu có thể gây ra mệt mỏi.\n" +
+      "4. Thói quen sinh hoạt: Thói quen ngủ không đều đặn hoặc thiếu vận động thể chất cũng có thể là nguyên nhân.\n" +
+      "5. Sử dụng thuốc: Một số loại thuốc như thuốc chống trầm cảm hoặc thuốc huyết áp có thể có tác dụng phụ khiến người bệnh cảm thấy mệt mỏi.\n\n" +
+      "Triệu chứng:\n" +
+      "- Cảm giác mệt mỏi kéo dài, không có khả năng hồi phục dù đã nghỉ ngơi.\n" +
+      "- Khó khăn trong việc tập trung, giảm khả năng nhớ.\n" +
+      "- Thay đổi trong giấc ngủ (ngủ không ngon giấc).\n" +
+      "- Cảm giác trầm cảm hoặc lo âu.\n" +
+      "- Đau cơ hoặc khớp không rõ nguyên nhân.\n\n" +
+      "Cách xử lý:\n\n" +
+      "1. Khám bác sĩ: Nếu tình trạng này kéo dài, bạn nên đến bệnh viện để được thăm khám và chẩn đoán chính xác. Bác sĩ có thể tiến hành các xét nghiệm cần thiết để loại trừ nguyên nhân bệnh lý.\n" +
+      "2. Thay đổi lối sống: \n" +
+      "   - Tập thể dục đều đặn: Các bài tập nhẹ nhàng như đi bộ, yoga có thể cải thiện sức sống.\n" +
+      "   - Ăn uống hợp lý: Bổ sung đầy đủ dinh dưỡng, đặc biệt là các vitamin B, C, D và khoáng chất như sắt, magiê.\n" +
+      "   - Ngủ đủ giấc: Đảm bảo giấc ngủ chất lượng có thể giúp tái tạo năng lượng.\n" +
+      "3. Quản lý stress: Thực hiện các kỹ thuật thư giãn như thiền, hít thở sâu, hoặc tham gia các hoạt động giải trí.\n" +
+      "4. Hỗ trợ tâm lý: Nếu mệt mỏi liên quan đến tâm trạng, có thể tham khảo sự giúp đỡ từ các chuyên gia tâm lý.\n\n" +
+      "Nếu bạn cảm thấy mệt mỏi mãn tính vẫn tiếp diễn sau khi đã thử các biện pháp tự chăm sóc, hãy tìm kiếm sự giúp đỡ từ bác sĩ chuyên khoa để có phương pháp điều trị thích hợp. Mong rằng những thông tin này hữu ích cho bạn!",
     "Khó thở khi nằm":
       "Khó thở khi nằm có thể do vấn đề tim mạch hoặc hô hấp. Nếu kéo dài, hãy đi khám ngay.",
     "Đau tai":
@@ -1859,6 +1995,22 @@ function analyzeInput(input) {
       "Cảm giác nóng rát ở da có thể do dị ứng hoặc viêm nhiễm. Tránh tiếp xúc với các tác nhân gây dị ứng.",
     "Đau ngực trái":
       "Đau ngực trái có thể liên quan đến tim hoặc phổi. Nếu đau dữ dội, hãy đi khám ngay lập tức.",
+    "mỏi lưng":
+      "Dạ, mỏi lưng là một triệu chứng thường gặp và có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân phổ biến gây ra tình trạng mỏi lưng và các biện pháp phòng ngừa, điều trị mà bạn có thể áp dụng:\n\n" +
+      "Nguyên nhân gây mỏi lưng:\n\n" +
+      "1. Căng cơ: Động tác sai hoặc nâng vật nặng không đúng cách có thể dẫn đến căng cơ ở lưng, gây mỏi.\n" +
+      "2. Tư thế ngồi không đúng: Ngồi lâu trong tư thế không thoải mái có thể làm căng thẳng các nhóm cơ ở lưng.\n" +
+      "3. Stress: Tâm lý căng thẳng có thể làm tăng cảm giác đau và mỏi lưng.\n" +
+      "4. Bệnh lý xương khớp: Một số bệnh như thoái hóa đốt sống, thoát vị đĩa đệm có thể gây ra cảm giác đau và mỏi lưng.\n" +
+      "5. Thiếu hoạt động thể chất: Không tập thể dục thường xuyên có thể dẫn đến yếu đuối cơ lưng, dễ gây ra cảm giác mỏi.\n\n" +
+      "Biện pháp khắc phục và điều trị:\n\n" +
+      "1. Nghỉ ngơi: Đôi khi, một khoảng thời gian nghỉ ngơi có thể giúp giảm đau và mỏi.\n" +
+      "2. Nén lạnh hoặc nén nóng: Sử dụng túi lạnh trong 15-20 phút để làm giảm viêm và đau. Hoặc sử dụng túi ấm để thư giãn cơ.\n" +
+      "3. Tập thể dục nhẹ nhàng: Các bài tập kéo giãn cơ và bài tập tăng cường sức mạnh cho lưng có thể cải thiện tình trạng mỏi lưng.\n" +
+      "4. Điều chỉnh tư thế: Chú ý đến tư thế ngồi, đứng và di chuyển, cố gắng duy trì tư thế đúng để tránh làm căng lưng.\n" +
+      "5. Thư giãn và giảm stress: Biện pháp thư giãn như yoga hoặc thiền có thể giúp cải thiện tình trạng mỏi lưng do căng thẳng.\n" +
+      "6. Tham khảo ý kiến bác sĩ: Nếu tình trạng mỏi lưng kéo dài hoặc đi kèm với các triệu chứng khác như đau nhức dữ dội, tê bì hoặc yếu chân, hãy đến khám bác sĩ để được chẩn đoán và điều trị kịp thời.\n\n" +
+      "Hy vọng những thông tin này hữu ích cho bạn. Nếu bạn cần thêm thông tin hoặc có câu hỏi gì khác, xin vui lòng cho tôi biết!",
     "mắt nhìn mờ":
       "Dạ, tình trạng mắt nhìn mờ có thể do nhiều nguyên nhân khác nhau, và nó có thể là dấu hiệu của một vấn đề sức khỏe nghiêm trọng hoặc chỉ là một tình trạng tạm thời. Dưới đây là một số nguyên nhân phổ biến và thông tin liên quan đến tình trạng này:\n\n" +
       "**1. Nguyên nhân gây nhìn mờ**\n\n" +
@@ -2395,6 +2547,56 @@ function analyzeInput(input) {
       "Dù có các loại thuốc hiệu quả, bạn nên tham khảo ý kiến bác sĩ để có kế hoạch điều trị phù hợp nhất cho tình trạng viêm xoang của mình. Mong rằng bạn sẽ sớm cảm thấy khỏe mạnh!",
     "dấu hiệu nhận biết của bệnh sỏi thận":
       "Dạ, nếu bạn bị sỏi thận, các dấu hiệu có thể là: đau quặn lưng hoặc bụng dưới, buồn nôn, tiểu đau, và tiểu ra máu.\n\n",
+    "nghẹt mũi":
+      "Dạ, nghẹt mũi là một triệu chứng phổ biến rất thường gặp, có thể do nhiều nguyên nhân khác nhau. Dưới đây là thông tin chi tiết về tình trạng này:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Nhiễm trùng: Một trong những nguyên nhân phổ biến nhất của nghẹt mũi là nhiễm trùng đường hô hấp trên, như cảm cúm hoặc cảm lạnh thông thường.\n" +
+      "2. Viêm mũi dị ứng: Có thể do phấn hoa, bụi, lông thú cưng hoặc các tác nhân gây dị ứng khác.\n" +
+      "3. Viêm xoang: Viêm xoang mạn tính hoặc cấp tính có thể gây áp lực và nghẹt ở mũi.\n" +
+      "4. Thay đổi thời tiết: Khí hậu ẩm ướt hoặc lạnh có thể kích thích hiện tượng này.\n" +
+      "5. Hút thuốc lá hoặc khí độc: Khói thuốc và các hóa chất độc hại có thể gây ra tình trạng viêm và nghẹt mũi.\n\n" +
+      "Triệu chứng:\n" +
+      "- Cảm giác tắc nghẽn ở mũi.\n" +
+      "- Khó khăn trong việc thở qua mũi.\n" +
+      "- Chảy nước mũi, có thể là trong suốt hoặc có màu vàng/xanh nếu có nhiễm trùng.\n" +
+      "- Đau hoặc áp lực quanh mặt (đặc biệt là vùng trán hoặc má) nếu có viêm xoang.\n" +
+      "- Ngứa hoặc kích thích trong mũi hoặc cổ họng.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Nghỉ ngơi và uống đủ nước: Giữ cho cơ thể đủ nước để giúp làm loãng đờm và dịch nhầy.\n" +
+      "2. Sử dụng nước muối sinh lý: Xịt hoặc nhỏ nước muối sinh lý vào mũi có thể giúp làm sạch và giảm nghẹt.\n" +
+      "3. Thử thuốc không kê đơn: Thuốc giảm ngạt mũi hoặc kháng histamin có thể giúp giảm triệu chứng.\n" +
+      "4. Dùng máy tạo độ ẩm: Giúp giữ độ ẩm trong không khí, hỗ trợ giảm nghẹt mũi.\n" +
+      "5. Thăm khám bác sĩ: Nếu triệu chứng kéo dài hoặc đi kèm với sốt cao, đau đầu nghiêm trọng, hoặc khi có dấu hiệu nhiễm trùng khác, hãy tìm sự chăm sóc y tế.\n\n" +
+      "Phòng ngừa:\n" +
+      "- Tránh tiếp xúc với các tác nhân gây dị ứng.\n" +
+      "- Giữ nhà cửa sạch sẽ để giảm thiểu bụi và phấn hoa.\n" +
+      "- Rửa tay thường xuyên để tránh nhiễm trùng.\n\n" +
+      "Nếu bạn gặp phải tình trạng nghẹt mũi kéo dài hoặc có triệu chứng nghiêm trọng kèm theo, hãy tham khảo ý kiến bác sĩ để có hướng điều trị hợp lý. Mong rằng thông tin trên hữu ích cho bạn! Bạn có cần thêm thông tin gì khác không?",
+    "tịt mũi":
+      "Dạ, nghẹt mũi là một triệu chứng phổ biến rất thường gặp, có thể do nhiều nguyên nhân khác nhau. Dưới đây là thông tin chi tiết về tình trạng này:\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Nhiễm trùng: Một trong những nguyên nhân phổ biến nhất của nghẹt mũi là nhiễm trùng đường hô hấp trên, như cảm cúm hoặc cảm lạnh thông thường.\n" +
+      "2. Viêm mũi dị ứng: Có thể do phấn hoa, bụi, lông thú cưng hoặc các tác nhân gây dị ứng khác.\n" +
+      "3. Viêm xoang: Viêm xoang mạn tính hoặc cấp tính có thể gây áp lực và nghẹt ở mũi.\n" +
+      "4. Thay đổi thời tiết: Khí hậu ẩm ướt hoặc lạnh có thể kích thích hiện tượng này.\n" +
+      "5. Hút thuốc lá hoặc khí độc: Khói thuốc và các hóa chất độc hại có thể gây ra tình trạng viêm và nghẹt mũi.\n\n" +
+      "Triệu chứng:\n" +
+      "- Cảm giác tắc nghẽn ở mũi.\n" +
+      "- Khó khăn trong việc thở qua mũi.\n" +
+      "- Chảy nước mũi, có thể là trong suốt hoặc có màu vàng/xanh nếu có nhiễm trùng.\n" +
+      "- Đau hoặc áp lực quanh mặt (đặc biệt là vùng trán hoặc má) nếu có viêm xoang.\n" +
+      "- Ngứa hoặc kích thích trong mũi hoặc cổ họng.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Nghỉ ngơi và uống đủ nước: Giữ cho cơ thể đủ nước để giúp làm loãng đờm và dịch nhầy.\n" +
+      "2. Sử dụng nước muối sinh lý: Xịt hoặc nhỏ nước muối sinh lý vào mũi có thể giúp làm sạch và giảm nghẹt.\n" +
+      "3. Thử thuốc không kê đơn: Thuốc giảm ngạt mũi hoặc kháng histamin có thể giúp giảm triệu chứng.\n" +
+      "4. Dùng máy tạo độ ẩm: Giúp giữ độ ẩm trong không khí, hỗ trợ giảm nghẹt mũi.\n" +
+      "5. Thăm khám bác sĩ: Nếu triệu chứng kéo dài hoặc đi kèm với sốt cao, đau đầu nghiêm trọng, hoặc khi có dấu hiệu nhiễm trùng khác, hãy tìm sự chăm sóc y tế.\n\n" +
+      "Phòng ngừa:\n" +
+      "- Tránh tiếp xúc với các tác nhân gây dị ứng.\n" +
+      "- Giữ nhà cửa sạch sẽ để giảm thiểu bụi và phấn hoa.\n" +
+      "- Rửa tay thường xuyên để tránh nhiễm trùng.\n\n" +
+      "Nếu bạn gặp phải tình trạng nghẹt mũi kéo dài hoặc có triệu chứng nghiêm trọng kèm theo, hãy tham khảo ý kiến bác sĩ để có hướng điều trị hợp lý. Mong rằng thông tin trên hữu ích cho bạn! Bạn có cần thêm thông tin gì khác không?",
     "sỏi thận":
       "Dạ, sỏi thận là tình trạng bệnh lý phổ biến, xảy ra khi có sự hình thành các tinh thể rắn trong thận. Những tinh thể này có thể tạo thành sỏi có kích thước khác nhau và gây ra sự đau đớn và nhiều vấn đề sức khỏe khác. Dưới đây là các thông tin chi tiết về sỏi thận:\n\n" +
       "Nguyên nhân gây sỏi thận:\n\n" +
@@ -2683,6 +2885,54 @@ function analyzeInput(input) {
       "7. Tăng cường triệu chứng khi có yếu tố kích thích: Các triệu chứng có thể nặng hơn khi tiếp xúc với khói thuốc, ô nhiễm, hoặc trong thời tiết lạnh và ẩm.\n\n" +
       "Nếu bạn hoặc người thân có những triệu chứng này, tốt nhất là nên tham khảo ý kiến của bác sĩ để có chẩn đoán chính xác và điều trị kịp thời.\n\n" +
       "Dạ, hy vọng thông tin này sẽ hữu ích cho bạn!",
+    "đau khớp ngón tay":
+      "Dạ, đau khớp ngón tay là một triệu chứng có thể xuất phát từ nhiều nguyên nhân khác nhau, từ các vấn đề tạm thời đến các bệnh lý mãn tính. Dưới đây là những thông tin cần thiết về tình trạng này, bao gồm nguyên nhân, triệu chứng và cách xử lý.\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Viêm khớp: Viêm khớp dạng thấp hoặc viêm khớp thoái hóa có thể gây ra đau và sưng ở các khớp ngón tay.\n" +
+      "2. Chấn thương: Va chạm hoặc té ngã có thể làm tổn thương các khớp và mô xung quanh.\n" +
+      "3. Bệnh Gout: Lượng acid uric cao trong máu có thể dẫn đến hiện tượng tích tụ tinh thể tại khớp, gây đau đột ngột.\n" +
+      "4. Khó chịu do hoạt động lặp đi lặp lại: Làm việc liên tục với tay như gõ máy tính có thể dẫn đến mỏi và đau khớp.\n" +
+      "5. Thấp khớp: Các bệnh tự miễn cũng có thể ảnh hưởng đến sức khỏe của các khớp, bao gồm ngón tay.\n\n" +
+      "Triệu chứng:\n" +
+      "- Đau nhức hoặc cảm giác nóng tại khớp ngón tay.\n" +
+      "- Sưng hoặc viêm tại khớp.\n" +
+      "- Cảm giác cứng khớp, đặc biệt là vào buổi sáng hoặc sau thời gian không cử động.\n" +
+      "- Khó khăn trong việc cử động ngón tay.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Nghỉ ngơi: Cố gắng hạn chế sử dụng tay nhằm tránh tổn thương thêm.\n" +
+      "2. Chườm lạnh hoặc nóng: Sử dụng đá lạnh để giảm sưng hoặc chườm nóng để thư giãn cơ bắp.\n" +
+      "3. Thuốc giảm đau: Các loại thuốc không kê đơn như ibuprofen hoặc acetaminophen có thể giúp giảm đau.\n" +
+      "4. Vật lý trị liệu: Tìm kiếm sự giúp đỡ từ các chuyên gia vật lý trị liệu nhằm phục hồi chức năng và giảm đau.\n" +
+      "5. Thăm khám bác sĩ: Nếu cơn đau không thuyên giảm hoặc trở nên nghiêm trọng, hãy đi khám để được chẩn đoán chính xác và đưa ra phương pháp điều trị thích hợp.\n\n" +
+      "Phòng ngừa:\n" +
+      "- Duy trì chế độ tập thể dục hợp lý để giữ cho khớp linh hoạt.\n" +
+      "- Hạn chế các hoạt động làm gia tăng áp lực lên ngón tay.\n" +
+      "- Đảm bảo một chế độ ăn uống cân bằng để cung cấp đủ dinh dưỡng cho sức khỏe của xương khớp.\n\n" +
+      "Nếu bạn gặp phải các triệu chứng nghiêm trọng hoặc kéo dài, hãy tìm kiếm sự tư vấn từ bác sĩ để có được sự chăm sóc và điều trị đúng đắn. Mong rằng những thông tin này hữu ích cho bạn! Bạn có cần thêm thông tin gì không?",
+    "khớp ngón tay":
+      "Dạ, đau khớp ngón tay là một triệu chứng có thể xuất phát từ nhiều nguyên nhân khác nhau, từ các vấn đề tạm thời đến các bệnh lý mãn tính. Dưới đây là những thông tin cần thiết về tình trạng này, bao gồm nguyên nhân, triệu chứng và cách xử lý.\n\n" +
+      "Nguyên nhân:\n" +
+      "1. Viêm khớp: Viêm khớp dạng thấp hoặc viêm khớp thoái hóa có thể gây ra đau và sưng ở các khớp ngón tay.\n" +
+      "2. Chấn thương: Va chạm hoặc té ngã có thể làm tổn thương các khớp và mô xung quanh.\n" +
+      "3. Bệnh Gout: Lượng acid uric cao trong máu có thể dẫn đến hiện tượng tích tụ tinh thể tại khớp, gây đau đột ngột.\n" +
+      "4. Khó chịu do hoạt động lặp đi lặp lại: Làm việc liên tục với tay như gõ máy tính có thể dẫn đến mỏi và đau khớp.\n" +
+      "5. Thấp khớp: Các bệnh tự miễn cũng có thể ảnh hưởng đến sức khỏe của các khớp, bao gồm ngón tay.\n\n" +
+      "Triệu chứng:\n" +
+      "- Đau nhức hoặc cảm giác nóng tại khớp ngón tay.\n" +
+      "- Sưng hoặc viêm tại khớp.\n" +
+      "- Cảm giác cứng khớp, đặc biệt là vào buổi sáng hoặc sau thời gian không cử động.\n" +
+      "- Khó khăn trong việc cử động ngón tay.\n\n" +
+      "Cách xử lý:\n" +
+      "1. Nghỉ ngơi: Cố gắng hạn chế sử dụng tay nhằm tránh tổn thương thêm.\n" +
+      "2. Chườm lạnh hoặc nóng: Sử dụng đá lạnh để giảm sưng hoặc chườm nóng để thư giãn cơ bắp.\n" +
+      "3. Thuốc giảm đau: Các loại thuốc không kê đơn như ibuprofen hoặc acetaminophen có thể giúp giảm đau.\n" +
+      "4. Vật lý trị liệu: Tìm kiếm sự giúp đỡ từ các chuyên gia vật lý trị liệu nhằm phục hồi chức năng và giảm đau.\n" +
+      "5. Thăm khám bác sĩ: Nếu cơn đau không thuyên giảm hoặc trở nên nghiêm trọng, hãy đi khám để được chẩn đoán chính xác và đưa ra phương pháp điều trị thích hợp.\n\n" +
+      "Phòng ngừa:\n" +
+      "- Duy trì chế độ tập thể dục hợp lý để giữ cho khớp linh hoạt.\n" +
+      "- Hạn chế các hoạt động làm gia tăng áp lực lên ngón tay.\n" +
+      "- Đảm bảo một chế độ ăn uống cân bằng để cung cấp đủ dinh dưỡng cho sức khỏe của xương khớp.\n\n" +
+      "Nếu bạn gặp phải các triệu chứng nghiêm trọng hoặc kéo dài, hãy tìm kiếm sự tư vấn từ bác sĩ để có được sự chăm sóc và điều trị đúng đắn. Mong rằng những thông tin này hữu ích cho bạn! Bạn có cần thêm thông tin gì không?",
     "Dấu hiệu nhận biết bệnh viêm phế quản mãn tính":
       "Dạ, bệnh viêm phế quản mãn tính là một tình trạng viêm nhiễm kéo dài ở phế quản, thường liên quan đến việc tiếp xúc lâu dài với các yếu tố kích thích như khói thuốc lá, ô nhiễm không khí, hay bụi bẩn. Dưới đây là một số dấu hiệu nhận biết bệnh viêm phế quản mãn tính:\n\n" +
       "1. Ho mãn tính: Một trong những triệu chứng chính của viêm phế quản mãn tính là ho kéo dài, thường xuyên và có thể kéo dài ít nhất ba tháng trong một năm, trong ba năm liên tiếp.\n\n" +
@@ -3628,6 +3878,152 @@ function analyzeInput(input) {
       "1.  Theo dõi chu kỳ kinh nguyệt : Theo dõi chu kỳ kinh nguyệt của bạn để nhận biết các thay đổi và nguyên nhân tiềm ẩn.\n" +
       "2.  Tham khảo ý kiến bác sĩ : Nếu lo lắng hoặc nhận thấy các dấu hiệu bất thường, hãy tham khảo ý kiến bác sĩ chuyên khoa sản để được chẩn đoán và điều trị kịp thời.\n\n" +
       "Dạ, chậm kinh nguyệt không phải luôn là vấn đề nghiêm trọng, nhưng nếu bạn có bất kỳ thắc mắc nào hoặc lo lắng về tình trạng của mình, hãy tìm kiếm sự tư vấn từ bác sĩ để nhận được sự hỗ trợ phù hợp. Nếu cần thêm thông tin cụ thể hơn, hãy cho tôi biết nhé!",
+    "tư vấn sức khỏe":
+      "Dạ, tôi có thể giúp bạn các thông tin liên quan đến sức khỏe, khám bệnh, điều trị, cũng như tư vấn cách chăm sóc bản thân. Nếu bạn có bất kỳ câu hỏi nào về sức khỏe hay muốn tìm hiểu thông tin về bệnh viện, dịch vụ y tế hoặc một chủ đề cụ thể nào đó, xin vui lòng cho tôi biết!\n\n" +
+      " 1. Các lĩnh vực tôi có thể hỗ trợ: \n\n" +
+      "1.  Thông tin về các triệu chứng bệnh : Nếu bạn gặp phải các triệu chứng như sốt, đau đầu, khó thở, hoặc bất kỳ dấu hiệu nào khác, tôi có thể cung cấp thông tin giúp bạn hiểu rõ hơn.\n" +
+      "2.  Dịch vụ y tế : Bạn cần biết thông tin về các bệnh viện, phòng khám gần khu vực bạn, hoặc các dịch vụ y tế chuyên khoa?\n" +
+      "3.  Cách chăm sóc sức khỏe : Hướng dẫn chế độ ăn uống, luyện tập, nghỉ ngơi để duy trì sức khỏe tốt.\n" +
+      "4.  Tư vấn sức khỏe tinh thần : Nếu bạn cảm thấy căng thẳng, lo âu, hoặc cần lời khuyên để cải thiện sức khỏe tinh thần.\n\n" +
+      " 2. Khi nào nên hỏi ý kiến bác sĩ: \n\n" +
+      "1.  Triệu chứng kéo dài : Nếu triệu chứng không giảm hoặc có dấu hiệu nặng hơn.\n" +
+      "2.  Các vấn đề khẩn cấp : Như khó thở, đau ngực, hoặc bất kỳ tình trạng nào đòi hỏi sự can thiệp ngay lập tức từ bác sĩ.\n\n",
+    "giúp gì":
+      "Dạ, tôi có thể giúp bạn các thông tin liên quan đến sức khỏe, khám bệnh, điều trị, cũng như tư vấn cách chăm sóc bản thân. Nếu bạn có bất kỳ câu hỏi nào về sức khỏe hay muốn tìm hiểu thông tin về bệnh viện, dịch vụ y tế hoặc một chủ đề cụ thể nào đó, xin vui lòng cho tôi biết!\n\n" +
+      " 1. Các lĩnh vực tôi có thể hỗ trợ: \n\n" +
+      "1.  Thông tin về các triệu chứng bệnh : Nếu bạn gặp phải các triệu chứng như sốt, đau đầu, khó thở, hoặc bất kỳ dấu hiệu nào khác, tôi có thể cung cấp thông tin giúp bạn hiểu rõ hơn.\n" +
+      "2.  Dịch vụ y tế : Bạn cần biết thông tin về các bệnh viện, phòng khám gần khu vực bạn, hoặc các dịch vụ y tế chuyên khoa?\n" +
+      "3.  Cách chăm sóc sức khỏe : Hướng dẫn chế độ ăn uống, luyện tập, nghỉ ngơi để duy trì sức khỏe tốt.\n" +
+      "4.  Tư vấn sức khỏe tinh thần : Nếu bạn cảm thấy căng thẳng, lo âu, hoặc cần lời khuyên để cải thiện sức khỏe tinh thần.\n\n" +
+      " 2. Khi nào nên hỏi ý kiến bác sĩ: \n\n" +
+      "1.  Triệu chứng kéo dài : Nếu triệu chứng không giảm hoặc có dấu hiệu nặng hơn.\n" +
+      "2.  Các vấn đề khẩn cấp : Như khó thở, đau ngực, hoặc bất kỳ tình trạng nào đòi hỏi sự can thiệp ngay lập tức từ bác sĩ.\n\n",
+    "đau tay":
+      "Dạ, khi bạn cảm thấy đau tay, có một số biện pháp bạn có thể áp dụng để giảm đau và cải thiện tình trạng:\n\n" +
+      " 1. Nghỉ ngơi: \n\n" +
+      "- Cố gắng nghỉ ngơi cho tay, đặc biệt nếu cơn đau xuất hiện sau khi bạn đã sử dụng tay nhiều.\n\n" +
+      " 2. Chườm lạnh hoặc chườm ấm: \n\n" +
+      "- Chườm lạnh: Sử dụng túi lạnh hoặc đá bọc trong vải chườm lên vùng đau trong 15-20 phút, sẽ giúp giảm sưng và đau.\n" +
+      "- Chườm ấm: Sau 48 giờ nếu tình trạng không cải thiện, bạn có thể chuyển sang chườm ấm để làm giãn cơ và tăng lưu thông máu.\n\n" +
+      " 3. Dùng thuốc giảm đau: \n\n" +
+      "- Những loại thuốc như paracetamol hoặc ibuprofen có thể giúp giảm đau hiệu quả trong trường hợp cần thiết. Tuy nhiên, bạn nên tuân thủ theo liều lượng khuyến cáo.\n\n" +
+      " 4. Tập luyện nhẹ nhàng: \n\n" +
+      "- Các bài tập nhẹ nhàng có thể giúp tăng cường sự linh hoạt và sức mạnh cho tay và cổ tay, nhưng nên thực hiện sau khi cơn đau giảm.\n\n" +
+      " 5. Thăm khám bác sĩ: \n\n" +
+      "- Nếu cơn đau kéo dài, nghiêm trọng hoặc kèm theo triệu chứng khác như sưng, đỏ hoặc không thể cử động tay được, bạn nên đi khám bác sĩ. Bác sĩ có thể chỉ định xét nghiệm hoặc phương pháp điều trị thích hợp.\n\n" +
+      " 6. Chăm sóc tại nhà: \n\n" +
+      "- Sử dụng nẹp hoặc băng để cố định tay trong trường hợp cần thiết.\n" +
+      "- Ngủ trong tư thế thoải mái để giảm căng thẳng cho tay.\n\n" +
+      "Nếu bạn cần thêm thông tin hay có thắc mắc nào khác, hãy cho tôi biết nhé!",
+    "ra mồ hôi tay":
+      "Dạ, tình trạng ra mồ hôi tay nhiều (hyperhidrosis) có thể gây khó chịu và ảnh hưởng đến cuộc sống hàng ngày. Dưới đây là một số phương pháp khắc phục mà bạn có thể tham khảo:\n\n" +
+      " 1. Sử dụng thuốc: \n\n" +
+      "- Chất chống mồ hôi: Bạn có thể dùng các sản phẩm chứa nhôm clorua, như dạng lăn hoặc xịt, có tác dụng giảm tiết mồ hôi. Đây là giải pháp phổ biến và dễ tìm.\n" +
+      "- Thuốc uống: Một số thuốc như anticholinergic có thể giúp giảm lượng mồ hôi, nhưng nên tham khảo ý kiến bác sĩ trước khi sử dụng.\n\n" +
+      " 2. Điều trị tự nhiên: \n\n" +
+      "- Giữ tay khô ráo: Sử dụng bột talc hoặc miếng dán thấm hút mồ hôi để giúp tay luôn khô.\n" +
+      "- Ngâm tay trong nước muối: Ngâm tay trong nước muối âm ấm khoảng 15-20 phút, có thể giúp giảm tiết mồ hôi tạm thời.\n\n" +
+      " 3. Thay đổi lối sống: \n\n" +
+      "- Giảm căng thẳng: Thực hành các phương pháp giảm stress như yoga, thiền hay tập thể dục có thể giúp giảm mức độ lo âu và tiết mồ hôi.\n" +
+      "- Chế độ ăn uống: Tránh thức ăn cay nóng, đồ uống có caffeine và rượu có thể giúp điều tiết hoạt động của tuyến mồ hôi.\n\n" +
+      " 4. Công nghệ và điều trị y tế: \n\n" +
+      "- Điều trị bằng iontophoresis: Đây là liệu pháp sử dụng dòng điện để làm giảm hoạt động của tuyến mồ hôi.\n" +
+      "- Tiêm Botox: Tiêm toxin botulinum vào vùng lòng bàn tay có thể giúp ngăn chặn các tín hiệu thần kinh đến tuyến mồ hôi.\n" +
+      "- Phẫu thuật: Trong một số trường hợp nghiêm trọng, bác sĩ có thể đề nghị phương pháp phẫu thuật nhằm cắt đứt các dây thần kinh kiểm soát mồ hôi.\n\n" +
+      " 5. Thăm khám bác sĩ: \n\n" +
+      "Nếu tình trạng ra mồ hôi tay nhiều ảnh hưởng nghiêm trọng đến sinh hoạt hàng ngày của bạn hoặc không cải thiện với các biện pháp tự điều trị, bạn nên tham khảo ý kiến bác sĩ để được tư vấn điều trị thích hợp.\n\n" +
+      "Nếu bạn cần thêm thông tin cụ thể hoặc có câu hỏi nào khác, xin vui lòng cho tôi biết!",
+    "mồ hôi tay":
+      "Dạ, tình trạng ra mồ hôi tay nhiều (hyperhidrosis) có thể gây khó chịu và ảnh hưởng đến cuộc sống hàng ngày. Dưới đây là một số phương pháp khắc phục mà bạn có thể tham khảo:\n\n" +
+      " 1. Sử dụng thuốc: \n\n" +
+      "- Chất chống mồ hôi: Bạn có thể dùng các sản phẩm chứa nhôm clorua, như dạng lăn hoặc xịt, có tác dụng giảm tiết mồ hôi. Đây là giải pháp phổ biến và dễ tìm.\n" +
+      "- Thuốc uống: Một số thuốc như anticholinergic có thể giúp giảm lượng mồ hôi, nhưng nên tham khảo ý kiến bác sĩ trước khi sử dụng.\n\n" +
+      " 2. Điều trị tự nhiên: \n\n" +
+      "- Giữ tay khô ráo: Sử dụng bột talc hoặc miếng dán thấm hút mồ hôi để giúp tay luôn khô.\n" +
+      "- Ngâm tay trong nước muối: Ngâm tay trong nước muối âm ấm khoảng 15-20 phút, có thể giúp giảm tiết mồ hôi tạm thời.\n\n" +
+      " 3. Thay đổi lối sống: \n\n" +
+      "- Giảm căng thẳng: Thực hành các phương pháp giảm stress như yoga, thiền hay tập thể dục có thể giúp giảm mức độ lo âu và tiết mồ hôi.\n" +
+      "- Chế độ ăn uống: Tránh thức ăn cay nóng, đồ uống có caffeine và rượu có thể giúp điều tiết hoạt động của tuyến mồ hôi.\n\n" +
+      " 4. Công nghệ và điều trị y tế: \n\n" +
+      "- Điều trị bằng iontophoresis: Đây là liệu pháp sử dụng dòng điện để làm giảm hoạt động của tuyến mồ hôi.\n" +
+      "- Tiêm Botox: Tiêm toxin botulinum vào vùng lòng bàn tay có thể giúp ngăn chặn các tín hiệu thần kinh đến tuyến mồ hôi.\n" +
+      "- Phẫu thuật: Trong một số trường hợp nghiêm trọng, bác sĩ có thể đề nghị phương pháp phẫu thuật nhằm cắt đứt các dây thần kinh kiểm soát mồ hôi.\n\n" +
+      " 5. Thăm khám bác sĩ: \n\n" +
+      "Nếu tình trạng ra mồ hôi tay nhiều ảnh hưởng nghiêm trọng đến sinh hoạt hàng ngày của bạn hoặc không cải thiện với các biện pháp tự điều trị, bạn nên tham khảo ý kiến bác sĩ để được tư vấn điều trị thích hợp.\n\n" +
+      "Nếu bạn cần thêm thông tin cụ thể hoặc có câu hỏi nào khác, xin vui lòng cho tôi biết!",
+    "ra mồ hôi chân":
+      "Dạ, tình trạng ra mồ hôi chân (hyperhidrosis) có thể gây khó chịu và ảnh hưởng đến chất lượng cuộc sống. Dưới đây là một số phương pháp khắc phục mà bạn có thể tham khảo:\n\n" +
+      " 1. Sử dụng sản phẩm chống mồ hôi: \n\n" +
+      "- Chất chống mồ hôi chứa nhôm clorua: Những sản phẩm này có khả năng giảm tiết mồ hôi hiệu quả và có thể được sử dụng cho lòng bàn chân.\n" +
+      "- Bột talc hoặc bột thấm hút: Sử dụng bột talc hoặc bột chứa tinh bột có thể giúp hút ẩm và giữ cho chân khô ráo.\n\n" +
+      " 2. Thay đổi thói quen: \n\n" +
+      "- Giữ chân sạch sẽ và khô ráo: Vệ sinh chân hàng ngày và sử dụng khăn bông để lau khô sau khi tắm.\n" +
+      "- Chọn giày và tất phù hợp: Sử dụng giày làm từ chất liệu thoáng khí (như da hoặc vải canvas) và tất bằng cotton hoặc các chất liệu thấm hút mồ hôi tốt.\n" +
+      "- Thay giày thường xuyên: Nếu bạn dùng giày trong thời gian dài, hãy tạo thời gian cho chúng “thở” và khô ráo giữa các lần sử dụng.\n\n" +
+      " 3. Phương pháp tự nhiên: \n\n" +
+      "- Ngâm chân trong nước muối: Ngâm chân trong nước muối âm ấm khoảng 15-20 phút có thể giúp giảm lượng mồ hôi tiết ra.\n" +
+      "- Sử dụng trà thảo mộc: Một số loại trà như trà xanh hoặc trà gừng có thể giúp giảm mồ hôi khi uống.\n\n" +
+      " 4. Điều trị y tế: \n\n" +
+      "- Điều trị bằng iontophoresis: Đây là phương pháp sử dụng dòng điện nhẹ để giảm hoạt động của tuyến mồ hôi.\n" +
+      "- Tiêm Botox: Toxin botulinum có thể được tiêm vào lòng bàn chân để ngăn chặn sự tiết mồ hôi.\n" +
+      "- Phẫu thuật: Trong trường hợp nghiêm trọng, bác sĩ có thể đề nghị can thiệp phẫu thuật để cắt bỏ các dây thần kinh điều khiển tuyến mồ hôi.\n\n" +
+      " 5. Thăm khám bác sĩ: \n\n" +
+      "Nếu tình trạng ra mồ hôi chân khiến bạn cảm thấy khó chịu hoặc không điều trị được bằng biện pháp tự nhiên, bạn nên tham khảo ý kiến bác sĩ để có phương pháp điều trị phù hợp nhất.\n\n" +
+      "Nếu bạn cần thêm thông tin hoặc có câu hỏi nào khác, xin vui lòng cho tôi biết nhé!",
+    "mồ hôi chân":
+      "Dạ, tình trạng ra mồ hôi chân (hyperhidrosis) có thể gây khó chịu và ảnh hưởng đến chất lượng cuộc sống. Dưới đây là một số phương pháp khắc phục mà bạn có thể tham khảo:\n\n" +
+      " 1. Sử dụng sản phẩm chống mồ hôi: \n\n" +
+      "- Chất chống mồ hôi chứa nhôm clorua: Những sản phẩm này có khả năng giảm tiết mồ hôi hiệu quả và có thể được sử dụng cho lòng bàn chân.\n" +
+      "- Bột talc hoặc bột thấm hút: Sử dụng bột talc hoặc bột chứa tinh bột có thể giúp hút ẩm và giữ cho chân khô ráo.\n\n" +
+      " 2. Thay đổi thói quen: \n\n" +
+      "- Giữ chân sạch sẽ và khô ráo: Vệ sinh chân hàng ngày và sử dụng khăn bông để lau khô sau khi tắm.\n" +
+      "- Chọn giày và tất phù hợp: Sử dụng giày làm từ chất liệu thoáng khí (như da hoặc vải canvas) và tất bằng cotton hoặc các chất liệu thấm hút mồ hôi tốt.\n" +
+      "- Thay giày thường xuyên: Nếu bạn dùng giày trong thời gian dài, hãy tạo thời gian cho chúng “thở” và khô ráo giữa các lần sử dụng.\n\n" +
+      " 3. Phương pháp tự nhiên: \n\n" +
+      "- Ngâm chân trong nước muối: Ngâm chân trong nước muối âm ấm khoảng 15-20 phút có thể giúp giảm lượng mồ hôi tiết ra.\n" +
+      "- Sử dụng trà thảo mộc: Một số loại trà như trà xanh hoặc trà gừng có thể giúp giảm mồ hôi khi uống.\n\n" +
+      " 4. Điều trị y tế: \n\n" +
+      "- Điều trị bằng iontophoresis: Đây là phương pháp sử dụng dòng điện nhẹ để giảm hoạt động của tuyến mồ hôi.\n" +
+      "- Tiêm Botox: Toxin botulinum có thể được tiêm vào lòng bàn chân để ngăn chặn sự tiết mồ hôi.\n" +
+      "- Phẫu thuật: Trong trường hợp nghiêm trọng, bác sĩ có thể đề nghị can thiệp phẫu thuật để cắt bỏ các dây thần kinh điều khiển tuyến mồ hôi.\n\n" +
+      " 5. Thăm khám bác sĩ: \n\n" +
+      "Nếu tình trạng ra mồ hôi chân khiến bạn cảm thấy khó chịu hoặc không điều trị được bằng biện pháp tự nhiên, bạn nên tham khảo ý kiến bác sĩ để có phương pháp điều trị phù hợp nhất.\n\n" +
+      "Nếu bạn cần thêm thông tin hoặc có câu hỏi nào khác, xin vui lòng cho tôi biết nhé!",
+    "mùi hôi chân":
+      "Dạ, mùi hôi chân là vấn đề phổ biến và có thể gây khó chịu. Dưới đây là một số biện pháp bạn có thể áp dụng để khắc phục tình trạng này:\n\n" +
+      "1. Giữ vệ sinh chân:\n\n" +
+      "- Rửa chân hàng ngày: Sử dụng xà phòng nhẹ để rửa chân, đặc biệt là giữa các ngón chân.\n" +
+      "- Lau khô kỹ: Sau khi rửa, hãy chắc chắn rằng chân hoàn toàn khô, vì độ ẩm có thể góp phần gây ra mùi hôi.\n\n" +
+      "2. Sử dụng sản phẩm chuyên dụng:\n\n" +
+      "- Chất chống mồ hôi: Có thể sử dụng sản phẩm dạng xịt hoặc bột chống mồ hôi cho chân.\n" +
+      "- Bột thấm hút: Sử dụng bột talc hoặc bột chứa tinh bột để giúp chân khô ráo và ngăn ngừa mùi.\n\n" +
+      "3. Lựa chọn giày và tất:\n\n" +
+      "- Chọn giày thông thoáng: Sử dụng giày bằng chất liệu thoáng khí như da hoặc vải.\n" +
+      "- Tất bằng chất liệu tự nhiên: Chọn tất bằng cotton hoặc các loại vải thấm hút mồ hôi tốt và tránh các loại tất nylon.\n\n" +
+      "4. Thực hiện các biện pháp tự nhiên:\n\n" +
+      "- Ngâm chân trong nước muối: Ngâm chân trong nước muối âm ấm khoảng 15-20 phút có thể giúp diệt khuẩn và giảm mùi.\n" +
+      "- Sử dụng giấm: Ngâm chân trong giấm ăn khoảng 10-15 phút cũng có thể giúp khử mùi.\n\n" +
+      "5. Thường xuyên thay giày và tất:\n\n" +
+      "- Thay giày: Nếu bạn đi giày trong thời gian dài, hãy cho giày “thở” bằng cách thay đổi giày thường xuyên.\n" +
+      "- Thay tất hàng ngày: Đừng quên thay tất mỗi ngày, và nếu bạn hoạt động nhiều, có thể thay vài lần trong ngày.\n\n" +
+      "6. Thăm khám bác sĩ:\n\n" +
+      "- Nếu tình trạng không cải thiện: Nếu bạn đã thử các biện pháp trên mà vẫn gặp tình trạng khó chịu, hãy tham khảo ý kiến bác sĩ để được tư vấn và điều trị thích hợp.\n\n" +
+      "Những biện pháp này có thể giúp bạn kiểm soát và giảm thiểu tình trạng mùi hôi chân. Hy vọng những thông tin này hữu ích cho bạn! Nếu bạn cần thêm thông tin gì khác, xin vui lòng cho tôi biết!",
+    "bụng kinh":
+      "Dạ, khi đến ngày đau bụng kinh, có nhiều biện pháp bạn có thể thực hiện để giúp giảm cơn đau và cảm thấy thoải mái hơn. Dưới đây là một số gợi ý:\n\n" +
+      "1. Sử dụng nhiệt:\n\n" +
+      "- Chườm ấm: Bạn có thể dùng túi chườm nóng hoặc chai nước ấm để chườm lên vùng bụng dưới. Nhiệt có tác dụng làm giãn cơ, giúp giảm cơn đau bụng kinh.\n\n" +
+      "2. Uống thuốc giảm đau:\n\n" +
+      "- Thuốc không kê đơn: Bạn có thể dùng thuốc giảm đau như paracetamol hoặc ibuprofen theo hướng dẫn. Những loại thuốc này có thể giúp giảm đau nhanh chóng.\n\n" +
+      "3. Tạo thói quen sinh hoạt lành mạnh:\n\n" +
+      "- Tập thể dục nhẹ: Tham gia vào các hoạt động thể dục nhẹ nhàng như đi bộ, yoga, hoặc các bài tập kéo giãn có thể giúp giảm cơn đau.\n" +
+      "- Ăn uống hợp lý: Hạn chế thực phẩm chứa nhiều muối, đồ ăn nhanh, và caffeine. Thay vào đó, hãy tăng cường rau xanh, trái cây và các thực phẩm chứa omega-3.\n\n" +
+      "4. Thư giãn và giảm stress:\n\n" +
+      "- Thư giãn: Các phương pháp như thiền, hít thở sâu, hoặc tắm nước ấm có thể giúp giảm căng thẳng và làm nhẹ cơn đau.\n" +
+      "- Ngủ đủ giấc: Đảm bảo bạn có giấc ngủ đủ và chất lượng cũng có thể giúp bạn cảm thấy dễ chịu hơn.\n\n" +
+      "5. Thảo dược và thực phẩm bổ sung:\n\n" +
+      "- Bạc hà hoặc gừng: Nước trà từ bạc hà hoặc gừng có thể giúp làm dịu cơn đau và khó chịu.\n\n" +
+      "Nếu cơn đau quá nghiêm trọng hoặc kéo dài không bình thường, bạn nên tham khảo ý kiến bác sĩ để có sự chẩn đoán và điều trị thích hợp. Nếu bạn có thêm câu hỏi nào khác, hãy cho tôi biết nhé!",
   };
 
   for (const key in responses) {
