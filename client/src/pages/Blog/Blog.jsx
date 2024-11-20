@@ -85,10 +85,10 @@ const Blog = () => {
             onChange={(e) => handleFilterChange("category", e.target.value)}
           >
             <option value="">Tất cả danh mục</option>
-            <option value="Y tế số 4.0">Y tế số 4.0</option>
-            <option value="Sức khỏe hàng ngày">Sức khỏe hàng ngày</option>
-            <option value="Thông tin phòng khám">Thông tin phòng khám</option>
-            <option value="Chăm sóc sức khỏe">Chăm sóc sức khỏe</option>
+            <option value="Y tế số 4.0">Sức khỏe</option>
+            <option value="Sức khỏe hàng ngày">Dinh Dưỡng</option>
+            <option value="Thông tin phòng khám">Tập Luyện</option>
+            <option value="Chăm sóc sức khỏe">Tin Tức</option>
           </select>
         </section>
 
@@ -137,7 +137,7 @@ const Blog = () => {
                 <button
                   onClick={() => handleFilterChange("category", "Y tế số 4.0")}
                 >
-                  Y tế số 4.0
+                  Sức Khỏe
                 </button>
               </li>
               <li>
@@ -146,7 +146,7 @@ const Blog = () => {
                     handleFilterChange("category", "Sức khỏe hàng ngày")
                   }
                 >
-                  Sức khỏe hàng ngày
+                  Dinh Dưỡng
                 </button>
               </li>
               <li>
@@ -155,7 +155,7 @@ const Blog = () => {
                     handleFilterChange("category", "Thông tin phòng khám")
                   }
                 >
-                  Thông tin phòng khám
+                  Tập Luyện
                 </button>
               </li>
               <li>
@@ -164,7 +164,7 @@ const Blog = () => {
                     handleFilterChange("category", "Chăm sóc sức khỏe")
                   }
                 >
-                  Chăm sóc sức khỏe
+                  Tin Tức
                 </button>
               </li>
             </ul>
