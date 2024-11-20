@@ -9,6 +9,7 @@ import {
 import ModalCreateMedicine from "../../components/admin/Medication/ModalCreateMedicine";
 import ModalEditMedicine from "../../components/admin/Medication/ModalEditMedicine";
 import ModalDeleteMedicine from "../../components/admin/Medication/ModalDeleteMedicine";
+import ReactPaginate from "react-paginate";
 
 function Medication() {
   const [medicines, setMedicines] = useState([]);
@@ -23,6 +24,10 @@ function Medication() {
   const [showEditModal, setShowEditModal] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
 
+  const handlePageClick = (data) => {
+    const selectedPage = data.selected + 1; // ReactPaginate pages are 0-indexed
+    setCurrentPage(selectedPage);
+  };
   const fetchMedicines = async (page) => {
     setLoading(true);
     setError(null);
@@ -128,23 +133,25 @@ function Medication() {
         )}
       </div>
 
-      <div className="pagination">
-        <button
-          onClick={() => handlePageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          Previous
-        </button>
-        <span>
-          Page {currentPage} of {totalPages}
-        </span>
-        <button
-          onClick={() => handlePageChange(currentPage + 1)}
-          disabled={currentPage === totalPages}
-        >
-          Next
-        </button>
-      </div>
+      <ReactPaginate
+        previousLabel={"Previous"}
+        nextLabel={"Next"}
+        breakLabel={"..."}
+        pageCount={totalPages}
+        marginPagesDisplayed={2}
+        pageRangeDisplayed={3}
+        onPageChange={handlePageClick}
+        containerClassName={"pagination-container"}
+        pageClassName={"page-item"}
+        pageLinkClassName={"page-link"}
+        previousClassName={"page-item"}
+        previousLinkClassName={"page-link"}
+        nextClassName={"page-item"}
+        nextLinkClassName={"page-link"}
+        breakClassName={"page-item"}
+        breakLinkClassName={"page-link"}
+        activeClassName={"active"}
+      />
 
       {/* Modal thêm thuốc */}
       <ModalCreateMedicine

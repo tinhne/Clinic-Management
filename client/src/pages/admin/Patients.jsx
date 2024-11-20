@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {
   getAllUserByRole,
   createPatient,
-  countUserByRole
+  countUserByRole,
 } from "../../utils/AuthAPI/AdminService";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,6 +10,7 @@ import "../../style/adminStyle/patient.scss";
 import ModalDeletePatient from "../../components/admin/patient/ModalDeletePaitent";
 import ModalEditPatient from "../../components/admin/patient/ModalUpdatePaitent";
 import ModalCreatePatient from "../../components/admin/patient/ModalCreatePatient"; // Import modal tạo bệnh nhân
+import ReactPaginate from "react-paginate";
 
 function Patients() {
   const [patients, setPatients] = useState([]);
@@ -26,6 +27,10 @@ function Patients() {
     fetchPatients(currentPage);
   }, [currentPage]);
 
+  const handlePageClick = (data) => {
+    const selectedPage = data.selected + 1; // ReactPaginate pages are 0-indexed
+    setCurrentPage(selectedPage);
+  };
   const fetchPatients = async (page) => {
     setLoading(true);
     setError(null);
@@ -64,7 +69,7 @@ function Patients() {
         >
           Thêm Bệnh Nhân Mới
         </button>
-        <div className="total-patient">  
+        <div className="total-patient">
           <span>Tổng số bệnh nhân : {totalUser}</span>
         </div>
       </div>
@@ -127,27 +132,25 @@ function Patients() {
         )}
       </div>
 
-      <div className="pagination">
-        <button
-          className="btn"
-          onClick={() => handlePageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          Previous
-        </button>
-
-        <span>
-          Page {currentPage} of {totalPages}
-        </span>
-
-        <button
-          className="btn"
-          onClick={() => handlePageChange(currentPage + 1)}
-          disabled={currentPage === totalPages}
-        >
-          Next
-        </button>
-      </div>
+      <ReactPaginate
+        previousLabel={"Previous"}
+        nextLabel={"Next"}
+        breakLabel={"..."}
+        pageCount={totalPages}
+        marginPagesDisplayed={2}
+        pageRangeDisplayed={3}
+        onPageChange={handlePageClick}
+        containerClassName={"pagination-container"}
+        pageClassName={"page-item"}
+        pageLinkClassName={"page-link"}
+        previousClassName={"page-item"}
+        previousLinkClassName={"page-link"}
+        nextClassName={"page-item"}
+        nextLinkClassName={"page-link"}
+        breakClassName={"page-item"}
+        breakLinkClassName={"page-link"}
+        activeClassName={"active"}
+      />
 
       {/* Modal tạo bệnh nhân */}
       <ModalCreatePatient

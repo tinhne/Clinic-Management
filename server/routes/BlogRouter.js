@@ -10,7 +10,8 @@ router.post(
   authorize("admin"),
   blogController.createBlog
 );
-router.get("/get-all-blogs", authenticate, blogController.getAllBlogs);
+router.get("/get-all-blogs", blogController.getAllBlogs);
+//đóng authenticate lại để khi chưa đăng nhập vẫn có thể vào xem
 
 router.get(
   "/get-blog-by-id/:id",

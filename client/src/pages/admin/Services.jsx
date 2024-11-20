@@ -9,6 +9,7 @@ import {
 import ModalCreateService from "../../components/admin/ServiceManage/ModalCreateService";
 import ModalEditService from "../../components/admin/ServiceManage/ModalEditService";
 import ModalDeleteService from "../../components/admin/ServiceManage/ModalDeleteService";
+import ReactPaginate from "react-paginate";
 
 function Services() {
   const [services, setServices] = useState([]);
@@ -23,6 +24,11 @@ function Services() {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [editingService, setEditingService] = useState(null);
   const [deletingService, setDeletingService] = useState(null);
+
+  const handlePageClick = (data) => {
+    const selectedPage = data.selected + 1; // ReactPaginate pages are 0-indexed
+    setCurrentPage(selectedPage);
+  };
 
   // Fetch services
   const fetchServices = async (page) => {
@@ -126,23 +132,25 @@ function Services() {
         )}
       </div>
 
-      <div className="pagination">
-        <button
-          onClick={() => handlePageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          Previous
-        </button>
-        <span>
-          Page {currentPage} of {totalPages}
-        </span>
-        <button
-          onClick={() => handlePageChange(currentPage + 1)}
-          disabled={currentPage === totalPages}
-        >
-          Next
-        </button>
-      </div>
+      <ReactPaginate
+        previousLabel={"Previous"}
+        nextLabel={"Next"}
+        breakLabel={"..."}
+        pageCount={totalPages}
+        marginPagesDisplayed={2}
+        pageRangeDisplayed={3}
+        onPageChange={handlePageClick}
+        containerClassName={"pagination-container"}
+        pageClassName={"page-item"}
+        pageLinkClassName={"page-link"}
+        previousClassName={"page-item"}
+        previousLinkClassName={"page-link"}
+        nextClassName={"page-item"}
+        nextLinkClassName={"page-link"}
+        breakClassName={"page-item"}
+        breakLinkClassName={"page-link"}
+        activeClassName={"active"}
+      />
 
       {/* Modal Thêm dịch vụ */}
       <ModalCreateService

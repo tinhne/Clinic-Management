@@ -1,62 +1,171 @@
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "../../style/Blog/Blog.scss";
-import image from "../../assets/img/Blog_Image/1 9.png";
 import Header from "../../components/layout/header";
+
 const Blog = () => {
+  const [blogs, setBlogs] = useState([]); // Lưu danh sách blog
+  const [loading, setLoading] = useState(true); // Trạng thái tải
+  const [error, setError] = useState(null); // Lỗi nếu có
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const [filters, setFilters] = useState({
+    category: "",
+    search: "",
+    page: 1,
+    limit: 5,
+  }); // Bộ lọc (nếu cần phân trang, lọc)
+
+  const [totalBlogs, setTotalBlogs] = useState(0); // Tổng số bài viết
+
+  const toggleContent = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      setLoading(true);
+      setError(null);
+
+      try {
+        const response = await axios.get(
+          "http://localhost:8000/api/blog/get-all-blogs",
+          {
+            params: filters, // Gửi bộ lọc qua query string
+          }
+        );
+        setBlogs(response.data.blogs); // Dữ liệu blog
+        setTotalBlogs(response.data.total); // Tổng số blog (phục vụ phân trang)
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchBlogs();
+  }, [filters]); // Re-fetch khi `filters` thay đổi
+
+  // Hàm xử lý bộ lọc
+  const handleFilterChange = (key, value) => {
+    setFilters({ ...filters, [key]: value, page: 1 }); // Reset trang về 1 khi thay đổi bộ lọc
+  };
+
+  // Hàm xử lý chuyển trang
+  const handlePageChange = (newPage) => {
+    setFilters({ ...filters, page: newPage });
+  };
+
+  if (loading) return <p>Loading...</p>; // Hiển thị khi đang tải dữ liệu
+  if (error) return <p>Error: {error}</p>; // Hiển thị khi lỗi
+
   return (
     <>
       <Header />
 
+      {/* Banner */}
       <section className="banner">
         <div className="overlay"></div>
         <h1>Y TẾ SỐ 4.0</h1>
         <div className="banner-text"></div>
       </section>
 
+      {/* Main content */}
       <main className="main-content">
-        <section className="articles">
-          <article className="article">
-            <img src={image} alt="Article" />
-            <div className="article-content">
-              <div className="title">
-                <p className="p1">Y tế số 4.0</p>
-                <p className="p2">
-                  8 cách giúp phòng khám tăng trưởng bền vững thời 4.0
-                </p>
-                <p className="p3">Phúc Hiếu, Đà Nẵng | 12993 lượt xem</p>
-              </div>
-
-              <p className="p4">
-                Phòng khám trong thời đại kỹ thuật số cần áp dụng nhiều biện
-                pháp Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quis ab, nemo similique ad id perferendis. Facere sed dicta id
-                iusto perspiciatis recusandae, autem non modi quo, magni
-                voluptate rem vel.
-              </p>
-              <p className="p5">
-                Có phải là: 1. Website phòng khám, 2. Quản lý danh tiếng, 3.
-                Healthcare marketing, 4. Trải nghiệm bệnh nhân, 5. Cá nhân hóa
-                bệnh nhân, 6. Tin nhắn tự động, 7. Phần mềm quản lý phòng khám,
-                8. Referral marketing
-              </p>
-            </div>
-          </article>
+        {/* Bộ lọc */}
+        <section className="filters">
+          <input
+            type="text"
+            placeholder="Tìm kiếm..."
+            value={filters.search}
+            onChange={(e) => handleFilterChange("search", e.target.value)}
+          />
+          <select
+            value={filters.category}
+            onChange={(e) => handleFilterChange("category", e.target.value)}
+          >
+            <option value="">Tất cả danh mục</option>
+            <option value="Y tế số 4.0">Y tế số 4.0</option>
+            <option value="Sức khỏe hàng ngày">Sức khỏe hàng ngày</option>
+            <option value="Thông tin phòng khám">Thông tin phòng khám</option>
+            <option value="Chăm sóc sức khỏe">Chăm sóc sức khỏe</option>
+          </select>
         </section>
 
+        {/* Danh sách bài viết */}
+        <section className="articles">
+          {blogs.length > 0 ? (
+            blogs.map((blog) => (
+              <article className="article" key={blog._id}>
+                <img
+                  src={blog.image || "default-image-url.jpg"}
+                  alt={blog.title || "Không có tiêu đề"}
+                />
+                <div className="article-content">
+                  <div className="title">
+                    <p className="p1">{blog.category || "Không có tiêu đề"}</p>
+                    {/* <p className="p2">{blog.category || "Không có phụ đề"}</p> */}
+                    <p className="p3">
+                      {blog.author?.username || "Không rõ tác giả"},{" "}
+                      {blog.location || "Không rõ địa điểm"} | {blog.views || 0}{" "}
+                      lượt xem
+                    </p>
+                    <p className="p4">
+                      Danh mục: {blog.category || "Chưa xác định"}
+                    </p>
+                    <p className="p5">
+                      Ngày tạo:{" "}
+                      {new Date(blog.createdAt).toLocaleDateString() ||
+                        "Không rõ"}
+                    </p>
+                  </div>
+                  <p className="p6">{blog.content || "Không có nội dung"}</p>
+                </div>
+              </article>
+            ))
+          ) : (
+            <p>Không có bài viết nào.</p>
+          )}
+        </section>
+
+        {/* Sidebar */}
         <aside className="sidebar">
           <section className="categories">
             <p>Danh Mục</p>
             <ul>
               <li>
-                <a href="#">Y tế số 4.0</a>
+                <button
+                  onClick={() => handleFilterChange("category", "Y tế số 4.0")}
+                >
+                  Y tế số 4.0
+                </button>
               </li>
               <li>
-                <a href="#">Sức khỏe hàng ngày</a>
+                <button
+                  onClick={() =>
+                    handleFilterChange("category", "Sức khỏe hàng ngày")
+                  }
+                >
+                  Sức khỏe hàng ngày
+                </button>
               </li>
               <li>
-                <a href="#">Thông tin phòng khám</a>
+                <button
+                  onClick={() =>
+                    handleFilterChange("category", "Thông tin phòng khám")
+                  }
+                >
+                  Thông tin phòng khám
+                </button>
               </li>
               <li>
-                <a href="#">Chăm sóc sức khỏe</a>
+                <button
+                  onClick={() =>
+                    handleFilterChange("category", "Chăm sóc sức khỏe")
+                  }
+                >
+                  Chăm sóc sức khỏe
+                </button>
               </li>
             </ul>
           </section>
@@ -65,13 +174,14 @@ const Blog = () => {
             <p>Xem nhiều nhất</p>
             <div className="most-blog">
               <div className="most-viewed-img">
-                <img src={image} alt="" />
+                <img
+                  src={blogs[0]?.image || "URL_HINH_ANH"}
+                  alt="Most Viewed"
+                />
               </div>
               <div className="most-viewed-info">
-                <p className="title">
-                  8 cách giúp phòng khám tăng trưởng bền vững thời 4 chấm
-                </p>
-                <p className="view">23330 lượt xem</p>
+                <p className="title">{blogs[0]?.title || "Bài viết nổi bật"}</p>
+                <p className="view">{blogs[0]?.views || 0} lượt xem</p>
               </div>
             </div>
           </section>

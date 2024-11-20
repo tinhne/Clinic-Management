@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import {
   getAllUserByRole,
   createDoctor,
-  countUserByRole
+  countUserByRole,
 } from "../../utils/AuthAPI/AdminService"; // Import createDoctor
 import "../../style/adminStyle/doctors.scss";
+import ReactPaginate from "react-paginate";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ModalDeleteDoctor from "../../components/admin/Doctor/ModalDeleteDoctor";
@@ -22,8 +23,15 @@ const Doctors = (props) => {
   const [showCreateModal, setShowCreateModal] = useState(false); // Thêm trạng thái modal tạo bác sĩ
   const [selectedUser, setSelectedUser] = useState(null);
   const [totalUser, setTotalUser] = useState(0);
-
+  const handlePageClick = (data) => {
+    const selectedPage = data.selected + 1; // ReactPaginate pages are 0-indexed
+    setCurrentPage(selectedPage);
+  };
   const fetchDoctors = async (page) => {
+    const handlePageClick = (data) => {
+      const selectedPage = data.selected + 1; // ReactPaginate pages are 0-indexed
+      setCurrentPage(selectedPage);
+    };
     setLoading(true);
     setError(null);
     try {
@@ -78,9 +86,9 @@ const Doctors = (props) => {
           <button className="btn btn-primary" onClick={handleCreateModalShow}>
             Thêm Bác Sĩ Mới
           </button>
-          <div className="total-doctor">  
-          <span>Tổng số bác sĩ : {totalUser}</span>
-        </div>
+          <div className="total-doctor">
+            <span>Tổng số bác sĩ : {totalUser}</span>
+          </div>
         </div>
 
         {/* Hiển thị danh sách bác sĩ */}
@@ -139,25 +147,25 @@ const Doctors = (props) => {
         </div>
 
         {/* Nút phân trang */}
-        <div className="pagination">
-          <button
-            className="btn"
-            onClick={() => handlePageChange(currentPage - 1)}
-            disabled={currentPage === 1}
-          >
-            Previous
-          </button>
-          <span>
-            Page {currentPage} of {totalPages}
-          </span>
-          <button
-            className="btn"
-            onClick={() => handlePageChange(currentPage + 1)}
-            disabled={currentPage === totalPages}
-          >
-            Next
-          </button>
-        </div>
+        <ReactPaginate
+          previousLabel={"Previous"}
+          nextLabel={"Next"}
+          breakLabel={"..."}
+          pageCount={totalPages}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={3}
+          onPageChange={handlePageClick}
+          containerClassName={"pagination-container"}
+          pageClassName={"page-item"}
+          pageLinkClassName={"page-link"}
+          previousClassName={"page-item"}
+          previousLinkClassName={"page-link"}
+          nextClassName={"page-item"}
+          nextLinkClassName={"page-link"}
+          breakClassName={"page-item"}
+          breakLinkClassName={"page-link"}
+          activeClassName={"active"}
+        />
 
         {/* Modal tạo bác sĩ */}
         <ModalCreateDoctor
