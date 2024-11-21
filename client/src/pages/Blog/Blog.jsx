@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "../../style/Blog/Blog.scss";
 import Header from "../../components/layout/header";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]); // Lưu danh sách blog
   const [loading, setLoading] = useState(true); // Trạng thái tải
   const [error, setError] = useState(null); // Lỗi nếu có
   const [isExpanded, setIsExpanded] = useState(false);
+  const sortedBlogs = blogs.sort((a, b) => b.views - a.views); //sắp xếp danh sách bài viết
 
   const [filters, setFilters] = useState({
     category: "",
@@ -183,7 +185,11 @@ const Blog = () => {
                 />
               </div>
               <div className="most-viewed-info">
-                <p className="title">{blogs[0]?.title || "Bài viết nổi bật"}</p>
+                <p className="title">
+                  <Link to={`/post/${blogs[0]?._id || ""}`}>
+                    {blogs[0]?.title || "Bài viết nổi bật"}
+                  </Link>
+                </p>
                 <p className="view">{blogs[0]?.views || 0} lượt xem</p>
               </div>
             </div>
