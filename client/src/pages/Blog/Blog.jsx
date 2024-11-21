@@ -96,32 +96,35 @@ const Blog = () => {
         <section className="articles">
           {blogs.length > 0 ? (
             blogs.map((blog) => (
-              <article className="article" key={blog._id}>
-                <img
-                  src={blog.image || "default-image-url.jpg"}
-                  alt={blog.title || "Không có tiêu đề"}
-                />
+              <a className="article" key={blog._id} href={`/blog/${blog._id}`}>
+                <div className="article-image">
+                  <img
+                    src={blog.image || "default-image-url.jpg"}
+                    alt={blog.title || "Không có tiêu đề"}
+                  />
+                </div>
                 <div className="article-content">
                   <div className="title">
-                    <p className="p1">{blog.category || "Không có tiêu đề"}</p>
-                    {/* <p className="p2">{blog.category || "Không có phụ đề"}</p> */}
-                    <p className="p3">
-                      {blog.author?.username || "Không rõ tác giả"},{" "}
-                      {blog.location || "Không rõ địa điểm"} | {blog.views || 0}{" "}
-                      lượt xem
+                    <p className="category">
+                      {blog.category || "Không có danh mục"}
                     </p>
-                    <p className="p4">
-                      Danh mục: {blog.category || "Chưa xác định"}
+                    <h3 className="title-text">
+                      {blog.title || "Không có tiêu đề"}
+                    </h3>
+                  </div>
+                  <div className="meta">
+                    <p className="author">
+                      {blog.author_name || "Không rõ tác giả"}
                     </p>
-                    <p className="p5">
+
+                    <p className="date">
                       Ngày tạo:{" "}
                       {new Date(blog.createdAt).toLocaleDateString() ||
                         "Không rõ"}
                     </p>
                   </div>
-                  <p className="p6">{blog.content || "Không có nội dung"}</p>
                 </div>
-              </article>
+              </a>
             ))
           ) : (
             <p>Không có bài viết nào.</p>
