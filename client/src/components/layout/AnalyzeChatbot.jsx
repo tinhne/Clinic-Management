@@ -1533,7 +1533,7 @@ function analyzeInput(input) {
       "- Sử dụng đồ uống hoặc thực phẩm nóng, cay.\n\n" +
       " 4. Khác \n" +
       "- Trào ngược dạ dày thực quản (GERD): Axit dạ dày lên họng có thể gây ra cảm giác rát và khó chịu.\n" +
-      "- Viêm amiđan: Amiđan sưng đau có thể gây ra cảm giác rát trong họng kèm theo triệu chứng vướng víu, khó nuốt [1].\n\n" +
+      "- Viêm amiđan: Amiđan sưng đau có thể gây ra cảm giác rát trong họng kèm theo triệu chứng vướng víu, khó nuốt.\n\n" +
       " 5. Ung thư \n" +
       "Trong một số trường hợp hiếm gặp, rát họng có thể là triệu chứng sớm của ung thư vòm họng hoặc ung thư amiđan, thường đi kèm với các triệu chứng như sụt cân, khó nuốt hoặc khàn giọng kéo dài.\n\n" +
       " Điều trị \n" +
@@ -2103,27 +2103,27 @@ function analyzeInput(input) {
       "- Nếu triệu chứng kéo dài hoặc trở nên nghiêm trọng, hoặc nếu bạn có các triệu chứng kèm theo như sốt, nôn ra máu, hoặc đại tiện có máu, bạn nên tìm kiếm sự tư vấn y tế để kiểm tra và điều trị kịp thời.\n\n" +
       "Hy vọng thông tin trên sẽ hữu ích cho bạn. Nếu bạn cần thêm sự trợ giúp hoặc thông tin cụ thể hơn, hãy cho tôi biết nhé!",
     "đặt lịch khám":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt lịch":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt khám ngay":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt khám nhanh":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "đặt khám":
-      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện theo các bước sau:\n\n " +
+      "Dạ, để đặt lịch đăng ký khám bệnh tại phòng khám, bạn có thể thực hiện theo các bước sau:\n\n " +
       "1. Điền thông tin cá nhân: Bạn cần cung cấp các thông tin như Họ tên, Năm Sinh, Số điện thoại, Địa chỉ, Ngày tới khám, và bất kỳ yêu cầu đặc biệt nào khác (nếu có).\n" +
       "2. Mời Bạn chọn đăng kí lịch khám nhanh bấm vào link đăng ký bên dưới: Bạn có thể đăng ký khám chữa bệnh qua đường link đã chọn.\n\nNếu bạn cần hỗ trợ thêm, vui lòng cho tôi biết!",
     "thời gian làm việc của phòng khám":
-      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
+      "Dạ, thời gian làm việc của phòng khám như sau:" +
       "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
       "Buổi sáng: từ 6h30 đến 11h00" +
       "Buổi chiều: từ 13h30 đến 17h00" +
@@ -2132,7 +2132,7 @@ function analyzeInput(input) {
       "Buổi chiều: từ 13h30 đến 17h00" +
       "Ngoài giờ hành chính, Bệnh viện vẫn tiếp đón bệnh nhân cấp cứu theo quy định của Bộ Y tế. Nếu bạn cần thêm thông tin, vui lòng cho tôi biết!",
     "thời gian làm việc":
-      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
+      "Dạ, thời gian làm việc của phòng khám như sau:" +
       "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
       "Buổi sáng: từ 6h30 đến 11h00" +
       "Buổi chiều: từ 13h30 đến 17h00" +
@@ -2141,7 +2141,7 @@ function analyzeInput(input) {
       "Buổi chiều: từ 13h30 đến 17h00" +
       "Ngoài giờ hành chính, Bệnh viện vẫn tiếp đón bệnh nhân cấp cứu theo quy định của Bộ Y tế. Nếu bạn cần thêm thông tin, vui lòng cho tôi biết!",
     "giờ làm việc":
-      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
+      "Dạ, thời gian làm việc của phòng khám như sau:" +
       "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
       "Buổi sáng: từ 6h30 đến 11h00" +
       "Buổi chiều: từ 13h30 đến 17h00" +
@@ -2150,7 +2150,7 @@ function analyzeInput(input) {
       "Buổi chiều: từ 13h30 đến 17h00" +
       "Ngoài giờ hành chính, Bệnh viện vẫn tiếp đón bệnh nhân cấp cứu theo quy định của Bộ Y tế. Nếu bạn cần thêm thông tin, vui lòng cho tôi biết!",
     "làm việc":
-      "Dạ, thời gian làm việc của phòng khám - Đa Khoa Chất Lượng Cao như sau:" +
+      "Dạ, thời gian làm việc của phòng khám  như sau:" +
       "1. Thời gian làm việc mùa hè (từ 16 tháng 4 đến hết ngày 15 tháng 10):" +
       "Buổi sáng: từ 6h30 đến 11h00" +
       "Buổi chiều: từ 13h30 đến 17h00" +
@@ -4024,6 +4024,203 @@ function analyzeInput(input) {
       "5. Thảo dược và thực phẩm bổ sung:\n\n" +
       "- Bạc hà hoặc gừng: Nước trà từ bạc hà hoặc gừng có thể giúp làm dịu cơn đau và khó chịu.\n\n" +
       "Nếu cơn đau quá nghiêm trọng hoặc kéo dài không bình thường, bạn nên tham khảo ý kiến bác sĩ để có sự chẩn đoán và điều trị thích hợp. Nếu bạn có thêm câu hỏi nào khác, hãy cho tôi biết nhé!",
+    "thuốc đau đầu":
+      "Dạ, khi bị đau đầu, có nhiều phương pháp và loại thuốc mà bạn có thể sử dụng để giảm cơn đau và cảm thấy thoải mái hơn. Dưới đây là một số gợi ý:\n\n" +
+      "1. Thuốc giảm đau không kê đơn:\n\n" +
+      "- Paracetamol (Acetaminophen): Đây là loại thuốc giảm đau phổ biến, an toàn khi dùng đúng liều lượng khuyến cáo.\n" +
+      "- Ibuprofen hoặc Aspirin: Cũng hiệu quả trong việc giảm đau, nhưng cần thận trọng nếu bạn có vấn đề về dạ dày hoặc gan.\n\n" +
+      "2. Chống viêm không steroid (NSAIDs):\n\n" +
+      "- Các loại thuốc như Ibuprofen hoặc Naproxen có thể giúp giảm viêm và đau một cách hiệu quả.\n\n" +
+      "3. Thuốc kê đơn:\n\n" +
+      "- Trường hợp đau đầu mãn tính, bác sĩ có thể kê đơn thuốc đặc trị như triptans (ví dụ: Sumatriptan) để điều trị đau nửa đầu.\n\n" +
+      "4. Thuốc ngừa đau đầu:\n\n" +
+      "- Đối với những người thường xuyên bị đau đầu, bác sĩ có thể đề xuất sử dụng Beta-blockers, thuốc chống trầm cảm hoặc thuốc chống động kinh để ngăn ngừa cơn đau tái phát.\n\n" +
+      "Lưu ý:\n\n" +
+      "- Trước khi sử dụng bất kỳ loại thuốc nào, bạn nên tham khảo ý kiến bác sĩ để xác định nguyên nhân và lựa chọn hướng điều trị phù hợp.\n" +
+      "- Nếu cơn đau đầu kéo dài hoặc dữ dội, hãy tìm đến cơ sở y tế để được chăm sóc kịp thời.",
+    "đau đầu dữ dội, uống thuốc giảm đau":
+      "Dạ, nếu bạn bị đau đầu dữ dội, có một số biện pháp bạn có thể cân nhắc để giảm cơn đau và xử lý tình trạng này một cách hiệu quả:\n\n" +
+      "1. Thuốc giảm đau không kê đơn:\n\n" +
+      "- Paracetamol hoặc Ibuprofen: Đây là những loại thuốc phổ biến giúp giảm đau hiệu quả. Tuy nhiên, hãy tuân thủ liều lượng khuyến cáo và không lạm dụng.\n\n" +
+      "2. Xác định nguyên nhân:\n\n" +
+      "- Nếu đau đầu kèm theo các triệu chứng như buồn nôn, giảm thị lực, hoặc kéo dài không giảm, bạn nên đến gặp bác sĩ để được chẩn đoán và điều trị kịp thời. Đau đầu có thể liên quan đến các vấn đề sức khỏe nghiêm trọng.\n\n" +
+      "3. Nghỉ ngơi và bổ sung nước:\n\n" +
+      "- Hãy nghỉ ngơi ở nơi yên tĩnh và uống đủ nước, vì mất nước có thể làm cơn đau đầu trầm trọng hơn.\n\n" +
+      "4. Lưu ý về tần suất dùng thuốc:\n\n" +
+      "- Nếu bạn thường xuyên phải sử dụng thuốc giảm đau, hãy tham khảo ý kiến bác sĩ, vì điều này có thể là dấu hiệu của một vấn đề lớn hơn cần được giải quyết.\n\n" +
+      "Lưu ý:\n\n" +
+      "- Nếu cơn đau không giảm hoặc có dấu hiệu nặng hơn, bạn nên nhanh chóng tìm đến cơ sở y tế để được tư vấn và điều trị đúng cách. Nếu cần thêm thông tin, vui lòng cho tôi biết để hỗ trợ bạn.",
+    "đau ruột thừa":
+      "Dạ, đau ruột thừa (viêm ruột thừa) là một tình trạng y tế cấp tính cần can thiệp phẫu thuật khẩn cấp. Dưới đây là các thông tin quan trọng bạn nên biết:\n\n" +
+      "Triệu chứng:\n\n" +
+      "1. Đau bụng: Cơn đau thường bắt đầu ở vùng quanh rốn, sau đó di chuyển xuống phía bên phải bụng.\n" +
+      "2. Sốt nhẹ: Có thể xuất hiện sốt, thường dưới 38°C.\n" +
+      "3. Buồn nôn và nôn: Nhiều bệnh nhân cảm thấy buồn nôn và có thể nôn.\n" +
+      "4. Thay đổi thói quen đại tiện: Có thể đi tiêu nhiều hoặc ít hơn bình thường.\n\n" +
+      "Nguyên nhân:\n\n" +
+      "- Sự tắc nghẽn của lòng ruột thừa, thường do:\n" +
+      "  - Mảnh thức ăn hoặc phân.\n" +
+      "  - Lympho mô tăng sản.\n" +
+      "  - Nhiễm trùng.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "- Khám lâm sàng: Bác sĩ kiểm tra vị trí đau và các triệu chứng liên quan.\n" +
+      "- Xét nghiệm hình ảnh: Siêu âm hoặc CT scan thường được sử dụng để xác định tình trạng viêm.\n\n" +
+      "Điều trị:\n\n" +
+      "1. Phẫu thuật:\n" +
+      "- Phương pháp điều trị chính là cắt bỏ ruột thừa (appendectomy), thường được thực hiện qua phẫu thuật nội soi.\n" +
+      "2. Kháng sinh:\n" +
+      "- Trước và sau phẫu thuật, bệnh nhân sẽ được điều trị bằng thuốc kháng sinh để ngăn ngừa nhiễm trùng.\n\n" +
+      "Lưu ý:\n\n" +
+      "- Nếu bạn hoặc người thân có triệu chứng nghi ngờ viêm ruột thừa, hãy nhanh chóng đến cơ sở y tế để được kiểm tra và điều trị. Nếu không được xử lý kịp thời, viêm ruột thừa có thể dẫn đến các biến chứng nghiêm trọng như vỡ ruột thừa hoặc viêm phúc mạc.\n\n" +
+      "Nếu bạn cần thêm thông tin hoặc hỗ trợ, vui lòng cho tôi biết để được tư vấn thêm.",
+    "xung quanh bụng":
+      "Dạ, nếu bạn đang bị đau xung quanh bụng, đây có thể là triệu chứng của nhiều vấn đề sức khỏe khác nhau, bao gồm viêm ruột thừa, đau dạ dày, hoặc các vấn đề tiêu hóa khác. Để xác định chính xác nguyên nhân, bạn cần chú ý đến các triệu chứng kèm theo và tìm kiếm sự chăm sóc y tế khi cần thiết. Dưới đây là các thông tin bạn có thể tham khảo:\n\n" +
+      "Triệu chứng cảnh báo:\n\n" +
+      "- Cơn đau dữ dội: Nếu cơn đau trở nên dữ dội hoặc không thuyên giảm.\n" +
+      "- Sốt: Nếu bạn có sốt trên 38°C.\n" +
+      "- Buồn nôn hoặc nôn mửa: Đây có thể là dấu hiệu của các vấn đề tiêu hóa.\n" +
+      "- Thay đổi thói quen đi tiêu: Tiêu chảy hoặc táo bón.\n\n" +
+      "Khuyên nên thực hiện:\n\n" +
+      "1. Theo dõi triệu chứng: Ghi lại các triệu chứng bạn gặp phải, bao gồm thời gian và mức độ đau.\n" +
+      "2. Tìm kiếm sự chăm sóc y tế: Nếu cơn đau kéo dài hoặc có các triệu chứng nghiêm trọng, bạn nên đến bệnh viện hoặc cơ sở y tế gần nhất để được khám và chẩn đoán chính xác.\n" +
+      "Quy trình khám:\n\n" +
+      "- Nếu bạn có bảo hiểm y tế, bạn có thể làm theo các bước cấp số thứ tự, đăng ký khám và thực hiện các xét nghiệm cần thiết.\n" +
+      "- Nếu không có bảo hiểm, quy trình cũng tương tự nhưng bạn sẽ thanh toán tiền dịch vụ tại quầy thu ngân sau khi khám.\n\n" +
+      "Hy vọng bạn sẽ sớm tìm được nguyên nhân và có phương pháp điều trị hiệu quả. Nếu có thêm câu hỏi, đừng ngần ngại cho tôi biết!",
+    "đau xung quanh bụng":
+      "Dạ, nếu bạn đang bị đau xung quanh bụng, đây có thể là triệu chứng của nhiều vấn đề sức khỏe khác nhau, bao gồm viêm ruột thừa, đau dạ dày, hoặc các vấn đề tiêu hóa khác. Để xác định chính xác nguyên nhân, bạn cần chú ý đến các triệu chứng kèm theo và tìm kiếm sự chăm sóc y tế khi cần thiết. Dưới đây là các thông tin bạn có thể tham khảo:\n\n" +
+      "Triệu chứng cảnh báo:\n\n" +
+      "- Cơn đau dữ dội: Nếu cơn đau trở nên dữ dội hoặc không thuyên giảm.\n" +
+      "- Sốt: Nếu bạn có sốt trên 38°C.\n" +
+      "- Buồn nôn hoặc nôn mửa: Đây có thể là dấu hiệu của các vấn đề tiêu hóa.\n" +
+      "- Thay đổi thói quen đi tiêu: Tiêu chảy hoặc táo bón.\n\n" +
+      "Khuyên nên thực hiện:\n\n" +
+      "1. Theo dõi triệu chứng: Ghi lại các triệu chứng bạn gặp phải, bao gồm thời gian và mức độ đau.\n" +
+      "2. Tìm kiếm sự chăm sóc y tế: Nếu cơn đau kéo dài hoặc có các triệu chứng nghiêm trọng, bạn nên đến bệnh viện hoặc cơ sở y tế gần nhất để được khám và chẩn đoán chính xác.\n" +
+      "Quy trình khám:\n\n" +
+      "- Nếu bạn có bảo hiểm y tế, bạn có thể làm theo các bước cấp số thứ tự, đăng ký khám và thực hiện các xét nghiệm cần thiết.\n" +
+      "- Nếu không có bảo hiểm, quy trình cũng tương tự nhưng bạn sẽ thanh toán tiền dịch vụ tại quầy thu ngân sau khi khám.\n\n" +
+      "Hy vọng bạn sẽ sớm tìm được nguyên nhân và có phương pháp điều trị hiệu quả. Nếu có thêm câu hỏi, đừng ngần ngại cho tôi biết!",
+    "đau trên rốn":
+      "Dạ, nếu bạn đang bị đau ở khu vực trên rốn, có thể có một số nguyên nhân khác nhau gây ra cơn đau này. Dưới đây là một số thông tin và triệu chứng có thể liên quan đến tình trạng này:\n\n" +
+      "Nguyên nhân có thể:\n\n" +
+      "1. Viêm dạ dày: Cảm giác đau ở vùng trên rốn, kèm theo buồn nôn, nôn hoặc khó tiêu.\n" +
+      "2. Loét dạ dày: Đau ở bụng trên, đặc biệt khi đói hoặc sau khi ăn.\n" +
+      "3. Viêm tụy: Đau bụng dữ dội ở vùng trên rốn, kèm theo buồn nôn và nôn.\n" +
+      "4. Các vấn đề về ruột: Như táo bón hoặc tắc ruột có thể gây đau ở khu vực này.\n\n" +
+      "Triệu chứng cảnh báo:\n\n" +
+      "- Đau dữ dội không thuyên giảm\n" +
+      "- Sốt\n" +
+      "- Nôn mửa, đặc biệt nếu có máu\n" +
+      "- Đại tiện có máu hoặc phân đen\n" +
+      "- Khó thở hoặc chóng mặt\n\n" +
+      "Khuyên nên:\n\n" +
+      "1. Theo dõi triệu chứng: Ghi lại các triệu chứng bạn gặp phải, thời gian và mức độ đau.\n" +
+      "2. Tìm kiếm sự chăm sóc y tế: Nếu cơn đau kéo dài hoặc nghiêm trọng, bạn nên đến bệnh viện hoặc cơ sở y tế để được khám và chẩn đoán đúng.\n\n" +
+      "Quy trình khám:\n\n" +
+      "- Nếu bạn có bảo hiểm y tế, bạn có thể làm thủ tục khám theo quy trình đã được quy định, bao gồm đăng ký tại quầy, khám bệnh và có thể phải làm xét nghiệm cận lâm sàng.\n" +
+      "- Nếu không có bảo hiểm, bạn cũng có thể đăng ký khám dịch vụ mà không cần phải chờ đợi.\n\n" +
+      "Hy vọng những thông tin trên sẽ giúp ích cho bạn. Nếu còn thêm câu hỏi hay cần hỗ trợ gì khác, đừng ngần ngại cho tôi biết!",
+    "đau nhức cơ thể":
+      "Dạ, nếu bạn cảm thấy đau nhức cơ thể, điều này có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số thông tin về các nguyên nhân phổ biến và triệu chứng kèm theo:\n\n" +
+      "Nguyên nhân có thể:\n\n" +
+      "1. Cảm cúm hoặc nhiễm virus: Thường kèm theo các triệu chứng như sốt, ho, và mệt mỏi.\n" +
+      "2. Đau cơ xơ hóa (Fibromyalgia): Là tình trạng gây đau mạn tính ở nhiều vùng trên cơ thể, kèm theo mệt mỏi và khó ngủ.\n" +
+      "3. Tập luyện quá sức: Đau nhức cơ thể có thể xảy ra khi bạn tập thể dục hoặc làm việc nặng mà chưa quen.\n" +
+      "4. Các vấn đề về khớp: Như viêm khớp, có thể gây đau nhức ở từng khớp và vùng xung quanh.\n\n" +
+      "Triệu chứng cảnh báo:\n\n" +
+      "- Sốt cao không giảm\n" +
+      "- Sưng hoặc đau ở một khớp lớn\n" +
+      "- Đau kèm theo phát ban hoặc nốt mẩn trên da\n" +
+      "- Cảm giác mệt mỏi nghiêm trọng, không thể thực hiện các hoạt động hàng ngày\n\n" +
+      "Khuyên nên:\n\n" +
+      "1. Nghỉ ngơi: Hạn chế các hoạt động nặng nhọc và cho cơ thể thời gian hồi phục.\n" +
+      "2. Chườm nóng hoặc lạnh: Sử dụng túi chườm lạnh hoặc làm ấm để giảm đau cơ bắp.\n" +
+      "3. Uống đủ nước: Giữ cơ thể đủ nước giúp cải thiện sức khỏe tổng thể.\n" +
+      "4. Xem xét gặp bác sĩ: Nếu cơn đau kéo dài hoặc nghiêm trọng, hãy tìm đến bác sĩ để được khám và chẩn đoán chính xác.\n\n" +
+      "Hy vọng thông tin này sẽ giúp ích cho bạn. Nếu bạn có thêm câu hỏi hoặc cần hỗ trợ nào khác, đừng ngần ngại cho tôi biết!",
+    "đau dưới rốn":
+      "Dạ, đau dưới rốn có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số thông tin về tình trạng này:\n\n" +
+      "Nguyên nhân có thể:\n\n" +
+      "1. Viêm ruột thừa: Đây là một trong những nguyên nhân phổ biến gây đau bụng dưới bên phải. Triệu chứng kèm theo có thể bao gồm buồn nôn, nôn, và sốt.\n" +
+      "2. Rối loạn tiêu hóa: Các vấn đề như táo bón, tiêu chảy hoặc hội chứng ruột kích thích cũng có thể gây đau bụng dưới.\n" +
+      "3. Viêm bàng quang hoặc nhiễm trùng đường tiết niệu: Cả hai tình trạng này có thể gây đau ở vùng dưới rốn, kèm theo triệu chứng đi tiểu thường xuyên hoặc đau khi đi tiểu.\n" +
+      "4. Bệnh lý phụ khoa: Ở nữ giới, đau dưới rốn có thể liên quan đến các vấn đề như viêm vùng chậu, u nang buồng trứng, hoặc rối loạn liên quan đến chu kỳ kinh nguyệt.\n\n" +
+      "Triệu chứng cảnh báo:\n\n" +
+      "- Đau dữ dội không thuyên giảm\n" +
+      "- Sốt cao\n" +
+      "- Nôn mửa, đặc biệt nếu có máu\n" +
+      "- Đại tiện có máu hoặc phân đen\n" +
+      "- Khó thở hoặc chóng mặt\n\n" +
+      "Khuyên nên:\n\n" +
+      "1. Theo dõi triệu chứng: Ghi lại thời gian đau, mức độ và các triệu chứng kèm theo để cung cấp thông tin cho bác sĩ khi cần.\n" +
+      "2. Tìm kiếm sự chăm sóc y tế: Nếu đau kéo dài hoặc tăng lên, hãy đến bệnh viện hoặc cơ sở y tế để được khám và chẩn đoán đúng.\n\n" +
+      "Quy trình khám:\n\n" +
+      "Tại Bệnh viện Thái Bình - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện thăm khám theo quy trình khám ngoại trú, rất thuận tiện. Các bước thăm khám bao gồm việc đăng ký khám, kiểm tra triệu chứng và thực hiện các xét nghiệm cần thiết nếu có chỉ định từ bác sĩ [1] hoặc [2].\n\n" +
+      "Hy vọng thông tin này sẽ giúp ích cho bạn. Nếu có thêm câu hỏi khác, đừng ngần ngại cho tôi biết!",
+    "bệnh tim mạch":
+      "Dạ, bệnh tim mạch là một trong những vấn đề sức khỏe nghiêm trọng và phổ biến. Dưới đây là một số thông tin quan trọng về bệnh tim mạch, bao gồm nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị.\n\n" +
+      "Nguyên nhân gây bệnh tim mạch:\n\n" +
+      "1. Tăng huyết áp: Áp lực máu cao có thể làm tổn thương mạch máu và tim.\n" +
+      "2. Mỡ trong máu cao: Cholesterol cao và triglyceride có thể gây tắc nghẽn động mạch.\n" +
+      "3. Di truyền: Các yếu tố di truyền có thể làm tăng nguy cơ mắc bệnh tim.\n" +
+      "4. Lối sống không lành mạnh: Chế độ ăn uống không cân đối, ít vận động, hút thuốc lá, và uống rượu bia có thể góp phần vào bệnh lý tim mạch.\n" +
+      "5. Các bệnh nền khác: Đái tháo đường, béo phì và chứng ngưng thở khi ngủ có thể tăng nguy cơ mắc bệnh tim.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Đau ngực, cảm giác nặng nề hoặc như có ai đè lên ngực.\n" +
+      "- Khó thở, mệt mỏi không rõ nguyên nhân.\n" +
+      "- Đánh trống ngực hoặc nhịp tim không đều.\n" +
+      "- Chân bị phù hoặc có cảm giác tê bì.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "Chẩn đoán bệnh tim mạch thường bao gồm:\n\n" +
+      "- Khám lâm sàng: Bác sĩ sẽ kiểm tra các triệu chứng và tiền sử bệnh lý.\n" +
+      "- Xét nghiệm máu: Kiểm tra cholesterol và các chỉ số khác liên quan đến tim.\n" +
+      "- Điện tâm đồ (ECG): Để phát hiện các vấn đề về nhịp tim.\n" +
+      "- Siêu âm tim: Để kiểm tra cấu trúc tim và chức năng.\n\n" +
+      "Phương pháp điều trị:\n\n" +
+      "1. Thay đổi lối sống: Bao gồm chế độ ăn uống lành mạnh, tập thể dục thường xuyên, từ bỏ thuốc lá và giảm stress.\n" +
+      "2. Thuốc: Sử dụng thuốc điều trị huyết áp cao, cholesterol cao, hoặc thuốc chống đông tùy theo tình trạng cụ thể.\n" +
+      "3. Can thiệp phẫu thuật: Trong một số trường hợp nặng như bệnh động mạch vành, bệnh nhân có thể cần phẫu thuật để thông động mạch hoặc thay van tim.\n\n" +
+      "Nếu bạn đang gặp vấn đề về sức khỏe liên quan đến tim mạch, bệnh viện có thể cung cấp dịch vụ khám với các chuyên gia có kinh nghiệm từ các bệnh viện tuyến trung ương như Bệnh viện Bạch Mai, Bệnh viện Việt Đức một cách thuận tiện và nhanh chóng.",
+    "đau khớp chân":
+      "Dạ, đau khớp chân là tình trạng phổ biến và có thể do nhiều nguyên nhân khác nhau. Dưới đây là một số nguyên nhân, triệu chứng, phương pháp chẩn đoán và cách điều trị đau khớp chân mà bạn có thể tham khảo.\n\n" +
+      "Nguyên nhân gây đau khớp chân:\n\n" +
+      "1. Viêm khớp: Các loại viêm khớp như viêm khớp dạng thấp, viêm khớp osteoarthritis có thể khiến khớp chân bị đau.\n" +
+      "2. Chấn thương: Chấn thương do chơi thể thao hoặc té ngã có thể gây tổn thương cho các khớp.\n" +
+      "3. Gút: Gút là một loại viêm khớp do sự tích tụ của axit uric trong cơ thể.\n" +
+      "4. Nhiễm trùng: Các tác nhân gây nhiễm trùng có thể xâm nhập vào khớp và gây viêm.\n" +
+      "5. Béo phì: Trọng lượng cơ thể quá nặng cũng có thể gây áp lực lên các khớp chân.\n\n" +
+      "Triệu chứng:\n\n" +
+      "- Đau nhức khớp, đặc biệt khi di chuyển hoặc chịu trọng lượng.\n" +
+      "- Sưng, nóng hoặc đỏ xung quanh khớp.\n" +
+      "- Giảm khả năng cử động khớp.\n" +
+      "- Cảm giác đau nhói hoặc đau âm ỉ.\n\n" +
+      "Chẩn đoán:\n\n" +
+      "Để chẩn đoán chính xác nguyên nhân gây đau khớp chân, bác sĩ có thể thực hiện các bước sau:\n\n" +
+      "- Khám lâm sàng: Đánh giá triệu chứng và vùng khớp bị đau.\n" +
+      "- Xét nghiệm hình ảnh: Như X-quang, MRI để phát hiện tổn thương khớp.\n" +
+      "- Xét nghiệm máu: Kiểm tra các chỉ số viêm và nồng độ axit uric trong máu.\n\n" +
+      "Phương pháp điều trị:\n\n" +
+      "- Thuốc: Sử dụng thuốc giảm đau, thuốc chống viêm không steroid (NSAIDs), hoặc thuốc để điều trị gút.\n" +
+      "- Vật lý trị liệu: Tập luyện và các kỹ thuật vật lý trị liệu có thể giúp cải thiện khả năng vận động và giảm đau.\n" +
+      "- Can thiệp phẫu thuật: Trong trường hợp nghiêm trọng, phẫu thuật có thể được chỉ định để sửa chữa hoặc thay thế khớp.\n\n" +
+      "Khuyến Nên:\n\n" +
+      "Nếu cơn đau kéo dài hoặc trở nên nghiêm trọng hơn, hãy tìm kiếm sự giúp đỡ từ bác sĩ chuyên khoa để được tư vấn và điều trị thích hợp.",
+    "phòng khám":
+      "Dưới đây là thông tin chi tiết về phòng khám:\n\n" +
+      "Các Khoa tại phòng khám:\n\n" +
+      "1. Khoa Khám bệnh\n" +
+      "2. Khoa Nội tổng hợp\n" +
+      "3. Khoa Hồi sức cấp cứu - Thận nhân tạo\n" +
+      "4. Khoa Y học cổ truyền - Phục hồi chức năng\n" +
+      "5. Khoa Da liễu\n" +
+      "6. Khoa Ngoại tổng hợp\n" +
+      "7. Khoa Phụ sản\n" +
+      "8. Khoa Liên chuyên khoa (Mắt - Răng Hàm Mặt - Tai Mũi Họng)\n\n" +
+      "Thông Tin Liên Hệ:\n\n" +
+      "Nếu bạn có nhu cầu tìm hiểu thêm về các gói dịch vụ khám bệnh, giá cả hoặc các thông tin khác, bạn có thể liên hệ với phòng khám qua số điện thoại: 0356241423\n" +
+      "Email: hophuchieu123@gmail.com\n\n" +
+      "Nếu bạn cần thêm thông tin cụ thể hơn về các gói khám hoặc dịch vụ khác, hãy cho tôi biết để tôi có thể hỗ trợ bạn tốt hơn nhé!",
   };
 
   for (const key in responses) {
