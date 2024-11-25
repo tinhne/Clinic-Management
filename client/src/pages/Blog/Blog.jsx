@@ -19,7 +19,6 @@ const Blog = () => {
   }); // Bộ lọc (nếu cần phân trang, lọc)
 
   const [totalBlogs, setTotalBlogs] = useState(0); // Tổng số bài viết
-
   const toggleContent = () => {
     setIsExpanded(!isExpanded);
   };
@@ -51,11 +50,6 @@ const Blog = () => {
   // Hàm xử lý bộ lọc
   const handleFilterChange = (key, value) => {
     setFilters({ ...filters, [key]: value, page: 1 }); // Reset trang về 1 khi thay đổi bộ lọc
-  };
-
-  // Hàm xử lý chuyển trang
-  const handlePageChange = (newPage) => {
-    setFilters({ ...filters, page: newPage });
   };
 
   if (loading) return <p>Loading...</p>; // Hiển thị khi đang tải dữ liệu

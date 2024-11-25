@@ -28,8 +28,9 @@ import ServiceClinic from "./pages/users/ServiceClinic.jsx";
 import ClinicInfo from "./pages/users/ClinicInfor.jsx";
 import ViewPatientRecord from "./pages/Doctor/ViewPatientRecord.jsx";
 import ViewSchedule from "./pages/Doctor/ViewSchedule.jsx";
-import ScheduleManage from "../src/pages/admin/ScheduleManage.jsx"
-import BlogAdmin from "../src/pages/admin/BlogAdmin.jsx"
+import ScheduleManage from "../src/pages/admin/ScheduleManage.jsx";
+import BlogAdmin from "../src/pages/admin/BlogAdmin.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/login-register",
@@ -89,8 +90,8 @@ const router = createBrowserRouter([
           },
           {
             path: "/thong-tin/ho-so-benh-nhan",
-            element: <ViewPatientRecord/>
-          }
+            element: <ViewPatientRecord />,
+          },
         ],
       },
     ],
@@ -155,6 +156,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Blog />,
       },
+      // {
+      //   path: "/tin-tuc/:id", // Thêm route cho trang chi tiết bài viết
+      //   element: <BlogDetail />, // Component hiển thị chi tiết bài viết
+      // },
     ],
   },
 ]);
