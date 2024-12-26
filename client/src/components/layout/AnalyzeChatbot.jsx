@@ -87,7 +87,7 @@ function analyzeInput(input) {
       "- Khám nha sĩ định kỳ.\n" +
       "- Hạn chế thực phẩm nhiều đường.\n\n" +
       "Nếu cơn đau kéo dài, nên gặp nha sĩ để tránh biến chứng.\n",
-    ho:
+    "bị ho":
       "Dạ, ho là một phản xạ tự nhiên của cơ thể giúp loại bỏ các tác nhân gây hại khỏi đường hô hấp. Tuy nhiên, ho có thể do nhiều nguyên nhân khác nhau. Dưới đây là các thông tin chi tiết:\n\n" +
       "Nguyên nhân gây ho:\n" +
       "1. Nhiễm trùng đường hô hấp:\n" +
@@ -120,7 +120,7 @@ function analyzeInput(input) {
       "- Ho kèm theo triệu chứng nghiêm trọng như khó thở, sốt cao, ho có máu.\n" +
       "- Nếu bạn nghi ngờ ho do vấn đề y tế nghiêm trọng.\n\n" +
       "Hy vọng thông tin này sẽ giúp bạn hiểu rõ hơn về nguyên nhân và cách điều trị ho. Nếu có thêm câu hỏi, hãy liên hệ với tôi nhé!",
-    cảm:
+    "bị cảm":
       "Dạ, cảm cúm là bệnh lý phổ biến, đặc biệt vào mùa lạnh, do virus cúm hoặc cảm lạnh gây ra. Dưới đây là thông tin chi tiết:\n\n" +
       "Nguyên nhân:\n" +
       "- Virus cúm (A, B, C, D) là nguyên nhân chính gây ra cảm cúm hàng năm.\n" +
