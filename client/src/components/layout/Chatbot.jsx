@@ -127,6 +127,7 @@ function NewChatBot() {
             component: <ChooseDoctor />,
             asMessage: true,
             trigger: "4",
+            // end: true,
           },
           {
             id: "11",

@@ -2593,16 +2593,65 @@ function analyzeInput(input) {
       "Dạ, nếu bạn bị trầm cảm, có thể nhận biết qua: cảm giác buồn bã kéo dài, mất hứng thú với hoạt động thường ngày, mệt mỏi, và khó ngủ.\n\n",
     "dấu hiệu nhận biết của bệnh viêm loét dạ dày":
       "Dạ, nếu bạn bị viêm loét dạ dày, có thể có các dấu hiệu như: đau bụng, buồn nôn, khó tiêu, ợ nóng, và sụt cân.\n\n",
-    "dấu hiệu nhận biết của bệnh viêm đại tràng":
-      "Dạ, nếu bạn bị viêm đại tràng, có thể nhận biết qua các dấu hiệu: đau bụng dưới, tiêu chảy, phân có chất nhầy, và mất cảm giác thèm ăn.\n\n",
-    "dấu hiệu nhận biết của bệnh viêm khớp":
-      "Dạ, nếu bạn bị viêm khớp, các dấu hiệu có thể bao gồm: sưng khớp, đau nhức, cứng khớp vào buổi sáng, và giảm khả năng vận động.\n\n",
-    "dấu hiệu nhận biết của bệnh thiếu máu":
-      "Dạ, nếu bạn bị thiếu máu, có thể nhận biết qua các dấu hiệu: mệt mỏi, da xanh xao, nhức đầu, chóng mặt, và cảm giác lạnh tay chân.\n\n",
-    "dấu hiệu nhận biết của bệnh bệnh tim mạch":
-      "Dạ, nếu bạn bị bệnh tim mạch, các dấu hiệu bao gồm: đau ngực, khó thở, mệt mỏi, đánh trống ngực, và phù tay chân.\n\n",
-    "dấu hiệu nhận biết của bệnh lo âu":
-      "Dạ, nếu bạn bị lo âu, có thể gặp các dấu hiệu như: căng thẳng, bồn chồn, hồi hộp, và khó ngủ.\n\n",
+    "dấu hiệu viêm đại tràng":
+      "Dạ, viêm đại tràng là tình trạng viêm nhiễm ở thành đại tràng, có thể dẫn đến nhiều triệu chứng không thoải mái. Dưới đây là một số dấu hiệu nhận biết bệnh viêm đại tràng:\n" +
+      "1. Đau bụng: Cảm giác đau, thường là đau quặn hoặc đau âm ỉ ở vùng bụng dưới hoặc bụng trái.\n" +
+      "2. Tiêu chảy: Xuất hiện phân lỏng nhiều lần trong ngày, có thể kèm theo cảm giác muốn đi vệ sinh nhưng không có phân.\n" +
+      "3. Táo bón: Có thể có triệu chứng táo bón xen kẽ với tiêu chảy.\n" +
+      "4. Máu trong phân: Có thể thấy máu đỏ tươi hoặc phân có màu đen, điều này cho thấy có thể có tổn thương ở niêm mạc đại tràng.\n" +
+      "5. Sụt cân: Mất cân nặng không rõ nguyên nhân do bỏ ăn hoặc bị tiêu chảy kéo dài.\n" +
+      "6. Cảm giác mệt mỏi: Mệt mỏi, uể oải do tình trạng viêm nhiễm ảnh hưởng đến sức khỏe chung.\n" +
+      "7. Sốt nhẹ: Có thể cảm thấy sốt cao nhẹ hoặc cảm giác ớn lạnh.\n\n" +
+      "Nếu bạn hoặc người thân có bất kỳ triệu chứng nào nêu trên, nên tham khảo ý kiến bác sĩ để được chẩn đoán và điều trị kịp thời, vì viêm đại tràng có thể ảnh hưởng nghiêm trọng đến sức khỏe nếu không được điều trị đúng cách.\n\n",
+    "dấu hiệu bệnh viêm khớp":
+      "Dạ, bệnh viêm khớp có thể xuất hiện với nhiều dấu hiệu và triệu chứng khác nhau. Các dấu hiệu nhận biết phổ biến bao gồm:" +
+      "1. Đau khớp: Cảm giác đau có thể xảy ra ở một hoặc nhiều khớp, thường kèm theo sự cứng khớp." +
+      "2. Sưng và viêm: Các khớp có thể bị sưng hoặc cảm giác nóng đỏ khi chạm vào. Tình trạng này có thể làm khớp bị hạn chế tầm vận động." +
+      "3. Cứng khớp: Thường xảy ra vào buổi sáng hoặc sau khi ngồi lâu, làm cho việc di chuyển trở nên khó khăn." +
+      "4. Giảm khả năng vận động: Khó khăn trong việc thực hiện các hoạt động hàng ngày do đau và cứng khớp." +
+      "5. Nghe thấy tiếng kêu: Có thể có tiếng kêu hoặc lạo xạo khi di chuyển khớp." +
+      "6. Mệt mỏi: Người bệnh có thể cảm thấy mệt mỏi hoặc có cảm giác không khỏe dường như không có nguyên nhân rõ ràng." +
+      "7. Triệu chứng toàn thân: Trong một số loại viêm khớp (như viêm khớp dạng thấp), có thể xuất hiện sốt nhẹ, giảm cân không rõ nguyên nhân, hoặc cảm giác khó chịu toàn thân.\n\n" +
+      "Nếu bạn hoặc người thân có bất kỳ triệu chứng nào trong số này, nên tìm kiếm sự tư vấn từ bác sĩ để được chẩn đoán và điều trị phù hợp. Việc phát hiện sớm và điều trị đúng cách có thể giúp cải thiện chất lượng cuộc sống và giảm thiểu biến chứng của bệnh.\n\n",
+    "dấu hiệu bệnh thiếu máu":
+      "Dạ, thiếu máu là tình trạng giảm mức độ hemoglobin trong máu, dẫn đến giảm khả năng mang oxy của máu đến các mô trong cơ thể. Các dấu hiệu nhận biết của bệnh thiếu máu có thể bao gồm:" +
+      "1. Mệt mỏi và yếu sức: Cảm giác mệt mỏi kéo dài, thiếu năng lượng và sức lực." +
+      "2. Chóng mặt và hoa mắt: Có thể cảm thấy chóng mặt, đặc biệt là khi đứng lên hoặc thay đổi vị trí đột ngột." +
+      "3. Da nhợt nhạt: Da có màu sáng hơn hoặc nhợt nhạt so với bình thường, kể cả ở niêm mạc (như môi và lòng bàn tay)." +
+      "4. Tim đập nhanh hoặc không đều: Có thể cảm thấy tim đập nhanh, hồi hộp hoặc nghe thấy nhịp tim không đều." +
+      "5. Khó thở: Dễ gặp tình trạng khó thở khi hoạt động thể chất nhẹ hoặc khi nghỉ ngơi." +
+      "6. Đau đầu: Có thể có những cơn đau đầu thường xuyên do thiếu oxy đến các mô." +
+      "7. Lạnh tay chân: Cảm giác lạnh ở tay, chân mặc dù không phải trong điều kiện thời tiết lạnh.\n\n" +
+      "Nếu bạn nhận thấy các triệu chứng này, nên tìm kiếm sự tư vấn từ bác sĩ để được chẩn đoán và điều trị kịp thời, vì thiếu máu có thể là dấu hiệu của các vấn đề sức khỏe nghiêm trọng hơn.\n\n",
+    "bệnh tim mạch":
+      "Dạ, bệnh tim mạch có thể thể hiện qua nhiều dấu hiệu và triệu chứng khác nhau. Một số dấu hiệu nhận biết phổ biến bao gồm:" +
+      "1. Đau ngực: Cảm giác đau hoặc áp lực ở ngực, có thể lan ra tay, lưng, hàm hoặc bụng." +
+      "2. Khó thở: Có thể gặp phải cảm giác khó thở ở bất kỳ lúc nào, ngay cả khi không hoạt động thể chất." +
+      "3. Mệt mỏi: Cảm giác mệt mỏi quá mức và không rõ nguyên nhân, đặc biệt là khi hoạt động thể chất." +
+      "4. Đau hoặc cảm giác nặng ở tay, vai hoặc lưng: Một số người có thể cảm thấy cơn đau giống như bị đau cơ hoặc đau lưng." +
+      "5. Nhịp tim không đều: Nhịp tim có thể tăng hoặc giảm bất thường, cảm giác như tim 'nhảy cóc'." +
+      "6. Chóng mặt hoặc ngất xỉu: Có thể xảy ra khi lượng máu cung cấp cho não không đủ." +
+      "7. Sưng ở chân, mắt cá chân hoặc bụng: Sự tích tụ dịch có thể là dấu hiệu của bệnh tim mạch.\n\n" +
+      "Nếu bạn hoặc người thân có những triệu chứng trên, đặc biệt là khi đau ngực kèm theo khó thở, bạn nên nhanh chóng tìm kiếm sự trợ giúp y tế để được khám và chẩn đoán chính xác. Việc phát hiện sớm bệnh tim mạch rất quan trọng để điều trị hiệu quả.\n\n",
+    "dấu hiệu bệnh lo âu":
+      "Dạ, bệnh lo âu có thể biểu hiện qua nhiều dấu hiệu khác nhau. Một số triệu chứng phổ biến bao gồm:" +
+      "1. Cảm giác lo lắng hoặc sợ hãi: Người bệnh thường cảm thấy lo lắng không có lý do cụ thể hoặc quá mức với tình huống hàng ngày." +
+      "2. Cảm giác hồi hộp: Có thể cảm thấy tim đập nhanh, hồi hộp, hoặc khó thở." +
+      "3. Rối loạn giấc ngủ: Khó ngủ, mất ngủ hay bị ác mộng liên tục." +
+      "4. Mệt mỏi: Cảm giác kiệt sức, thường xuyên mệt mỏi mặc dù chưa làm việc quá nhiều." +
+      "5. Khó tập trung: Gặp khó khăn trong việc chú ý hoặc giữ sự tập trung vào công việc hay hoạt động." +
+      "6. Triệu chứng thể chất: Có thể xuất hiện các triệu chứng như nhức đầu, đau cơ, hoặc các vấn đề dạ dày." +
+      "7. Tránh né những tình huống gây lo âu: Người bệnh thường cố gắng tránh xa những tình huống khiến họ cảm thấy lo lắng.\n\n" +
+      "Nếu bạn hoặc người thân gặp phải những triệu chứng này và cảm thấy ảnh hưởng đến chất lượng cuộc sống, bạn nên tìm kiếm sự hỗ trợ từ các chuyên gia y tế để được tư vấn và điều trị thích hợp.\n\n",
+    "dấu hiệu viêm họng":
+      "Dạ, viêm họng thường có một số dấu hiệu nhận biết như sau:" +
+      "1. Cảm giác đau họng: Đây là triệu chứng chính, người bệnh thường cảm thấy đau và khó chịu khi nuốt." +
+      "2. Hôi miệng: Hơi thở có mùi khó chịu có thể xuất hiện do sự tích tụ của vi khuẩn." +
+      "3. Khó khăn trong việc nuốt: Họng có thể cảm thấy vướng mắc và gây khó khăn khi nuốt thức ăn hoặc nước." +
+      "4. Ho khan: Thường đi kèm với cảm giác ngứa ngáy ở họng." +
+      "5. Sốt nhẹ: Một số trường hợp có thể kèm theo sốt nhẹ." +
+      "6. Ngủ ngáy: Nếu viêm họng gây sưng to amiđan, có thể dẫn đến trường hợp ngủ ngáy hoặc ngừng thở khi ngủ.\n\n" +
+      "Nếu có các triệu chứng trên, đặc biệt là nếu có kèm theo sốt cao, bạn nên đến bệnh viện để được thăm khám và điều trị kịp thời.\n\n",
     "viêm đại tràng":
       "Dạ, viêm đại tràng là một tình trạng viêm của đại tràng, có thể ảnh hưởng đến một phần hoặc toàn bộ đại tràng. Bệnh có thể gây ra nhiều triệu chứng và ảnh hưởng đến chất lượng cuộc sống của người bệnh. Dưới đây là một số thông tin chi tiết về viêm đại tràng:\n\n" +
       " Định nghĩa \n\n" +
@@ -4263,7 +4312,7 @@ function analyzeInput(input) {
       "Quy trình khám:\n\n" +
       "Tại Bệnh viện Thái Bình - Đa Khoa Chất Lượng Cao, bạn có thể thực hiện thăm khám theo quy trình khám ngoại trú, rất thuận tiện. Các bước thăm khám bao gồm việc đăng ký khám, kiểm tra triệu chứng và thực hiện các xét nghiệm cần thiết nếu có chỉ định từ bác sĩ [1] hoặc [2].\n\n" +
       "Hy vọng thông tin này sẽ giúp ích cho bạn. Nếu có thêm câu hỏi khác, đừng ngần ngại cho tôi biết!",
-    "bệnh tim mạch":
+    "dấu hiệu bệnh tim mạch":
       "Dạ, bệnh tim mạch là một trong những vấn đề sức khỏe nghiêm trọng và phổ biến. Dưới đây là một số thông tin quan trọng về bệnh tim mạch, bao gồm nguyên nhân, triệu chứng, chẩn đoán và phương pháp điều trị.\n\n" +
       "Nguyên nhân gây bệnh tim mạch:\n\n" +
       "1. Tăng huyết áp: Áp lực máu cao có thể làm tổn thương mạch máu và tim.\n" +
