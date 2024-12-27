@@ -117,7 +117,7 @@ function Medication() {
                 <th>Tên thuốc</th>
                 <th>Mô tả</th>
                 <th>Đơn vị tính</th>
-                <th>Giá</th>
+                <th>Đơn   Giá</th>
                 <th>Số lượng</th>
                 <th>Action</th>
               </tr>

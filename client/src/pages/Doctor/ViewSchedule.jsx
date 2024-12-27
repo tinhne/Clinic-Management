@@ -10,13 +10,7 @@ import {
 import Countdown from "../../components/user/Appointment/Countdown";
 import ConfirmationDialog from "../../components/layout/ConfirmationDialog"; // Confirmation dialog
 import { toast } from "react-toastify";
-import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
+
 
 const ViewSchedule = () => {
   const [appointments, setAppointments] = useState([]);

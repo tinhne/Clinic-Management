@@ -50,3 +50,15 @@
     }
   }
 }
+
+/* Cố định chiều rộng tiêu đề và các cột khác */
+td:first-child {
+  max-width: 200px; /* Độ rộng tối đa của tiêu đề */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td:last-child {
+  white-space: nowrap;
+}
