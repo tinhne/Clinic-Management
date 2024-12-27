@@ -9,7 +9,7 @@ import {
 import { getUserById } from "../../utils/AuthAPI/AdminService";
 import DetailMedicalRecord from "../../components/Doctor/DetailMedicalRecord";
 import AddVisitModal from "../../components/Doctor/AddVisitModel";
-import Cookies from 'js-cookie';
+import Cookies from "js-cookie";
 
 function ViewPatientRecord() {
   const [medicalRecord, setMedicalRecord] = useState([]);
@@ -35,8 +35,11 @@ function ViewPatientRecord() {
       if (data) {
         const records = data.medicalRecords;
         const patientPromises = records.map(async (record) => {
-          const patientResponse = await getUserById(record.patient_id, "patient");
-          console.log(patientResponse)
+          const patientResponse = await getUserById(
+            record.patient_id,
+            "patient"
+          );
+          console.log(patientResponse);
           return {
             ...record,
             patient_info: {
@@ -69,14 +72,14 @@ function ViewPatientRecord() {
   };
 
   const handleShowDetailRecordModal = (record) => {
-    console.log(record)
+    console.log(record);
     setSelectedRecord(record);
     setShowDetailRecord(true);
   };
 
   const handleShowAddVisitModal = (record) => {
     // Lấy ID của bác sĩ hiện tại từ cookies
-    const doctorId = Cookies.get('id');
+    const doctorId = Cookies.get("id");
     if (!doctorId) {
       console.error("Doctor ID is missing in cookies.");
       // Hiển thị thông báo lỗi cho người dùng
@@ -149,14 +152,14 @@ function ViewPatientRecord() {
 
       {/* Pagination */}
       <ReactPaginate
-        previousLabel={"Previous"}
-        nextLabel={"Next"}
+        previousLabel={"Lùi"}
+        nextLabel={"Tiếp"}
         breakLabel={"..."}
         pageCount={totalPages}
         marginPagesDisplayed={2}
         pageRangeDisplayed={3}
         onPageChange={(event) => handlePageChange(event.selected + 1)}
-        containerClassName={"pagination"}
+        containerClassName={"pagination_patient"}
         pageClassName={"page-item"}
         pageLinkClassName={"page-link"}
         previousClassName={"page-item"}
