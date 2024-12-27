@@ -104,7 +104,10 @@ const ModalEditMedicine = ({
         unit_of_caculation: unit,
         price: parseFloat(medicinePrice),
         quantity_available: parseInt(medicineQuantity, 10),
-        medicalImage: medicalImage ? await convertToBase64(medicalImage) : null,
+        medicalImage:
+          medicalImage instanceof File || medicalImage instanceof Blob
+            ? await convertToBase64(medicalImage)
+            : medicalImage,
       };
 
       const response = await updateMedicine(
@@ -125,15 +128,15 @@ const ModalEditMedicine = ({
   };
 
   const convertToBase64 = (file) => {
+    if (!(file instanceof File || file instanceof Blob)) {
+      console.error("Invalid file type", file);
+      return Promise.reject(new Error("Invalid file type"));
+    }
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.readAsDataURL(file);
-      reader.onload = () => {
-        resolve(reader.result);
-      };
-      reader.onerror = (error) => {
-        reject(error);
-      };
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = (error) => reject(error);
     });
   };
 
