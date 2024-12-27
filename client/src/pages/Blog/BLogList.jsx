@@ -3,7 +3,11 @@ import { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom"; // Import NavLink and useNavigate
 import { getBlogByCategory } from "../../utils/BlogManagement/BlogManagement";
 import { useLocation } from "react-router-dom"; // Import useLocation để lấy state từ route
-import { getBlog, updateViewBlog } from "../../utils/BlogManagement/BlogManagement"; // Import updateViewBlog
+import {
+  getBlog,
+  updateViewBlog,
+} from "../../utils/BlogManagement/BlogManagement"; // Import updateViewBlog
+import "../../style/Blog/BlogList.scss";
 
 const BlogList = () => {
   const location = useLocation(); // Sử dụng useLocation để lấy state
@@ -43,7 +47,7 @@ const BlogList = () => {
   const handleArticleClick = async (id) => {
     try {
       // Increment views of the blog before navigation
-      await updateViewBlog(id);  // Call the updateViewBlog function
+      await updateViewBlog(id); // Call the updateViewBlog function
     } catch (error) {
       console.error("Error updating view count:", error);
     }
@@ -60,11 +64,12 @@ const BlogList = () => {
         <div className="loading">Đang tải bài viết...</div> // Show loading text or spinner
       ) : blogData.length > 0 ? (
         blogData.map((blog, index) => {
-          const imageSrc = blog.content?.[0]?.image || "path_to_default_image.png";
+          const imageSrc =
+            blog.content?.[0]?.image || "path_to_default_image.png";
 
           return (
-            <NavLink 
-              to={`/tin-tuc/bai-viet/${blog._id}`} 
+            <NavLink
+              to={`/tin-tuc/bai-viet/${blog._id}`}
               key={index}
               onClick={() => handleArticleClick(blog._id)} // Call the function on click
             >
@@ -72,10 +77,13 @@ const BlogList = () => {
                 <img src={imageSrc} alt="Article" />
                 <div className="article-content">
                   <div className="title">
-                    <p className="p1">{blog.category?.join(", ") || "Không rõ danh mục"}</p>
+                    <p className="p1">
+                      {blog.category?.join(", ") || "Không rõ danh mục"}
+                    </p>
                     <p className="p2">{blog.title || "Không rõ tiêu đề"}</p>
                     <p className="p3">
-                      {blog.author_name || "Tác giả ẩn danh"} | {blog.views || 0} lượt xem
+                      {blog.author_name || "Tác giả ẩn danh"} |{" "}
+                      {blog.views || 0} lượt xem
                     </p>
                   </div>
                   <p className="p4">{blog.summary || "Không có mô tả"}</p>

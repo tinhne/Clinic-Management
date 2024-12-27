@@ -6,7 +6,7 @@
 
 .banner {
   position: relative;
-  background-image: url("../../assets/img/banneryte\ 1.png"); // Đường dẫn tới ảnh banner
+  background-image: url("../../assets/img/aaas.jpg"); // Đường dẫn tới ảnh banner
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -40,9 +40,8 @@
   .articles {
     margin-right: 20px;
     width: 70%;
-    a{
-      text-decoration:none;
-
+    a {
+      text-decoration: none;
     }
 
     .article {
@@ -69,19 +68,20 @@
           padding-left: 30px;
           border-left: 0.1px solid rgb(204, 196, 196);
           margin-left: 20px;
+
           .p1 {
             font-family: Inter;
             font-size: 20px;
             font-weight: 500;
             line-height: 24.2px;
             text-align: left;
-            color: #9c9c9c;
+            color: #2779d6;
+            font-weight: 600;
           }
           .p2 {
             font-family: Inter;
-            font-size: 18px;
-            font-weight: 300;
-            line-height: 21.78px;
+            font-size: 23px;
+            font-weight: 500;
             text-align: left;
             color: #000000;
             padding: 16px;
@@ -105,7 +105,6 @@
           line-height: 18.15px;
           text-align: left;
           padding: 40px;
-        
         }
       }
     }
