@@ -119,7 +119,9 @@ const ModalEditDoctor = (props) => {
         toast.error(response.data.message || "Có lỗi xảy ra khi cập nhật.");
       }
     } catch (error) {
-      toast.error(error.response?.data?.message || "Có lỗi xảy ra khi cập nhật.");
+      toast.error(
+        error.response?.data?.message || "Có lỗi xảy ra khi cập nhật."
+      );
     }
   };
 
@@ -140,7 +142,9 @@ const ModalEditDoctor = (props) => {
                 onChange={handleChange}
                 isInvalid={!!errors.first_name}
               />
-              <Form.Control.Feedback type="invalid">{errors.first_name}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.first_name}
+              </Form.Control.Feedback>
             </Form.Group>
 
             <Form.Group as={Col} md="6" controlId="last_name">
@@ -152,7 +156,9 @@ const ModalEditDoctor = (props) => {
                 onChange={handleChange}
                 isInvalid={!!errors.last_name}
               />
-              <Form.Control.Feedback type="invalid">{errors.last_name}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.last_name}
+              </Form.Control.Feedback>
             </Form.Group>
           </Row>
 
@@ -166,7 +172,9 @@ const ModalEditDoctor = (props) => {
                 onChange={handleChange}
                 isInvalid={!!errors.email}
               />
-              <Form.Control.Feedback type="invalid">{errors.email}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.email}
+              </Form.Control.Feedback>
             </Form.Group>
 
             <Form.Group as={Col} md="6" controlId="phone">
@@ -178,7 +186,9 @@ const ModalEditDoctor = (props) => {
                 onChange={handleChange}
                 isInvalid={!!errors.phone}
               />
-              <Form.Control.Feedback type="invalid">{errors.phone}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.phone}
+              </Form.Control.Feedback>
             </Form.Group>
           </Row>
 
@@ -192,7 +202,9 @@ const ModalEditDoctor = (props) => {
                 onChange={handleChange}
                 isInvalid={!!errors.address}
               />
-              <Form.Control.Feedback type="invalid">{errors.address}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.address}
+              </Form.Control.Feedback>
             </Form.Group>
 
             <Form.Group as={Col} md="6" controlId="birthdate">
@@ -203,7 +215,9 @@ const ModalEditDoctor = (props) => {
                 onChange={handleChange}
                 isInvalid={!!errors.birthdate}
               />
-              <Form.Control.Feedback type="invalid">{errors.birthdate}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.birthdate}
+              </Form.Control.Feedback>
             </Form.Group>
           </Row>
 
@@ -220,7 +234,9 @@ const ModalEditDoctor = (props) => {
                 <option value="Nam">Nam</option>
                 <option value="Nữ">Nữ</option>
               </Form.Control>
-              <Form.Control.Feedback type="invalid">{errors.gender}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.gender}
+              </Form.Control.Feedback>
             </Form.Group>
 
             <Form.Group as={Col} md="6" controlId="title">
@@ -237,7 +253,9 @@ const ModalEditDoctor = (props) => {
                 <option value="TS">TS</option>
                 <option value="ThS">ThS</option>
               </Form.Control>
-              <Form.Control.Feedback type="invalid">{errors.title}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.title}
+              </Form.Control.Feedback>
             </Form.Group>
           </Row>
 
@@ -246,9 +264,11 @@ const ModalEditDoctor = (props) => {
               <Form.Label>Specialties</Form.Label>
               <Form.Control
                 as="select"
+                name="specialties"
                 value={formData.specialties}
                 onChange={handleChange}
                 isInvalid={!!errors.specialties}
+                required
               >
                 <option value="">Chọn chuyên khoa</option>
                 <option value="Chuẩn Đoán Hình Ảnh">Chuẩn Đoán Hình Ảnh</option>
@@ -273,7 +293,9 @@ const ModalEditDoctor = (props) => {
                 <option value="Tai - Mũi - Họng">Tai - Mũi - Họng</option>
                 <option value="Nội Thần Kinh">Nội Thần Kinh</option>
               </Form.Control>
-              <Form.Control.Feedback type="invalid">{errors.specialties}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.specialties}
+              </Form.Control.Feedback>
             </Form.Group>
 
             <Form.Group as={Col} md="6" controlId="experience">
@@ -285,7 +307,9 @@ const ModalEditDoctor = (props) => {
                 onChange={handleChange}
                 isInvalid={!!errors.experience}
               />
-              <Form.Control.Feedback type="invalid">{errors.experience}</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                {errors.experience}
+              </Form.Control.Feedback>
             </Form.Group>
           </Row>
 
@@ -299,7 +323,9 @@ const ModalEditDoctor = (props) => {
               onChange={handleChange}
               isInvalid={!!errors.description}
             />
-            <Form.Control.Feedback type="invalid">{errors.description}</Form.Control.Feedback>
+            <Form.Control.Feedback type="invalid">
+              {errors.description}
+            </Form.Control.Feedback>
           </Form.Group>
         </Form>
       </Modal.Body>

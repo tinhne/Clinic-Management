@@ -54,7 +54,7 @@ const PatientRecord = () => {
   const handleBooking = async (isOnline) => {
     const appointmentType = isOnline ? "online" : "in-person";
     const videoCallLink = isOnline
-      ? `http://localhost:5173/room/${doctor.user._id}`
+      ? `http://localhost:5173/room/${doctor.user._id}?roomID=${idPatient}`
       : null;
 
     setLoadingButton(appointmentType); // Đặt trạng thái loading cho nút được nhấn
@@ -106,16 +106,19 @@ const PatientRecord = () => {
           recipientEmail: patient.user.email,
           subject: "Xác nhận đặt lịch khám",
           message: `
-            Bạn đã đặt lịch hẹn thành công với bác sĩ ${doctor.user.first_name} ${doctor.user.last_name}.
+            Bạn đã đặt lịch hẹn thành công với bác sĩ ${
+              doctor.user.first_name
+            } ${doctor.user.last_name}.
             Thông tin chi tiết:
             - Ngày: ${dateFormat}
             - Giờ: ${selectedSlot}
             - Hình thức khám: ${isOnline ? "Khám online" : "Khám trực tiếp"}
             ${isOnline ? `- Link video call: ${videoCallLink}` : ""}
           `,
-          additionalInfo: "Nếu bạn có thắc mắc, vui lòng liên hệ với chúng tôi qua email này.",
+          additionalInfo:
+            "Nếu bạn có thắc mắc, vui lòng liên hệ với chúng tôi qua email này.",
         });
-        
+
         toast.success("Email đã được gửi thành công!");
       } catch (emailError) {
         console.error("Lỗi khi gửi email:", emailError);
