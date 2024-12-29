@@ -228,9 +228,7 @@ exports.searchDoctors = async (search, page, limit) => {
   try {
     const skip = (page - 1) * limit;
 
-    console.log("Query search:", search || "No search query provided");
-    console.log("Page:", page);
-    console.log("Limit:", limit);
+   
 
     const matchStage = {
       role: "doctor", // Chỉ lấy bác sĩ
@@ -255,8 +253,8 @@ exports.searchDoctors = async (search, page, limit) => {
       { $limit: Number(limit) },
     ]);
 
-    console.log("Doctors found:", doctors);
 
+    
     const total = await User.aggregate([
       {
         $addFields: {

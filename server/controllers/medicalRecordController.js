@@ -55,7 +55,6 @@ exports.addVisitHistory = async (req, res) => {
       medications: req.body.medications
     };
 
-    console.log("Received visitData:", visitData);
 
     const result = await medicalRecordService.addVisitHistory(patientId, visitData);
 

@@ -39,7 +39,6 @@ exports.checkDoctorSchedule = async (req, res) => {
 
 // Admin xác nhận lịch hẹn và gửi SMS
 exports.confirmAppointment = async (req, res) => {
-  console.log(req.params);
 
   const { id } = req.params; // Đảm bảo req.params có chứa id
 

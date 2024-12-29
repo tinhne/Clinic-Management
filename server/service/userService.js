@@ -62,7 +62,7 @@ exports.login = async (email, password) => {
     const token = jwt.sign(
       { _id: user._id, role: user.role, username: username },
       process.env.JWT_SECRET,
-      { expiresIn: "3h" }
+      { expiresIn: "1h" }
     );
 
     return { token, role: user.role, _id: user._id, username }; // Trả về username

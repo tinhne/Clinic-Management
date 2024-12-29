@@ -40,7 +40,7 @@ const ModalEditDoctor = (props) => {
         birthdate: selectedUser.birthdate || "",
         gender: selectedUser.gender || "",
         role: selectedUser.role || "doctor",
-        specialties: selectedUser.specialties?.join(", ") || "",
+        specialties: selectedUser.specialties || "",
         title: selectedUser.title || "",
         description: selectedUser.description || "",
         experience: selectedUser.experience || "",
@@ -245,12 +245,34 @@ const ModalEditDoctor = (props) => {
             <Form.Group as={Col} md="6" controlId="specialties">
               <Form.Label>Specialties</Form.Label>
               <Form.Control
-                type="text"
-                placeholder="Specialties"
+                as="select"
                 value={formData.specialties}
                 onChange={handleChange}
                 isInvalid={!!errors.specialties}
-              />
+              >
+                <option value="">Chọn chuyên khoa</option>
+                <option value="Chuẩn Đoán Hình Ảnh">Chuẩn Đoán Hình Ảnh</option>
+                <option value="Xương Khớp">Xương Khớp</option>
+                <option value="Y Học Cổ Truyền">Y Học Cổ Truyền</option>
+                <option value="Da Liễu">Da Liễu</option>
+                <option value="Dị Ứng Miễn Dịch">Dị Ứng Miễn Dịch</option>
+                <option value="Lao Phổi">Lao Phổi</option>
+                <option value="Gây Mê Hồi Sức">Gây Mê Hồi Sức</option>
+                <option value="Lão Khoa">Lão Khoa</option>
+                <option value="Nhi Khoa">Nhi Khoa</option>
+                <option value="Huyết Học">Huyết Học</option>
+                <option value="Phẫu Thuật Thẩm Mỹ">Phẫu Thuật Thẩm Mỹ</option>
+                <option value="Ngoại Thần Kinh">Ngoại Thần Kinh</option>
+                <option value="Y Học Thể Thao">Y Học Thể Thao</option>
+                <option value="Dinh Dưỡng">Dinh Dưỡng</option>
+                <option value="Truyền Nhiễm">Truyền Nhiễm</option>
+                <option value="Xét Nghiệm">Xét Nghiệm</option>
+                <option value="Hô Hấp">Hô Hấp</option>
+                <option value="Tâm Thần">Tâm Thần</option>
+                <option value="Sản Phụ Khoa">Sản Phụ Khoa</option>
+                <option value="Tai - Mũi - Họng">Tai - Mũi - Họng</option>
+                <option value="Nội Thần Kinh">Nội Thần Kinh</option>
+              </Form.Control>
               <Form.Control.Feedback type="invalid">{errors.specialties}</Form.Control.Feedback>
             </Form.Group>
 

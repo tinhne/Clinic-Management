@@ -131,7 +131,6 @@ const HomePage = () => {
         },
       }
     );
-    console.log(specialty);
   };
   const handleBooking = (doctorID) => {
     navigate(`/dat-kham/bac-si/${doctorID}`);
@@ -149,7 +148,7 @@ const HomePage = () => {
 
   const fetchDoctors = async () => {
     try {
-      const data = await getAllUserByRole("doctor", 1, 1000); // Gọi API
+      const data = await getAllUserByRole("doctor", 1, 20); // Gọi API
       setDoctor(data.users);
     } catch (error) {
       console.log(error); // Log lỗi nếu có

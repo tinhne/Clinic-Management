@@ -67,7 +67,6 @@ exports.createDoctor = async (req, res) => {
     description,
     certifications: formattedCertifications,
   });
-  console.log("Dữ liệu đầu vào của createDoctor:", response);
   // Handle response success
   if (response.success) {
     const doctorImageBase64 = `data:image/png;base64,${response.user.imageUrl}`;
@@ -98,7 +97,6 @@ function isBase64(encodedString) {
 // Trong controller của bạn
 exports.getDoctorsBySpecialty = async (req, res) => {
   try {
-    console.log("Request body:", req.body); // Kiểm tra nội dung body
     const specialty = req.body.specialty; // Lấy specialty từ req.body
 
     if (!specialty || typeof specialty !== "string") {
@@ -283,9 +281,7 @@ exports.getDoctorsBySearch = async (req, res) => {
   try {
     const { search = "", page = 1, limit = 10 } = req.query;
 
-    console.log("Search query:", search || "No search query provided");
-    console.log("Page:", page);
-    console.log("Limit:", limit);
+   
 
     // Gọi service với search, page, và limit
     const { doctors, totalCount } = await searchDoctors(search, Number(page), Number(limit));
