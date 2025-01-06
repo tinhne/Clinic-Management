@@ -1,11 +1,34 @@
-Các bước cài đặt chương trình:
-  Bước 1: clone git về.
-  Bước 2: tạo 1 thư mục ở server với tên là .env
-  Bước 3: mở terminal và viết lệnh cd server, sau đó npm i
-  Bước 4: tạo thêm 1 terminal mới và viết lệnh cd client, sau đó viết npm i
-  Bước 5: sau khi install xong ở bước 3 và bước 4 rồi mở terminal của server và client chạy với lệnh npm run dev 
+Hướng dẫn cài đặt và chạy chương trình:
+  Bước 1: Clone repository từ git.
+    - Mở terminal và chạy lệnh sau để clone repository về máy:
+      git clone <link repository>
 
-ở thư mục .env của server coppy bỏ dòng này vào:
-  MONGO_URI=mongodb+srv://capstone1:capstone1@cluster0.vhebf.mongodb.net/cap1
-  PORT=8000
-  JWT_SECRET=capstone1  
+  Bước 2: Tạo tệp .env trong thư mục server
+    - Chuyển vào mục server và tạo một tệp mới tên là .env
+    - sao chép nội dung dưới đây và dán vào tệp .env:
+      MONGO_URI=mongodb+srv://capstone1:capstone1@cluster0.vhebf.mongodb.net/cap1
+      PORT=8000
+      JWT_SECRET=capstone1 
+
+  Bước 3: Cài đặt dependencies cho server
+    - Mở terminal, chuyển đến thư mục server:
+        cd server
+    - Cài đặt dependencies:
+        npm install
+
+  Bước 4: Cài đặt dependencies cho client
+    - Mở một terminal mới, chuyển đến thư mục client:
+        cd client
+    - Cài đặt dependencies:
+        npm install
+
+  Bước 5: Chạy chương trình
+    - Sau khi hoàn tất cài đặt ở bước 3 và bước 4
+      + Trong terminal của server chạy lệnh:
+          npm run dev
+      + trong terminal của client chạy lệnh:
+          npm run dev
+Chú ý:
+  - đảm bảo bạn đã cài đặt Node.js và npm trên máy trước khi thực hiện.
+  - Nếu có lỗi xảy ra, vui lòng kiểm tra kết nối internet và tệp .env đã được cấu hình đúng hay chưa.
+   
