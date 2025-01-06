@@ -1,0 +1,20 @@
+Hướng dẫn đăng nhập theo từng vai trò
+1. Đăng nhập với vai trò người dùng(User)
+  - URL đăng nhập: http://localhost:5173
+  - Tài khoản đăng nhập:
+      Email: hophuchieu135@gmail.com
+      Mật khẩu: test123
+2. Đăng nhập với vai trò bác sĩ
+  - URL đăng nhập: http://localhost:5173
+  - Tài khoản đăng nhập:
+    Email: hophuchieu135@gmail.com 
+    Mật khẩu: test123
+3. Đăng nhập với vai trò Quản trị viên(Admin)
+  - URL đăng nhập: http://localhost:5173/admin/login
+  - Tài khoản đăng nhập:
+    Email: admin@example.com
+    Mật khẩu: Admin123
+
+Lưu ý:
+  - Đảm bảo hệ thống đã được chạy trên máy chủ và đúng địa chỉ URL của từng vai trò.
+  - Nếu lỗi đăng nhập hãy kiểm tra lại email và mật khẩu.
