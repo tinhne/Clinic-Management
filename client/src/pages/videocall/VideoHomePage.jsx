@@ -24,8 +24,8 @@ export default function VideoPage() {
   const roomID = getUrlParams().get("roomID") || randomID(5);
   let myMeeting = async (element) => {
     // generate Kit Token
-    const appID = 1145983871;
-    const serverSecret = "f17e602aead8df278b1f7c76f02b5280";
+    const appID = Number(import.meta.env.VITE_ZEGO_APP_ID);
+    const serverSecret = import.meta.env.VITE_ZEGO_SERVER_SECRET;
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appID,
       serverSecret,

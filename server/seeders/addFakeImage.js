@@ -3,7 +3,8 @@ const { faker } = require("@faker-js/faker");
 const User = require("../models/User"); // Adjust path as needed
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://admin:1@cluster0.yae41.mongodb.net/ClinicManagement?retryWrites=true&w=majority&appName=Cluster0');
+require("dotenv").config();
+mongoose.connect(process.env.MONGO_URI);
 
 // Function to generate fake image URL
 const generateFakeImageUrl = () => {

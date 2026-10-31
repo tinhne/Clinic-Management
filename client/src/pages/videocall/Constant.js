@@ -1,2 +1,2 @@
-export const APP_ID = 1339445017;
-export const SEVER_SECRET = "9dcd89ef3dbf0445c73519134326b839";
+export const APP_ID = Number(import.meta.env.VITE_ZEGO_APP_ID);
+export const SEVER_SECRET = import.meta.env.VITE_ZEGO_SERVER_SECRET;

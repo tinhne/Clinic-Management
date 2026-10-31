@@ -3,7 +3,8 @@ const { faker } = require('@faker-js/faker');
 const User = require('../models/User');
 
 // Kết nối tới MongoDB
-const connectionString = 'mongodb+srv://admin:1@cluster0.yae41.mongodb.net/ClinicManagement?retryWrites=true&w=majority&appName=Cluster0';
+require("dotenv").config();
+const connectionString = process.env.MONGO_URI;
 
 mongoose.connect(connectionString)
     .then(() => console.log('Đã kết nối thành công tới MongoDB'))

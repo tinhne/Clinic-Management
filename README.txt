@@ -6,9 +6,9 @@ Hướng dẫn cài đặt và chạy chương trình:
   Bước 2: Tạo tệp .env trong thư mục server
     - Chuyển vào mục server và tạo một tệp mới tên là .env
     - sao chép nội dung dưới đây và dán vào tệp .env:
-      MONGO_URI=mongodb+srv://capstone1:capstone1@cluster0.vhebf.mongodb.net/cap1
+      MONGO_URI=mongodb+srv://<user>:<password>@<cluster>/<database>
       PORT=8000
-      JWT_SECRET=capstone1 
+      JWT_SECRET=your-jwt-secret 
 
   Bước 3: Cài đặt dependencies cho server
     - Mở terminal, chuyển đến thư mục server:
